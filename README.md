@@ -2,9 +2,15 @@
 
 Dieser Leitfaden soll Einrichtungen und Angehörigen der Hochschulen für Angewandte Wissenschaft in Bayern eine Handreichung bei der Umsetzung der Barrierefreiheit in der IT (Webangebote und Dokumente) geben.
 
-Er besteht aus mehreren Teilen, die je nach Personenkreis getrennt voneinander weitergegeben werden können.
+Er besteht aus mehreren Teilen, die je nach Personenkreis getrennt voneinander weitergegeben werden können:
 
-
+- Vorwort und Einführung
+- Webangebote und Apps
+    - Bereitstellungd und Pflege von Inhalten
+    - Entwicklung und Design
+    - Organisatorische und rechtliche Anforderungen
+- Satzungen
+- Weitere Leitfäden und relevante Informationsangebote
 
 
 ## Verwaltung und Bearbeitung des Leitfadens
