@@ -7,7 +7,7 @@ Er besteht aus mehreren Teilen, die je nach Personenkreis getrennt voneinander w
 
 
 
-## Verwaltung und bearbeitung des Leitfadens
+## Verwaltung und Bearbeitung des Leitfadens
 
 ### GitHub
 
