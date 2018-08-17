@@ -5,9 +5,7 @@ Bereitstellung und Pflege von Inhalten
 Aufgabenbereich und Zielgruppe
 ------------------------------
 
-Dieser Anwendungsbereich betrifft die Erstellung von Pflege von Inhalten
-auf Webauftritten von Hochschulen, deren Einrichtungen, Lehrstühlen,
-Projekten und anderen Informationsseiten.
+Dieser Anwendungsbereich betrifft die Erstellung von Pflege von Inhalten auf Webauftritten von Hochschulen, deren Einrichtungen, Lehrstühlen, Projekten und anderen Informationsseiten.
 
 Dieses Kapitel wendet sich an folgende Personenkreise:
 
@@ -16,14 +14,9 @@ Dieses Kapitel wendet sich an folgende Personenkreise:
 -   Fotoredakteure und
 -   sonstigen Bearbeitern von Inhalten.
 
-Es wird davon ausgegangen, dass Webangebote in diesen Bereichen über ein
-geeignetes Content-Management-System verwaltet werden, die über
-Eingabeverfahren mit Hilfe von WYSIWYG- oder zumindest Text- Editoren
-verfügen, in denen einfache HTML-Anweisungen eingegeben werden können.
+Es wird davon ausgegangen, dass Webangebote in diesen Bereichen über ein geeignetes Content-Management-System verwaltet werden, die über Eingabeverfahren mit Hilfe von WYSIWYG- oder zumindest Text-Editoren verfügen, in denen einfache HTML-Anweisungen eingegeben werden können.
 
-Abgrenzung: Die Programmierung von CMS oder die optische und technische
-Gestaltung der Ausgaben über HTML, CSS und JavaScript ist nicht Teil
-dieses Kapitels.
+**Abgrenzung**: Die Programmierung von CMS oder die optische und technische Gestaltung der Ausgaben über HTML, CSS und JavaScript ist nicht Teil dieses Kapitels.
 
 Grundlagen
 ----------
@@ -64,8 +57,8 @@ In HTML wird die Überschrift der Ebene 1 mit \<h1> deklariert, die zweite Eben 
  
 Bei einigen CMS und Redaktionssystemen wurde die Überschrift der ersten Ebene aus den Absatzvorlagen entfernt. So wie es auch das obige Bild zeigt. Grund hierfür ist, daß viele Webseiten in der Ausgabe den Titel der Seite als erste Überschrift ausgeben.
 
-Die Überschriften sind nur in ihrer logischen Struktur zu nutzen und nicht als Hilfsmittel zur optischen Formatierung der Texte. Wie eine Überschrift einer beliebigen Ebene optisch auf einem Browser, in einem Officedokument oder einem Ausdruck aussieht, ist Sache des Corporate Designs oder der zu grunde liegende Dokumentenvorlage. Wenn die optische Darstellung nicht passend erscheint, so ist nicht die Überschriftenhierachie zu ändern, sondern das Corporate Design. 
-Als Redakteur oder Autor einer Webseite oder eines Dokumentes sollte man sich grundsätzlich nicht um die optische Gestaltung der Inhalte kümmern und daher auch nicht versuchen, diese zu beeinflussen. Dies ist Sache des Corporate Designs.
+Die Überschriften sind nur in ihrer logischen Struktur zu nutzen und nicht als Hilfsmittel zur optischen Formatierung der Texte. Wie eine Überschrift einer beliebigen Ebene optisch auf einem Browser, in einem Officedokument oder einem Ausdruck aussieht, ist Sache des Corporate Designs oder der zugrundeliegenden Dokumentenvorlage. Wenn die optische Darstellung nicht passend erscheint, so ist nicht die Überschriftenhierachie zu ändern, sondern das Corporate Design bzw. die DOkumentenvorlage. 
+Als Redakteur oder Autor einer Webseite oder eines Dokumentes sollte man sich jedoch grundsätzlich nicht um die optische Gestaltung der Inhalte kümmern und daher auch nicht versuchen, diese zu beeinflussen.  
 
 Die logische Reihenfolge von Überschriftenhierachien ist von hoher Bedeutung bei der barrierefreien Umsetzung von Webseiten und Dokumenten: Die Überschriften sind für Screenreader-Software ein unverzichtbares Mittel um innerhalb der Seite zu navigieren. Die Software erkennt Überschriften anhand der korrekten HTML-Markierung und bietet den (blinden) Leser der Seite die Möglichkeit an, von Kapitel zu Kapitel zu springen. 
 Sind die Kapitel jedoch nicht mit Überschriften versehen oder mit Überschriften der falschen Hierachieebene funktioniert dies nicht. 
@@ -85,8 +78,8 @@ Neben Screenreader nutzen auch Suchmaschinen die Überschriften und deren logisc
 
 #### Merken!
 * Verwenden Sie Überschriften zur Gliederung längerer Texte entsprechend ihrer logischen Abfolge
-* Überschriften werden aus den HTML-Tags \<h1, \<h2>, \<h3>, \<h4>, \<h5> und \<h6> gebildet. 
-* In fett markierte Zeile sind keine Überschriften!
+* Überschriften werden aus den HTML-Tags \<h1, \<h2>, \<h3>, \<h4>, \<h5> und \<h6> gebildet. Falls ihr CMS ein WYSIWYG-Editor anbietet, nutzen Sie dessen vorgegebene Absatzvorlagen für Überschriften.
+* Eine in **fett markierte Zeile** ist keine Überschrift, sondern nur fett dargestellter Text.
 * Verwenden Sie überschriften nicht um die Optik des Textes nach ihren Wünschen anzupassen.
 
 
@@ -94,9 +87,7 @@ Neben Screenreader nutzen auch Suchmaschinen die Überschriften und deren logisc
 
 
 
-> [2.4.10
-> erfüllen](http://www.w3.org/WAI/WCAG20/quickref/#qr-navigation-mechanisms-headings)\|[2.4.10
-> verstehen](http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-headings.html)
+
 
 Kompletter Teil 3.1:
 <http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning.html>
