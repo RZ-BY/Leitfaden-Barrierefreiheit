@@ -4,13 +4,28 @@ Dieser Leitfaden soll Einrichtungen und Angehörigen der Hochschulen für Angewa
 
 Er besteht aus mehreren Teilen, die je nach Personenkreis getrennt voneinander weitergegeben werden können:
 
-- Vorwort und Einführung
-- Webangebote und Apps
-    - Bereitstellungd und Pflege von Inhalten
-    - Entwicklung und Design
-    - Organisatorische und rechtliche Anforderungen
-- Satzungen
-- Weitere Leitfäden und relevante Informationsangebote
+- 1. Vorwort und Einführung
+- 2. Bereitstellung und Pflege von Inhalten
+- 3. Entwicklung und Design
+- 4. Organisatorische und rechtliche Anforderungen
+- 5. Satzungen
+- 6. Weitere Leitfäden und relevante Informationsangebote
+
+
+## Autoren
+
+- Johannes Nehlsen, [Universität Würzburg](https://www.uni-wuerzburg.de/)
+- Wolfgang Wiese, [Regionales Rechenzentrum Erlangen (RRZE)](https://www.rrze.fau.de)
+
+## Lizenz
+
+Der Leitfaden wird unter einer [Creativ Commons Lizenz](https://creativecommons.org/licenses/?lang=de) bereitgestellt: 
+
+Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 
+[CC BY-NC-SA](https://creativecommons.org/licenses/by-nc/4.0/)
+
+Diese Lizenz erlaubt es anderen, Ihr Werk zu verbreiten, zu remixen, zu verbessern und darauf aufzubauen, allerdings nur nicht-kommerziell und solange Sie als Urheber des Originals genannt werden und die auf Ihrem Werk basierenden neuen Werke unter denselben Bedingungen veröffentlicht werden.
+
 
 
 ## Verwaltung und Bearbeitung des Leitfadens
@@ -18,21 +33,27 @@ Er besteht aus mehreren Teilen, die je nach Personenkreis getrennt voneinander w
 ### GitHub
 
 Der Leitfaden wird in Teilen via GitHub bereitgestellt um es weiteren Projektteilnehmern zu ermöglichen, sich mit eigenen Beiträgen zu beteiligen ohne dabei auf eine definiertes Cloudsystem oder ein Office-Produkt eingeschränkt zu sein.
+
+GitHub-URL: <https://github.com/RZ-BY/Leitfaden-Barrierefreiheit/>
+
 Das GitHub-Projekt ist dabei öffentlich und frei clonbar. Die freie Lizenz erlaubt die nicht kommerzielle Weiternutzung und Weiterentwicklung durch Dritte. 
 
 
 ### Dokumenten- und Verzeichnisstruktur
 
-Für die Verwaltung und die Erstellung des Leitfadens werden folgende Techniken verwendet:
+Für die Verwaltung und die Erstellung des Leitfadens wurden die zugehörigen Dateien in der folgenden Struktur abgelegt:
 
 * Die einzelne Dokumente im Original werden im Ordner /docs/  abgelegt.
     * Die einzelnen Textdateien werden mit [Markdown](https://guides.github.com/features/mastering-markdown/) formatiert.
     * Die Kapitel werden jeweils in nummerierten Unterverzeichnissen abgelegt.
 * Generierte Ausgabeformate aus den Markdown-Dokumenten werden im Ordner /export/  verfügbar gemacht.
+* Im Verzeichnis /scripts/ befinden sich Skripte zur Generierung von Dokumenten der Formate PDF, Word DOCX, EPub und Markdown aus den einzelnen Markdown-Dateien.  
+* Im Verzeichnis /metadata/  befindet sich eine Metadata im YAML Format, die verwendet wird um bei der Generierung von PDF oder WORD-Dateien die jeweiligen Dokumenteneigenschaften vorzugeben. 
+* Im Verzeichnis /exports/ befinden sich erstellte Ausgabedokumente.
 
 #### Erstellung der Einzeldokumente 
 
-Zum Zusammenstellen des Gesamtdokumentes wird das Tool [daux.io](https://github.com/dauxio/daux.io) verwendet. Die Dokumentation von daux.io erläutert hierzu das Vorgehen genauer.
-Ein mit daux.io (oder auch manuell mit mdmerge oder anderen Tools zum verknüpfen von Markdown-Dateien) erstelltes Gesamtdokument kann sowohl als Webseite als auch als Markdown-Dokument bereitgestellt werden. Wird die Ausgabe über Markdown gewählt, kann das Markdown-Dokument wiederum leicht in andere Dateiformate oder auch Office-Formate konvertiert werden. 
-Ein geeignetes Werkzeug um Markdown-Dokumente in fast beliebig andere Dokumentenformate zu konvertieren ist [Pandoc](https://pandoc.org/).
+Zum Zusammenstellen des Gesamtdokumentes wird das Werkzeug [Pandoc](https://pandoc.org/) verwendet. Mit Hilfe von Pandoc können Dateien verschiedener Textformate miteinander verknüpft und wiederum in andere Textformate gewandelt werden. So beispielsweise von Markdown in Word oder PDF, aber auch umgekehrt von Word in Markdown und von dort in PDF.  
+
+Bei der Struktur der Markdown-Dateien in /docs/  wurde darauf geachtet, daß auch Tools wie beispielsweise [DAUX.IO](https://dauxio.github.io/) angewendet wrden können. Diese Werkzeuge ermöglichen es, aus den einzelnen Dateien eine Webseite zu erstellen. 
 
