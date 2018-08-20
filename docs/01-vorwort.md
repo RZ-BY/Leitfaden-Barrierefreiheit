@@ -1,3 +1,10 @@
+# Status dieses Dokuments
+
+**Dieser Leitfaden befindet sich momentab in der Entwicklung. Inhalte der folgenden Kapitel sind provisorischer Natur und noch nicht zur Weitergabe oder Nutzung gedacht.**
+
+
+
+
 Vorwort
 =======
 
