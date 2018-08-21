@@ -105,10 +105,12 @@ Auch wenn die Angabe der Sprache für einen *sehenden Leser* unnötig erscheint,
 * Screenreader lesen den Text vor. Damit der Text jedoch in der richtigen Sprache und in der korrekten Aussprache vorgelesen werden kann, muss die Screenreader-Software auch erkennen können, um welche Sprache es sich handelt. Eine automatische Erkennung ist zwar nicht unmöglich, sie ist jedoch nicht zuverlässig. Zumal dann, wenn die Hauptsprache des Webauftritts ebenfalls angegeben wurde und sich von der Sprache des Textabschnitts unterscheidet.
 * Neben Menschen besuchen auch Suchmaschinen und Inhaltsaggregatoren die Webseiten. Auch diese versuchen den Inhalt zu interpretieren und verwenden zur Einordnung und Erkennung von Keywords und Synonymen die angegebene Sprache. Ist die Sprache nicht oder falsch angegeben, kann der Inhalt falsch zugeordnet werden. Was in der Praxis bedeuten kann, daß die Seite in der Ergebisliste einer Suchmaschine an einer schlechten Position aufgelistet wird.
 
-Gibt das CMS oder dessen Bearbeitungswerkzeuge keine Optionen vor, um die Sprache der Inhaltsbereiche anzugeben, ist diese mittels HTML zu setzen. Hierzu eignet das Attribut *lang=""* welches in dem HTML-Element angegeben wird, das den Text mit der Sprache umgibt. Handelt es sich nur um einen ABsatz, kann man das &lt;p&gt; Element nutzen, handelt es sich um ein längeres Zitat, verwendet man das &lt;blockquote&gt; Element.
+Gibt das CMS oder dessen Bearbeitungswerkzeuge keine Optionen vor, um die Sprache der Inhaltsbereiche anzugeben, ist diese mittels HTML zu setzen. Hierzu eignet das Attribut *lang=""* welches in dem HTML-Element angegeben wird, das den Text mit der Sprache umgibt. Handelt es sich nur um einen Absatz, kann man das &lt;p&gt; Element nutzen, handelt es sich um ein längeres Zitat, verwendet man das &lt;blockquote&gt; Element.
 
 Beispiel mit zwei Absätzen. Der erste gibt keine Sprachdefinition an. Der zweite Absatz setzt die Sprache auch Englisch:
+
 <pre>
+
    &lt;p&gt;
       Dies ist ein Absatz ohne Sprachdeklaration. Es wird die Sprache verwendet, 
       die vom CMS bzw. dem Webseitentemplate im &lt;head&gt;-Bereich der Seite 
@@ -117,8 +119,35 @@ Beispiel mit zwei Absätzen. Der erste gibt keine Sprachdefinition an. Der zweit
    &lt;p lang="en"&gt;
       This is an englisch paragraph.
    &lt;/p&gt; 
+   
 </pre>
 
+
+Sollte sich der Textbereich über mehrere Kapitel und Absätze erstrecken, setzt man die Sprachdefinition nicht in jedem einzelnen Absatz neu, sondern verwendet das Element &lt;div&gt; um alle darin liegenden Absätze zu deklarieren:
+
+<pre>
+   &lt;h1&gt;Text in einer deutschsprachigen Seite mit englischen Absätzen&lt;/h1&gt;
+   &lt;p&gt;
+      Dies ist ein Absatz ohne Sprachdeklaration. Es wird die Sprache verwendet, 
+      die vom CMS bzw. dem Webseitentemplate im &lt;head&gt;-Bereich der Seite 
+      angegeben wurde.
+   &lt;/p&gt;
+   
+   &lt;div lang="en"&gt;
+       &lt;h2&gt;Chapter One&lt;/h2&gt;
+       &lt;p&gt;
+           This is an englisch paragraph in chapter one.
+       &lt;/p&gt; 
+
+       &lt;h2&gt;Chapter Two&lt;/h2&gt;
+       &lt;p&gt;
+           This is the first paragraph in chapter two.
+       &lt;/p&gt; 
+       &lt;p&gt;
+           This is the second paragraph in chapter two.
+       &lt;/p&gt;
+   &lt;/div&gt; 
+</pre>
 
 
 
@@ -126,7 +155,7 @@ Beispiel mit zwei Absätzen. Der erste gibt keine Sprachdefinition an. Der zweit
 
 Bei der Verwendung von Abkürzungen sollte man grundsätzlich folgende Dinge beachten:
 
-- Bei der Verwendung von Abkürzungen sollten diese bei dem ersten Auftreten im Text ausgeschrieben werden. Dies gilt besonders bei längeren Namen von Einrichtungen oder Titeln. Dabei wird zunächst der Name ausgeschrieben, gefolgt von der Abkürzung in runden Klammer. Beispiel: *Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)*. 
+- Bei der Verwendung von Abkürzungen sollten diese bei dem ersten Auftreten im Text ausgeschrieben werden. Dies gilt besonders bei längeren Namen von Einrichtungen oder Titeln. Dabei wird zunächst der Name ausgeschrieben, gefolgt von der Abkürzung in runden Klammern. Beispiel: *Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)*. 
 - Eine Ausnahme gibt es hingegen bei solchen Abkürzungen, die in der kurzen Form bereits Teil der Alltagssprache, in ihrer ausgeschriebenen Form hingegen jedoch weitgehend unbekannt sind. So zum Beispiel die Abkürzungen "DSL" oder "WLAN". Die ausgeschriebenen Formen dieser Abkürzungen ("*<span lang="en">Digital Subscriber Line</span>*" und "*<span lang="en">Wireless Local Area Network</span>*") sind oft nicht gängig, während die Bedeutung der kurzen Form für jeden Leser klar ist. 
 - Sollte bei der Ausschreibung der Abkürzung ein Sprachwechsel erfolgen, muss diese über geeignete HTML-Anweisungen im Code deklariert werden. Hierzu eignet das Attribut *lang=""*. Bei der Ausschreibung von *WLAN* sähe der entsprechende HTML-Code daher so aus:  
     <pre>
@@ -157,165 +186,80 @@ Bei der Verwendung von Abkürzungen sollte man grundsätzlich folgende Dinge bea
 
 #### Bilder und Schemagrafiken
 
-> **1.1.1
-> Nicht-Text-Inhalt:** Alle [Nicht-Text-Inhalte](https://www.w3.org/Translations/WCAG20-de/#non-text-contentdef),
-> die dem Benutzer präsentiert werden, haben
-> eine [Textalternative](https://www.w3.org/Translations/WCAG20-de/#text-altdef),
-> die einem äquivalenten Zweck dient, mit Ausnahme der unten
-> aufgelisteten Situationen. (Stufe A)
+Mit Hilfe von Bildern und Schemagrafiken können viele Informationen an den Leser übermittelt werden: Inhaltliche Informationen und Daten, aber auch Stimmungen. 
+Im letzteren Fall wird oft von sogenannten *Schmuckgrafiken* oder von *dekorativen Elementen* gesprochen: Die Bilder tragen in sich keinen eigentlichen Inhalt, sondern dienen schlich dazu, die Webseite für einen sehenden Leser oder für den Ausdruck optisch ansprechend zu gestalten. Würde man diese Bilder weglassen würde der Leser keine Information vermissen.
+Dem gegenüber stehen Bilder und Schemagrafiken, die tatsächlich Informationen enthalten. Würde man diese Bilder ausblenden, würden wesentliche Informationen fehlen oder gar die gesamte Seite inhaltsleer sein.
 
--   **Steuerelemente, Eingabe: **Wenn es sich bei dem Nicht-Text-Inhalt
-    um ein Steuerelement handelt oder Eingaben durch den Benutzer
-    akzeptiert, dann hat dieser
-    einen [Namen](https://www.w3.org/Translations/WCAG20-de/#namedef),
-    der seinen Zweck beschreibt. (Beachten Sie [Richtlinie
-    4.1.2](https://www.w3.org/Translations/WCAG20-de/#ensure-compat-rsv) für
-    zusätzliche Anforderungen an Steuerelemente und Inhalte, die
-    Eingaben durch den Benutzer akzeptieren.)
+Für die Barrierefreiheit ist es wichtig, daß Bilder und Schemagrafiken entweder im Text erklärt werden, so daß man auch ohne diese auskommt oder dass die Bilder über eine geeignete Textalternative verfügen. Die Textalternative muss die gesamte vom Bild übermittelte Information enthalten.
 
--   **Zeitbasierte Medien: **Wenn es sich bei den Nicht-Text-Inhalten um
-    zeitbasierte Medien handelt, dann stellen Textalternativen zumindest
-    eine deskriptive Identifizierung des Nicht-Text-Inhalts bereit.
-    (Beachten Sie [Richtlinie
-    1.2](https://www.w3.org/Translations/WCAG20-de/#media-equiv) für
-    zusätzliche Anforderungen an Medien.)
+Die Art der Textalternative ist dabei abhängig von der Art des Bildes:
 
--   **Test: **Wenn es sich bei dem Nicht-Text-Inhalt um einen Test oder
-    eine Übung handelt, die nichtig wäre, wenn sie
-    als [Text](https://www.w3.org/Translations/WCAG20-de/#textdef) dargestellt
-    würde, dann stellen Textalternativen zumindest eine deskriptive
-    Identifizierung des Nicht-Text-Inhalts bereit.
+* Handelt es sich um eine Schmuckgrafik, so sollte keine Textalternative angegeben werden. Screenreader sollen diese Bilder ignorieren; Eine Beschreibung ist daher wegzulassen. 
+* Handelt es sich um eine Illustration eines im Text beschriebenen Sachverhaltes, ist lediglich eine kurze Textbeschreibung notwendig. 
+* Wenn es sich bei dem Bild um ein informatives Bild handelt, welches nicht im Text beschrieben wird, ist eine ausführliche Textalternative für das Bild zu hinterlegen.
+* Handelt es sich bei dem Bild um ein aktives Element um auf eine andere Webseite zu verlinken oder als grafisches Button eine Aktion auszulösen, ist nicht das Bild inhaltlich zu beschreiben, sondern das Linkziel oder das was passiert, wenn man auf das Bild klickt.
 
--   **Sensorisch: **Wenn Nicht-Text-Inhalt hauptsächlich dafür gedacht
-    ist, eine [bestimmte
-    Sinneserfahrung](https://www.w3.org/Translations/WCAG20-de/#sensoryexpdef) zu
-    schaffen, dann stellen Textalternativen zumindest eine deskriptive
-    Identifizierung des Nicht-Text-Inhalts bereit.
+Um eine Textalternative eines Bildes anzugeben, verwendet man im HTML-Element &lt;img /&gt; die Attribute *alt=""* und *title=""*. Unterstützt das CMS des Webauftritts auch Bildunterschriften, sind auch diese anzugeben, sofern das Bild keine Schmuckgrafik ist.
 
--   **[CAPTCHA](https://www.w3.org/Translations/WCAG20-de/#CAPTCHAdef):** Wenn
-    der Zweck des Nicht-Text-Inhalts der ist zu bestätigen, dass eine
-    Person und nicht ein Computer auf den Inhalt zugreift, dann werden
-    Textalternativen bereitgestellt, die den Zweck des
-    Nicht-Text-Inhalts identifizieren. Außerdem werden alternative
-    Formen von CAPTCHAs bereitgestellt, die Ausgabeformen für
-    verschiedene Arten der sensorischen Wahrnehmung nutzen, um
-    verschiedenen Behinderungen Rechnung zu tragen.
+##### Beispiele:
 
--   **Dekoration, Formatierung, unsichtbar: **Wenn der
-    Nicht-Text-Inhalt [reine
-    Dekoration](https://www.w3.org/Translations/WCAG20-de/#puredecdef) ist,
-    nur für visuelle Formatierung benutzt wird oder dem Benutzer gar
-    nicht präsentiert wird, dann wird der Inhalt so implementiert, dass
-    er von [assistierender
-    Technik](https://www.w3.org/Translations/WCAG20-de/#atdef) ignoriert
-    werden kann.
+1. Die Wikipedia-Seite zur [Mona Lisa](https://de.wikipedia.org/wiki/Mona_Lisa) beschreibt das gleichnamige Bild   von Leonardo da Vinci. Wenn man das Bild nun in einer Seite einbinden möchte, könnte man folgende HTML-Anweisung nutzen: 
 
-> [1.1.1
-> erfüllen](http://www.w3.org/WAI/WCAG20/quickref/#qr-text-equiv-all)\|[1.1.1
-> verstehen](http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html)
->
-> **1.3.1 Info und
-> Beziehungen:** Informationen, [Struktur](https://www.w3.org/Translations/WCAG20-de/#structuredef) und [Beziehungen](https://www.w3.org/Translations/WCAG20-de/#relationshipsdef),
-> die über
-> die [Darstellung](https://www.w3.org/Translations/WCAG20-de/#presentationdef) vermittelt
-> werden,
-> können [durchSoftware bestimmt](https://www.w3.org/Translations/WCAG20-de/#programmaticallydetermineddef) werden
-> oder stehen in Textform zur Verfügung. (Stufe A)
->
-> [1.3.1
-> erfüllen](http://www.w3.org/WAI/WCAG20/quickref/#qr-content-structure-separation-programmatic)\|[1.3.1
-> verstehen](http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html)
->
-> **1.4.3 Kontrast (Minimum):** Die visuelle Darstellung
-> von [Text](https://www.w3.org/Translations/WCAG20-de/#textdef) und [Bildern
-> von
-> Text](https://www.w3.org/Translations/WCAG20-de/#images-of-textdef) hat
-> ein [Kontrastverhältnis](https://www.w3.org/Translations/WCAG20-de/#contrast-ratiodef) von
-> mindestens 4,5:1 mit folgenden Ausnahmen: (Stufe AA)
+    <pre>
+    &lt;img alt="Gemälde der Mona Lisa(La Joconde) von Leonardo da Vinci" title="Mona Lisa" src="(BILD-URL)"&gt;
+    </pre>
 
--   **Großer
-    Text: **[Großer](https://www.w3.org/Translations/WCAG20-de/#larger-scaledef) Text
-    und Bilder von großem Text haben ein Kontrastverhältnis von
-    mindestens 3:1;
+    Hier wird als Textalternative für das Bild der Text *Gemälde der Mona Lisa(La Joconde) von Leonardo da Vinci*    angegeben. Während der Title schlicht *Mona Lisa* ist.
+    Gleichwohl würde diese Beschreibung als Ersatz sehr knapp sein - auch für sehende Menschen. Es fehlt an weiteren Informationen über das Bild. Diese sollte man entweder im dem Bild umrandenden Text angeben oder verlinken.
+   Das Attribut *alt=""* sollte hingegen nicht für Essays verwendet werden. Der Alternativtext im Bild-Element   soll zweckmäßig sein und die Länge von 80 Zeichen nicht überschreiten. 
+    Handelt es sich bei den Bilder um ein Foto mit Personen oder Gegenstände, sollte man diese im Alternativtext namentlich angeben.
 
--   **Nebensächlich: **Für Text oder Bilder eines Textes, die Teil eines
-    inaktiven [Bestandteils der
-    Benutzerschnittstelle](https://www.w3.org/Translations/WCAG20-de/#user-interface-componentdef), [rein
-    dekorativ](https://www.w3.org/Translations/WCAG20-de/#puredecdef),
-    für niemanden sichtbar oder Teil eines Bildes sind, welches
-    signifikanten anderen visuellen Inhalt enthält, gibt es keine
-    Kontrastanforderung.
+2. Bei einem dekorativen Bild wird das Attribut *alt=""* leer gelassen:
 
--   **Wortbildmarken: **Text, der Teil eines Logos oder eines
-    Markennamens ist, hat keine Kontrastanforderungen.
+    <pre>
+    &lt;img alt="" src="(BILD-URL)"&gt;
+    </pre>
 
-> [1.4.3
-> erfüllen](http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-contrast)\|[1.4.3
-> verstehen](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html)
->
-> **1.4.5 Bilder eines Textes:** Wenn die benutzten Techniken die
-> visuelle Präsentation bewirken können, dann
-> wird [Text](https://www.w3.org/Translations/WCAG20-de/#textdef) statt [Bilder
-> eines
-> Textes](https://www.w3.org/Translations/WCAG20-de/#images-of-textdef) dazu
-> benutzt, Informationen zu vermitteln mit den folgenden Ausnahmen:
-> (Stufe AA)
+3. Bei einem grafischen Link wird das Linkziel beschrieben:
 
--   **Anpassbar:** Das Bild eines Textes
-    kann [visuell](https://www.w3.org/Translations/WCAG20-de/#visually-customizeddef) an
-    die Anforderungen des Benutzers angepasst werden;
+    <pre>
+    &lt;a href="https://www.fau.de"&gt;&lt;img alt="Zur Website der FAU" src="(LOGO-URL)"&gt;&lt;/a&gt;
+    </pre>
+ 
 
--   **Unentbehrlich:** Eine bestimmte Präsentation von Text ist für die
-    vermittelten
-    Informationen [unentbehrlich](https://www.w3.org/Translations/WCAG20-de/#essentialdef).
+### Zu erfüllende Erfolgskriterien 
+* [1.1.1 Nicht-Text-Inhalt](https://www.w3.org/WAI/WCAG21/quickref/#non-text-content) (Stufe A)
+* [2.4.4 Linkzweck (im Kontext)](https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context) (Stufe A)
 
-*Anmerkung:* Wortbildmarken (Text, der Teil eines Logos oder
-Markennamens ist) werden als unentbehrlich betrachtet.
 
-> [1.4.5
-> erfüllen](http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-text-presentation)\|[1.4.5
-> verstehen](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html)
 
 #### Links
 
-> **2.4.4 Linkzweck (im Kontext):** Der [Zweck jedes
-> Links](https://www.w3.org/Translations/WCAG20-de/#linkpurposedef) kann
-> durch den Linktext allein oder durch den Linktext zusammen mit
-> seinem [durch Software bestimmten
-> Link-Kontext](https://www.w3.org/Translations/WCAG20-de/#pdlinkcontextdef) bestimmt
-> werden außer in Fällen, in denen der Zweck des Links [mehrdeutig für
-> Benutzer im
-> Allgemeinen](https://www.w3.org/Translations/WCAG20-de/#ambiguouslinkdef) wäre.
-> (Stufe A)
->
-> [2.4.4
-> erfüllen](http://www.w3.org/WAI/WCAG20/quickref/#qr-navigation-mechanisms-refs)\|[2.4.4
-> verstehen](http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html)
->
-> **2.4.9 Linkzweck (reiner Link):** Es gibt
-> einen [Mechanismus](https://www.w3.org/Translations/WCAG20-de/#mechanismdef),
-> um den Zweck jedes Links durch den Linktext allein zu erkennen, außer
-> der Linkzweck wäre [mehrdeutig für Benutzer im
-> Allgemeinen](https://www.w3.org/Translations/WCAG20-de/#ambiguouslinkdef).
-> (Stufe AAA)
->
-> [2.4.9
-> erfüllen](http://www.w3.org/WAI/WCAG20/quickref/#qr-navigation-mechanisms-link)\|[2.4.9
-> verstehen](http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-link.html)
+
+to be filled
+
+
+### Zu erfüllende Erfolgskriterien 
+* [2.4.4 Linkzweck (im Kontext)](https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context) (Stufe A)
+
+### Optionale Erfolgskriterien
+* [2.4.9 Linkzweck (reiner Link)](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=249#link-purpose-link-only) (Stufe AAA)
+
+
+
+
 
 #### Tabellen, Listen, Zitate
 
-> **1.3.1 Info und
-> Beziehungen:** Informationen, [Struktur](https://www.w3.org/Translations/WCAG20-de/#structuredef) und [Beziehungen](https://www.w3.org/Translations/WCAG20-de/#relationshipsdef),
-> die über
-> die [Darstellung](https://www.w3.org/Translations/WCAG20-de/#presentationdef) vermittelt
-> werden, können [durch
-> Software bestimmt](https://www.w3.org/Translations/WCAG20-de/#programmaticallydetermineddef) werden
-> oder stehen in Textform zur Verfügung. (Stufe A)
->
-> [1.3.1
-> erfüllen](http://www.w3.org/WAI/WCAG20/quickref/#qr-content-structure-separation-programmatic)\|[1.3.1
-> verstehen](http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html)
+
+to be filled
+
+
+
+### Zu erfüllende Erfolgskriterien 
+* [1.3.1 Info und Beziehungen](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=249#info-and-relationships) (Stufe A)
+
+
 
 Spickzettel
 -----------
@@ -325,6 +269,8 @@ Vertiefung
 
 Links und Literatur
 
--   Jan Eric Hellbusch, Erfolgskriterien der WCAG 2.0:
-    <http://www.barrierefreies-webdesign.de/richtlinien/wcag-2.0-erfolgskriterien/>
-
+-  Jan Eric Hellbusch, 
+     -  Erfolgskriterien der WCAG 2.0, <http://www.barrierefreies-webdesign.de/richtlinien/wcag-2.0-erfolgskriterien/>
+     -  Sprachangabe, <https://www.barrierefreies-webdesign.de/knowhow/sprachangabe/> 
+     -  Informative Bilder, <https://www.barrierefreies-webdesign.de/knowhow/textalternative/informative-bilder.html>
+     -  Entscheidungsschema für Textalternativen von Bildern, <https://www.barrierefreies-webdesign.de/knowhow/textalternative/entscheidungsschema.html>
