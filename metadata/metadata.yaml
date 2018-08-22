@@ -1,14 +1,15 @@
----
-title: 'Leitfaden Digitale Barrierefreiheit'
+﻿---
+title: 'Leitfaden digitale Barrierefreiheit'
 author:
 - Johannes Nehlsen, Universität Würzburg
 - Wolfgang Wiese, Regionales Rechenzentrum Erlangen (RRZE)
+- Barbara Bothe, Regionales Rechenzentrum Erlangen (RRZE)
 institute:
 - Universität Würzburg,
 - Regionales Rechenzentrum Erlangen
-date: 2018-08-20
-keywords: [A11Y, Barrierefreiheit, Webangebote, Websites, Hochschulen]
-subtitle: 'Handreichung für Webangebote der Hochschulen für Angewandte Wissenschaft Bayern'
+date: 2018-08-22
+keywords: [A11Y, Barrierefreiheit, Webangebote, Websites, Hochschulen, Handreichung]
+subtitle: 'Bessere Benutzerfreundlichkeit, Suchmaschinenoptimierung und Inklusion: Einfach für alle!'
 lang: de-de
 pdfa: true
 rights: CC BY-NC-SA
