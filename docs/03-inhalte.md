@@ -54,7 +54,7 @@ Ist der Text hierarchisch gegliedert, folgt ein Absatz mit einer Überschrift de
 In HTML wird die Überschrift der Ebene 1 mit &lt;h1&gt; deklariert, die zweite Eben mit &lt;h2&gt;, die dritte mit &lt;h3&gt; und so weiter bis zur sechsten Ebene. Wird in einem CMS ein WYSIWYG-Editor wie beispielsweise der populäre TinyMCE-Editor angeboten, werden die Überschriften als Absatzvorlagen angeboten. Diese werden nach der Eingabe in dem Editor in die entsprechende HTML-Variante gesetzt.
 
 ![Bild: Ansicht der Überschriften in einem CMS mit dem TinyMCE Editor](03-inhalte/ueberschriften-tinymce.jpg)
- 
+
 Bei einigen CMS und Redaktionssystemen wurde die Überschrift der ersten Ebene aus den Absatzvorlagen entfernt. So wie es auch das obige Bild zeigt. Grund hierfür ist, daß viele Webseiten in der Ausgabe den Titel der Seite als erste Überschrift ausgeben.
 
 Die Überschriften sind nur in ihrer logischen Struktur zu nutzen und nicht als Hilfsmittel zur optischen Formatierung der Texte. Wie eine Überschrift einer beliebigen Ebene optisch auf einem Browser, in einem Officedokument oder einem Ausdruck aussieht, ist Sache des Corporate Designs oder der zugrundeliegenden Dokumentenvorlage. Wenn die optische Darstellung nicht passend erscheint, so ist nicht die Überschriftenhierachie zu ändern, sondern das Corporate Design bzw. die Dokumentenvorlage. 
@@ -68,7 +68,7 @@ Barrierefreie Webseiten setzen die Überschriftenhierachie nicht nur für den In
 
 Neben Screenreader nutzen auch Suchmaschinen die Überschriften und deren logische Abfolge zur Einordnung von Inhalten. Legen Sie daher darauf Wert, daß eine Information besser gefunden wird, sollten Sie auf eine hierachische Gliederung des Inhalts achten.
 
-### Zu erfüllende Erfolgskriterien 
+### Verpflichtende Erfolgskriterien 
 * [1.3.1 Info und Beziehungen](https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships) (Stufe A)
 * [2.4.6 Überschriften und Labels](https://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels) (Stufe AA)
 
@@ -110,7 +110,6 @@ Gibt das CMS oder dessen Bearbeitungswerkzeuge keine Optionen vor, um die Sprach
 Beispiel mit zwei Absätzen. Der erste gibt keine Sprachdefinition an. Der zweite Absatz setzt die Sprache auch Englisch:
 
 <pre>
-
    &lt;p&gt;
       Dies ist ein Absatz ohne Sprachdeklaration. Es wird die Sprache verwendet, 
       die vom CMS bzw. dem Webseitentemplate im &lt;head&gt;-Bereich der Seite 
@@ -119,7 +118,7 @@ Beispiel mit zwei Absätzen. Der erste gibt keine Sprachdefinition an. Der zweit
    &lt;p lang="en"&gt;
       This is an englisch paragraph.
    &lt;/p&gt; 
-   
+
 </pre>
 
 
@@ -132,7 +131,7 @@ Sollte sich der Textbereich über mehrere Kapitel und Absätze erstrecken, setzt
       die vom CMS bzw. dem Webseitentemplate im &lt;head&gt;-Bereich der Seite 
       angegeben wurde.
    &lt;/p&gt;
-   
+
    &lt;div lang="en"&gt;
        &lt;h2&gt;Chapter One&lt;/h2&gt;
        &lt;p&gt;
@@ -167,12 +166,12 @@ Bei der Verwendung von Abkürzungen sollte man grundsätzlich folgende Dinge bea
      Kommt es dabei zudem zu einem Sprachwechsel, wird das Attribut  *lang=""* ergänzt; Als Inhalt des Attributs wird der jeweilige [Code der Sprache](https://www.w3.org/International/questions/qa-html-language-declarations.de) der Abkürzung verwenden:       
      <pre>
      &lt;abbr title="World Wide Web" lang="en"&gt;WWW&lt;/abbr&gt;</pre>
- 
- 
- 
+
  
 
-### Zu erfüllende Erfolgskriterien 
+ 
+
+### Verpflichtende Erfolgskriterien 
 * [3.1.1 Sprache der Seite](https://www.w3.org/WAI/WCAG21/quickref/#language-of-page) (Stufe A)
 * [3.1.2 Sprache von Teilen](https://www.w3.org/WAI/WCAG21/quickref/#language-of-parts) (Stufe AA)
 
@@ -208,10 +207,9 @@ Um eine Textalternative eines Bildes anzugeben, verwendet man im HTML-Element &l
     <pre>
     &lt;img alt="Gemälde der Mona Lisa(La Joconde) von Leonardo da Vinci" title="Mona Lisa" src="(BILD-URL)"&gt;
     </pre>
-
     Hier wird als Textalternative für das Bild der Text *Gemälde der Mona Lisa(La Joconde) von Leonardo da Vinci*    angegeben. Während der Title schlicht *Mona Lisa* ist.
     Gleichwohl würde diese Beschreibung als Ersatz sehr knapp sein - auch für sehende Menschen. Es fehlt an weiteren Informationen über das Bild. Diese sollte man entweder im dem Bild umrandenden Text angeben oder verlinken.
-   Das Attribut *alt=""* sollte hingegen nicht für Essays verwendet werden. Der Alternativtext im Bild-Element   soll zweckmäßig sein und die Länge von 80 Zeichen nicht überschreiten. 
+      Das Attribut *alt=""* sollte hingegen nicht für Essays verwendet werden. Der Alternativtext im Bild-Element   soll zweckmäßig sein und die Länge von 80 Zeichen nicht überschreiten. 
     Handelt es sich bei den Bilder um ein Foto mit Personen oder Gegenstände, sollte man diese im Alternativtext namentlich angeben.
 
 2. Bei einem dekorativen Bild wird das Attribut *alt=""* leer gelassen:
@@ -225,9 +223,9 @@ Um eine Textalternative eines Bildes anzugeben, verwendet man im HTML-Element &l
     <pre>
     &lt;a href="https://www.fau.de"&gt;&lt;img alt="Zur Website der FAU" src="(LOGO-URL)"&gt;&lt;/a&gt;
     </pre>
- 
 
-### Zu erfüllende Erfolgskriterien 
+
+### Verpflichtende Erfolgskriterien 
 * [1.1.1 Nicht-Text-Inhalt](https://www.w3.org/WAI/WCAG21/quickref/#non-text-content) (Stufe A)
 * [2.4.4 Linkzweck (im Kontext)](https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context) (Stufe A)
 
@@ -239,7 +237,7 @@ Um eine Textalternative eines Bildes anzugeben, verwendet man im HTML-Element &l
 to be filled
 
 
-### Zu erfüllende Erfolgskriterien 
+### Verpflichtende Erfolgskriterien 
 * [2.4.4 Linkzweck (im Kontext)](https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context) (Stufe A)
 
 ### Optionale Erfolgskriterien
@@ -249,14 +247,23 @@ to be filled
 
 
 
-#### Tabellen, Listen, Zitate
+#### Tabellen
+
+#### Listen,
+
+#### Zitate
 
 
 to be filled
 
+#### Embeddings
+
+Karten, Videos, Interaktive Elemente aus Drittquellen
+
+Hinweis (mit Stand zum August 2018): Ausnahmen aus der Richtlinie wurden in Bayern bislang nicht verordnet; Daher gilt das was in der WCAG steht. Nur technische "Ausnahmen" (z.B. bei dem Emedding von Karten), die in der WCAG definiert wurden, gelten. Diese sind jedoch in der Regel auf Stufe AAA und nicht auf Stufe AA. 
 
 
-### Zu erfüllende Erfolgskriterien 
+### Verpflichtende Erfolgskriterien 
 * [1.3.1 Info und Beziehungen](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=249#info-and-relationships) (Stufe A)
 
 
