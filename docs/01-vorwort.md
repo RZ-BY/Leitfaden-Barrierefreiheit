@@ -1,7 +1,10 @@
 # Status dieses Dokuments
 
-**Dieser Leitfaden befindet sich momentan in der Entwicklung. Inhalte der folgenden Kapitel sind provisorischer Natur und noch nicht zur Weitergabe oder Nutzung gedacht.**
+<div class="alert alert-primary" role="alert">
 
+<strong>Dieser Leitfaden befindet sich momentan in der Entwicklung. Inhalte der folgenden Kapitel sind provisorischer Natur und noch nicht zur Weitergabe oder Nutzung gedacht.</strong>
+
+</div>
 
 
 

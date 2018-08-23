@@ -21,18 +21,18 @@ Es wird davon ausgegangen, dass Webangebote in diesen Bereichen über ein geeign
 Grundlagen
 ----------
 
-Mit Inhalten sind all die Informationen gemeint, die vom Leser wahrgenommen werden müssen. Zur besseren Darstellung und Strukturierung der Inhalte wird auf Webseiten die Strukturierungssprache HTML verwendet. Mit dieser kann auch die inhaltliche Semantik eindeutig definiert werden, wozu auch nur wenige, leicht zu merkendende Elemente notwendig sind: Nämlich die Elemente für Überschriften, Absätze, Listenelemente, Zitate, Tabellen, Bilder.
+Mit Inhalten sind all die Informationen gemeint, die vom Leser wahrgenommen werden müssen. Zur besseren Darstellung und Strukturierung der Inhalte wird auf Webseiten die Strukturierungssprache HTML verwendet. Mit dieser kann auch die inhaltliche Semantik eindeutig definiert werden, wozu auch nur wenige, leicht zu merkendende Elemente notwendig sind: Nämlich die Elemente für Überschriften, Absätze, Bilder, Listenelemente, Zitate und  Tabellen.
 
-Wichtig hierbei ist jedoch, dass diese Semantik eingehalten wird:
+Wichtig hierbei ist jedoch, dass die Semantik eingehalten wird:
 Überschriften, die nicht mittels der verfügbaren HTML-Elemente als solche gekennzeichnet sind, sind keine.
 Der „klassische Fehler" vieler Autoren besteht dann auch darin, dass keine Überschriften gesetzt wurden, sondern eine Textzeile schlicht mit Fettdruck und einer größeren Schrift optisch hervorgehoben wurde. 
 Semantisch sind solche Überschriften eben keine und werden daher auch nicht als solche interpretiert: Screenreader können diese nicht von normalen Text unterscheiden und auch die Analyse von Suchmaschinen wird
-hier den Inhalt dieser Zeile nicht als hervorhebenswerte Überschrift einstufen. Der Fettdruck und die Schriftgröße werden lediglich als optische Darstellung interpretiert; Eine „automatische Erkennung", dass
+hier den Inhalt dieser Zeile nicht als hervorhebenswerte Überschrift einstufen. Der Fettdruck und die Schriftgröße werden lediglich als optische Darstellung interpretiert; Eine *automatische Erkennung*, dass
 hier eine Überschrift gemeint sei, passiert nicht. Diese Interpretation fand allein im Auge des Autors statt.
 
 Optionale Teile und Formatierungsanweisungen, die nur dazu dienen, die Anzeige der Inhalte optisch präsentabler zu gestalten, sind keine Inhalte, die eine notwendig zu übermittelnde Botschaft tragen.
 
-Auf Webseiten, aber auch auf Flyern und anderen Print-Produkten erfolgt sehr häufig eine optische Verschönerung durch sogenannte „Schmuckgrafiken". Da diese Grafiken jedoch keine inhaltliche Aussage übermitteln, können sie jederzeit auch weggelassen oder ausgetauscht werden. Mit diesem Verständnis kann man solche Grafiken auch von
+Auf Webseiten, aber auch auf Flyern und anderen Print-Produkten erfolgt sehr häufig eine optische Verschönerung durch sogenannte *Schmuckgrafiken*. Da diese Grafiken jedoch keine inhaltliche Aussage übermitteln, können sie jederzeit auch weggelassen oder ausgetauscht werden. Mit diesem Verständnis kann man solche Grafiken auch von
 Schemagrafiken, Auswertungen oder anderen Grafiken unterscheiden: 
 Schmuckgrafiken können jederzeit ausgetauscht oder weggelassen werden, während Grafiken, die einen Inhalt tragen, nicht wegzulassender Bestandteil der Seite sind.
 
@@ -40,7 +40,8 @@ Ein weiterer häufiger Fehler neben der, keine Semantik zu verwenden ist es, ein
 
 So zum Beispiel verwenden einige Autoren gern Überschriften um einen in ihren Augen wichtigen Text hervorzuheben. Ebenso häufig ist der Fehler, eine Überschrift einer bestimmten Ebene nur deswegen zu verwenden, weil sie dem Autoren in der jeweiligen Größe besser gefällt als die Überschrift in ihrer korrekten Ebene. Oder es werden Tabellen verwendet, um eine rein optische Ausrichtung des Textes zu erlangen.
 
-Wenn Sie eine optische Hervorhebung von Texten wünschen, nutzen Sie bitte keine der Strukturelemente, die für die inhaltliche Kennzeichnung da sind. Möchten Sie, dass ein Text so aussieht, wie eine gewisse Überschrift, dann nutzen Sie nicht einfach so diese Überschrift, sondern fragen Sie den Webdesigner, ob Sie hierzu eine entsprechende HTML-Anweisung erhalten können.  Wenn Sie Text (bei der Darstellung auf Desktop) in Spalten aufteilen wollen, dann fragen Sie ebenfalls oder prüfen den Styleguide ihrer Webseite, ob es hierfür nicht bereits eine eigene Lösung gibt. Aber nutzen dafür keine Tabelle.
+Wenn eine optische Hervorhebung von Texten gewünscht ist, dürfen hierzu keine Strukturelemente, die für die inhaltliche Kennzeichnung vorgesehen sind, verwendet werden. Wenn ein Absatz oder einzelne Worte optisch hervorgehoben werden sollen, ist es Sache des Webdesigns eine entsprechende Funktionalität bereitzustellen.
+Viele Webdesigns enthalten bereits entsprechende Funktionalitäten für optionale Boxen, Spaltensatz, Hinweismarken oder Buttons. Sollte eine entsprechende Dokumentation oder ein Styleguide vorhanden sein, sollte diese konsultiert werden.
 
 Umsetzung
 ---------
@@ -76,11 +77,7 @@ Neben Screenreader nutzen auch Suchmaschinen die Überschriften und deren logisc
 * [2.4.10 Abschnittsüberschriften](https://www.w3.org/WAI/WCAG21/quickref/#section-headings) (Stufe AAA)
 
 
-#### Merken!
-* Verwenden Sie Überschriften zur Gliederung längerer Texte entsprechend ihrer logischen Abfolge
-* Überschriften werden aus den HTML-Tags &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt; und &lt;h6&gt; gebildet. Falls ihr CMS ein WYSIWYG-Editor anbietet, nutzen Sie dessen vorgegebene Absatzvorlagen für Überschriften.
-* Eine in **fett markierte Zeile** ist keine Überschrift, sondern nur fett dargestellter Text.
-* Verwenden Sie überschriften nicht um die Optik des Textes nach ihren Wünschen anzupassen.
+
 
 
 #### Absätze und andere Textbereiche
@@ -233,8 +230,20 @@ Um eine Textalternative eines Bildes anzugeben, verwendet man im HTML-Element &l
 
 #### Links
 
+Abseits von den Menüs und Navigationskonzepten einer Website werden auch Links im Inhaltsbereich von Seiten gesetzt. Auch wenn das eigentliche Setzen von Links nicht schwierig ist, können doch einige Fehler gemacht werden, welche negative Auswirkungen auf Barrierefreiheit, Verständnis und auch Findbarkeit haben. 
 
-to be filled
+Folgende Eigenschaften muss jeder Link erfüllen:
+
+- Ein Link sollte grundsätzlich immer klar und deutlich machen, was den Leser erwartet, wenn er diesen auswählt. Und zwar schon vor dem "Klick" und auch vor einem *Maushover*. 
+- Ein Link muss auch immer für sich allein genommen verständlich sein. So muss er auch dann, wenn er allein und ohne umgebenden Text ausgegeben wird, noch immer das Ziel klar beschreiben. 
+
+Verlinkt man auf eine andere Webseite, ist der Linktext optimalerweise der Titel der Webseite. Verlinkt man auf ein Dokument, so wird der Titel des Dokumentes verwendet.
+Keinesfalls sollte man als Linktext jedoch Handlungsanweisungen verwenden. Ein Klassiker bei fehlerhaften Umsetzungen ist ein Link wie dieser:  "_Klicken Sie **hier**_" . Das Wort "**hier**" für sich allein genommen sagt nichts darüber aus, was passiert, wenn man tatsächlich auf den Link klickt. 
+Stattdessen sollte an solchen Stellen besser so formuliert werden: "_Rufen Sie die **Online-Broschüre zum Thema ABC** auf._". Der eigentliche Link wäre dann auf den Worten "**Online-Broschüre zum Thema ABC**". 
+Dies ist ohne den Text davor auch für sich allein verständlich und der Leser wird wissen, was ihm beim Klick auf den Link erwartet.
+
+
+// Die Waage finden: Nicht zu viel, aber auch nicht zu wenig oder gar keine.
 
 
 ### Verpflichtende Erfolgskriterien 
@@ -270,6 +279,26 @@ Hinweis (mit Stand zum August 2018): Ausnahmen aus der Richtlinie wurden in Baye
 
 Spickzettel
 -----------
+
+### Überschriften: 
+
+* Verwenden Sie Überschriften zur Gliederung längerer Texte entsprechend ihrer logischen Abfolge
+* Überschriften werden aus den HTML-Tags &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt; und &lt;h6&gt; gebildet. Falls ihr CMS ein WYSIWYG-Editor anbietet, nutzen Sie dessen vorgegebene Absatzvorlagen für Überschriften.
+* Eine in **fett markierte Zeile** ist keine Überschrift, sondern nur fett dargestellter Text.
+* Verwenden Sie überschriften nicht um die Optik des Textes nach ihren Wünschen anzupassen.
+
+### Bilder
+* Bei Bildern, die eine inhaltliche Information übermitteln sollen, beschreibt man dies, was man sieht im *alt=""*. Im *title=""* wird lediglich der Titel oder der Name des Bildes geschrieben. 
+* Ein Text im Attribut *alt=""* darf nur maximal 80 Zeichen lang sein. Ist ein längerer Text zum Inhaltsverständnis notwendig, ist dieser im normalen Textbereich zu schreiben. 
+* Falls ein Bild keine inhaltliche Aussage trägt und lediglich der optischen Ufwertung der Webseite dient, lassen Sie sowohl *alt=""* leer. *alt=""* wird dabei jedoch nicht weggelassen, sondern ohne Eintrag zwichen den doppelten Hochkommata geschrieben.
+
+
+
+### Links:
+* Ziel beschreiben. Der Link muss auch ohne Text vor und nach dem Link erkennbar machen, wohin er geht und was dem Leser erwartet, wenn er auf den Link klickt.
+* Ein Link mit dem Text "hier", wie beispielsweise "*Klicken Sie **hier***" ist kein verständlicher Link, sondern eine Zumutung.
+
+
 
 Vertiefung
 ----------
