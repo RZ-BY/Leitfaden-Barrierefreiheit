@@ -69,18 +69,18 @@ Barrierefreie Webseiten setzen die Überschriftenhierachie nicht nur für den In
 
 Neben Screenreader nutzen auch Suchmaschinen die Überschriften und deren logische Abfolge zur Einordnung von Inhalten. Legen Sie daher darauf Wert, daß eine Information besser gefunden wird, sollten Sie auf eine hierachische Gliederung des Inhalts achten.
 
-### Verpflichtende Erfolgskriterien 
+#### Verpflichtende Erfolgskriterien 
 * [1.3.1 Info und Beziehungen](https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships) (Stufe A)
 * [2.4.6 Überschriften und Labels](https://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels) (Stufe AA)
 
-### Optionale Erfolgskriterien
+#### Optionale Erfolgskriterien
 * [2.4.10 Abschnittsüberschriften](https://www.w3.org/WAI/WCAG21/quickref/#section-headings) (Stufe AAA)
 
 
 
 
 
-#### Absätze und andere Textbereiche
+### Absätze und andere Textbereiche
 
 Beim Schreiben von Text für Webseiten gelten die selben Regeln wie auch bei jeder anderen Publikation oder wissenschaftlichen Arbeit: Der Text muss für die jeweilige Zielgruppe verständlich sein, klar strukturiert und frei von Rechtsschreibfehlern. Dabei sollte man jedoch nicht davon ausgehen, daß der Leser der Webseite denselben Kenntnisstand hat wie der Autor. Abkürzungen, interne Begriffe und Codewörter, die im Umfeld des Autors oder in Projekten alltäglich verwendet werden, müssen für andere nicht bekannt sein. Zudem können dieselben Abkürzungen je nach Umfeld und Kontext auch verschiedene Bedeutungen haben. 
 Bei einem längeren Text bietet es sich zudem an, im allerersten Absatz eine kurze Zusammenfassung oder eine Einführung zu schreiben.
@@ -89,7 +89,7 @@ Die WCAG selbst fordert die Verständlichkeit von Texten.
 Jan Eric Hellbusch schreibt zur [Verständlichkeit](https://www.barrierefreies-webdesign.de/knowhow/verstaendliche-inhalte/):
 > Textverstehen ist ein aktiver Prozess und eine Interaktion zwischen Text und Leser. Texte sind für  unterschiedliche Leser unterschiedlich leicht verstehbar. Dies hat sowohl mit den Interessen und dem Vorwissen des Lesers zu tun, als auch mit dessen individuellen Fähigkeiten. Aufgrund der unterschiedlichen Voraussetzungen können Texte nicht für alle Leser gleichermaßen verständlich gemacht werden. Dennoch können Voraussetzungen geschaffen werden, die zur Textverständlichkeit beitragen und die Zugänglichkeit der Inhalte auf der Verständlichkeitsebene fördern. Hierzu zählen redaktionelle Aspekte wie die Verwendung geläufiger Begriffe oder kurzer Sätze und gestalterische Maßnahmen wie das Vermeiden von Blocksatz und die Berücksichtigung von relativen Schriftgrößen und höheren Zeilenabständen. Auch die Verwendung von Zwischenüberschriften gehört zu den Anforderungen der Verständlichkeit
 
-##### Sprache 
+#### Sprache 
 
 Ein Text wird üblicherweise in nur einer Sprache geschrieben. Auch wenn die Sprache für einen Leser offensichtlich erscheint, muss die Sprache der Webseite als ganzes und optional auch in Teilen von Texten angegeben werden.
 Für die Definition der gesamten Seite in einer Sprache ist bei modernen Webauftritten das jeweilige CMS zuständig. Je nach Einstellung des Webauftritts wird dabei vorgegeben, welches die Hauptsprache des Webauftritts und damut auch der Inhalte ist. Als Autor oder Redakteur kann man diese *globale* Einstellung normalerweise nicht ändern. Unter Umständen bieten manche CMS Installationen die Option an, die Sprache einer einzelnen Inhaltseite 
@@ -147,7 +147,7 @@ Sollte sich der Textbereich über mehrere Kapitel und Absätze erstrecken, setzt
 
 
 
-##### Abkürzungen 
+#### Abkürzungen 
 
 Bei der Verwendung von Abkürzungen sollte man grundsätzlich folgende Dinge beachten:
 
@@ -168,11 +168,11 @@ Bei der Verwendung von Abkürzungen sollte man grundsätzlich folgende Dinge bea
 
  
 
-### Verpflichtende Erfolgskriterien 
+#### Verpflichtende Erfolgskriterien 
 * [3.1.1 Sprache der Seite](https://www.w3.org/WAI/WCAG21/quickref/#language-of-page) (Stufe A)
 * [3.1.2 Sprache von Teilen](https://www.w3.org/WAI/WCAG21/quickref/#language-of-parts) (Stufe AA)
 
-### Optionale Erfolgskriterien
+#### Optionale Erfolgskriterien
 * [3.1.3 Ungewöhnliche Wörter](https://www.w3.org/WAI/WCAG21/quickref/#unusual-words) (Stufe AAA)
 * [3.1.4 Abkürzungen](https://www.w3.org/WAI/WCAG21/quickref/#abbreviations) (Stufe AAA)
 * [3.1.5 Leseniveau](https://www.w3.org/WAI/WCAG21/quickref/#reading-level) (Stufe AAA)
@@ -180,7 +180,7 @@ Bei der Verwendung von Abkürzungen sollte man grundsätzlich folgende Dinge bea
 
 
 
-#### Bilder und Schemagrafiken
+### Bilder und Schemagrafiken
 
 Mit Hilfe von Bildern und Schemagrafiken können viele Informationen an den Leser übermittelt werden: Inhaltliche Informationen und Daten, aber auch Stimmungen. 
 Im letzteren Fall wird oft von sogenannten *Schmuckgrafiken* oder von *dekorativen Elementen* gesprochen: Die Bilder tragen in sich keinen eigentlichen Inhalt, sondern dienen schlich dazu, die Webseite für einen sehenden Leser oder für den Ausdruck optisch ansprechend zu gestalten. Würde man diese Bilder weglassen würde der Leser keine Information vermissen.
@@ -197,7 +197,7 @@ Die Art der Textalternative ist dabei abhängig von der Art des Bildes:
 
 Um eine Textalternative eines Bildes anzugeben, verwendet man im HTML-Element &lt;img /&gt; die Attribute *alt=""* und *title=""*. Unterstützt das CMS des Webauftritts auch Bildunterschriften, sind auch diese anzugeben, sofern das Bild keine Schmuckgrafik ist.
 
-##### Beispiele:
+#### Beispiele:
 
 1. Die Wikipedia-Seite zur [Mona Lisa](https://de.wikipedia.org/wiki/Mona_Lisa) beschreibt das gleichnamige Bild   von Leonardo da Vinci. Wenn man das Bild nun in einer Seite einbinden möchte, könnte man folgende HTML-Anweisung nutzen: 
 
@@ -222,57 +222,116 @@ Um eine Textalternative eines Bildes anzugeben, verwendet man im HTML-Element &l
     </pre>
 
 
-### Verpflichtende Erfolgskriterien 
+#### Verpflichtende Erfolgskriterien 
 * [1.1.1 Nicht-Text-Inhalt](https://www.w3.org/WAI/WCAG21/quickref/#non-text-content) (Stufe A)
 * [2.4.4 Linkzweck (im Kontext)](https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context) (Stufe A)
 
 
 
-#### Links
+### Links
 
 Abseits von den Menüs und Navigationskonzepten einer Website werden auch Links im Inhaltsbereich von Seiten gesetzt. Auch wenn das eigentliche Setzen von Links nicht schwierig ist, können doch einige Fehler gemacht werden, welche negative Auswirkungen auf Barrierefreiheit, Verständnis und auch Findbarkeit haben. 
 
 Folgende Eigenschaften muss jeder Link erfüllen:
 
 - Ein Link sollte grundsätzlich immer klar und deutlich machen, was den Leser erwartet, wenn er diesen auswählt. Und zwar schon vor dem "Klick" und auch vor einem *Maushover*. 
-- Ein Link muss auch immer für sich allein genommen verständlich sein. So muss er auch dann, wenn er allein und ohne umgebenden Text ausgegeben wird, noch immer das Ziel klar beschreiben. 
+- Ein Link muss auch immer für sich allein genommen verständlich sein. So muss er auch dann, wenn er allein und ohne umgebenden Text ausgegeben wird, noch immer das Ziel und sein Zweck klar beschreiben. 
 
 Verlinkt man auf eine andere Webseite, ist der Linktext optimalerweise der Titel der Webseite. Verlinkt man auf ein Dokument, so wird der Titel des Dokumentes verwendet.
 Keinesfalls sollte man als Linktext jedoch Handlungsanweisungen verwenden. Ein Klassiker bei fehlerhaften Umsetzungen ist ein Link wie dieser:  "_Klicken Sie **hier**_" . Das Wort "**hier**" für sich allein genommen sagt nichts darüber aus, was passiert, wenn man tatsächlich auf den Link klickt. 
 Stattdessen sollte an solchen Stellen besser so formuliert werden: "_Rufen Sie die **Online-Broschüre zum Thema ABC** auf._". Der eigentliche Link wäre dann auf den Worten "**Online-Broschüre zum Thema ABC**". 
 Dies ist ohne den Text davor auch für sich allein verständlich und der Leser wird wissen, was ihm beim Klick auf den Link erwartet.
 
+Im normalen Textbereichen wird ein Link mit den HTML-Element &lt;a&gt; gesetzt:
 
-// Die Waage finden: Nicht zu viel, aber auch nicht zu wenig oder gar keine.
+<pre>Rufen Sie die &lt;a href="(URL)"&gt;&lt;Online-Broschüre zum Thema ABC&lt;/a&gt; auf.</pre>
+
+Bei Nutzung eines WYSIWYG-Editors reicht es oft, den entsprechenden Text selektieren und dann in einem erscheinenden Fenster die Zieladresse einzugeben oder aus einer Liste vorhandener Seiten auszuwählen. 
+
+![Bild: Screenshot des Modals zum Einfügen eines neues neuen Links im Visuellen Editor von WordPress](03-inhalte/links-einfuegen.jpg)
 
 
-### Verpflichtende Erfolgskriterien 
+#### Weitere Attribute?
+
+Zu beachten ist, das im Fall einfacher Links auf Dokumente keine weiteren Angaben oder Attribute notwendig sind.
+Auch die Angabe, welche dafür sorgt, daß ein Link in einem neuen Fenster oder Tab geöffnet wird, sollte vermieden werden. Man kann nicht davon ausgehen, dass das Öffnen eines neuen Fensters für Links von jedem Leser erwünscht ist. Tatsächlich sorgt das Öffnen eines neuen Fensters auch zu einigen Nachteilen bei den Lesern der Seite: Die "Zurück"-Funktion des Browser funktioniert für das neue Fenster nicht mehr und der Rechner wird möglicherweise durch viele neue Fenster stärker belastet. Wurde die Seite zudem mit einem Smartphone aufgerufen, wird das neue Fenster üblicherweise das vorherige komplett überlagern. 
+Ob ein neues Fenster oder ein Tab geöffnet wird, sollte daher grundsätzlich dem Leser selbst überlassen bleiben, der hierfür die dafür gedachten Werkzeuge seines Browsers nutzen kann.
+
+Auf manchen Webseiten sieht man, daß Links zusätzlich mit einem *title=""*-Attribut versehen wurden.  
+Dies sollte man ebenfalls nur in besonderen Ausnahmefällen tun. Das Attribut sollte nur dann verwendet werden, wenn der Linktext nicht gleich dem tatsächlichen Titel des aufzurufenden Dokumentes ist.
+Screenreader werden bei einem Link üblicherweise sowohl den Title, sofern vorhanden, als auch den Linktext vorlesen. Sind Linktext und Titel dagegen gleich, werden Menschen mit Screenreader daher denselben Text unnötigerweise zweimal anhören müssen.
+
+
+#### Verpflichtende Erfolgskriterien 
 * [2.4.4 Linkzweck (im Kontext)](https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context) (Stufe A)
 
-### Optionale Erfolgskriterien
+#### Optionale Erfolgskriterien
 * [2.4.9 Linkzweck (reiner Link)](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=249#link-purpose-link-only) (Stufe AAA)
 
 
 
+### Tabellen
+
+Für die Nutzung von Tabellen gilt eine feste Regel: **Tabellen dürfen nur für tabellarische Daten genutzt werden.**  Tabellen sind nicht dazu gedacht, Texte und Bilder auszurichten oder die Seite zu layouten.
+Es gilt auch hier das oben genannte: Wenn eine besondere optische Darstellung benötigt wird, so ist es Aufgabe des Designs und der Technik entsprechende Funktionalitäten bereitzustellen.
+Wird beispielsweise eine Ausrichtung des Inhaltes in zwei oder mehr Spalten gewünscht, wird dies bei modernen Websites oft durch eigene Anweisungen geleistet. So verfügen beispielsweise Websites, die auf dem populären  Bootstrap-Framework beruhen eine umfangreiche Klassenbibliothek um Inhaltsbereiche in bis zu 12 Spalten aufzutrennen. 
+Eine Tabelle erweist sich bei der Nutzung als Gestaltungswerkzeug spätestens bei dem Aufruf der Seite mit dem Smartphone als untauglich: So werden dann Inhalte nicht mehr erkennbar und es kommt zu horizonatlen Scrollbalken. Wird hingegen ein vorgegebenes Grid-System verwendet, werden die Spalten serialisiert und in korrekter Reihenfolge übereinander positioniert.    
 
 
-#### Tabellen
+Bei der Nutzung von Datentabellen ist den jeweiligen Zellen eine Überschrift zuzuordnen. Dies erfolgt mit Hilfe des Elements &lt;th&gt;.  Die eigentlichen Zellen mit Daten werden dagegen mit dem Element &lt;td&gt; gekennzeichnet. Die Zeilen werden durch das Element &lt;tr&gt; ausgezeichnet.
+  
+Eine einfache Datentabelle ist im HTML wie folgt aufgebaut:
 
-#### Listen,
+<pre>
+&lt;table&gt;
+  &lt;caption&gt; Tabellenüberschrift &lt;/caption&gt;
+  &lt;tr&gt;
+    &lt;th&gt; Überschrift Spalte 1  &lt;/th&gt;
+    &lt;th&gt; Überschrift Spalte 2  &lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt; Datenzelle &lt;/td&gt;
+    &lt;td&gt; Datenzelle &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+</pre>
 
-#### Zitate
+Je nach Komplexität der Datentabelle ist es sinnvoll, weitere Überschriften und Beziehungen von Zellen zueinander zu definieren. Die [Anleitung des W3C zu Tabellen](https://www.w3.org/WAI/tutorials/tables/) bietet eine ausführliche Erläuterung mit Beispielen zum korrekten Gebrauch und Einsatz.
+
+Gängige WYSWIYG-Editoren, wie beispielsweise der TinyMCE-Edtor, verfügen über Hilfsmittel um Tabellen auch Kenntnisse von HTML zu erstellen.
+
+![Bild: Screenshot des Table-Wizards in TinyMCE](03-inhalte/tables-tinymce.jpg)
+
+Hier erfolgt die Bedienung ähnlich zu der in Microsoft Office.
+
+
+
+
+#### Verpflichtende Erfolgskriterien 
+* [1.3.1 Info und Beziehungen](https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships) (Stufe A)
+
+### Listen
+
+
+
+
+#### Verpflichtende Erfolgskriterien 
+* [1.3.1 Info und Beziehungen](https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships) (Stufe A)
+
+
+### Zitate
 
 
 to be filled
 
-#### Embeddings
+### Embeddings
 
 Karten, Videos, Interaktive Elemente aus Drittquellen
 
 Hinweis (mit Stand zum August 2018): Ausnahmen aus der Richtlinie wurden in Bayern bislang nicht verordnet; Daher gilt das was in der WCAG steht. Nur technische "Ausnahmen" (z.B. bei dem Emedding von Karten), die in der WCAG definiert wurden, gelten. Diese sind jedoch in der Regel auf Stufe AAA und nicht auf Stufe AA. 
 
 
-### Verpflichtende Erfolgskriterien 
+#### Verpflichtende Erfolgskriterien 
 * [1.3.1 Info und Beziehungen](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=249#info-and-relationships) (Stufe A)
 
 
@@ -310,3 +369,4 @@ Links und Literatur
      -  Sprachangabe, <https://www.barrierefreies-webdesign.de/knowhow/sprachangabe/> 
      -  Informative Bilder, <https://www.barrierefreies-webdesign.de/knowhow/textalternative/informative-bilder.html>
      -  Entscheidungsschema für Textalternativen von Bildern, <https://www.barrierefreies-webdesign.de/knowhow/textalternative/entscheidungsschema.html>
+     -  Barrierefreie Tabellen, <https://www.barrierefreies-webdesign.de/knowhow/datentabellen/>
