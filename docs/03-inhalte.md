@@ -498,7 +498,7 @@ Der Autor einer Seite kann sich bei einem Embedding nicht sicher sein, ob dieses
 
 Um den Konformitätsanforderungen der WCAG genüge zu tun, ist deutlich zu machen, daß der angezeigte Content von einer Drittquelle kommt. Daher:
 
-> An geeigneter Stelle vor oder nach dem Embedding wird auf die Quelle hingewiesen. Hierbei sollte bestenfalls das Quellportal (z.B. der YouTube-Kanal ) und der Titel sichtbar sein.  Eine gesonderte Verlinkung sollte ebenfalls vorgenommen werden, so daß man hierfür nicht auf das Embedding selbst angewiesen ist. 
+> **An geeigneter Stelle vor oder nach dem Embedding wird auf die Quelle hingewiesen.** Hierbei sollte bestenfalls das Quellportal (z.B. der YouTube-Kanal ) und der Titel sichtbar sein.  Eine gesonderte Verlinkung sollte ebenfalls vorgenommen werden, so daß man hierfür nicht auf das Embedding selbst angewiesen ist. 
 
 
 
