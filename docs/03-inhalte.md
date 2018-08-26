@@ -1,6 +1,7 @@
-
 Bereitstellung und Pflege von Inhalten
 ======================================
+
+
 
 Aufgabenbereich und Zielgruppe
 ------------------------------
@@ -16,24 +17,22 @@ Dieses Kapitel wendet sich an folgende Personenkreise:
 
 Es wird davon ausgegangen, dass Webangebote in diesen Bereichen über ein geeignetes Content-Management-System verwaltet werden, die über Eingabeverfahren mit Hilfe von WYSIWYG- oder zumindest Text-Editoren verfügen, in denen einfache HTML-Anweisungen eingegeben werden können.
 
-**Abgrenzung**: Die Programmierung von CMS oder die optische und technische Gestaltung der Ausgaben über HTML, CSS und JavaScript ist nicht Teil dieses Kapitels.
+**Abgrenzung: Die Programmierung von CMS oder die optische und technische Gestaltung der Ausgaben über HTML, CSS und JavaScript ist nicht Teil dieses Kapitels.**
 
 Grundlagen
 ----------
 
-Mit Inhalten sind all die Informationen gemeint, die vom Leser wahrgenommen werden müssen. Zur besseren Darstellung und Strukturierung der Inhalte wird auf Webseiten die Strukturierungssprache HTML verwendet. Mit dieser kann auch die inhaltliche Bedeutung eindeutig definiert werden, wozu auch nur wenige, leicht zu merkendende Elemente notwendig sind: Nämlich die Elemente für Überschriften, Absätze, Bilder, Listenelemente, Zitate und  Tabellen. In HTML nutzt man hier den Begriff der [Semantik](https://blog.kulturbanause.de/2008/01/html-elemente-und-semantik/).
+Mit Inhalten sind all die Informationen gemeint, die vom Leser wahrgenommen werden müssen. Zur besseren Darstellung und Strukturierung der Inhalte wird auf Webseiten die Strukturierungssprache HTML verwendet. Mit dieser kann auch die inhaltliche Bedeutung eindeutig definiert werden, wozu auch nur wenige, leicht zu merkendende Elemente notwendig sind: Nämlich die Elemente für Überschriften, Absätze, Bilder, Listenelemente, Zitate und  Tabellen. In HTML nutzt man den Begriff der [Semantik](https://blog.kulturbanause.de/2008/01/html-elemente-und-semantik/).
 
 Wichtig hierbei ist jedoch, dass die Semantik eingehalten wird:
 Überschriften, die nicht mittels der verfügbaren HTML-Elemente als solche gekennzeichnet sind, sind keine.
 Der „klassische Fehler" vieler Autoren besteht dann auch darin, dass keine Überschriften gesetzt wurden, sondern eine Textzeile schlicht mit Fettdruck und einer größeren Schrift optisch hervorgehoben wurde. 
 Semantisch sind solche Überschriften eben keine und werden daher auch nicht als solche interpretiert: Screenreader können diese nicht von normalen Text unterscheiden und auch die Analyse von Suchmaschinen wird
-hier den Inhalt dieser Zeile nicht als hervorhebenswerte Überschrift einstufen. Der Fettdruck und die Schriftgröße werden lediglich als optische Darstellung interpretiert; Eine *automatische Erkennung*, dass
-hier eine Überschrift gemeint sei, passiert nicht. Diese Interpretation fand allein im Auge des Autors statt.
+hier den Inhalt dieser Zeile nicht als hervorhebenswerte Überschrift einstufen. Der Fettdruck und die Schriftgröße werden lediglich als optische Darstellung interpretiert; Eine *automatische Erkennung*, dass hier eine Überschrift gemeint sei, passiert nicht. Diese Interpretation fand allein im Auge des Autors statt.
 
 Optionale Teile und Formatierungsanweisungen, die nur dazu dienen, die Anzeige der Inhalte optisch präsentabler zu gestalten, sind keine Inhalte, die eine notwendig zu übermittelnde Botschaft tragen.
 
-Auf Webseiten, aber auch auf Flyern und anderen Print-Produkten erfolgt sehr häufig eine optische Verschönerung durch sogenannte *Schmuckgrafiken*. Da diese Grafiken jedoch keine inhaltliche Aussage übermitteln, können sie jederzeit auch weggelassen oder ausgetauscht werden. Mit diesem Verständnis kann man solche Grafiken auch von
-Schemagrafiken, Auswertungen oder anderen Grafiken unterscheiden: 
+Auf Webseiten, aber auch auf Flyern und anderen Print-Produkten erfolgt sehr häufig eine optische Verschönerung durch sogenannte *Schmuckgrafiken*. Da diese Grafiken jedoch keine inhaltliche Aussage übermitteln, können sie jederzeit auch weggelassen oder ausgetauscht werden. Mit diesem Verständnis kann man solche Grafiken auch von Schemagrafiken, Auswertungen oder anderen Grafiken unterscheiden: 
 Schmuckgrafiken können jederzeit ausgetauscht oder weggelassen werden, während Grafiken, die einen Inhalt tragen, nicht wegzulassender Bestandteil der Seite sind.
 
 Ein weiterer häufiger Fehler neben der, keine Semantik zu verwenden ist es, eine Semantik falsch zu verwenden mit dem Ziel eine optische Darstellung zu erlangen:
@@ -52,7 +51,7 @@ Inhalte beginnen üblicherweise mit einer Überschrift gefolgt von einem oder me
 Bei dem Schreiben von längeren Texten ist eine logische Überschriftenhierachie wichtig: Die erste Überschrift im Dokument ist eine Überschrift der Ebene 1. 
 Ist der Text hierarchisch gegliedert, folgt ein Absatz mit einer Überschrift der Ebene 2. Besteht dieses Kapitel aus weiteren hierarchisch untergeordneten Kapitel folgen hier die Überschriften der Ebene 3 und so weiter.
 
-In HTML wird die Überschrift der Ebene 1 mit &lt;h1&gt; deklariert, die zweite Eben mit &lt;h2&gt;, die dritte mit &lt;h3&gt; und so weiter bis zur sechsten Ebene. Wird in einem CMS ein WYSIWYG-Editor wie beispielsweise der populäre TinyMCE-Editor angeboten, werden die Überschriften als Absatzvorlagen angeboten. Diese werden nach der Eingabe in dem Editor in die entsprechende HTML-Variante gesetzt.
+In HTML wird die Überschrift der ersten Ebene mit `<h1>`  deklariert, die zweite Ebene mit `<h2>`, die dritte mit `<h3>` und so weiter bis zur sechsten Ebene. Wird in einem CMS ein WYSIWYG-Editor wie beispielsweise der populäre TinyMCE-Editor angeboten, werden die Überschriften als Absatzvorlagen angeboten. Diese werden nach der Eingabe in dem Editor in die entsprechende HTML-Variante gesetzt.
 
 ![Bild: Ansicht der Überschriften in einem CMS mit dem TinyMCE Editor](03-inhalte/ueberschriften-tinymce.jpg)
 
@@ -102,46 +101,46 @@ Auch wenn die Angabe der Sprache für einen *sehenden Leser* unnötig erscheint,
 * Screenreader lesen den Text vor. Damit der Text jedoch in der richtigen Sprache und in der korrekten Aussprache vorgelesen werden kann, muss die Screenreader-Software auch erkennen können, um welche Sprache es sich handelt. Eine automatische Erkennung ist zwar nicht unmöglich, sie ist jedoch nicht zuverlässig. Zumal dann, wenn die Hauptsprache des Webauftritts ebenfalls angegeben wurde und sich von der Sprache des Textabschnitts unterscheidet.
 * Neben Menschen besuchen auch Suchmaschinen und Inhaltsaggregatoren die Webseiten. Auch diese versuchen den Inhalt zu interpretieren und verwenden zur Einordnung und Erkennung von Keywords und Synonymen die angegebene Sprache. Ist die Sprache nicht oder falsch angegeben, kann der Inhalt falsch zugeordnet werden. Was in der Praxis bedeuten kann, daß die Seite in der Ergebisliste einer Suchmaschine an einer schlechten Position aufgelistet wird.
 
-Gibt das CMS oder dessen Bearbeitungswerkzeuge keine Optionen vor, um die Sprache der Inhaltsbereiche anzugeben, ist diese mittels HTML zu setzen. Hierzu eignet das Attribut *lang=""* welches in dem HTML-Element angegeben wird, das den Text mit der Sprache umgibt. Handelt es sich nur um einen Absatz, kann man das &lt;p&gt; Element nutzen, handelt es sich um ein längeres Zitat, verwendet man das &lt;blockquote&gt; Element.
+Gibt das CMS oder dessen Bearbeitungswerkzeuge keine Optionen vor, um die Sprache der Inhaltsbereiche anzugeben, ist diese mittels HTML zu setzen. Hierzu eignet das Attribut *lang=""* welches in dem HTML-Element angegeben wird, das den Text mit der Sprache umgibt. Handelt es sich nur um einen Absatz, kann man das `<p>`; Element nutzen, handelt es sich um ein längeres Zitat, verwendet man das `<blockquote>` Element.
 
 Beispiel mit zwei Absätzen. Der erste gibt keine Sprachdefinition an. Der zweite Absatz setzt die Sprache auch Englisch:
-
-<pre>
-   &lt;p&gt;
+```html
+    <p>
       Dies ist ein Absatz ohne Sprachdeklaration. Es wird die Sprache verwendet, 
-      die vom CMS bzw. dem Webseitentemplate im &lt;head&gt;-Bereich der Seite 
+      die vom CMS bzw. dem Webseitentemplate im head-Bereich der Seite 
       angegeben wurde.
-   &lt;/p&gt;
-   &lt;p lang="en"&gt;
+   </p>
+   <p lang="en">
       This is an englisch paragraph.
-   &lt;/p&gt; 
-</pre>
+   </p> 
+```
 
 
-Sollte sich der Textbereich über mehrere Kapitel und Absätze erstrecken, setzt man die Sprachdefinition nicht in jedem einzelnen Absatz neu, sondern verwendet das Element &lt;div&gt; um alle darin liegenden Absätze zu deklarieren:
 
-<pre>
-   &lt;h1&gt;Text in einer deutschsprachigen Seite mit englischen Absätzen&lt;/h1&gt;
-   &lt;p&gt;
+Sollte sich der Textbereich über mehrere Kapitel und Absätze erstrecken, setzt man die Sprachdefinition nicht in jedem einzelnen Absatz neu, sondern verwendet das Element `<div>` um alle darin liegenden Absätze zu deklarieren:
+
+```html
+   <h1>Text in einer deutschsprachigen Seite mit englischen Absätzen</h1>
+   <p>
       Dies ist ein Absatz ohne Sprachdeklaration. Es wird die Sprache verwendet, 
-      die vom CMS bzw. dem Webseitentemplate im &lt;head&gt;-Bereich der Seite 
+      die vom CMS bzw. dem Webseitentemplate im head-Bereich der Seite 
       angegeben wurde.
-   &lt;/p&gt;
-   &lt;div lang="en"&gt;
-       &lt;h2&gt;Chapter One&lt;/h2&gt;
-       &lt;p&gt;
+   </p>
+   <div lang="en">
+       <h2>Chapter One</h2>
+       <p>
            This is an englisch paragraph in chapter one.
-       &lt;/p&gt; 
+       </p> 
 
-       &lt;h2&gt;Chapter Two&lt;/h2&gt;
-       &lt;p&gt;
+       <h2>Chapter Two</h2>
+       <p>
            This is the first paragraph in chapter two.
-       &lt;/p&gt; 
-       &lt;p&gt;
+       </p> 
+       <p>
            This is the second paragraph in chapter two.
-       &lt;/p&gt;
-   &lt;/div&gt; 
-</pre>
+       </p>
+   </div> 
+```
 
 
 
@@ -151,18 +150,27 @@ Bei der Verwendung von Abkürzungen sollte man grundsätzlich folgende Dinge bea
 
 - Bei der Verwendung von Abkürzungen sollten diese bei dem ersten Auftreten im Text ausgeschrieben werden. Dies gilt besonders bei längeren Namen von Einrichtungen oder Titeln. Dabei wird zunächst der Name ausgeschrieben, gefolgt von der Abkürzung in runden Klammern. Beispiel: *Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)*. 
 - Eine Ausnahme gibt es hingegen bei solchen Abkürzungen, die in der kurzen Form bereits Teil der Alltagssprache, in ihrer ausgeschriebenen Form hingegen jedoch weitgehend unbekannt sind. So zum Beispiel die Abkürzungen "DSL" oder "WLAN". Die ausgeschriebenen Formen dieser Abkürzungen ("*<span lang="en">Digital Subscriber Line</span>*" und "*<span lang="en">Wireless Local Area Network</span>*") sind oft nicht gängig, während die Bedeutung der kurzen Form für jeden Leser klar ist. 
-- Sollte bei der Ausschreibung der Abkürzung ein Sprachwechsel erfolgen, muss diese über geeignete HTML-Anweisungen im Code deklariert werden. Hierzu eignet das Attribut *lang=""*. Bei der Ausschreibung von *WLAN* sähe der entsprechende HTML-Code daher so aus:  
-    <pre>
-    &lt;span lang="en"&gt;Wireless Local Area Network&lt;/span&gt;
-    </pre>
-- Wird die Abkürzung nicht ausgeschrieben, wird das &lt;abbr&gt;-Element verwendet um sie als solche zu deklarieren:
-     <pre>
-     &lt;abbr title="zum Beispiel"&gt;z.B.&lt;/abbr&gt;</pre>
-     Kommt es dabei zudem zu einem Sprachwechsel, wird das Attribut  *lang=""* ergänzt; Als Inhalt des Attributs wird der jeweilige [Code der Sprache](https://www.w3.org/International/questions/qa-html-language-declarations.de) der Abkürzung verwenden:       
-     <pre>
-     &lt;abbr title="World Wide Web" lang="en"&gt;WWW&lt;/abbr&gt;</pre>
+- Sollte bei der Ausschreibung der Abkürzung ein Sprachwechsel erfolgen, muss diese über geeignete HTML-Anweisungen im Code deklariert werden. Hierzu eignet das Attribut *lang=""*. 
 
- 
+##### Beispiele:
+
+Bei der Ausschreibung von *WLAN* sähe der entsprechende HTML-Code daher so aus:  
+
+```html
+   <span lang="en">Digital Subscriber Line</span>
+```
+
+Wird die Abkürzung nicht ausgeschrieben, wird das `<abbr>`-Element verwendet um sie als solche zu deklarieren:
+
+```html
+<abbr title="zum Beispiel">z.B.</abbr>
+```
+
+Kommt es dabei zudem zu einem Sprachwechsel, wird das Attribut  *lang=""* ergänzt; Als Inhalt des Attributs wird der jeweilige [Code der Sprache](https://www.w3.org/International/questions/qa-html-language-declarations.de) der Abkürzung verwenden:  
+
+```html
+<abbr title="World Wide Web" lang="en">WWW<abbr>
+```
 
  
 
@@ -198,31 +206,33 @@ Die Art der Textalternative ist dabei abhängig von der Art des Bildes:
 * Wenn es sich bei dem Bild um ein informatives Bild handelt, welches nicht im Text beschrieben wird, ist eine ausführliche Textalternative für das Bild zu hinterlegen.
 * Handelt es sich bei dem Bild um ein aktives Element um auf eine andere Webseite zu verlinken oder als grafisches Button eine Aktion auszulösen, ist nicht das Bild inhaltlich zu beschreiben, sondern das Linkziel oder das was passiert, wenn man auf das Bild klickt.
 
-Um eine Textalternative eines Bildes anzugeben, verwendet man im HTML-Element &lt;img /&gt; die Attribute *alt=""* und *title=""*. Unterstützt das CMS des Webauftritts auch Bildunterschriften, sind auch diese anzugeben, sofern das Bild keine Schmuckgrafik ist.
+Um eine Textalternative eines Bildes anzugeben, verwendet man im HTML-Element `<img>` die Attribute *alt=""* und *title=""*. Unterstützt das CMS des Webauftritts auch Bildunterschriften, sind auch diese anzugeben, sofern das Bild keine Schmuckgrafik ist.
 
 #### Beispiele:
 
 1. Die Wikipedia-Seite zur [Mona Lisa](https://de.wikipedia.org/wiki/Mona_Lisa) beschreibt das gleichnamige Bild   von Leonardo da Vinci. Wenn man das Bild nun in einer Seite einbinden möchte, könnte man folgende HTML-Anweisung nutzen: 
 
-    <pre>
-    &lt;img alt="Gemälde der Mona Lisa(La Joconde) von Leonardo da Vinci" title="Mona Lisa" src="(BILD-URL)"&gt;
-    </pre>
-    Hier wird als Textalternative für das Bild der Text *Gemälde der Mona Lisa(La Joconde) von Leonardo da Vinci*    angegeben. Während der Title schlicht *Mona Lisa* ist.
+    ```html
+    <img alt="Gemälde der Mona Lisa(La Joconde) von Leonardo da Vinci" title="Mona Lisa" src="(BILD-URL)">
+    ```
+
+    Hier wird als Textalternative für das Bild der Text *Gemälde der Mona Lisa(La Joconde) von Leonardo da Vinci*  angegeben. Während der Titel schlicht *Mona Lisa* ist.
     Gleichwohl würde diese Beschreibung als Ersatz sehr knapp sein - auch für sehende Menschen. Es fehlt an weiteren Informationen über das Bild. Diese sollte man entweder im dem Bild umrandenden Text angeben oder verlinken.
-      Das Attribut *alt=""* sollte hingegen nicht für Essays verwendet werden. Der Alternativtext im Bild-Element   soll zweckmäßig sein und die Länge von 80 Zeichen nicht überschreiten. 
+    Das Attribut *alt=""* sollte hingegen nicht für Essays verwendet werden. Der Alternativtext im Bild-Element  soll zweckmäßig sein und die Länge von 80 Zeichen nicht überschreiten. 
     Handelt es sich bei den Bilder um ein Foto mit Personen oder Gegenstände, sollte man diese im Alternativtext namentlich angeben.
 
 2. Bei einem dekorativen Bild wird das Attribut *alt=""* leer gelassen:
 
-    <pre>
-    &lt;img alt="" src="(BILD-URL)"&gt;
-    </pre>
+    ```html
+    <img alt="" src="(BILD-URL)">
+    ```
 
-3. Bei einem grafischen Link wird das Linkziel beschrieben:
+3. Bei einem grafischen Link wird hingegen das Linkziel beschrieben und nicht mehr das Bild:
 
-    <pre>
-    &lt;a href="https://www.fau.de"&gt;&lt;img alt="Zur Website der FAU" src="(LOGO-URL)"&gt;&lt;/a&gt;
-    </pre>
+    ```html
+    <a href="https://www.fau.de"><img alt="Zur Website der FAU" src="(LOGO-URL)"></a>
+    ```
+
 
 
 #### Verpflichtende Erfolgskriterien 
@@ -250,9 +260,13 @@ Keinesfalls sollte man als Linktext jedoch Handlungsanweisungen verwenden. Ein K
 Stattdessen sollte an solchen Stellen besser so formuliert werden: "_Rufen Sie die **Online-Broschüre zum Thema ABC** auf._". Der eigentliche Link wäre dann auf den Worten "**Online-Broschüre zum Thema ABC**". 
 Dies ist ohne den Text davor auch für sich allein verständlich und der Leser wird wissen, was ihm beim Klick auf den Link erwartet.
 
-Im normalen Textbereichen wird ein Link mit den HTML-Element &lt;a&gt; gesetzt:
+Im normalen Textbereichen wird ein Link mit den HTML-Element `<a>` gesetzt:
 
-<pre>Rufen Sie die &lt;a href="(URL)"&gt;&lt;Online-Broschüre zum Thema ABC&lt;/a&gt; auf.</pre>
+```html
+Rufen Sie die <a href="(URL)"><Online-Broschüre zum Thema ABC</a> auf.
+```
+
+
 
 Bei Nutzung eines WYSIWYG-Editors reicht es oft, den entsprechenden Text selektieren und dann in einem erscheinenden Fenster die Zieladresse einzugeben oder aus einer Liste vorhandener Seiten auszuwählen. 
 
@@ -262,7 +276,7 @@ Bei Nutzung eines WYSIWYG-Editors reicht es oft, den entsprechenden Text selekti
 #### Weitere Attribute?
 
 Zu beachten ist, das im Fall einfacher Links auf Dokumente keine weiteren Angaben oder Attribute notwendig sind.
-Auch die Angabe, welche dafür sorgt, daß ein Link in einem neuen Fenster oder Tab geöffnet wird, sollte vermieden werden. Man kann nicht davon ausgehen, dass das Öffnen eines neuen Fensters für Links von jedem Leser erwünscht ist. Tatsächlich sorgt das Öffnen eines neuen Fensters auch zu einigen Nachteilen bei den Lesern der Seite: Die "Zurück"-Funktion des Browser funktioniert für das neue Fenster nicht mehr und der Rechner wird möglicherweise durch viele neue Fenster stärker belastet. Wurde die Seite zudem mit einem Smartphone aufgerufen, wird das neue Fenster üblicherweise das vorherige komplett überlagern. 
+Auch die Angabe, welche dafür sorgt, daß ein Link in einem neuen Fenster oder Tab geöffnet wird, sollte vermieden werden. Man kann nicht davon ausgehen, dass das Öffnen eines neuen Fensters für Links von jedem Leser erwünscht ist. Tatsächlich sorgt das Öffnen eines neuen Fensters auch zu einigen Nachteilen bei den Lesern der Seite: Die *"Zurück"-Funktion* des Browser funktioniert für das neue Fenster nicht mehr und der Rechner wird möglicherweise durch viele neue Fenster stärker belastet. Wurde die Seite zudem mit einem Smartphone aufgerufen, wird das neue Fenster üblicherweise das vorherige komplett überlagern. 
 Ob ein neues Fenster oder ein Tab geöffnet wird, sollte daher grundsätzlich dem Leser selbst überlassen bleiben, der hierfür die dafür gedachten Werkzeuge seines Browsers nutzen kann.
 
 Auf manchen Webseiten sieht man, daß Links zusätzlich mit einem *title=""*-Attribut versehen wurden.  
@@ -290,19 +304,22 @@ Bei der Nutzung von Datentabellen ist den jeweiligen Zellen eine Überschrift zu
 
 Eine einfache Datentabelle ist im HTML wie folgt aufgebaut:
 
-<pre>
-&lt;table&gt;
-  &lt;caption&gt; Tabellenüberschrift &lt;/caption&gt;
-  &lt;tr&gt;
-    &lt;th&gt; Überschrift Spalte 1  &lt;/th&gt;
-    &lt;th&gt; Überschrift Spalte 2  &lt;/th&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt; Datenzelle &lt;/td&gt;
-    &lt;td&gt; Datenzelle &lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-</pre>
+```html
+<table>
+  <caption> Tabellenüberschrift </caption>
+  <tr>
+    <th> Überschrift Spalte 1  </th>
+    <th> Überschrift Spalte 2  </th>
+  </tr>
+  <tr>
+    <td> Datenzelle </td>
+    <td> Datenzelle </td>
+  </tr>
+</table>
+```
+
+
+
 
 Je nach Komplexität der Datentabelle ist es sinnvoll, weitere Überschriften und Beziehungen von Zellen zueinander zu definieren. Die [Anleitung des W3C zu Tabellen](https://www.w3.org/WAI/tutorials/tables/) bietet eine ausführliche Erläuterung mit Beispielen zum korrekten Gebrauch und Einsatz.
 
@@ -332,21 +349,26 @@ Im Redaktionsalltag sind im wesentlichen zwei Formen von Listen in Gebrauch: Uns
 
 Eine einfache unsortierte Liste wird in HTML wie folgt aufgebaut:
 
-<pre>
-&lt;ul&gt;
-  &lt;li&gt; Unnummeriertes Listenelement &lt;/li&gt;
-  &lt;li&gt; Unnummeriertes Listenelement &lt;/li&gt;
-&lt;/ul&gt;
-</pre>
+```html
+<ul>
+  <li> Unnummeriertes Listenelement </li>
+  <li> Unnummeriertes Listenelement </li>
+</ul>
+```
 
-Die sortierte Liste unterscheidet sich hiervon nur durch die Verwendung des Elements &lt;ol&gt; anstelle von &lt;ul&gt;:
 
-<pre>
-&lt;ol&gt;
-  &lt;li&gt; Nummeriertes Listenelement 1 &lt;/li&gt;
-  &lt;li&gt; Nummeriertes Listenelement 2 &lt;/li&gt;
-&lt;/ol&gt;
-</pre>
+
+Die sortierte Liste unterscheidet sich hiervon nur durch die Verwendung des Elements   `<ol>` anstelle von `<ul>`:
+
+```html
+<ol>
+  <li> Nummeriertes Listenelement 1 </li>
+  <li> Nummeriertes Listenelement 2 </li>
+</ol>
+```
+
+
+
 
 In den Listenelementen können eigene Überschriften, Absätze, weitere Listen oder andere Elemente gesetzt werden. So kann eine Liste auch eine untergeordnete Liste enthalten.
 
@@ -384,12 +406,12 @@ Um längere Zitate darzustellen, verwendet man das `<blockquote>`-Element. Die o
 
 Das `<blockquote>`-Element umrandet darin befindliche Absätze.
 
-Soll zusätzlich ein Zitatgeber oder eine Quelle genannt werden, kann dies mit Hilfe des `<cite>` Elements vorgenommen werden. Diese darf dann jedoch nicht im eigentlichen Zitat-Absatz stehen, sondern muss hiervon getrennt sein (beispielsweie mit einem `<footer>`-Element):
+Soll zusätzlich ein Zitatgeber oder eine Quelle genannt werden, kann dies mit Hilfe des `<cite>` Elements vorgenommen werden. Diese darf dann jedoch nicht im eigentlichen Zitat-Absatz stehen, sondern muss hiervon getrennt sein (beispielsweie mit einem `<footer>`-Element). 
 
 ```html
 <blockquote>
   <p>
-   Der Universität ist vorbehalten, was nur der Mensch durch und durch in sich finden kann, die Einsicht in die reine Wissenschaft.
+      Der Universität ist vorbehalten, was nur der Mensch durch und durch in sich finden kann, die Einsicht in die reine Wissenschaft.
   </p>
   <footer>
      <cite>Wilhelm von Humboldt (1767 - 1835)</cite>
@@ -397,23 +419,28 @@ Soll zusätzlich ein Zitatgeber oder eine Quelle genannt werden, kann dies mit H
 </blockquote>
 ```
 
-Wenn ein Zitat anderssprachig ist, wird dies wie bereits oben in den Absätzen auch mit Hilfe des *lang=""*-Attributs ausgewiesen:
+Liegt das gesamte Zitat einer externen Quelle zugrunde, kann diese mit einem Attribut im `<blockquote>`-Element ergänzt werden, nämlich mit *cite="(URL)"*. (Bedauerlicherweise hat das Attribut denselben Namen wie as Element; Es handelt sich aber dennoch um unterschiedliche Dinge).
 
 ```html
-<blockquote lang="en">
-  <p>Succcess is walking from failure to failure with no loss of enthusiasm.
+<blockquote cite="https://de.wikiquote.org/wiki/Albert_Einstein">
+  <p>
+      Ich habe keine besondere Begabung, sondern bin nur leidenschaftlich neugierig
   </p>
   <footer>
-     <cite>Winston Churchil</cite>
+     <cite>Albert Einstein</cite>
   </footer>
 </blockquote>
 ```
 
 
-Falls die Zitate kürzer ausfallen, eignet sich das `<cite>`-Element. Anders als `<blockquote>` kann `<cite>` **innerhalb von Absätzen** verwendet werden.
+Falls die Zitate kürzer ausfallen und keinen langen Text beinhalten, kann man auch das `<cite>`-Element innerhalb eines Absatzes nutzen:
 
 ```html
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <cite>Zitat Zitat Zitat</cite> Ut enim ad minim veniam.</p>
+<p>
+    <cite>
+    Woran erkennt man barrrierefreies Internet? - Garnicht! Das ist ja gerade das gute!
+    </cite>
+</p>
 ```
 
 
@@ -432,13 +459,63 @@ Falls die Zitate kürzer ausfallen, eignet sich das `<cite>`-Element. Anders als
 
 ### Embeddings
 
-Karten, Videos, Interaktive Elemente aus Drittquellen
+Immer mehr moderne Webseiten ergänzen textuelle Informationen mit multimedialen Inhalten, die von darauf spezialisierten Portalen kommen. Dies können zum Beispiel Bildergalerien, Videos, Tonmitschnitte, Karten, Vortragsfolien aber auch Interaktive Bedienoberflächen sein. Beispielsweise werden viele Online-Kurse und Tutorials in Form kurzer Videos auf der Plattform [YouTube](https://www.youtube.com) abgelegt und Vortragsfolien finden sich oft auf dem Portal [SlideShare](https://www.slideshare.net). Auf sehr vielen Webauftritten finden sich unter der Beschreibung des Kontakts auch eingebundene Karten von [OpenStreetMap](https://www.openstreetmap.de/) oder Google Maps. 
 
-Hinweis (mit Stand zum August 2018): Ausnahmen aus der Richtlinie wurden in Bayern bislang nicht verordnet; Daher gilt das was in der WCAG steht. Nur technische "Ausnahmen" (z.B. bei dem Emedding von Karten), die in der WCAG definiert wurden, gelten. Diese sind jedoch in der Regel auf Stufe AAA und nicht auf Stufe AA. 
+Von einem *Embedding* wird gesprochen, wenn ein Inhalt von einer dieser Portale in die eigene Webseite integriert wird. So wird beispielsweise ein Video von YouTube im Inhaltsbereich der Seite gezeigt. 
+
+Auch wenn viele CMS inzwischen die Bereitstellung und Wiedergabe entsprechender Dateien beherrschen, sind die Portale aufgrund ihrer Spezialisierung in der spezifischen Bereitstellung des Contents jedem CMS technisch und funktionell überlegen. Es ist daher nicht verwunderlich, wenn auch große Websites für die Bereitstellung von Videos oder karten auf die entsprechenden Portale oder eigenständige Softwarelösungen außerhalb des CMS ausweichen. 
+
+Die meisten Inhaltsportale und auch die meisten CMS unterstützen das Embedding mit Hilfe entsprechender Funktionalitäten, mit dessen Hilfe externer Content einfach in die eigene Webseite "embedded" werden kann. 
+
+So bietet YouTube beispielsweise unter dem Link *Teilen* die Funktion zum Einbetten an. Dieses öffnet ein neues Fenster in dem man ein HTML-Code angeboten bekommt, welches man in seine eigene Webseite integrieren kann:  
+
+![Bild: Embedding eines Videos von YouTube](03-inhalte/embedding-youtube.jpg)
 
 
-#### Verpflichtende Erfolgskriterien 
-* [1.3.1 Info und Beziehungen](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=249#info-and-relationships) (Stufe A)
+
+Moderne CMS nutzen zudem vermehrt die [oEmbed-Schnittstelle](https://oembed.com/) . Mit dieser ist es für den Autor einer Seite nicht mehr nötig, irgendein HTML-Code auf der Portalseite zu suchen und sie dann einzubinden.
+
+Stattdessen reicht es, die URL des Videos oder der Information auf dem Portal aus der Adresszeile des Browsers zu nehmen und in den Editor zu kopieren. 
+
+![Bild: Embedding über URL - Codeansicht des Editors](03-inhalte/embedding-ueber-url1.jpg)
+
+Dies passiert bereits im CMS WordPress sogar schon im WYSIWYG-Editor:
+
+![Bild: Embedding über URL - WYSIWYG-Ansicht](03-inhalte/embedding-ueber-url2.jpg)
+
+
+
+Im Sinne der Barrierefreiheit ist das Embedding nicht unumstritten: Die Betreiber einer Seite und erst recht nicht die Redakteure haben Einfluß auf die Barrierefreiheit des Embeddings.  Es bleibt in vielen Fällen nur die Wahl: Wenn man die Information einer fremden und nicht barrierefreien Quelle einbindet, hilft man einer großen Zahl an Personen. Läßt man die Einbindung hingegen weg, da sie nicht vollständig barrierefrei ist, hat niemand einen Vorteil. 
+
+Große Portale kennen diese Problematik auch und versuchen bereits von sich aus den gelieferten Content eines Embeddings barrierefrei zu liefern.  So werden die Embeddings inzwichen mit Techniken ausgeliefert, die eine Zugänglichkeit für assistive Medien unterstützen. Videos werden beispielsweise automatisch mit Audiotranskriptionen versehen und von Vortragsfolien wird eine Textfassung bereitgestellt. 
+Dies geschieht bei den betreffenden Portalen weitgehend automatisch, ist jedoch auch abhängig von der Sorgfalt der Personen, welche die Informationen hochluden und dort die Möglichkeit hatten, entsprechende notwendige Informationen zu ergänzen. 
+
+#### Empfehlungen für den Einsatz von Embeddings
+
+Der Autor einer Seite kann sich bei einem Embedding nicht sicher sein, ob dieses tatsächlich barrierefrei geliefert wird oder nicht. Daher sollte hier eine Lösung ähnlich wie der bei dem Einsatz von Bildern vorgenommen werden:  
+
+> Sofern das Embedding **zwingend notwendige Informationen** enthält, die der Leser der Webseite erfahren muss, sollten diese Informationen **zusätzlich in Textform** bereitgestellt werden. 
+
+Um den Konformitätsanforderungen der WCAG genüge zu tun, ist deutlich zu machen, daß der angezeigte Content von einer Drittquelle kommt. Daher:
+
+> An geeigneter Stelle vor oder nach dem Embedding wird auf die Quelle hingewiesen. Hierbei sollte bestenfalls das Quellportal (z.B. der YouTube-Kanal ) und der Titel sichtbar sein.  Eine gesonderte Verlinkung sollte ebenfalls vorgenommen werden, so daß man hierfür nicht auf das Embedding selbst angewiesen ist. 
+
+
+
+#### Verpflichtende Erfolgskriterien
+
+Autoren von Webseiten, die aufgrund von Inhalten, die außerhalb der Kontrolle des Autors liegen, nicht konform sein können, müssen eine [Erklärung partieller Konformität](https://www.w3.org/Translations/WCAG20-de/#conformance-partial) vornehmen. Bei einer Prüfung der Seite gemäß den Richtlinien der WCAG würde dies bedeuten, dass man die Seite nur ohne das Embedding prüft und die eingebundenen Teile als solche deutlich erkennbar macht. Das kann zum Beispiel dadurch geschehen, dass man den Inhalt, wie oben empfohlen, als zusätzlichen Text beschreibt.
+
+Wichtig ist hierbei, daß der Leser der Seite deutlich erkennen kann, daß der Inhalt aus einer Drittquelle kommt. 
+
+#### Rechtlicher Hinweis (Stand August 2018)
+
+Die EU-Richtlinie schränkt in Artikel 1, Absatz 4d) und 4e) die Umsetzung der WCAG ein. Dieser Teil der Richtlinie -nämlich die Einschränkungen und Ausnahmen im Anwendungsbereich- wurde jedoch bei der Umsetzung der Gesetzgebung von einigen Bundesländern (noch) nicht übernommen. Es gilt daher das, was in der WCAG zur Umsetzung der Konformität beschrieben wurde.  
+
+#### Vertiefung
+
+- [oEmbed](https://oembed.com/), 
+- W3C: [Erklärung partieller Konformität - Inhalte von Dritten](https://www.w3.org/Translations/WCAG20-de/#conformance-partial)
 
 
 
@@ -448,7 +525,7 @@ Spickzettel
 ### Überschriften: 
 
 * Verwenden Sie Überschriften zur Gliederung längerer Texte entsprechend ihrer logischen Abfolge
-* Überschriften werden aus den HTML-Tags &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt; und &lt;h6&gt; gebildet. Falls ihr CMS ein WYSIWYG-Editor anbietet, nutzen Sie dessen vorgegebene Absatzvorlagen für Überschriften.
+* Überschriften werden aus den HTML-Tags `<h1>`, `<h2>`,`<h3>`,`<h4>`,`<h5>` und`<h6>`gebildet. Falls ihr CMS ein WYSIWYG-Editor anbietet, nutzen Sie dessen vorgegebene Absatzvorlagen für Überschriften.
 * Eine in **fett markierte Zeile** ist keine Überschrift, sondern nur fett dargestellter Text.
 * Verwenden Sie überschriften nicht um die Optik des Textes nach ihren Wünschen anzupassen.
 
