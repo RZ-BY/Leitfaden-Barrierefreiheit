@@ -279,7 +279,7 @@ Eine Tabelle erweist sich bei der Nutzung als Gestaltungswerkzeug spätestens be
 
 
 Bei der Nutzung von Datentabellen ist den jeweiligen Zellen eine Überschrift zuzuordnen. Dies erfolgt mit Hilfe des Elements &lt;th&gt;.  Die eigentlichen Zellen mit Daten werden dagegen mit dem Element &lt;td&gt; gekennzeichnet. Die Zeilen werden durch das Element &lt;tr&gt; ausgezeichnet.
-  
+
 Eine einfache Datentabelle ist im HTML wie folgt aufgebaut:
 
 <pre>
@@ -312,12 +312,38 @@ Hier erfolgt die Bedienung ähnlich zu der in Microsoft Office.
 
 ### Listen
 
+Nummerierte Aufzählungen und Listen werden auf Webseiten mit eigenen HTML-Elementen deklariert. Wie auch bei Überschriften und Absätzen ist bei Listen die Einhaltung dieser Semantik wichtig, damit Aufzählungselemente und Listenpunkte als solcher für Screenreader identifizierbar sind.
 
+Im Redaktionsalltag sind im wesentlichen zwei Formen von Listen in Gebrauch: Unsortierte und Nummerierte Listen.
+(Es gibt noch eine dritte From durch die [Definitionslisten](https://wiki.selfhtml.org/wiki/HTML/Textstrukturierung/dl); Diese werden jedoch nur selten verwendet und sie lassen sich durch eine normale Überschrift mit einem darauf folgenden Absatz ersetzen).
+
+Eine einfache unsortierte Liste wird in HTML wie folgt aufgebaut:
+
+<pre>
+&lt;ul&gt;
+  &lt;li&gt; Listenelement &lt;/li&gt;
+  &lt;li&gt; Listenelement &lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+
+Die sortierte Liste unterscheidet sich hiervon nur durch die Verwendung des Elements &lt;ol&gt; anstelle von &lt;ul&gt;:
+
+<pre>
+&lt;ol&gt;
+  &lt;li&gt; Listenelement &lt;/li&gt;
+  &lt;li&gt; Listenelement &lt;/li&gt;
+&lt;/ol&gt;
+</pre>
+
+In den Listenelementen können eigene Überschriften, Absätze, weitere Listen oder andere Elemente gesetzt werden. So kann eine Liste auch eine untergeordnete Liste enthalten.
+Gleichwohl sollte man aus Gründen der Lesbarkeit und der Benutzbarkeit nicht mehr als zwei Verschachtelungsebene einsetzen.
 
 
 #### Verpflichtende Erfolgskriterien 
 * [1.3.1 Info und Beziehungen](https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships) (Stufe A)
 
+#### Vertiefung
+* Webkrauts: Artikel [Die etwas besseren Listen](http://webkrauts.de/artikel/2008/die-etwas-besseren-listen-teil-1)
 
 ### Zitate
 
