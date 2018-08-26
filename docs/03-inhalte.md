@@ -21,7 +21,7 @@ Es wird davon ausgegangen, dass Webangebote in diesen Bereichen über ein geeign
 Grundlagen
 ----------
 
-Mit Inhalten sind all die Informationen gemeint, die vom Leser wahrgenommen werden müssen. Zur besseren Darstellung und Strukturierung der Inhalte wird auf Webseiten die Strukturierungssprache HTML verwendet. Mit dieser kann auch die inhaltliche Semantik eindeutig definiert werden, wozu auch nur wenige, leicht zu merkendende Elemente notwendig sind: Nämlich die Elemente für Überschriften, Absätze, Bilder, Listenelemente, Zitate und  Tabellen.
+Mit Inhalten sind all die Informationen gemeint, die vom Leser wahrgenommen werden müssen. Zur besseren Darstellung und Strukturierung der Inhalte wird auf Webseiten die Strukturierungssprache HTML verwendet. Mit dieser kann auch die inhaltliche Bedeutung eindeutig definiert werden, wozu auch nur wenige, leicht zu merkendende Elemente notwendig sind: Nämlich die Elemente für Überschriften, Absätze, Bilder, Listenelemente, Zitate und  Tabellen. In HTML nutzt man hier den Begriff der [Semantik](https://blog.kulturbanause.de/2008/01/html-elemente-und-semantik/).
 
 Wichtig hierbei ist jedoch, dass die Semantik eingehalten wird:
 Überschriften, die nicht mittels der verfügbaren HTML-Elemente als solche gekennzeichnet sind, sind keine.
@@ -115,7 +115,6 @@ Beispiel mit zwei Absätzen. Der erste gibt keine Sprachdefinition an. Der zweit
    &lt;p lang="en"&gt;
       This is an englisch paragraph.
    &lt;/p&gt; 
-
 </pre>
 
 
@@ -128,7 +127,6 @@ Sollte sich der Textbereich über mehrere Kapitel und Absätze erstrecken, setzt
       die vom CMS bzw. dem Webseitentemplate im &lt;head&gt;-Bereich der Seite 
       angegeben wurde.
    &lt;/p&gt;
-
    &lt;div lang="en"&gt;
        &lt;h2&gt;Chapter One&lt;/h2&gt;
        &lt;p&gt;
@@ -178,6 +176,11 @@ Bei der Verwendung von Abkürzungen sollte man grundsätzlich folgende Dinge bea
 * [3.1.5 Leseniveau](https://www.w3.org/WAI/WCAG21/quickref/#reading-level) (Stufe AAA)
 * [3.1.6 Aussprache](https://www.w3.org/WAI/WCAG21/quickref/#pronunciation) (Stufe AAA)
 
+#### Vertiefung
+
+- Jan Eric Hellbusch: [Sprachangabe](<https://www.barrierefreies-webdesign.de/knowhow/sprachangabe/> )
+
+
 
 
 ### Bilder und Schemagrafiken
@@ -225,6 +228,11 @@ Um eine Textalternative eines Bildes anzugeben, verwendet man im HTML-Element &l
 #### Verpflichtende Erfolgskriterien 
 * [1.1.1 Nicht-Text-Inhalt](https://www.w3.org/WAI/WCAG21/quickref/#non-text-content) (Stufe A)
 * [2.4.4 Linkzweck (im Kontext)](https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context) (Stufe A)
+
+#### Vertiefung
+
+- Jan Eric Hellbusch: [Informative Bilder](https://www.barrierefreies-webdesign.de/knowhow/textalternative/informative-bilder.html) 
+- Jan Eric Hellbusch: [Entscheidungsschema für Textalternativen von Bildern](https://www.barrierefreies-webdesign.de/knowhow/textalternative/entscheidungsschema.html) 
 
 
 
@@ -310,6 +318,11 @@ Hier erfolgt die Bedienung ähnlich zu der in Microsoft Office.
 #### Verpflichtende Erfolgskriterien 
 * [1.3.1 Info und Beziehungen](https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships) (Stufe A)
 
+#### Vertiefung
+- W3C/WAI: [Tutorial zu Tabellen](https://www.w3.org/WAI/tutorials/tables/)
+- Jan Eric Hellbusch: [Barrierefreie Tabellen](https://www.barrierefreies-webdesign.de/knowhow/datentabellen/)
+
+
 ### Listen
 
 Nummerierte Aufzählungen und Listen werden auf Webseiten mit eigenen HTML-Elementen deklariert. Wie auch bei Überschriften und Absätzen ist bei Listen die Einhaltung dieser Semantik wichtig, damit Aufzählungselemente und Listenpunkte als solcher für Screenreader identifizierbar sind.
@@ -321,8 +334,8 @@ Eine einfache unsortierte Liste wird in HTML wie folgt aufgebaut:
 
 <pre>
 &lt;ul&gt;
-  &lt;li&gt; Listenelement &lt;/li&gt;
-  &lt;li&gt; Listenelement &lt;/li&gt;
+  &lt;li&gt; Unnummeriertes Listenelement &lt;/li&gt;
+  &lt;li&gt; Unnummeriertes Listenelement &lt;/li&gt;
 &lt;/ul&gt;
 </pre>
 
@@ -330,13 +343,23 @@ Die sortierte Liste unterscheidet sich hiervon nur durch die Verwendung des Elem
 
 <pre>
 &lt;ol&gt;
-  &lt;li&gt; Listenelement &lt;/li&gt;
-  &lt;li&gt; Listenelement &lt;/li&gt;
+  &lt;li&gt; Nummeriertes Listenelement 1 &lt;/li&gt;
+  &lt;li&gt; Nummeriertes Listenelement 2 &lt;/li&gt;
 &lt;/ol&gt;
 </pre>
 
 In den Listenelementen können eigene Überschriften, Absätze, weitere Listen oder andere Elemente gesetzt werden. So kann eine Liste auch eine untergeordnete Liste enthalten.
-Gleichwohl sollte man aus Gründen der Lesbarkeit und der Benutzbarkeit nicht mehr als zwei Verschachtelungsebene einsetzen.
+
+Gängige WYSIWYG-Editoren wie der TinyMCE unterstützen auch Listen durch eigene Bedienelemente:
+
+![Bild: Nummerierte Liste mit unnummierten Unterlisten in einem TinyMCE-Editor](03-inhalte/listen-tinymce.jpg)
+
+Zu beachten ist auch hier, wie oben bereits bei den Überschriften und den Tabellen erwähnt: Listen dienen nicht der optischen Gestaltung belibiger Texte oder zur Einrückung derselben. Sie haben den Zweck eine Liste auszuzeichnen. Und umgekehrt bedeutet dies: Wer eine Liste auf einer Seite angeben möchte, der muss dazu auch die Listenelemente verwenden &mdash;  und nicht etwa Absätze aus einzelnen Zeilen, die mit einer Zahl beginnen und einem erzwungen Umbruch enden.
+
+Eine korrekt ausgezeichnete Liste wird im Gegensatz zu Absatzzeilen auch von Screenreader und Analysesoftware als zusammenhängende Liste erkannt. Zusätzlich wird eine Liste auch bei der Darstellung auf mobilen Endgeräten mit kleinem Display korrekt umgebrochen. 
+
+Die Optik der unnummerierten Listen und das Zahlenformat der nummerierten Listen wird durch das zugrundeliegende Design bestimmt.  Zwar lassen sich in HTML die Zahlenformate über das *list-style-type- Attribut* vorgeben, dies sollte man jedoch nur in Ausnahmefällen nutzen, da üblicherweise das Webdesign die Nutzung ohne weitere Attribute als Standard betrachtete.
+
 
 
 #### Verpflichtende Erfolgskriterien 
@@ -344,11 +367,68 @@ Gleichwohl sollte man aus Gründen der Lesbarkeit und der Benutzbarkeit nicht me
 
 #### Vertiefung
 * Webkrauts: Artikel [Die etwas besseren Listen](http://webkrauts.de/artikel/2008/die-etwas-besseren-listen-teil-1)
+* SELFHTML: [Listen](https://wiki.selfhtml.org/wiki/HTML/Textstrukturierung/Listen) 
+
 
 ### Zitate
 
+Um längere Zitate darzustellen, verwendet man das `<blockquote>`-Element. Die optische Form dieser Darstellung wird wie gewohnt von dem zugrundeliegenden Webdesign bestimmt. Üblicherweise wird ein Zitat jedoch optisch hervorgehoben, indem es links und rechts eingerückt wird und Schriftart und -stil verändert wird.
 
-to be filled
+```html
+<blockquote>
+  <p>
+   Der Universität ist vorbehalten, was nur der Mensch durch und durch in sich finden kann, die Einsicht in die reine Wissenschaft.
+  </p>
+</blockquote>
+```
+
+Das `<blockquote>`-Element umrandet darin befindliche Absätze.
+
+Soll zusätzlich ein Zitatgeber oder eine Quelle genannt werden, kann dies mit Hilfe des `<cite>` Elements vorgenommen werden. Diese darf dann jedoch nicht im eigentlichen Zitat-Absatz stehen, sondern muss hiervon getrennt sein (beispielsweie mit einem `<footer>`-Element):
+
+```html
+<blockquote>
+  <p>
+   Der Universität ist vorbehalten, was nur der Mensch durch und durch in sich finden kann, die Einsicht in die reine Wissenschaft.
+  </p>
+  <footer>
+     <cite>Wilhelm von Humboldt (1767 - 1835)</cite>
+  </footer>
+</blockquote>
+```
+
+Wenn ein Zitat anderssprachig ist, wird dies wie bereits oben in den Absätzen auch mit Hilfe des *lang=""*-Attributs ausgewiesen:
+
+```html
+<blockquote lang="en">
+  <p>Succcess is walking from failure to failure with no loss of enthusiasm.
+  </p>
+  <footer>
+     <cite>Winston Churchil</cite>
+  </footer>
+</blockquote>
+```
+
+
+Falls die Zitate kürzer ausfallen, eignet sich das `<cite>`-Element. Anders als `<blockquote>` kann `<cite>` **innerhalb von Absätzen** verwendet werden.
+
+```html
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <cite>Zitat Zitat Zitat</cite> Ut enim ad minim veniam.</p>
+```
+
+
+
+#### Verpflichtende Erfolgskriterien 
+
+- [1.3.1 Info und Beziehungen](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=249#info-and-relationships) (Stufe A)
+- [3.2.4 Konsistente Erlennung](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=324#consistent-identification) (Stufe AA)
+
+#### Vertiefung
+
+- mediaevent.de: [HTML blockquote - Zitat](https://www.mediaevent.de/xhtml/blockquote.html)
+- developer.mozilla.org: [The Citation element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite)
+
+
 
 ### Embeddings
 
@@ -384,15 +464,3 @@ Spickzettel
 * Ein Link mit dem Text "hier", wie beispielsweise "*Klicken Sie **hier***" ist kein verständlicher Link, sondern eine Zumutung.
 
 
-
-Vertiefung
-----------
-
-Links und Literatur
-
--  Jan Eric Hellbusch, 
-     -  Erfolgskriterien der WCAG 2.0, <http://www.barrierefreies-webdesign.de/richtlinien/wcag-2.0-erfolgskriterien/>
-     -  Sprachangabe, <https://www.barrierefreies-webdesign.de/knowhow/sprachangabe/> 
-     -  Informative Bilder, <https://www.barrierefreies-webdesign.de/knowhow/textalternative/informative-bilder.html>
-     -  Entscheidungsschema für Textalternativen von Bildern, <https://www.barrierefreies-webdesign.de/knowhow/textalternative/entscheidungsschema.html>
-     -  Barrierefreie Tabellen, <https://www.barrierefreies-webdesign.de/knowhow/datentabellen/>
