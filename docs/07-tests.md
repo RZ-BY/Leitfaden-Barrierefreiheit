@@ -52,14 +52,9 @@ Sollte eine oder mehrere der obigen Situationen Probleme aufzeigen, ist die Zug�
 to be filled
 
 
-## Pr체fung der rechtlichen Pflichtangaben
+## Pr체fung der Barrierefreiheitserkl채rung 
 
 to be filled
-
-### Impressum
-### Datenschutzerkl채rung
-### Barrierefreiheitserkl채rung 
-
 
 
 
