@@ -9,10 +9,7 @@ Autoren verwendet werden. Auch automatisch erstellte Ausgaben werden durch diese
 Dieses Kapitel wendet sich an folgende Personenkreise:
 
 -   Webdesigner,
--   Webentwickler,
--   CMS-Administratoren,
--   API-Entwicklern,
--   Zuständige für SEO- und Performanceoptimierung
+-   Webentwickler
 
 ## Grundlagen
 
@@ -47,8 +44,7 @@ Die wesentlichen Grundlagen und Beispiele zur Umsetzung werden in den oben genan
 ### Strukturierte Daten 
 
 
-
-**Die Umsetzung von strukturierten Daten ist derzeit für die Umsetzung der Barrierefreiheit nicht erforderlich.** 
+**Hinweis: Die Umsetzung von strukturierten Daten ist derzeit für die Umsetzung der Barrierefreiheit nicht erforderlich.** 
 Gleichwohl kommt es dennoch zu positiven Auswirkungen in der Form, daß die Webseite durch Software besser analysiert werden kann. Dies führt unter anderem zu einer besseren Auffindbarkeit mit Hilfe von Suchmaschinen und somit wiederum dazu, daß Menschen die Inhalte besser finden, bevor sie überhaupt auf der Seite sind.
 
 Strukturierte Daten erlauben es, die Semantik von HTML mit Hilfe standardisierter Anweisungen zu erweitern. HTML erlaubt zwar die Auszeichnung von Überschriften, Absätzen und Bildern, definiert jedoch keine Aussagen über den Inhalt. 
@@ -75,28 +71,60 @@ Und bei der Suche nach der LMU wird für diese im Infopanel eine Liste der komme
 
 Der Nebeneffekt dieser Anzeigen ist auch, daß der Benutzer der Suchmaschine ohne Umweg über die Startseite der jeweilige Webseite gleich zu dem jeweiligen Angebot springen kann.
 
-In HTML geschieht die Auszeichnung dieser Inhalte durch das Attribut `itemprob`.
- 
-Auf der Seite [schema.org](https://schema.org/) findet sich eine Übersicht der gebräuchlichsten Inhaltstypen mit Beispielen für deren Auszeichnung.
+In HTML geschieht die Auszeichnung dieser Inhalte durch die Attribute `itemscope` und `itemprop`. 
 
+##### Beispiel Termin mit strukturierten Daten 
+
+Ohne strukturierte Daten würde eine Terminangabe in HTML so aussehen:
+
+```html
+<div class="event">
+	  <h2>Webkongress Erlangen</h2>
+	  <em>12. September 2018, 9:00 Uhr</em>
+	  Department Mathematik 
+	  <address>  
+			Cauerstraße 11
+			91058 Erlangen
+	  </address>
+</div>
+```
+
+MIt ANwendung der [Schema.org-Beschreibung zu Terminen](https://schema.org/Event) wird hieraus folgendes:
+
+
+```html
+<div class="event" itemscope itemtype="http://schema.org/Event">
+	  <h2>Webkongress Erlangen</h2>
+	  <em itemprop="startDate" content="2018-09-12T09:00">12. September 2018, 9:00 Uhr</em>
+	  <div class="event-venue" itemprop="location" itemscope itemtype="http://schema.org/Place">
+		    <span itemprop="name">	Department Mathematik </span>
+		    <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">  
+			 	<span itemprop="streetAddress">Cauerstraße 11</span>
+				<span itemprop="postalCode">91058</span> <span itemprop="addressLocality">Erlangen</span>
+		  	</address>
+	   </div>
+ </div>
+```
+
+ 
+Auf der Seite [schema.org](https://schema.org/) findet sich eine Übersicht der gebräuchlichsten Inhaltstypen mit Beispielen für deren Anwendung. Um zu prüfen, ob die Angaben korrekt waren, kann das [Testtool von Google](https://search.google.com/structured-data/testing-tool?hl=de) aber auch die Browsererweitertung [Semantic Inspector](https://chrome.google.com/webstore/detail/semantic-inspector/jobakbebljifplmcapcooffdbdmfdbjh) (siehe unten) verwendet werde.
  
 
 #### Vertiefung
 - Schema.org: [Übersicht der Typen strukturierter Daten](https://schema.org/docs/schemas.html)
 - Google: [Tutorial zu strukturierten Daten](https://developers.google.com/search/docs/guides/)
-- Google: [Testtool für strukturierte Daten](https://search.google.com/structured-data/testing-tool?hl=de)
 - lunapark: [Strukturierte Daten: Mehr Aufmerksamkeit in den SERPs](https://www.luna-park.de/blog/29207-strukturierte-daten/)
 - t3n: [Rich Snippets](https://t3n.de/news/rich-snippets-anleitung-534054/)
 
-### Browser-Addons
+### Browser-Add-ons
 
-Bei dem Entwickeln und Testen von Websites können verschiedene Browser-Addons eine Hilfe sein.
+Bei dem Entwickeln und Testen von Websites können verschiedene Add-ons eine Hilfe sein.
 
 Der Chrome-Browser von Google hat sich in den letzten Jahren zum meistgenutzten Browser weltweit entwickelt.
 Auf dem Gebiet der Webentwicklung lag dies unter anderem auch wegen der im Vergleich zu Firefox besseren Unterstützung mit Hilfe von nativen Entwickler-Tools, aber auch aufgrund der besseren Unterstützung von Webstandards. (Siehe hierzu u.a. die Plattform [CanIuse.com](https://caniuse.com)). Mit dem neuen Firefox Quantum kann sich diese Situation wieder ändern, aber aktuell ist bei Webentwicklern der Chrome-Browser nach wie vor der am häufigsten verwendete Browser.
 Unabhängig davon muss jeder Entwickler dennoch weitere Browser auf seinen Arbeitsplatzgeräten oder virtuellen Umgebungen haben. Neue Webauftritte sollten im Idealfall stets mit mindestens drei verschiedenen Browsern auf mindestens zwei verschiedenen Betriebssystemen getestet werden.
 
-Die folgende Liste der AddOns basiert auf dem aktuellen Chrome-Browser. Ähnliche oder auch dieselben AddOns gibt es jedoch auch auf anderen Browsern.
+Die folgende Liste der Add-ons basiert auf dem aktuellen Chrome-Browser. Ähnliche oder auch dieselben AddOns gibt es jedoch auch auf anderen Browsern.
 
 
 <table>
@@ -159,4 +187,4 @@ Die AddOns ergänzen dessen Funktionen nur oder machen spezielle Funktionen etwa
 
 
 
-Üblicherweise sind weitere AddOns vorhanden, wie beispielsweise das uBlock Origin AddOn, welches effektiv Werbung unsichtbar macht bzw. das Laden dieser unterdrückt oder Ghostery, der (in Kombination mit uBlock Origin) ebenfalls ein gutes und datenschutzorientes AddOn zur digitalen Selbstverteidigung gegen Tracking und durch Werbung eingeschleuste Schadsoftware ist.
+Üblicherweise sind weitere AddOns vorhanden, wie beispielsweise das uBlock Origin AddOn, welches effektiv Werbung unsichtbar macht bzw. das Laden dieser unterdrückt oder Ghostery, der (in Kombination mit uBlock Origin) ebenfalls ein gutes und datenschutzorientes Add-on zur digitalen Selbstverteidigung gegen Tracking und durch Werbung eingeschleuste Schadsoftware ist.
