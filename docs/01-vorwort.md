@@ -97,8 +97,7 @@ Detailreiche Erläuterungen zum Aufbau der WCAG, deren Prinzipien, Kriterien, Ko
     -   Web Accessibility Initiative, WAI, <https://www.w3.org/WAI/>
 
 -   Jan Hellbusch:
-    -   Richtlinien: WCAG 2.0 ,
-        <https://www.barrierefreies-webdesign.de/wcag2/>
+    -   Richtlinien: WCAG 2.0, <https://www.barrierefreies-webdesign.de/wcag2/>
 
 
 Gesetze, Verordnungen und Richtlinien
