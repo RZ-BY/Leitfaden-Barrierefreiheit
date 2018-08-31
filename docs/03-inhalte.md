@@ -141,8 +141,7 @@ beispielsweise
 kann man sich die Überschriftenhierachie einer Webseite gesondert
 anzeigen lassen.
 
-![Bild: Beispiels einer
-HeadingsMap](03-inhalte/headingsmap.jpg){width="348px"}
+![Bild: Beispiels einer HeadingsMap](03-inhalte/headingsmap.jpg){ width="348px" }
 
 Neben Screenreadern nutzen auch Suchmaschinen die Überschriften und deren
 logische Abfolge zur Einordnung von Inhalten. Wenn Sie also Wert darauf
@@ -151,17 +150,14 @@ hierachische Gliederung des Inhalts achten.
 
 #### Verpflichtende Erfolgskriterien
 
--   [1.3.1 Info und
-    Beziehungen](https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships)
+-   [1.3.1 Info und Beziehungen](https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships)
     (Stufe A)
--   [2.4.6 Überschriften und
-    Labels](https://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels)
+-   [2.4.6 Überschriften und Labels](https://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels)
     (Stufe AA)
 
 #### Optionale Erfolgskriterien
 
--   [2.4.10
-    Abschnittsüberschriften](https://www.w3.org/WAI/WCAG21/quickref/#section-headings)
+-   [2.4.10 Abschnittsüberschriften](https://www.w3.org/WAI/WCAG21/quickref/#section-headings)
     (Stufe AAA)
 
 ### Absätze und andere Textbereiche
@@ -181,7 +177,7 @@ fordert die Verständlichkeit von Texten.
 
 Jan Eric Hellbusch schreibt zur
 [Verständlichkeit](https://www.barrierefreies-webdesign.de/knowhow/verstaendliche-inhalte/):
-\> Textverstehen ist ein aktiver Prozess und eine Interaktion zwischen
+> Textverstehen ist ein aktiver Prozess und eine Interaktion zwischen
 Text und Leser. Texte sind für unterschiedliche Leser unterschiedlich
 leicht verstehbar. Dies hat sowohl mit den Interessen und dem Vorwissen
 des Lesers zu tun, als auch mit dessen individuellen Fähigkeiten.
@@ -209,8 +205,7 @@ kann man diese *globale* Einstellung normalerweise nicht ändern. Unter
 Umständen bieten manche CMS Installationen die Option an, die Sprache
 einer einzelnen Inhaltseite gesondert anzugeben:
 
-![Bild: Seitensprache
-ändern](03-inhalte/seitensprache-aendern.png){width="285px"}
+![Bild: Seitensprache ändern](03-inhalte/seitensprache-aendern.png){ width="285px" }
 
 Auch wenn die Angabe der Sprache für einen *sehenden Leser* unnötig
 erscheint, ist sie dennoch von großer Bedeutung:
@@ -232,7 +227,7 @@ erscheint, ist sie dennoch von großer Bedeutung:
 
 Gibt das CMS oder dessen Bearbeitungswerkzeuge keine Optionen vor, um
 die Sprache der Inhaltsbereiche anzugeben, ist diese mittels HTML zu
-setzen. Hierzu eignet sich das Attribut *lang=\"\"* welches in dem
+setzen. Hierzu eignet sich das Attribut *lang=""* welches in dem
 HTML-Element angegeben wird, das den Text mit der Sprache umgibt.
 Handelt es sich nur um einen Absatz, kann man das `<p>`; Element nutzen,
 handelt es sich um ein längeres Zitat, verwendet man das `<blockquote>`
@@ -288,20 +283,19 @@ Dinge beachten:
 -   Bei der Verwendung von Abkürzungen sollten diese bei dem ersten
     Auftreten im Text ausgeschrieben werden. Dies gilt besonders bei
     längeren Namen von Einrichtungen oder Titeln. Dabei wird zunächst
-    der Name ausgeschrieben, gefolgt von der Abkürzung in runden
-    Klammern. Beispiel: *Friedrich-Alexander-Universität
-    Erlangen-Nürnberg (FAU)*.
+    der Name ausgeschrieben, gefolgt von der Abkürzung in runden 
+    Klammern. Beispiel: *Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)*.
 -   Eine Ausnahme gibt es hingegen bei solchen Abkürzungen, die in der
     kurzen Form bereits Teil der Alltagssprache, in ihrer
     ausgeschriebenen Form hingegen jedoch weitgehend unbekannt sind. So
     zum Beispiel die Abkürzungen "DSL" oder "WLAN". Die ausgeschriebenen
-    Formen dieser Abkürzungen ("*[Digital Subscriber Line]{lang="en"}*"
-    und "*[Wireless Local Area Network]{lang="en"}*") sind oft nicht
+    Formen dieser Abkürzungen ("*<span lang="en">Digital Subscriber Line</span>*"
+    und "*<span lang="en">Wireless Local Area Network</span>*") sind oft nicht
     gängig, während die Bedeutung der kurzen Form für jeden Leser klar
     ist.
 -   Sollte bei der Ausschreibung der Abkürzung ein Sprachwechsel
     erfolgen, muss diese über geeignete HTML-Anweisungen im Code
-    deklariert werden. Hierzu eignet sich das Attribut *lang=\"\"*.
+    deklariert werden. Hierzu eignet sich das Attribut *lang=""*.
 
 ##### Beispiele:
 
@@ -320,9 +314,7 @@ verwendet um sie als solche zu deklarieren:
 ```
 
 Kommt es dabei zudem zu einem Sprachwechsel, wird das Attribut
-*lang=\"\"* ergänzt; Als Inhalt des Attributs wird der jeweilige [Code
-der
-Sprache](https://www.w3.org/International/questions/qa-html-language-declarations.de)
+*lang=""* ergänzt; Als Inhalt des Attributs wird der jeweilige [Code der Sprache](https://www.w3.org/International/questions/qa-html-language-declarations.de)
 der Abkürzung verwenden:
 
 ```html
@@ -331,26 +323,20 @@ der Abkürzung verwenden:
 
 #### Verpflichtende Erfolgskriterien
 
--   [3.1.1 Sprache der
-    Seite](https://www.w3.org/WAI/WCAG21/quickref/#language-of-page)
+-   [3.1.1 Sprache der Seite](https://www.w3.org/WAI/WCAG21/quickref/#language-of-page)
     (Stufe A)
--   [3.1.2 Sprache von
-    Teilen](https://www.w3.org/WAI/WCAG21/quickref/#language-of-parts)
+-   [3.1.2 Sprache von Teilen](https://www.w3.org/WAI/WCAG21/quickref/#language-of-parts)
     (Stufe AA)
 
 #### Optionale Erfolgskriterien
 
--   [3.1.3 Ungewöhnliche
-    Wörter](https://www.w3.org/WAI/WCAG21/quickref/#unusual-words)
+-   [3.1.3 Ungewöhnliche Wörter](https://www.w3.org/WAI/WCAG21/quickref/#unusual-words)
     (Stufe AAA)
--   [3.1.4
-    Abkürzungen](https://www.w3.org/WAI/WCAG21/quickref/#abbreviations)
+-   [3.1.4 Abkürzungen](https://www.w3.org/WAI/WCAG21/quickref/#abbreviations)
     (Stufe AAA)
--   [3.1.5
-    Leseniveau](https://www.w3.org/WAI/WCAG21/quickref/#reading-level)
+-   [3.1.5 Leseniveau](https://www.w3.org/WAI/WCAG21/quickref/#reading-level)
     (Stufe AAA)
--   [3.1.6
-    Aussprache](https://www.w3.org/WAI/WCAG21/quickref/#pronunciation)
+-   [3.1.6 Aussprache](https://www.w3.org/WAI/WCAG21/quickref/#pronunciation)
     (Stufe AAA)
 
 #### Vertiefung
@@ -394,7 +380,7 @@ Die Art der Textalternative ist dabei abhängig von der Art des Bildes:
     das Linkziel oder das was passiert, wenn man auf das Bild klickt.
 
 Um eine Textalternative eines Bildes anzugeben, verwendet man im
-HTML-Element `<img>` die Attribute *alt=\"\"* und *title=\"\"*.
+HTML-Element `<img>` die Attribute *alt=""* und *title=""*.
 Unterstützt das CMS des Webauftritts auch Bildunterschriften, sind auch
 diese anzugeben, sofern das Bild keine Schmuckgrafik ist.
 
@@ -416,13 +402,13 @@ diese anzugeben, sofern das Bild keine Schmuckgrafik ist.
     als Ersatz sehr knapp - auch für sehende Menschen. Es fehlt an
     weiteren Informationen über das Bild. Diese sollte man entweder im
     dem Bild umrandenden Text angeben oder verlinken. Das Attribut
-    *alt=\"\"* sollte hingegen nicht für Essays verwendet werden. Der
+    *alt=""* sollte hingegen nicht für Essays verwendet werden. Der
     Alternativtext im Bild-Element soll zweckmäßig sein und die Länge
     von 80 Zeichen nicht überschreiten. Handelt es sich bei den Bilder
     um ein Foto mit Personen oder Gegenstände, sollte man diese im
     Alternativtext namentlich angeben.
 
-2.  Bei einem dekorativen Bild wird das Attribut *alt=\"\"* leer
+2.  Bei einem dekorativen Bild wird das Attribut *alt=""* leer
     gelassen:
 
     ```html
@@ -497,7 +483,7 @@ einzugeben oder aus einer Liste vorhandener Seiten auszuwählen.
 ![Bild: Screenshot des Modals zum Einfügen eines neues neuen Links im
 Visuellen Editor von WordPress](03-inhalte/links-einfuegen.jpg)
 
-#### Weitere Attribute?
+#### Weitere Attribute
 
 Zu beachten ist, dass im Fall einfacher Links auf Dokumente keine
 weiteren Angaben oder Attribute notwendig sind. Auch die Angabe, welche
@@ -515,7 +501,7 @@ oder ein Tab geöffnet wird, sollte daher grundsätzlich dem Leser selbst
 Browsers nutzen kann.
 
 Auf manchen Webseiten sieht man, dass Links zusätzlich mit einem
-*title=\"\"*-Attribut versehen wurden.\
+*title=""*-Attribut versehen wurden.
 Dies sollte man ebenfalls nur in besonderen Ausnahmefällen tun. Das
 Attribut sollte nur dann verwendet werden, wenn der Linktext nicht
 gleich dem tatsächlichen Titel des aufzurufenden Dokumentes ist.
@@ -526,14 +512,12 @@ Text unnötigerweise zweimal anhören müssen.
 
 #### Verpflichtende Erfolgskriterien
 
--   [2.4.4 Linkzweck (im
-    Kontext)](https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context)
+-   [2.4.4 Linkzweck (im Kontext)](https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context)
     (Stufe A)
 
 #### Optionale Erfolgskriterien
 
--   [2.4.9 Linkzweck (reiner
-    Link)](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=249#link-purpose-link-only)
+-   [2.4.9 Linkzweck (reiner Link)](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=249#link-purpose-link-only)
     (Stufe AAA)
 
 ### Tabellen
@@ -556,9 +540,9 @@ hingegen ein vorgegebenes Grid-System verwendet, werden die Spalten
 serialisiert und in korrekter Reihenfolge übereinander positioniert.
 
 Bei der Nutzung von Datentabellen ist den jeweiligen Zellen eine
-Überschrift zuzuordnen. Dies erfolgt mit Hilfe des Elements \<th\>. Die
-eigentlichen Zellen mit Daten werden dagegen mit dem Element \<td\>
-gekennzeichnet. Die Zeilen werden durch das Element \<tr\>
+Überschrift zuzuordnen. Dies erfolgt mit Hilfe des Elements `<th>`. Die
+eigentlichen Zellen mit Daten werden dagegen mit dem Element `<td>`
+gekennzeichnet. Die Zeilen werden durch das Element `<tr>` 
 ausgezeichnet.
 
 Eine einfache Datentabelle ist in HTML wie folgt aufgebaut:
@@ -579,44 +563,36 @@ Eine einfache Datentabelle ist in HTML wie folgt aufgebaut:
 
 Je nach Komplexität der Datentabelle ist es sinnvoll, weitere
 Überschriften und Beziehungen von Zellen zueinander zu definieren. Die
-[Anleitung des W3C zu
-Tabellen](https://www.w3.org/WAI/tutorials/tables/) bietet eine
+[Anleitung des W3C zu Tabellen](https://www.w3.org/WAI/tutorials/tables/) bietet eine
 ausführliche Erläuterung mit Beispielen zum korrekten Gebrauch und
 Einsatz.
 
 Gängige WYSWIYG-Editoren, wie beispielsweise der TinyMCE-Edtor, verfügen
 über Hilfsmittel um Tabellen auch ohne Kenntnisse von HTML zu erstellen.
 
-![Bild: Screenshot des Table-Wizards in
-TinyMCE](03-inhalte/tables-tinymce.jpg)
+![Bild: Screenshot des Table-Wizards in TinyMCE](03-inhalte/tables-tinymce.jpg)
 
 Hier erfolgt die Bedienung ähnlich zu der in Microsoft Office.
 
 #### Verpflichtende Erfolgskriterien
 
--   [1.3.1 Info und
-    Beziehungen](https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships)
+-   [1.3.1 Info und  Beziehungen](https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships)
     (Stufe A)
 
 #### Vertiefung
 
--   W3C/WAI: [Tutorial zu
-    Tabellen](https://www.w3.org/WAI/tutorials/tables/)
--   Jan Eric Hellbusch: [Barrierefreie
-    Tabellen](https://www.barrierefreies-webdesign.de/knowhow/datentabellen/)
+-   W3C/WAI: [Tutorial zu Tabellen](https://www.w3.org/WAI/tutorials/tables/)
+-   Jan Eric Hellbusch: [Barrierefreie Tabellen](https://www.barrierefreies-webdesign.de/knowhow/datentabellen/)
 
 ### Listen
 
 Nummerierte Aufzählungen und Listen werden auf Webseiten mit eigenen
 HTML-Elementen deklariert. Wie auch bei Überschriften und Absätzen ist
-bei Listen die Einhaltung dieser Semantik wichtig, damit
-Aufzählungselemente und Listenpunkte als solcher für Screenreader
-identifizierbar sind.
+bei Listen die Einhaltung dieser Semantik wichtig, damit Aufzählungselemente und Listenpunkte als solcher für Screenreader identifizierbar sind.
 
 Im Redaktionsalltag sind im wesentlichen zwei Formen von Listen in
 Gebrauch: Unsortierte und nummerierte Listen. (Es gibt noch eine dritte
-From durch die
-[Definitionslisten](https://wiki.selfhtml.org/wiki/HTML/Textstrukturierung/dl);
+From durch die [Definitionslisten](https://wiki.selfhtml.org/wiki/HTML/Textstrukturierung/dl);
 Diese werden jedoch nur selten verwendet und sie lassen sich durch eine
 normale Überschrift mit einem darauf folgenden Absatz ersetzen).
 
@@ -649,13 +625,8 @@ eigene Bedienelemente:
 ![Bild: Nummerierte Liste mit unnummierten Unterlisten in einem
 TinyMCE-Editor](03-inhalte/listen-tinymce.jpg)
 
-Zu beachten ist auch hier, wie oben bereits bei den Überschriften und
-den Tabellen erwähnt: Listen dienen nicht der optischen Gestaltung
-beliebiger Texte oder zur Einrückung derselben. Sie haben den Zweck, eine
-Liste auszuzeichnen. Und umgekehrt bedeutet dies: Wer eine Liste auf
-einer Seite angeben möchte, der muss dazu auch die Listenelemente
-verwenden --- und nicht etwa Absätze aus einzelnen Zeilen, die mit einer
-Zahl beginnen und einem erzwungen Umbruch enden.
+Zu beachten ist auch hier, wie oben bereits bei den Überschriften und den Tabellen erwähnt: Listen dienen nicht der optischen Gestaltung beliebiger Texte oder zur Einrückung derselben. Sie haben den Zweck, eine
+Liste auszuzeichnen. Und umgekehrt bedeutet dies: Wer eine Liste auf einer Seite angeben möchte, der muss dazu auch die Listenelemente verwenden &mdash; und nicht etwa Absätze aus einzelnen Zeilen, die mit einer Zahl beginnen und einem erzwungen Umbruch enden.
 
 Eine korrekt ausgezeichnete Liste wird im Gegensatz zu Absatzzeilen auch
 von Screenreader und Analysesoftware als zusammenhängende Liste erkannt.
@@ -745,11 +716,9 @@ kann man auch das `<cite>`-Element innerhalb eines Absatzes nutzen:
 
 #### Verpflichtende Erfolgskriterien
 
--   [1.3.1 Info und
-    Beziehungen](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=249#info-and-relationships)
+-   [1.3.1 Info und Beziehungen](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=249#info-and-relationships)
     (Stufe A)
--   [3.2.4 Konsistente
-    Erlennung](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=324#consistent-identification)
+-   [3.2.4 Konsistente Erlennung](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=324#consistent-identification)
     (Stufe AA)
 
 #### Vertiefung
@@ -793,8 +762,7 @@ zum Einbetten an. Dieses öffnet ein neues Fenster in dem man einen
 HTML-Code angeboten bekommt, welchen man in seine eigene Webseite
 integrieren kann:
 
-![Bild: Embedding eines Videos von
-YouTube](03-inhalte/embedding-youtube.jpg)
+![Bild: Embedding eines Videos von YouTube](03-inhalte/embedding-youtube.jpg)
 
 Moderne CMS nutzen zudem vermehrt die
 [oEmbed-Schnittstelle](https://oembed.com/) . Mit dieser ist es für den
@@ -805,8 +773,7 @@ Stattdessen reicht es, die URL des Videos oder der Information auf dem
 Portal aus der Adresszeile des Browsers zu nehmen und in den Editor zu
 kopieren.
 
-![Bild: Embedding über URL - Codeansicht des
-Editors](03-inhalte/embedding-ueber-url1.jpg)
+![Bild: Embedding über URL - Codeansicht des Editors](03-inhalte/embedding-ueber-url1.jpg)
 
 Dies passiert im CMS WordPress sogar schon im WYSIWYG-Editor:
 
@@ -839,83 +806,30 @@ ob dieses tatsächlich barrierefrei geliefert wird oder nicht. Daher
 sollte hier eine Lösung ähnlich wie der bei dem Einsatz von Bildern
 vorgenommen werden:
 
-> Sofern das Embedding **zwingend notwendige Informationen** enthält,
-> die der Leser der Webseite erfahren muss, sollten diese Informationen
-> **zusätzlich in Textform** bereitgestellt werden.
+- Sofern das Embedding **zwingend notwendige Informationen** enthält, die der Leser der Webseite erfahren muss, sollten diese Informationen **zusätzlich in Textform** bereitgestellt werden.
 
 Um den Konformitätsanforderungen der WCAG Genüge zu tun, ist deutlich zu
 machen, dass der angezeigte Content von einer Drittquelle kommt. Daher:
 
-> **An geeigneter Stelle vor oder nach dem Embedding wird auf die Quelle
-> hingewiesen.** Hierbei sollte bestenfalls das Quellportal (z.B. der
-> YouTube-Kanal ) und der Titel sichtbar sein. Eine gesonderte
-> Verlinkung sollte ebenfalls vorgenommen werden, so dass man hierfür
-> nicht auf das Embedding selbst angewiesen ist.
+- **An geeigneter Stelle vor oder nach dem Embedding wird auf die Quelle hingewiesen.** Hierbei sollte bestenfalls das Quellportal (z.B. der YouTube-Kanal ) und der Titel sichtbar sein. Eine gesonderte Verlinkung sollte ebenfalls vorgenommen werden, so dass man hierfür nicht auf das Embedding selbst angewiesen ist.
 
 #### Verpflichtende Erfolgskriterien
 
-Autoren von Webseiten, die aufgrund von Inhalten, die außerhalb der
-Kontrolle des Autors liegen, nicht konform sein können, müssen eine
-[Erklärung partieller
-Konformität](https://www.w3.org/Translations/WCAG20-de/#conformance-partial)
-vornehmen. Bei einer Prüfung der Seite gemäß den Richtlinien der WCAG
+Autoren von Webseiten, die aufgrund von Inhalten, die außerhalb der Kontrolle des Autors liegen, nicht konform sein können, müssen eine [Erklärung partieller Konformität](https://www.w3.org/Translations/WCAG20-de/#conformance-partial) vornehmen. Bei einer Prüfung der Seite gemäß den Richtlinien der WCAG
 würde dies bedeuten, dass man die Seite nur ohne das Embedding prüft und
 die eingebundenen Teile als solche deutlich erkennbar macht. Das kann
 zum Beispiel dadurch geschehen, dass man den Inhalt, wie oben empfohlen,
 als zusätzlichen Text beschreibt.
 
-Wichtig ist hierbei, dass der Leser der Seite deutlich erkennen kann, dass
-der Inhalt aus einer Drittquelle kommt.
+Wichtig ist hierbei, dass der Leser der Seite deutlich erkennen kann, dass der Inhalt aus einer Drittquelle kommt.
 
 #### Rechtlicher Hinweis (Stand August 2018)
 
-Die EU-Richtlinie schränkt in Artikel 1, Absatz 4d) und 4e) die
-Umsetzung der WCAG ein. Dieser Teil der Richtlinie -nämlich die
-Einschränkungen und Ausnahmen im Anwendungsbereich- wurde jedoch bei der
-Umsetzung der Gesetzgebung von einigen Bundesländern (noch) nicht
-übernommen. Es gilt daher das, was in der WCAG zur Umsetzung der
-Konformität beschrieben wurde.
+Die EU-Richtlinie schränkt in Artikel 1, Absatz 4d) und 4e) die Umsetzung der WCAG ein. Dieser Teil der Richtlinie -nämlich die Einschränkungen und Ausnahmen im Anwendungsbereich- wurde jedoch bei der Umsetzung der Gesetzgebung von einigen Bundesländern (noch) nicht übernommen. Es gilt daher das, was in der WCAG zur Umsetzung der Konformität beschrieben wurde.
 
 #### Vertiefung
 
 -   [oEmbed](https://oembed.com/),
 -   W3C: [Erklärung partieller Konformität - Inhalte von
     Dritten](https://www.w3.org/Translations/WCAG20-de/#conformance-partial)
-
-Spickzettel
------------
-
-### Überschriften:
-
--   Verwenden Sie Überschriften zur Gliederung längerer Texte
-    entsprechend ihrer logischen Abfolge
--   Überschriften werden aus den HTML-Tags `<h1>`,
-    `<h2>`,`<h3>`,`<h4>`,`<h5>` und`<h6>`gebildet. Falls ihr CMS einen
-    WYSIWYG-Editor anbietet, nutzen Sie dessen vorgegebene
-    Absatzvorlagen für Überschriften.
--   Eine in **fett markierte Zeile** ist keine Überschrift, sondern nur
-    fett dargestellter Text.
--   Verwenden Sie Überschriften nicht, um die Optik des Textes ihren
-    Wünschen anzupassen.
-
-### Bilder
-
--   Bei Bildern, die eine inhaltliche Information übermitteln sollen,
-    beschreibt man das, was man sieht im *alt=\""*. Im *title="\"* wird
-    lediglich der Titel oder der Name des Bildes geschrieben.
--   Ein Text im Attribut *alt=\"\"* darf nur maximal 80 Zeichen lang
-    sein. Ist ein längerer Text zum Inhaltsverständnis notwendig, ist
-    dieser im normalen Textbereich zu schreiben.
--   Falls ein Bild keine inhaltliche Aussage trägt und lediglich der
-    optischen Aufwertung der Webseite dient, lassen Sie sowohl *alt=\"\"*
-    als auch *title=\"\"* leer. *alt=\"\"* wird dabei jedoch nicht weggelassen, sondern ohne
-    Eintrag zwischen den doppelten Hochkommata geschrieben.
-
-### Links:
-
--   Ziel beschreiben. Der Link muss auch ohne Text vor und nach dem Link
-    erkennbar machen, wohin er geht und was dem Leser erwartet, wenn er
-    auf den Link klickt.
--   Ein Link mit dem Text "hier", wie beispielsweise "*Klicken Sie
-    **hier***" ist kein verständlicher Link, sondern eine Zumutung.
 

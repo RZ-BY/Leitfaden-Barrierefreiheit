@@ -1,7 +1,7 @@
 Entwicklung und Design 
 =======================
 
-### Aufgabenbereich und Zielgruppe
+## Aufgabenbereich und Zielgruppe
 
 Dieser Anwendungsbereich betrifft die Entwicklung und das Webdesign von Webangeboten, Webauftritten und Apps. Teil der Entwicklung ist auch die Umsetzung und Bereitstellung von Templates und Musterseiten, die von
 Autoren verwendet werden. Auch automatisch erstellte Ausgaben werden durch diese Zielgruppe definiert.
@@ -14,13 +14,15 @@ Dieses Kapitel wendet sich an folgende Personenkreise:
 -   API-Entwicklern,
 -   Zuständige für SEO- und Performanceoptimierung
 
-### Grundlagen
+## Grundlagen
 
-Worauf kommt es an
+Die Entwicklung von Webangeboten, Webauftritten und Apps ist abhängig von der jeweiligen Arbeitsweisen der Beteiligten, von definierten Workflows und Prozessen und von vorgegebenen Frameworks.
+Der Leitfaden kann keine Empfehlungen zur Arbeitsorganisation und zum idealen Ablauf eines Webprojektes geben. Dies würde den Rahmen des Leitfadens deutlich sprengen. Daher werden an dieser Stelle nur die wichtigsten Problemfelder bei der Entwicklung und Bereitstellung von Webangeboten, Webauftritten und Apps behandelt.
 
-### Umsetzung
 
-#### Globale Einstellungen des Webauftritts
+## Umsetzung
+
+### Globale Einstellungen des Webauftritts
 
 > **3.1.1 Sprache der Seite:** Die voreingestellte [menschliche
 > Sprache](https://www.w3.org/Translations/WCAG20-de/#human-langdef) jeder [Webseite](https://www.w3.org/Translations/WCAG20-de/#webpagedef) kann [durch Software bestimmt](https://www.w3.org/Translations/WCAG20-de/#programmaticallydetermineddef) werden.
@@ -42,17 +44,15 @@ Worauf kommt es an
 > erfüllen](http://www.w3.org/WAI/WCAG20/quickref/#qr-meaning-other-lang-id)\|[3.1.2
 > verstehen](http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html)
 
-#### Navigation
+### Navigation
 
-#### Tastatur
+### Tastatur
 
-#### Anpassbarkeit der Größen
+### Anpassbarkeit der Größen
 
-#### Robust
 
-#### Slider und Carousels: Zeitbasierte Medien
 
-#### Bilder
+### Bilder
 
 > **1.1.1
 > Nicht-Text-Inhalt:** Alle [Nicht-Text-Inhalte](https://www.w3.org/Translations/WCAG20-de/#non-text-contentdef),
@@ -173,9 +173,9 @@ Markennamens ist) werden als unentbehrlich betrachtet.
 > erfüllen](http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-text-presentation)\|[1.4.5
 > verstehen](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html)
 
-#### Farben
+### Farben
 
-#### Formulare
+### Formulare
 
 > **3.3.1 Fehlererkennung:** Wenn
 > ein [Eingabefehler](https://www.w3.org/Translations/WCAG20-de/#input-errordef) automatisch
@@ -195,7 +195,13 @@ Markennamens ist) werden als unentbehrlich betrachtet.
 > erfüllen](http://www.w3.org/WAI/WCAG20/quickref/#qr-minimize-error-cues)\|[3.3.2
 > verstehen](http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html)
 
-#### Medien und Embeddings
+
+### Slider und Carousels: Zeitbasierte Medien
+
+### Embeddings
+
+
+
 
 Spickzettel
 -----------
@@ -204,8 +210,4 @@ Gute und schlechte Beispiele
 
 To be filled
 
-Vertiefung
-----------
-
-To be filled
 
