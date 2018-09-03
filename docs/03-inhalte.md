@@ -141,7 +141,7 @@ beispielsweise
 kann man sich die Überschriftenhierachie einer Webseite gesondert
 anzeigen lassen.
 
-![Bild: Beispiels einer HeadingsMap](03-inhalte/headingsmap.jpg){ width="348px" }
+![Bild: Beispiels einer HeadingsMap](03-inhalte/headingsmap.jpg)
 
 Neben Screenreadern nutzen auch Suchmaschinen die Überschriften und deren
 logische Abfolge zur Einordnung von Inhalten. Wenn Sie also Wert darauf
@@ -205,7 +205,7 @@ kann man diese *globale* Einstellung normalerweise nicht ändern. Unter
 Umständen bieten manche CMS Installationen die Option an, die Sprache
 einer einzelnen Inhaltseite gesondert anzugeben:
 
-![Bild: Seitensprache ändern](03-inhalte/seitensprache-aendern.png){ width="285px" }
+![Bild: Seitensprache ändern](03-inhalte/seitensprache-aendern.png)
 
 Auch wenn die Angabe der Sprache für einen *sehenden Leser* unnötig
 erscheint, ist sie dennoch von großer Bedeutung:

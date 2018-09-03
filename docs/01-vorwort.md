@@ -12,10 +12,9 @@ Vorwort
 =======
 
 Dieser Leitfaden soll Einrichtungen und Angehörigen der Hochschulen für Angewandte Wissenschaft in Bayern eine „Erste Hilfe" bei der Umsetzung der Barrierefreiheit in der IT (Webangebote und Dokumente) geben.
+Aus rechtlicher Sicht leitet sich der Begriff der Barrierefreiheit aus dem Gleichheitsgrundsatz des Art. 3 GG ab. Dieser garantiert Chancengleichheit und den Ausgleich bestehender Nachteile. Damit soll die Teilnahme aller am öffentlichen Leben umgesetzt werden.
 
-**Kurze Definition Barrierefreiheit:** Dies leitet sich aus dem Gleichheitsgrundsatz des Art. 3 GG ab. Dieser garantiert Chancengleichheit und den Ausgleich bestehender Nachteile. Damit soll die Teilnahme aller am öffentlichen Leben umgesetzt werden.
-
-Dabei liefert der Leitfaden jedoch nur einen Rahmen zur Einführung und eine allgemeine Handreichung. Eine detaillierte und stets aktualisierte Dokumentation hinsichtlich der technischen, organisatorischen und inhaltlichen Umsetzung kann nicht gegeben werden. Stattdessen werden die jeweiligen Bereiche nach Zielgruppen und Themen aufgegliedert und in diesen die jeweils wichtigsten Handlungsempfehlungen aufgeführt. Für Details der Umsetzung, sowie der Hintergründe, die der Vertiefung dienen, werden Links zu relevanten Webseiten und Dokumentationen angegeben.
+Der Leitfaden liefert einen Rahmen zur Einführung in das Thema der digitalen Barrierefreiheit und eine allgemeine Handreichung. Eine detaillierte und stets aktualisierte Dokumentation hinsichtlich der technischen, organisatorischen und inhaltlichen Umsetzung kann nicht gegeben werden. Stattdessen werden die jeweiligen Bereiche nach Zielgruppen und Themen aufgegliedert und in diesen die jeweils wichtigsten Handlungsempfehlungen aufgeführt. Für Details der Umsetzung, sowie der Hintergründe, die der Vertiefung dienen, werden Links zu relevanten Webseiten und Dokumentationen angegeben.
 
 Einführung und Hintergründe
 ---------------------------
@@ -57,13 +56,10 @@ Inhalten und Technik auch für eine deutlich verbesserte Benutzerfreundlichkeit 
 Die Richtlinien der WCAG wurden so konzipiert, dass sie sich weitgehend auf verschiedene Webtechniken der Gegenwart und Zukunft anwenden lassen sowie mit einer Kombination aus automatisierten Tests und der Evaluation
 durch Menschen überprüfbar sind. Die WCAG ist hierzu auch öffentlich zugänglich und wird ergänzt durch:
 
--   ausführliche Erläuterungen mit Anwednungsbeispielen 
-    (<https://www.w3.org/TR/UNDERSTANDING-WCAG20/>),
--   technische Tutorien (<https://www.w3.org/TR/WCAG20-TECHS/>),
--   die Bereitstellung von Testverfahren (u.a. die WCAG-EM,
-    <https://www.w3.org/WAI/eval/report-tool/> ),
--   die Auflistung anderer Werkzeuge und Verfahren
-    (<https://www.w3.org/WAI/ER/tools/>).
+-   ausführliche Erläuterungen mit Anwendungsbeispielen,,
+-   technische Tutorien,
+-   die Bereitstellung von Testverfahren (u.a. die WCAG-EM),
+-   die Auflistung anderer Werkzeuge und Verfahren.
 
 Die WCAG geht zurück auf eine Empfehlung des W3C und der „Web Content Accessibility Guildelines" Arbeitsgruppe. Die WCAG wurde durch das W3C-Verfahren (<https://www.w3.org/WAI/standards-guidelines/w3c-process/>)  in
 Kooperation mit Einzelpersonen und Organisationen auf der ganzen Welt entwickelt. Die WCAG wird dabei stetig weiterentwickelt, um auch neue Technologien und Entwicklungen zu berücksichtigen. Die letzte Version
