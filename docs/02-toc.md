@@ -6,7 +6,7 @@ Dieser Leitfaden wird unterteilt in die Anforderungen unterschiedlicher Zielgrup
 1.  Bereitstellung und Pflege von Inhalten
     - für: *Redakteure und Autoren von Webinhalten* 
 2.  Entwicklung und Design
-    - für: *Webentwickler und Webdesigner sowie Administratoren von CMS*
+    - für: *Webentwickler und Webdesigner*
 3.  Organisatorische und rechtliche Anforderungen
     - für: *Verantwortliche Betreiber von Webauftritten, Auftraggeber, Entscheider*
 4.  Satzungen, Prüfungsordnungen, Dienstanweisungen

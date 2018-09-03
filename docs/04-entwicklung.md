@@ -1,211 +1,192 @@
 Entwicklung und Design 
 =======================
 
-### Aufgabenbereich und Zielgruppe
+## Aufgabenbereich und Zielgruppe
 
 Dieser Anwendungsbereich betrifft die Entwicklung und das Webdesign von Webangeboten, Webauftritten und Apps. Teil der Entwicklung ist auch die Umsetzung und Bereitstellung von Templates und Musterseiten, die von
 Autoren verwendet werden. Auch automatisch erstellte Ausgaben werden durch diese Zielgruppe definiert.
 
 Dieses Kapitel wendet sich an folgende Personenkreise:
 
--   Webdesigner
--   Webentwickler,
--   CMS-Administratoren,
--   API-Entwicklern,
--   Zuständige für SEO- und Performanceoptimierung
+-   Webdesigner,
+-   Webentwickler
 
-### Grundlagen
+## Grundlagen
 
-Worauf kommt es an
+Die Entwicklung von Webangeboten, Webauftritten und Apps ist abhängig von der jeweiligen Arbeitsweisen der Beteiligten, von definierten Workflows und Prozessen und von vorgegebenen Frameworks.
+Der Leitfaden kann keine Empfehlungen zur Arbeitsorganisation und zum idealen Ablauf eines Webprojektes geben. Dies würde den Rahmen des Leitfadens deutlich sprengen. Daher werden an dieser Stelle nur die wichtigsten Problemfelder bei der Entwicklung und Bereitstellung von Webangeboten, Webauftritten und Apps angesprochen und für eine tiefergehende Beschäftigung auf relevante Webseiten verwiesen.
 
-### Umsetzung
+Ein umfangreiches Tutorial für die Entwicklung und Gestaltung von Webangeboten und Webauftritten bietet das  [Web Accessibility Tutorial des W3C](https://www.w3.org/WAI/tutorials/). Dieses sollte sowohl bei Neuentwicklungen als auch bei der Korrektur vorhandener Webangebote als Grundlage und Nachschlagewerk genommen werden.
+Das Tutorial erläutert, wie Teile von Webangeboten erstellt werden können um sowohl die Konformität zur WCAG sicherzustellen, als auch die Benutzererfahrung für alle Nutzer einer Seite zu erhöhen.
+Es gliedert sich in folgende Teile: 
 
-#### Globale Einstellungen des Webauftritts
+* [Strukturierung und Layout](https://www.w3.org/WAI/tutorials/page-structure/)
+* [Menüs und Navigationskonzepte](https://www.w3.org/WAI/tutorials/menus/)
+* [Bilder](https://www.w3.org/WAI/tutorials/images/)
+* [Tabellen](https://www.w3.org/WAI/tutorials/tables/)
+* [Formulare](https://www.w3.org/WAI/tutorials/forms/)
+* ["Carousels" (Slider, Wechselnde Artikel)](https://www.w3.org/WAI/tutorials/carousels/)
 
-> **3.1.1 Sprache der Seite:** Die voreingestellte [menschliche
-> Sprache](https://www.w3.org/Translations/WCAG20-de/#human-langdef) jeder [Webseite](https://www.w3.org/Translations/WCAG20-de/#webpagedef) kann [durch Software bestimmt](https://www.w3.org/Translations/WCAG20-de/#programmaticallydetermineddef) werden.
-> (Stufe A)
->
-> [3.1.1
-> erfüllen](http://www.w3.org/WAI/WCAG20/quickref/#qr-meaning-doc-lang-id)\|[3.1.1
-> verstehen](http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html)
->
-> **3.1.2 Sprache von Teilen:** Die [menschliche
-> Sprache](https://www.w3.org/Translations/WCAG20-de/#human-langdef) jedes
-> Abschnitts oder jedes Satzes im Inhalt
-> kann [durch Software bestimmt](https://www.w3.org/Translations/WCAG20-de/#programmaticallydetermineddef) werden
-> außer bei Eigennamen, technischen Fachbegriffen, Wörtern einer
-> unklaren Sprache und Wörtern oder Wendungen, die Teil des Jargons des
-> direkt umliegenden Textes geworden sind. (Stufe AA)
->
-> [3.1.2
-> erfüllen](http://www.w3.org/WAI/WCAG20/quickref/#qr-meaning-other-lang-id)\|[3.1.2
-> verstehen](http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html)
+Weiterhin wurden für Designer und Entwickler weitere Empfehlungen und Hinweise zusammengefasst:
 
-#### Navigation
+* [Tipps und Hinweise zum barrierefreien Webdesign](https://www.w3.org/WAI/tips/designing/)
+* [Tipps und Hinweise zur Entwicklung von barrierefreien Markup](https://www.w3.org/WAI/design-develop/)  
 
-#### Tastatur
 
-#### Anpassbarkeit der Größen
+Eine weitere hilfreiche Quelle ist die [Standards-Seite des W3C](https://www.w3.org/standards/): Die Plattform enthält ein umfangreiches Nachschlagewerk zur Entwciklung von  Webangeboten, Webauftritten, App aber auch von Schnittstellen, strukturierten Daten und Kommunikationsprotokollen.
 
-#### Robust
 
-#### Slider und Carousels: Zeitbasierte Medien
+## Umsetzung
 
-#### Bilder
+Die wesentlichen Grundlagen und Beispiele zur Umsetzung werden in den oben genannten Tutorials behandelt. Hier folgen daher lediglich Umsetzungshilfen, die obige Tutorials ergänzen oder Sonderfälle betreffen. 
 
-> **1.1.1
-> Nicht-Text-Inhalt:** Alle [Nicht-Text-Inhalte](https://www.w3.org/Translations/WCAG20-de/#non-text-contentdef),
-> die dem Benutzer präsentiert werden, haben
-> eine [Textalternative](https://www.w3.org/Translations/WCAG20-de/#text-altdef),
-> die einem äquivalenten Zweck dient, mit Ausnahme der unten
-> aufgelisteten Situationen. (Stufe A)
 
--   **Steuerelemente, Eingabe: **Wenn es sich bei dem Nicht-Text-Inhalt
-    um ein Steuerelement handelt oder Eingaben durch den Benutzer
-    akzeptiert, dann hat dieser
-    einen [Namen](https://www.w3.org/Translations/WCAG20-de/#namedef),
-    der seinen Zweck beschreibt. (Beachten Sie [Richtlinie
-    4.1.2](https://www.w3.org/Translations/WCAG20-de/#ensure-compat-rsv) für
-    zusätzliche Anforderungen an Steuerelemente und Inhalte, die
-    Eingaben durch den Benutzer akzeptieren.)
+### Strukturierte Daten 
 
--   **Zeitbasierte Medien: **Wenn es sich bei den Nicht-Text-Inhalten um
-    zeitbasierte Medien handelt, dann stellen Textalternativen zumindest
-    eine deskriptive Identifizierung des Nicht-Text-Inhalts bereit.
-    (Beachten Sie [Richtlinie
-    1.2](https://www.w3.org/Translations/WCAG20-de/#media-equiv) für
-    zusätzliche Anforderungen an Medien.)
 
--   **Test: **Wenn es sich bei dem Nicht-Text-Inhalt um einen Test oder
-    eine Übung handelt, die nichtig wäre, wenn sie
-    als [Text](https://www.w3.org/Translations/WCAG20-de/#textdef) dargestellt
-    würde, dann stellen Textalternativen zumindest eine deskriptive
-    Identifizierung des Nicht-Text-Inhalts bereit.
+**Hinweis: Die Umsetzung von strukturierten Daten ist derzeit für die Umsetzung der Barrierefreiheit nicht erforderlich.** 
+Gleichwohl kommt es dennoch zu positiven Auswirkungen in der Form, daß die Webseite durch Software besser analysiert werden kann. Dies führt unter anderem zu einer besseren Auffindbarkeit mit Hilfe von Suchmaschinen und somit wiederum dazu, daß Menschen die Inhalte besser finden, bevor sie überhaupt auf der Seite sind.
 
--   **Sensorisch: **Wenn Nicht-Text-Inhalt hauptsächlich dafür gedacht
-    ist, eine [bestimmte
-    Sinneserfahrung](https://www.w3.org/Translations/WCAG20-de/#sensoryexpdef) zu
-    schaffen, dann stellen Textalternativen zumindest eine deskriptive
-    Identifizierung des Nicht-Text-Inhalts bereit.
+Strukturierte Daten erlauben es, die Semantik von HTML mit Hilfe standardisierter Anweisungen zu erweitern. HTML erlaubt zwar die Auszeichnung von Überschriften, Absätzen und Bildern, definiert jedoch keine Aussagen über den Inhalt. 
+Menschen können Anhand von Kontext und Inhalt erkennen, worum es geht. Diese Möglichkeit hat Software (abseits von Machine Learning) jedoch nicht. 
+Die in der [WAI-ARIA 1.1](https://www.w3.org/TR/wai-aria/) durch die W3C definierte Spezifikation kann dieses Problem auch nicht lösen. Die ARIA erlaubt zwar die Auszeichnung von Strukturen, Bedienelementen und Inhaltstypen einer Webseite, sie emacht aber keine Aussagen zur inhaltlichen Bedeutung.
 
--   **[CAPTCHA](https://www.w3.org/Translations/WCAG20-de/#CAPTCHAdef):** Wenn
-    der Zweck des Nicht-Text-Inhalts der ist zu bestätigen, dass eine
-    Person und nicht ein Computer auf den Inhalt zugreift, dann werden
-    Textalternativen bereitgestellt, die den Zweck des
-    Nicht-Text-Inhalts identifizieren. Außerdem werden alternative
-    Formen von CAPTCHAs bereitgestellt, die Ausgabeformen für
-    verschiedene Arten der sensorischen Wahrnehmung nutzen, um
-    verschiedenen Behinderungen Rechnung zu tragen.
+![Bild: Schemagrafik zur Erkennung von Inhalten](04-entwicklung/strukturierte-daten-schema-w3c.png)
 
--   **Dekoration, Formatierung, unsichtbar: **Wenn der
-    Nicht-Text-Inhalt [reine
-    Dekoration](https://www.w3.org/Translations/WCAG20-de/#puredecdef) ist,
-    nur für visuelle Formatierung benutzt wird oder dem Benutzer gar
-    nicht präsentiert wird, dann wird der Inhalt so implementiert, dass
-    er von [assistierender
-    Technik](https://www.w3.org/Translations/WCAG20-de/#atdef) ignoriert
-    werden kann.
+Das Schema aus der Beschreibung des W3C zur [Spezifikation RDFa 1.1](https://www.w3.org/TR/rdfa-primer/) beschreibt das Problem: Auf der linken Seite ist das zu sehen, was die Browsersoftware sieht: Zwei Überschriften, einen mit `<em>` markierten Text und darunter ein Absatz. Gefolgt von eine Linkliste.
 
-> [1.1.1
-> erfüllen](http://www.w3.org/WAI/WCAG20/quickref/#qr-text-equiv-all)\|[1.1.1
-> verstehen](http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html)
->
-> **1.3.1 Info und
-> Beziehungen:** Informationen, [Struktur](https://www.w3.org/Translations/WCAG20-de/#structuredef) und [Beziehungen](https://www.w3.org/Translations/WCAG20-de/#relationshipsdef),
-> die über
-> die [Darstellung](https://www.w3.org/Translations/WCAG20-de/#presentationdef) vermittelt
-> werden,
-> können [durchSoftware bestimmt](https://www.w3.org/Translations/WCAG20-de/#programmaticallydetermineddef) werden
-> oder stehen in Textform zur Verfügung. (Stufe A)
->
-> [1.3.1
-> erfüllen](http://www.w3.org/WAI/WCAG20/quickref/#qr-content-structure-separation-programmatic)\|[1.3.1
-> verstehen](http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html)
->
-> **1.4.3 Kontrast (Minimum):** Die visuelle Darstellung
-> von [Text](https://www.w3.org/Translations/WCAG20-de/#textdef) und [Bildern
-> von
-> Text](https://www.w3.org/Translations/WCAG20-de/#images-of-textdef) hat
-> ein [Kontrastverhältnis](https://www.w3.org/Translations/WCAG20-de/#contrast-ratiodef) von
-> mindestens 4,5:1 mit folgenden Ausnahmen: (Stufe AA)
+Ein Mensch hingegen interpretiert es als einen Artikel mit einer Hauptüberschrift, einer kleineren Überschrift zur Angabe des Autors, ein Datumsangabe und darauf folgend den eigenen Artikel. Gefolgt von einer Tagclound und einem Link zu Copyright-Informationen.
 
--   **Großer
-    Text: **[Großer](https://www.w3.org/Translations/WCAG20-de/#larger-scaledef) Text
-    und Bilder von großem Text haben ein Kontrastverhältnis von
-    mindestens 3:1;
+Suchmaschinen und spezialisierte Softwareprodukte werten strukturierte Datena auf Webseiten aus und liefern diese dann in geeigneter Weise an Menschen aus. So zum Beispiel:
 
--   **Nebensächlich: **Für Text oder Bilder eines Textes, die Teil eines
-    inaktiven [Bestandteils der
-    Benutzerschnittstelle](https://www.w3.org/Translations/WCAG20-de/#user-interface-componentdef), [rein
-    dekorativ](https://www.w3.org/Translations/WCAG20-de/#puredecdef),
-    für niemanden sichtbar oder Teil eines Bildes sind, welches
-    signifikanten anderen visuellen Inhalt enthält, gibt es keine
-    Kontrastanforderung.
+- durch die Anreicherung der Ergebnisliste einer Suche mit Öffnungszeiten, Termine, lokaler Suche, hervorgehobenen Links;
+- durch Auslesen von aktuellen Terminen aus Webseiten und Weiterverwendung dieser in anderen Anwendungen;
+- durch die automatische Erkennung von Telefonnummern auf Webseiten und Verknüpfung dieser mit der Anrufsfunktion auf mobilen Devives.
 
--   **Wortbildmarken: **Text, der Teil eines Logos oder eines
-    Markennamens ist, hat keine Kontrastanforderungen.
+Bei der Suche in Google wird beispielsweise bei der Suche nach der Universität Erlangen unterhalb einem Treffer auch eine Auswahlliste an Öffnungszeiten gezeigt. 
+![Bild: Anzeige der Öffnungszeiten von Teilen der Universität bei der Ausgabe einer Suche mit Google](04-entwicklung/strukturierte-daten-fau-oeffnungszeiten.png)
 
-> [1.4.3
-> erfüllen](http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-contrast)\|[1.4.3
-> verstehen](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html)
->
-> **1.4.5 Bilder eines Textes:** Wenn die benutzten Techniken die
-> visuelle Präsentation bewirken können, dann
-> wird [Text](https://www.w3.org/Translations/WCAG20-de/#textdef) statt [Bilder
-> eines
-> Textes](https://www.w3.org/Translations/WCAG20-de/#images-of-textdef) dazu
-> benutzt, Informationen zu vermitteln mit den folgenden Ausnahmen:
-> (Stufe AA)
+Und bei der Suche nach der LMU wird für diese im Infopanel eine Liste der kommenden Veranstaltungen angeboten.
+![Bild: Anzeige der kommenden Veransattlungen der LMU](04-entwicklung/strukturierte-daten-lmu-infopanel.png)
 
--   **Anpassbar:** Das Bild eines Textes
-    kann [visuell](https://www.w3.org/Translations/WCAG20-de/#visually-customizeddef) an
-    die Anforderungen des Benutzers angepasst werden;
+Der Nebeneffekt dieser Anzeigen ist auch, daß der Benutzer der Suchmaschine ohne Umweg über die Startseite der jeweilige Webseite gleich zu dem jeweiligen Angebot springen kann.
 
--   **Unentbehrlich:** Eine bestimmte Präsentation von Text ist für die
-    vermittelten
-    Informationen [unentbehrlich](https://www.w3.org/Translations/WCAG20-de/#essentialdef).
+In HTML geschieht die Auszeichnung dieser Inhalte durch die Attribute `itemscope` und `itemprop`. 
 
-*Anmerkung:* Wortbildmarken (Text, der Teil eines Logos oder
-Markennamens ist) werden als unentbehrlich betrachtet.
+##### Beispiel Termin mit strukturierten Daten 
 
-> [1.4.5
-> erfüllen](http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-text-presentation)\|[1.4.5
-> verstehen](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html)
+Ohne strukturierte Daten würde eine Terminangabe in HTML so aussehen:
 
-#### Farben
+```html
+<div class="event">
+	  <h2>Webkongress Erlangen</h2>
+	  <em>12. September 2018, 9:00 Uhr</em>
+	  Department Mathematik 
+	  <address>  
+			Cauerstraße 11
+			91058 Erlangen
+	  </address>
+</div>
+```
 
-#### Formulare
+Mit Anwendung der [Schema.org-Beschreibung zu Terminen](https://schema.org/Event) wird hieraus folgendes:
 
-> **3.3.1 Fehlererkennung:** Wenn
-> ein [Eingabefehler](https://www.w3.org/Translations/WCAG20-de/#input-errordef) automatisch
-> erkannt wird, dann wird das fehlerhafte Element identifiziert und der
-> Fehler wird dem Benutzer in Textform beschrieben. (Stufe A)
->
-> [3.3.1
-> erfüllen](http://www.w3.org/WAI/WCAG20/quickref/#qr-minimize-error-identified)\|[3.3.1
-> verstehen](http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html)
->
-> **3.3.2 Beschriftungen (Labels) oder Anweisungen:** Wenn der Inhalt
-> eine Eingabe durch den Benutzer verlangt werden [Beschriftungen
-> (Labels)](https://www.w3.org/Translations/WCAG20-de/#labeldef) oder
-> Anweisungen bereitgestellt. (Stufe A)
->
-> [3.3.2
-> erfüllen](http://www.w3.org/WAI/WCAG20/quickref/#qr-minimize-error-cues)\|[3.3.2
-> verstehen](http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html)
 
-#### Medien und Embeddings
+```html
+<div class="event" itemscope itemtype="http://schema.org/Event">
+	  <h2>Webkongress Erlangen</h2>
+	  <em itemprop="startDate" content="2018-09-12T09:00">12. September 2018, 9:00 Uhr</em>
+	  <div class="event-venue" itemprop="location" itemscope itemtype="http://schema.org/Place">
+		    <span itemprop="name">	Department Mathematik </span>
+		    <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">  
+			 	<span itemprop="streetAddress">Cauerstraße 11</span>
+				<span itemprop="postalCode">91058</span> <span itemprop="addressLocality">Erlangen</span>
+		  	</address>
+	   </div>
+ </div>
+```
 
-Spickzettel
------------
+Dieser HTML-Code kann von einer Software ausgelesen und interpretiert werden. Dabei spielt dann auch die individuelle Schreibweise bei der Datumsangabe keine Rolle mehr, da die standardisierte Form im Attribut
+`content="2018-09-12T09:00"` angegeben wurde.
+ 
+Auf der Seite [schema.org](https://schema.org/) findet sich eine Übersicht der gebräuchlichsten Inhaltstypen mit Beispielen für deren Anwendung. Um zu prüfen, ob die Angaben korrekt waren, kann das [Testtool von Google](https://search.google.com/structured-data/testing-tool?hl=de) aber auch die Browsererweitertung [Semantic Inspector](https://chrome.google.com/webstore/detail/semantic-inspector/jobakbebljifplmcapcooffdbdmfdbjh) (siehe unten) verwendet werde.
+ 
 
-Gute und schlechte Beispiele
+#### Vertiefung
+- Schema.org: [Übersicht der Typen strukturierter Daten](https://schema.org/docs/schemas.html)
+- Google: [Tutorial zu strukturierten Daten](https://developers.google.com/search/docs/guides/)
+- lunapark: [Strukturierte Daten: Mehr Aufmerksamkeit in den SERPs](https://www.luna-park.de/blog/29207-strukturierte-daten/)
+- t3n: [Rich Snippets](https://t3n.de/news/rich-snippets-anleitung-534054/)
 
-To be filled
+### Browser-Add-ons
 
-Vertiefung
-----------
+Bei dem Entwickeln und Testen von Websites können verschiedene Add-ons eine Hilfe sein.
 
-To be filled
+Der Chrome-Browser von Google hat sich in den letzten Jahren zum meistgenutzten Browser weltweit entwickelt.
+Auf dem Gebiet der Webentwicklung lag dies unter anderem auch wegen der im Vergleich zu Firefox besseren Unterstützung mit Hilfe von nativen Entwickler-Tools, aber auch aufgrund der besseren Unterstützung von Webstandards. (Siehe hierzu u.a. die Plattform [CanIuse.com](https://caniuse.com)). Mit dem neuen Firefox Quantum kann sich diese Situation wieder ändern, aber aktuell ist bei Webentwicklern der Chrome-Browser nach wie vor der am häufigsten verwendete Browser.
+Unabhängig davon muss jeder Entwickler dennoch weitere Browser auf seinen Arbeitsplatzgeräten oder virtuellen Umgebungen haben. Neue Webauftritte sollten im Idealfall stets mit mindestens drei verschiedenen Browsern auf mindestens zwei verschiedenen Betriebssystemen getestet werden.
 
+Die folgende Liste der Add-ons basiert auf dem aktuellen Chrome-Browser. Ähnliche oder auch dieselben AddOns gibt es jedoch auch auf anderen Browsern.
+
+
+<table>
+<tbody>
+<tr>
+<th>Name</th>
+<th>Beschreibung</th>
+<th>Link</th>
+</tr>
+<tr>
+<th>CertViewer</th>
+<td>Anzeige von Informationen zu dem SSL-Zertifikat einer Website.</td>
+<td><a href="https://chrome.google.com/webstore/detail/certviewer/dcfpfgpnkmklbdnicbooifodgdekdgie">Download</a></td>
+</tr>
+<tr>
+<th>ColorA11y</th>
+<td>Dieses AddOn prüft ob bei einer Website die verwendeten Farben für Texte und Hintergründe den WCAG 2.0 Anforderungen genüge tun.</td>
+<td><a href="https://chrome.google.com/webstore/detail/colora11y/icfneoldcbdmgaiocnnobpbbjncdfbfb">Download</a></td>
+</tr>
+<tr>
+<th>ColorZilla</th>
+<td>Dieses AddOn erlaubt das "Entnehmen" von Farbwerten aus einer aktuellen Website ("Color Picker") und bietet andere hilfreiche Informationen zur Farbauswahl an.</td>
+<td><a href="https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp">Download</a></td>
+</tr>
+<tr>
+<th>Full Page Screenshot</th>
+<td>Für Protokoll- und Testzwecke oder der Diskussion von Bestandteilen einer Website ist ein Screencapture-Werkzeug unumgänglich.
+Dieses Addon erlaubt das Erstellen von Screenshots einer ganzen Seite als auch dem gezielten Selektieren von Ausschnitten. Die jeweiligen Bilder können als Datei gespeichert werden.</td>
+<td><a href="https://chrome.google.com/webstore/detail/full-page-screenshot/glgomjpomoahpeekneidkinhcfjnnhmb">Download</a></td>
+</tr>
+<tr>
+<th>headingsMap</th>
+<td>Anzeige der Überschriftenhierarchie einer Webseite. Diese Anzeige ist besonders wichtig um zu erkennen, ob die Navigation innerhalb einer Seite plausibel und logisch strukturiert ist. Auch dies wird zur Einhaltung der WCAG-Bedingungen erfordert.</td>
+<td><a href="https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi">Download</a></td>
+</tr>
+<tr>
+<th>IP-Domain-Markierungsfahne</th>
+<td>Dieses einfache Plugin ermittelt auf Basis bekannter IP-Adressebereiche die für die aktuell aufgerufene Domain jeweils wahrscheinlich passende Länderfahne.</td>
+<td><a href="https://dnslytics.com/">Download</a></td>
+</tr>
+<tr>
+<th>Semantic Inspector</th>
+<td>Moderne Websites geben über die HTML-Semantik hinaus mit Hilfe von strukturierten Elementen (vgl. auch <a href="http://schema.org/">schema.org</a>) Aussagen darüber, aus welcher Art von Inhalten eine Seite und deren Bestandteile besteht. Insbesondere Suchmaschinen und UserAgents nutzen diese Formate um Informationen aus Webseiten auszulesen und entsprechend weiterzuverabeiten. Der Semantic Inspector macht diese Inhalte sichtbar und bietet damit gleichzeitig ein Testtool an, ob die selbst eingestellten strukturierten Elemente korrekt waren.</td>
+<td><a href="https://chrome.google.com/webstore/detail/semantic-inspector/jobakbebljifplmcapcooffdbdmfdbjh">Download</a></td>
+</tr>
+<tr>
+<th>WAVE Evaluation Tool</th>
+<td>Dieses Tool ermöglicht einen automatisierten WCAG-Test der gerade besuchten Website. Die Ergebnisse sind hinreichend nutzbar für Tests und Entwicklung. Zu beachten ist jedoch, daß dieses Testtool, wie auch andere WCAG-Testtools auch viele "False Positives" meldet - also Dinge als Fehler markiert, die bei einer genaueren Prüfung sich doch als korrekt erweisen.</td>
+<td><a href="https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh">Download</a></td>
+</tr>
+<tr>
+<th>Web Developer</th>
+<td>Dieses AddOn ergänzt die Toolbar um ein Button mit hilfreichen Informationen zur Website. So beispielsweise die semantische und topographische Gestaltung der Webseite. Auch werden weitere Links angeboten, mit denen man die W3C-Validation oder andere Werkzeuge bequem aufrufen kann.</td>
+<td><a href="http://chrispederick.com/work/web-developer/">Download</a></td>
+</tr>
+</tbody>
+</table>
+Unabhängig von den AddOns wird der größte Teil der Entwicklung mit Hilfe des im Browser eingebauten Entwicklungswerkzeugs geleistet.
+Die AddOns ergänzen dessen Funktionen nur oder machen spezielle Funktionen etwas bequemer zugänglich.
+
+
+
+Üblicherweise sind weitere AddOns vorhanden, wie beispielsweise das uBlock Origin AddOn, welches effektiv Werbung unsichtbar macht bzw. das Laden dieser unterdrückt oder Ghostery, der (in Kombination mit uBlock Origin) ebenfalls ein gutes und datenschutzorientes Add-on zur digitalen Selbstverteidigung gegen Tracking und durch Werbung eingeschleuste Schadsoftware ist.

@@ -5,17 +5,20 @@ Dieser Leitfaden soll Einrichtungen und Angehörigen der Hochschulen für Angewa
 Er besteht aus mehreren Teilen, die je nach Personenkreis getrennt voneinander weitergegeben werden können:
 
 - 1. Vorwort und Einführung
-- 2. Bereitstellung und Pflege von Inhalten
-- 3. Entwicklung und Design
-- 4. Organisatorische und rechtliche Anforderungen
-- 5. Satzungen
-- 6. Weitere Leitfäden und relevante Informationsangebote
+- 2. Überblick
+- 3. Bereitstellung und Pflege von Inhalten
+- 4. Entwicklung und Design
+- 5. Organisatorische und rechtliche Anforderungen
+- 6. Satzungen
+- 7. Tests
+- 8. Weitere Leitfäden und relevante Informationsangebote
 
 
 ## Autoren
 
 - Johannes Nehlsen, [Universität Würzburg](https://www.uni-wuerzburg.de/)
 - Wolfgang Wiese, [Regionales Rechenzentrum Erlangen (RRZE)](https://www.rrze.fau.de)
+- Barbara Bothe, [Regionales Rechenzentrum Erlangen (RRZE)](https://www.rrze.fau.de)
 
 ## Lizenz
 
@@ -60,4 +63,12 @@ Zum Zusammenstellen des Gesamtdokumentes wird das Werkzeug [Pandoc](https://pand
 Für die Erstellung der PDF DOkumente ist unter Umständen zusätzliche die Installation von pdflatex oder [MiKTeX](https://miktex.org/) notwendig.
 
 Bei der Struktur der Markdown-Dateien in /docs/  wurde darauf geachtet, daß auch Tools wie beispielsweise [DAUX.IO](https://dauxio.github.io/) angewendet wrden können. Diese Werkzeuge ermöglichen es, aus den einzelnen Dateien eine Webseite zu erstellen. 
+
+
+##### Export-Templates
+
+Bei Nutzung von Pandoc ist die jeweilige Ausgabe der Dateien sehr rudimentär. WORD- und PDF-Dateien enthalten keine besonderen Einstellungen zur Corporate Design. 
+Sind optisch ansprechendere Exports erwünscht oder solche, die für den Inhalt als Tutorial angepasst sind, findet man im Git-Projekt [User contributed templates](https://github.com/jgm/pandoc/wiki/User-contributed-templates) einige hilfreiche Beispiele und Links.
+
+
 
