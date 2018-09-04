@@ -12,22 +12,21 @@ Vorwort
 
 Dieser Leitfaden soll Einrichtungen und Angehörigen der Hochschulen für
 Angewandte Wissenschaft in Bayern eine „Erste Hilfe\" bei der Umsetzung
-der Barrierefreiheit in der IT (Webangebote und Dokumente) geben.
-
-**Kurze Definition Barrierefreiheit:** Dies leitet sich aus dem
+der Barrierefreiheit in der IT (Webangebote und Dokumente) geben. Aus
+rechtlicher Sicht leitet sich der Begriff der Barrierefreiheit aus dem
 Gleichheitsgrundsatz des Art. 3 GG ab. Dieser garantiert
 Chancengleichheit und den Ausgleich bestehender Nachteile. Damit soll
 die Teilnahme aller am öffentlichen Leben umgesetzt werden.
 
-Dabei liefert der Leitfaden jedoch nur einen Rahmen zur Einführung und
-eine allgemeine Handreichung. Eine detaillierte und stets aktualisierte
-Dokumentation hinsichtlich der technischen, organisatorischen und
-inhaltlichen Umsetzung kann nicht gegeben werden. Stattdessen werden die
-jeweiligen Bereiche nach Zielgruppen und Themen aufgegliedert und in
-diesen die jeweils wichtigsten Handlungsempfehlungen aufgeführt. Für
-Details der Umsetzung, sowie der Hintergründe, die der Vertiefung
-dienen, werden Links zu relevanten Webseiten und Dokumentationen
-angegeben.
+Der Leitfaden liefert einen Rahmen zur Einführung in das Thema der
+digitalen Barrierefreiheit und eine allgemeine Handreichung. Eine
+detaillierte und stets aktualisierte Dokumentation hinsichtlich der
+technischen, organisatorischen und inhaltlichen Umsetzung kann nicht
+gegeben werden. Stattdessen werden die jeweiligen Bereiche nach
+Zielgruppen und Themen aufgegliedert und in diesen die jeweils
+wichtigsten Handlungsempfehlungen aufgeführt. Für Details der Umsetzung,
+sowie der Hintergründe, die der Vertiefung dienen, werden Links zu
+relevanten Webseiten und Dokumentationen angegeben.
 
 Einführung und Hintergründe
 ---------------------------
@@ -95,13 +94,10 @@ sowie mit einer Kombination aus automatisierten Tests und der Evaluation
 durch Menschen überprüfbar sind. Die WCAG ist hierzu auch öffentlich
 zugänglich und wird ergänzt durch:
 
--   ausführliche Erläuterungen mit Anwednungsbeispielen
-    (<https://www.w3.org/TR/UNDERSTANDING-WCAG20/>),
--   technische Tutorien (<https://www.w3.org/TR/WCAG20-TECHS/>),
--   die Bereitstellung von Testverfahren (u.a. die WCAG-EM,
-    <https://www.w3.org/WAI/eval/report-tool/> ),
--   die Auflistung anderer Werkzeuge und Verfahren
-    (<https://www.w3.org/WAI/ER/tools/>).
+-   ausführliche Erläuterungen mit Anwendungsbeispielen,,
+-   technische Tutorien,
+-   die Bereitstellung von Testverfahren (u.a. die WCAG-EM),
+-   die Auflistung anderer Werkzeuge und Verfahren.
 
 Die WCAG geht zurück auf eine Empfehlung des W3C und der „Web Content
 Accessibility Guildelines\" Arbeitsgruppe. Die WCAG wurde durch
@@ -387,8 +383,7 @@ beispielsweise
 kann man sich die Überschriftenhierachie einer Webseite gesondert
 anzeigen lassen.
 
-![Bild: Beispiels einer
-HeadingsMap](03-inhalte/headingsmap.jpg){width="348px"}
+![Bild: Beispiels einer HeadingsMap](03-inhalte/headingsmap.jpg)
 
 Neben Screenreadern nutzen auch Suchmaschinen die Überschriften und
 deren logische Abfolge zur Einordnung von Inhalten. Wenn Sie also Wert
@@ -455,8 +450,7 @@ kann man diese *globale* Einstellung normalerweise nicht ändern. Unter
 Umständen bieten manche CMS Installationen die Option an, die Sprache
 einer einzelnen Inhaltseite gesondert anzugeben:
 
-![Bild: Seitensprache
-ändern](03-inhalte/seitensprache-aendern.png){width="285px"}
+![Bild: Seitensprache ändern](03-inhalte/seitensprache-aendern.png)
 
 Auch wenn die Angabe der Sprache für einen *sehenden Leser* unnötig
 erscheint, ist sie dennoch von großer Bedeutung:
@@ -1587,15 +1581,52 @@ Dieses Kapitel wendet sich an folgende Personenkreise:
 Grundlagen
 ----------
 
+Barrierefreiheit ist kein neues Thema. Verfassungsrechtlich gut
+begründbar ist sogar ein Leistungsanspruch auf Zugänglichkeit von
+Informationen für benachteiligte Personen (Vgl. Sachs/Bethge GG Art. 5
+Rn. 62-63, beck-online zu Art. 5 Abs. 1 2. Halbsatz GG i.V.m. Art. 3
+Abs. 1 GG). Die verfassungrechtliche Grenze dieser Leistung ergebenen
+sich nur aus den potentiell verfügbaren Mitteln der handelnden Behörde.
+
+Seit dem 16. November 2016 gilt auch für die Hochschulen die BayBITV und
+der Verweis auf eine Umsetzung nach der BITV in der Stufe Priorität I.
+Für zentrale Navigations- und Einstellungsangebote ist die BITV auch in
+der Stufe Priorität II umzusetzen.
+
+Mit der Richtlinie 2016/2102 der Europäischen Union vom 26. Oktober 2016
+über den barrierefreien Zugang zu den Websites und mobilen Anwendungen
+öffentlicher Stellen ist nun die Europäischen Norm EN 301 549 V1.1.2
+<https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf>
+Für den Bereich Web (Dokumente und Software) -- enthält diese Norm alle
+Level A und Level AA - Erfolgskriterien von WCAG 2.0 als
+Mindestanforderung und für Nicht-Web-Dokumente -- orientiert sich die
+Norm an den Richtlinien der WCAG2ICT Task Force.
+
+Daher kann etwas vereinfacht gesagt werden, dass der Maßstab für
+Barrierefreiheit im Web der WCAG Standard in der seiner aktuellen
+Fassung ist, inzwischen 2.1. Wird man den Erfolgskriterien von WCAG 2.1
+gerecht, dann erfüllt man auch WCAG 2.0. Wie schnell die Anpassung der
+Europäischen Norm erfolgt, ist noch nicht absehbar.
+
 Umsetzung
 ---------
 
-#### Barrierefreiheitserklärung gemäß der EU-Richtlinie (deutsch und englisch)
+Die Umsetzung erfordert zum einen die Beachtung formaler Aspekte
+(Barrierefreiheitserklärung, Feedback-Mechanismus und
+Umsetzungenfristen) zum anderen inhaltliche Aspekte (Barrierefreiheit
+der Inhalte die durch technische und organisatorische Maßnahmen).
+Ergännzend wird die Umsetzung durch Berichtspflichten an die
+EU-Kommission und leichtere Durchsetzungsmöglichkeiten für Betroffenen
+angetrieben.
+
+### Barrierefreiheitserklärung gemäß der EU-Richtlinie (deutsch und englisch)
 
 Entwurf unter:
 <https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2018-2604172_en>
 
 Wie, wo, was...
+
+### Feebackmechanismus
 
 ### Fristen 
 
@@ -1614,16 +1645,79 @@ Wie, wo, was...
 
 -   Mobile Anwendungen müssen bis zum 23.06.2021 barrierefrei sein. 
 
-#### Vertragliche Anforderungen bei Auftragsarbeiten
+### Barriefreiheit und ihre Grenzen
+
+### Durchsetzungsmöglichkeiten für Betroffene
+
+Vertragliche Anforderungen bei Auftragsarbeiten
+-----------------------------------------------
 
 *Vorschläge und Beispielformulierungen, wie man die Einhaltung der
 Barrierefreiheit bei Auftragsarbeiten erzwingen und verifizieren kann.*
 
-### Weitere Pflichtangaben auf Webseiten
+Es kann immer wiedervorkommen, dass ein begründerter Bedarf besteht,
+Webseiten nicht hochschulintern zu entwicklen oder designen sondern
+extern entwicklen oder desingen zu lassen. Die Einrichtung die solche
+Aufträge vergibt, hat neben dem Haushaltsrecht sicherzustellen, dass in
+dem Auftrag festgelegt ist, barrierefrei zu entwickeln und designen.
 
-#### Impressum
+### Die Schritte zum Auftrag (vereinfachte Darstellung)
 
-#### Datenschutzerklärung
+1.  Wirtschaftlichkeitsbetrachtung
+2.  Die Stabsstelle IT-Recht bietet einen Mustertragvertrag an
+3.  Einhalten des Vergaberechts
+    a)  Dokumentation der Entscheidung und des Verfahrens
+    b)  Bis € 1000 (ohne Umsatzsetuer) ist eine Direktvergabe möglich
+    c)  Bis € 50.000 (ohne Umsatzsteuer) ist bei entsprechender
+        Begründung die Vergabe nach Einholung von drei Angeboten
+        erfolgen
+    d)  Bei größeren Aufträgen sollte stehts eine Abstimmung mit dem
+        Einkauf erfolgen
+
+### Die Schritte nach dem Auftrag
+
+1.  Prüfung des Werkes bei der Abnahme auf seine Barrierefreiheit, ggf.
+    mit Hilfe Ihres Rechenzentrums
+2.  Vorbehalten der Abnahme bis zur erfolgreichen
+    Barrierefreiheitsprüfung
+3.  Bei fehlender Barrierefreiheit setzen einer Frist ca. zwei Wochen
+    bis ein Monat diese zu Erreichen
+4.  Erneute Prüfung auf Barrierefreiheit
+5.  Nach Fristablauf Durchsetzung Ihrer Rechte anstreben
+    a)  Verlangen eines Vorschusses in Höhe der Kosten für die
+        Herstellung der Barrierefreiheit
+    b)  Alternativ vom Vertrag auflösen oder teilweise die Vergütung
+        zurückfordern
+    c)  Geltendmachen von Schadensersatzansprüchen
+
+Weitere Pflichtangaben auf Webseiten
+------------------------------------
+
+Da die Webseite um eine Barrierefreiheitskonformitätserklärung zu
+erweitern ist, lohnt sich ein prüffender Blick auf Impressum und
+Datenschutz.
+
+### Impressum
+
+Häufige Fehler sind, die fehlende Angabe der Rechtsform, fehlende
+gesetzliche Vertreter oder ein nicht aktualisierter Name der
+zuständingen Aufsichtsbheörde.
+
+Über ein Webformular stellt die Stabsstelle IT-Recht der bayerischen
+staatlichen Universitäten und Hochschulen im Rahmen Ihrer Zuständigkeit
+einen Vorschlag für ein Impressum zur Verfügung.
+
+### Datenschutzerklärung
+
+Gerade eigenständige Projektseiten oder Webseiten der Hochschulvereine
+haben ihr Impressum noch nicht aktualisiert. Häufig werden auch
+unbedacht nicht passende Textbausteine aus Musterdatenschutzerklärungen
+eingefügt.
+
+Die Musterdatenschutzerkärung der Stabsstelle IT-Recht der bayerischen
+staatlichen Universitäten und Hochschulen versucht diese Fehlerquellen
+zu minimieren und versucht in seinem Umfang die üblichen Anfoderungen
+eines Hochschulinternetauftritts gerecht zu werden.
 
 Spickzettel
 -----------
@@ -1639,7 +1733,10 @@ geprüft, was passiert bei Nicht-Einhalten*
 Vertiefung
 ----------
 
-Links zu Webseiten für die Thematik Satzungen =========
+Links zu Webseiten für die Thematik
+
+Satzungen
+=========
 
 Aufgabenbereich und Zielgruppe
 ------------------------------
@@ -1817,21 +1914,66 @@ Sollte eine oder mehrere der obigen Situationen Probleme aufzeigen, ist
 die Zugänglichkeit der Seite nicht vollständig gegeben. Es ist in diesem
 Fall davon auszugehen, daß keine Konformität zur WCAG vorliegt.
 
-Prüfung gemäß der WCAG
-----------------------
+Das W3C selbst bietet ebenfalls einen Schnelltest an: [Easy Checks - A
+First Review of Web
+Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/).
+Dieser ist schon ein wenig aufwendiger als oben aufgeführte Punkte; wenn
+auch ebenfalls noch keine vollständige Prüfung.
 
-to be filled
+Prüfung zur Konformität zur WCAG
+--------------------------------
 
-Prüfung der rechtlichen Pflichtangaben
---------------------------------------
+Das W3C hat eine eigene Seite zur Evaluierung der Barrierefreiheit
+eingerichtet: Unter [Test &
+Evaluate](https://www.w3.org/WAI/test-evaluate/) erhält man einen
+Überblick über verschiedene Textmethoden, Werkzeugen und weiterführenden
+Informationen. Hierzu gehört auch eine umfangreiche Sammlung an
+Werkzeugen, die auf der Seite [Web Accessibility Evaluation Tool
+List](https://www.w3.org/WAI/ER/tools/) angeboten wird. Die Sammlung ist
+entsprechend der Anforderungen und des zu testenden Angebots sortier-
+und filterbar.
 
-to be filled
+Eine vollständige Prüfung über die Einhaltung der WCAG kann mit Hilfe
+der [Accessibility Conformance Evaluation Methodology
+(WCAG-EM)](https://www.w3.org/TR/WCAG-EM/) erfolgen. Die WCAG selbst
+definiert bereits durch die Erfolgskriterien und die
+Konformitätsbedingungen, wie man einzelne Seiten und Webangebote auf
+Barrierefreiheit prüft. Was jedoch durch die WCAG nicht geleistet wird,
+ist eine Wertung der Ergebnisse. So lässt sich ein Webauftritt anhand
+von einzelnen Punkten aus der WCAG nicht pauschal einordnen. Dies wird
+durch die Methode geleistet, die durch die WCAG-EM vorgegeben wird. Die
+WCAG-EM beschreibt das Best-Practice-Vorgehen zur Prüfung von
+Webangeboten, zur Dfeinition des Testumgangs, der Auswahl von
+Stichproben und zur Berichterstattung.
 
-### Impressum
+Die WCAG-EM besteht aus 5 Teilen:
 
-### Datenschutzerklärung
+![Bild: Schemagrafik zur Auswahl des Umfangs einer
+Evaluation](07-tests/wcag-em-process.png)
 
-### Barrierefreiheitserklärung
+1.  Festlegung des Bewertungsumfangs
+2.  Sichtung der zu bewertenden Webauftritts
+3.  Festlegung eines repräsentativen Seitenauswahl
+4.  Prüfung der Seitenauswahl
+5.  Erstellung des Gutachtens
+
+Die WCAG-EM bietet Hilfestellung und Empfehlungen zu jedem der genannten
+Schritte. Eine Zusammenfassung findet sich auch in der Dokumentation von
+Jan Hellbusch auf der Seite [Konformität nach den Web Content
+Accessibility Guidelines
+2.0](https://www.barrierefreies-webdesign.de/wcag2/konformitaet/konformitaetsbewertung.html).
+
+Ein sehr nützliches Hilfsmittel bietet das [WCAG-EM Report
+Tool](https://www.w3.org/WAI/eval/report-tool/).
+
+![Bild: Screenshot WCAG-EM Report Tool](07-tests/wcag-em-tool.png)
+
+Hierbei handelt es sich um ein Online-Tool in dem alle 5 Schritte
+abgebildet werden können. Interaktive Eingabefelder und Auswahllisten
+unterstützen den Prüfer in diesem Werkzeug bei der Evaluation und
+erlauben es am Ende des Prozesses eine Vorlage für ein Gutachten zu
+erstellen. Die Vorlage kann in den Formaten HTML oder JSON exportiert,
+aber auch für die spätere Weiterbearbeitung gespeichert werden.
 
 Zertifikate
 -----------
@@ -1841,8 +1983,8 @@ Barrierefreiheit anbieten. Hierzu muss jedoch bemerkt werden, daß eine
 Prüfung in allen Fällen nur eine Momentaufnahme sein kann. Ein
 Prüfergebnis, welches die Konformität einer Webseite gemäß der WCAG 2.0
 in der Konformitätsstufe AA belegt gilt für den Zeitpunkt des Tests. Da
-größere Webauftritte steten Änderungen und Aktualisierungen, ist die
-Gültigkeit einer Prüfung ebenfalls zeitlich begrenzt.
+größere Webauftritte steten Änderungen und Aktualisierungen ausgesetzt
+sind, ist die Gültigkeit einer Prüfung ebenfalls zeitlich begrenzt.
 
 Im Falle einer Barriere, die bei dem Besuch eines Betroffenen auftritt
 und dann tatsächlich vorhanden ist, ist ein vorheriges positives
@@ -1851,14 +1993,13 @@ erfordert in allen Fällen die Behebung der Behebung der Barriere und das
 Anbieten eines geeigneten Feedback-Mechanismus.
 
 Die EU-Richtlinie verpflichtet nicht zu einer Zertifizierung.
-Stattdessen legt sie als Prüfverfahren allein die WCAG als Standard
-fest. Da die WCAG eigene Testverfahren enthält, sind auch diese zu
-verwenden. Eigene Prüfverfahren und Zertifikate von einzelnen Anbietern
-oder von staatlichen Einrichtungen geförderten Projekten werden von der
-EU Richtlinie und der WCAG nicht erfasst und sind daher nicht relevant.
-Die Autoren des Leitfaden empfehlen daher auf den Gebrauch von
-Zertifikaten zu verzichten und auch das bisherige Testverfahren des
-BITV-Tests nicht mehr anzuwenden.
+Stattdessen fordert sie allein die Konformität zur WCAG. Da die WCAG
+eigene Testverfahren enthält, sind auch diese zu verwenden. Eigene
+Prüfverfahren und Zertifikate von einzelnen Anbietern oder von
+staatlichen Einrichtungen geförderten Projekten werden von der EU
+Richtlinie und der WCAG nicht erfasst und sind daher nicht relevant. Die
+Autoren des Leitfaden empfehlen daher auf den Gebrauch von Zertifikaten
+zu verzichten.
 
 Weitere Leitfäden und relevante Informationsangebote
 ====================================================
