@@ -67,5 +67,5 @@ Verordnung über die Bekanntmachung von Hochschulsatzungen <http://www.gesetze-b
 
 ## Vertiefung
 
-Handbuch der Rechtsförmigkeit <http://hdr.bmj.de/vorwort.html>
-BeckOK HochschulR Bayern/Leiher BayHSchG Art. 13, beck-online
+- Handbuch der Rechtsförmigkeit <http://hdr.bmj.de/vorwort.html>
+- BeckOK HochschulR Bayern/Leiher BayHSchG Art. 13, beck-online
