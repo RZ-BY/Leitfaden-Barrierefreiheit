@@ -18,7 +18,7 @@ Folgende Methoden und Test sind bei dem Besuch einer Seite durchzuführen:
 
 2. Seite mit dem Handy aufrufen!
 
-    Jeder Inhalt und jede Aktion muss auch mit dem Handy ausführbar sein. Dabei muss die Webseite nicht die selbe Optik haben wie eine Bildschirmseite auf einem großen Monitor. Ganz im Gegenteil sollte eine Seite auf einem Smartphone auch in der Reihenfolge und Anordnung von Seitenelementen auf die kleine Auflösung optimiert sein. 
+    Jeder Inhalt und jede Aktion muss auch mit dem Handy ausführbar sein. Dabei muss die Webseite nicht die selbe Optik haben wie eine Bildschirmseite auf einem großen Monitor. Ganz im Gegenteil sollte eine Seite auf einem Smartphone auch in der Reihenfolge und Anordnung von Seitenelementen auf die kleine Auflösung optimiert sein. Zudem lässt sich feststellen, ob sämtliche Elemente auch durch Touch-Bedienung erreichbar sind.
     
 3. Vergrößern Sie die Schrift auf 200%
 
@@ -90,7 +90,7 @@ Es gibt Anbieter, welche Zertifikate über eine Prüfung der Barrierefreiheit an
 
 Im Falle einer Barriere, die bei dem Besuch eines Betroffenen auftritt und dann tatsächlich vorhanden ist, ist ein vorheriges positives Prüfungsergebnis oder ein Zertifikat ohne Bedeutung: Die EU Richtlinie erfordert in allen Fällen die Behebung der Behebung der Barriere und das Anbieten eines geeigneten Feedback-Mechanismus.
 
-Die EU-Richtlinie verpflichtet nicht zu einer Zertifizierung. Stattdessen fordert sie allein die Konformität zur WCAG. Da die WCAG eigene Testverfahren enthält, sind auch diese zu verwenden. 
+Die EU-Richtlinie verpflichtet nicht zu einer Zertifizierung. Stattdessen fordert sie allein die Konformität der Webanwendungen gemäß der Europäischen Norm EN 301 549 V1.1.2 auf Basis der WCAG. Da die WCAG eigene Testverfahren enthält, sind auch diese zu verwenden. 
 Eigene Prüfverfahren und Zertifikate von einzelnen Anbietern oder von staatlichen Einrichtungen geförderten Projekten werden von der EU Richtlinie und der WCAG nicht erfasst und sind daher nicht relevant.
 Die Autoren des Leitfaden empfehlen daher auf den Gebrauch von Zertifikaten zu verzichten.
 
