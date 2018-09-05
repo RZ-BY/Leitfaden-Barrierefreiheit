@@ -101,10 +101,7 @@ Gesetze, Verordnungen und Richtlinien
 
 Die Barrierefreiheit von Webangeboten für Einrichtungen des öffentlichen Dienstes ist seit der Verabschiedung des Bayerischen Gesetzes zur Gleichstellung, Integration und Teilhabe von Menschen mit Behinderung
 (BayBGG, <http://gesetze-bayern.de/Content/Document/BayBGG>) im Jahr 2003 verbindlich geregelt. Die dazugehörige Verordnung BayBITV (<http://www.gesetze-bayern.de/Content/Document/BayBITV>) vom 24.
-Oktober 2006 regelt hierbei verbindlich die Art der Umsetzung und Fristen. Die entsprechenden Fristen zur Umsetzung der Barrierefreiheit von Internet-Angeboten nach dem bisherigen BayBGG sind seit 2010
-abgelaufen.
-
-Gleichwohl wurden diese gesetzlichen Vorgaben bis heute nicht bei vielen Webangeboten erfüllt.
+Oktober 2006 regelt hierbei verbindlich die Art der Umsetzung und Fristen und Empfehlungen. Für bayerische staatliche Hochschulen sind die Fristen in der BayBITV nur Empfehlungen ebenso der technische Standard BITV. Die vermeindliche Großzügigkeit der Verordnung hinsichtlich der Art der Umsetzung ändert jedoch nichts an der gesetzlichen Pflicht zur Barrierefreieit, die seit Jahren besteht und bis heute bei vielen Webangeboten nicht erfüllt ist.
 
 Das Problem der mangelnden Umsetzung und der Wunsch nach Harmonisierung der Gesetzgebung auf EU-Ebene führte zum Erlass der Richtlinie 2016/2102. Aus diesem Grund wurde eine Richtlinie entworfen, die sich dieses Problems annahm: 
 Am 18.7.2016 wurde auf EU-Ministerratsebene die "Web-Accessibility-Richtlinie" angenommen, die nach der darauf
@@ -116,5 +113,5 @@ In technischer Hinsicht gilt als Richtschnur die Erfüllung des Konformitätslev
 Anforderungen an Barrierefreiheit bei der Beschaffung von IKT-Produkten und Dienstleistungen](https://www.ag.bka.gv.at/at.gv.bka.wiki-bka/index.php/Barrierefrei:EN_301_549)) enthalten sind. 
 
 Aufgrund der im Juni 2018 veröffentlichten neuen Version 2.1 der WCAG, ist es möglich, dass die Europäische Norm in Kürze um die zusätzlichen Erfolgskriterien aktualisiert wird. Es ist daher in Erwägung zu ziehen,
-sich bereits jetzt an die WCAG 2.1 zu halten. Dieser Leitfaden wird bei den Empfehlungen, die nicht durch die WCAG 2.0 gefordert, aber in der WCAG 2.1 enthalten sind, jeweils einen entsprechenden Hinweis setzen.
+sich bereits jetzt an die WCAG 2.1 zu halten, da diese zu der Version 2.0 abwärtskompatibel gestaltet worden ist. Dieser Leitfaden wird bei den Empfehlungen, die nicht durch die WCAG 2.0 gefordert, aber in der WCAG 2.1 enthalten sind, jeweils einen entsprechenden Hinweis setzen.
 
