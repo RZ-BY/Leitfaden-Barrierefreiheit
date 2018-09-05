@@ -1,8 +1,7 @@
-Satzungen
-=========
+## Satzungen
 
-Aufgabenbereich und Zielgruppe
-------------------------------
+### Aufgabenbereich und Zielgruppe
+
 
 Dieser Anwendungsbereich betrifft die Erstellung und Pflege von Satzungen, Prüfungsordnungen, Ordnungen und anderen Dokumenten mit regularischen oder dienstrechtlichen Anweisungen.
 
@@ -14,21 +13,18 @@ Dieses Kapitel wendet sich an folgende Personenkreise:
 -   Weisungsbefugte Einrichtungen und Abteilungen auf Leitungsebene, die
     Dokumente für den Geschäftsverkehr erstellen
 
-Grundlagen
-----------
+### Grundlagen
 
 Hochschulen gestalten viele ihrer eigenen und staatlichen Aufgaben durch Satzungen oder auch Ordnungen. Anders als der Gesetzgeber, der nur durch Menschenrechte, das Grundgesetz und höherrangiges Recht, müssen bei Satzungen auch das einfache Recht beachtet werden. Form und Inhalt der Satzungen dürfen daher Menschen mit Behinderung nicht beeinträchtigen.
 Zudem sind Satzungen durch ihre Bekanntmachung eine allgemein zugänglichen Quellen zur Information, und müssen daher ungehindert jeder  Person zugänglich sein. Aus diesen Grundsätzen folgt, dass die veröffentlichten Dateiformate der Satzungen barrierefrei gestaltet sein müssen.
 
-Umsetzung
----------
+### Umsetzung
 
-Allgemeines zu Satzungen und Prüfungsordnungen
+#### Allgemeines zu Satzungen und Prüfungsordnungen
 
 Zu prüfen wäre, ob eine grundsätzliche Barrierefreiheit schon durch den Einsatz der Software "eNorm" aus dem  Projekt des Bundesministerium der Justiz und für Verbraucherschutz "Elektronische Arbeitshilfen und Verkündung" bei Satzungen genutzt werden kann.
 
-Neue Satzungen und Prüfungsordnungen
-
+#### Neue Satzungen und Prüfungsordnungen
 
 Soweit neue Satzungen erstellt werden, kann durch die Nutzung von Formatvorlagen und der Gliederungsmöglichkeiten der zum Verfassen genutzten Büroanwendungen bei Artbezeichnungen, Zählbezeichnungen, Überschriften, Absätzen und deren Untergliederung die Barrierefreiheit umgesetzt werden. 
 
@@ -40,13 +36,11 @@ Ordnungen und sonstige Rechtsdokumente
 
 Für Ordnungen wie sonstige Rechtsdokumente gilt anders als für Satzungen keine Einschränkung dahingehend, dass bei kleineren Änderungen keine Neuveröffentlichung zulässig ist. Daher beitet es sich diese steht im ganzen neu zu verfassen oder das Vorgängerdokument unmittelbar zu bearbeiten.
 
-Empfehlung
-----------
+#### Empfehlung
 
 Da die Veröffentlichung anders als die Bekanntmachung für Satzungen nicht konstitutiv ist, kann neben dem Einstellen des neuen oder geänderten Rechtstextes eine redaktionelle Lesefassung angeboten werden. Für diese bietet es sich an, auf eine native Webseite mit Exportmöglichkeiten zu setzen, da über HMTL leichter eine Zugänglichkeit umsetzbar ist.
 
-Rechtsquellen
-----------
+### Rechtsquellen
 
 Grundgesetz
 -   Art. 3 Abs. 3 S. 2 <https://www.gesetze-im-internet.de/gg/art_3.html>
@@ -67,11 +61,9 @@ Bayerisches Hochschulgesetz
 -   Art. 2 Abs. 3 S. 3 und 4 <http://www.gesetze-bayern.de/Content/Document/BayHSchG-2>
 -   Art. 13 Abs. 3 S. 2 <http://www.gesetze-bayern.de/Content/Document/BayHSchG-13>
 
-Verordnung über die Bekanntmachung von Hochschulsatzungen
--
+Verordnung über die Bekanntmachung von Hochschulsatzungen <http://www.gesetze-bayern.de/Content/Document/BayHSchBekV/true>
 
-Vertiefung
-----------
+## Vertiefung
 
 Handbuch der Rechtsförmigkeit <http://hdr.bmj.de/vorwort.html>
 BeckOK HochschulR Bayern/Leiher BayHSchG Art. 13, beck-online
