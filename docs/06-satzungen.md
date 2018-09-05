@@ -28,17 +28,19 @@ Zu prüfen wäre, ob eine grundsätzliche Barrierefreiheit schon durch den Einsa
 
 Soweit neue Satzungen erstellt werden, kann durch die Nutzung von Formatvorlagen und der Gliederungsmöglichkeiten der zum Verfassen genutzten Büroanwendungen bei Artbezeichnungen, Zählbezeichnungen, Überschriften, Absätzen und deren Untergliederung die Barrierefreiheit umgesetzt werden. 
 
-Änderungssatzungen und Änderungen in Prüfungsordnungen
+#### Änderungssatzungen und Änderungen in Prüfungsordnungen
 
 Nur bei umfassenden Neugestaltung kann statt einer Änderungssatzung eine vollständige Neubekanntmachunng erfolgen. Zur Barrierefereiheit der veröffentlichten Änderungssatzung gilt das gleiche wie für neue Satzungen.
 
-Ordnungen und sonstige Rechtsdokumente
+#### Ordnungen und sonstige Rechtsdokumente
 
-Für Ordnungen wie sonstige Rechtsdokumente gilt anders als für Satzungen keine Einschränkung dahingehend, dass bei kleineren Änderungen keine Neuveröffentlichung zulässig ist. Daher beitet es sich diese steht im ganzen neu zu verfassen oder das Vorgängerdokument unmittelbar zu bearbeiten.
+Für Ordnungen wie sonstige Rechtsdokumente gilt anders als für Satzungen keine Einschränkung dahingehend, dass bei kleineren Änderungen keine Neuveröffentlichung zulässig ist. Daher beitet es sich an, diese stets im ganzen neu zu verfassen oder das Vorgängerdokument unmittelbar zu bearbeiten.
 
 #### Empfehlung
 
-Da die Veröffentlichung anders als die Bekanntmachung für Satzungen nicht konstitutiv ist, kann neben dem Einstellen des neuen oder geänderten Rechtstextes eine redaktionelle Lesefassung angeboten werden. Für diese bietet es sich an, auf eine native Webseite mit Exportmöglichkeiten zu setzen, da über HMTL leichter eine Zugänglichkeit umsetzbar ist.
+Da die Veröffentlichung anders als die Bekanntmachung für Satzungen nicht konstitutiv ist, kann neben dem Einstellen des neuen oder geänderten Rechtstextes eine redaktionelle Lesefassung angeboten werden. Für diese bietet es sich an, auf eine native Webseite mit Exportmöglichkeiten zu setzen, da über Webanwendungen leichter eine Zugänglichkeit umsetzbar ist.
+
+Soweit für Dokumente oder dateibasierte Formulare keine alternative barrierefreie Webanwendung zu Verfügung steht, sind Dokumente und Formulare barrierefrei zu gestalten gemäß Kapitel 10 der Norm EN 301 549 V1.1.2 (2015-04). In diesem Leitfaden ist jedoch derzeit kein Kapitel für barrierefreie Dateiformate von Büroanwendungen vorgesehen.
 
 ### Rechtsquellen
 
