@@ -33,16 +33,16 @@ Auf Bundesebene wurde bisher mit der Verordnung zur Schaffung barrierefreier Inf
 
 ### Bayerisches Gesetz zur Gleichstellung, Integration und Teilhabe von Menschen mit Behinderung
 
-Die einfachgesetzliche Pflicht zur Barrierefreiheit von Webseiten und Programmen folgt in Bayern für staatliche Hochschulen aus Art. 13 BayBGG. Dieser wurde auch bereits an die Richlinie angepasst und umfasst nun expliziet auch mobile Anwendungen. Die Details werden wie bisher in einer Verordnung geregelt.
+Die einfachgesetzliche Pflicht zur Barrierefreiheit von Webseiten und Programmen folgt in Bayern für staatliche Hochschulen aus Art. 13 BayBGG. Dieser wurde auch bereits an die Richlinie angepasst und umfasst nun explizit auch mobile Anwendungen. Die Details werden wie bisher in einer Verordnung geregelt. Jedoch waren Apps auch bereits zuvor vom BayBGG erfasst.
 
 ### Bayerische Barrierefreie Informationstechnik-Verordnung
 
+Die Bayerische Barrierefreie Informationstechnik-Verordnung (BayBITV) setzte in der Fassung von 2006 vorraus, dass die Zugangspfade 
+
+Seit dem 16. November 2016 gibt es für die Hochschulen gemäß § 1 Abs. 1 BayBITV die Webangebote eine Empfehlung die Barrierefreiheit nach der BITV Analge in der Stufe Priorität I umzusetzen. Für zentrale Navigations- und Einstellungsangebote ist die Empfehlung dies gemäß der BITV Anlage in der Stufe Priorität II umzusetzen.
+
 ...
-
-Seit dem 16. November 2016 gibt es für die Hochschulen gemäß § 1 Abs. 1 BayBITV die Webangebote eine Empfehlung die Barrierefreiheit nach der BITV in der Stufe Priorität I umzusetzen. Für zentrale Navigations- und Einstellungsangebote ist die Empfehlung dies gemäß der BITV in der Stufe Priorität II umzusetzen.
-
-...
-
+Die Verordnung ist nun an die Richtlinie und den geänderten Art. 13 BayBGG anzupassen oder gänzlich neu zu verfassen.
 
 ## Umsetzung
 
@@ -61,11 +61,13 @@ Wie, wo, was ...
 
 ### Fristen 
 
+Die Barrierefeit war bereits nach nationalem Recht umzusetzen gewesen. Werden jedoch die neuen Fristen aus der EU-Richtlinie nicht eingehalten, liegt ein neben der verletzten gesetzlichen Pflicht ein Verstoß gegen EU-Recht vor. Aus diesem Grund sind die neuen Fristen von besonderer Relevanz.
+
 -   Alle neuen **Dateiformate (PDF, u.a.)** aus Büroanwendungen müssen **ab dem 23.09.2018** barrierefrei sein. 
     Ältere Dateien müssen bis dahin ebenfalls barrierefrei sein, wenn sie für aktive 
     Verwaltungsverfahren benötigt werden. (Z.B. Prüfungsordnungen!). 
 
--   **Webseiten**, die ab dem 23.09.2018 veröffentlicht wurden, müssen **bis zum 23.12.2018** auf 
+-   **Webseiten**, die ab dem 23.09.2018 veröffentlicht wurden, müssen **bis zum 23.09.2019** auf 
     Stufe AA konform zu WCAG 2.0 sein; Ältere Webseiten erst zum 23.09.2020. 
 
 -   **"Intranets/Extranets"** müssen **bis zum 23.09.2019** barrierefrei sein. 
@@ -78,13 +80,10 @@ Wie, wo, was ...
 
 ### Durchsetzungsmöglichkeiten für Betroffene
 
-Die Ausgestaltung wird in der richtlichen angepassten BayBITV oder einer neuen Verordnung erfolgen.
+Die Ausgestaltung wird in der richtlinien angepassten BayBITV oder einer neuen Verordnung erfolgen.
 
 
 ## Vertragliche Anforderungen bei Auftragsarbeiten 
-
-*Vorschläge und Beispielformulierungen, wie man die Einhaltung der
-Barrierefreiheit bei Auftragsarbeiten erzwingen und verifizieren kann.*
 
 Es kann immer wiedervorkommen, dass ein begründerter Bedarf besteht, Webseiten nicht hochschulintern zu entwicklen oder designen sondern extern entwicklen oder desingen zu lassen.
 Die Einrichtung die solche Aufträge vergibt, hat neben dem Haushaltsrecht sicherzustellen, dass in dem Auftrag festgelegt ist, barrierefrei zu entwickeln und designen.
@@ -100,7 +99,7 @@ Die Einrichtung die solche Aufträge vergibt, hat neben dem Haushaltsrecht siche
     b) Bis € 1000 (ohne Umsatzsetuer) ist eine Direktvergabe möglich
     
     c) Bis € 50.000 (ohne Umsatzsteuer) ist bei entsprechender Begründung die Vergabe nach Einholung von 
-       drei Angeboten erfolgen
+       drei Angeboten erfolgen. Ab € 25.000 (ohne Umsatzsteuer) ist eine elektronische Vergabe vorgesehen.
     
     d)  Bei größeren Aufträgen sollte stehts eine Abstimmung mit dem Einkauf erfolgen
 
