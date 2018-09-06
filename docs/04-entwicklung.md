@@ -67,13 +67,13 @@ Bei der Suche in Google wird beispielsweise bei der Suche nach der Universität 
 
 ![Bild: Anzeige der Öffnungszeiten von Teilen der Universität bei der Ausgabe einer Suche mit Google](04-entwicklung/strukturierte-daten-fau-oeffnungszeiten.png) 
 
-Bildnachweis: Google LLC, Suchmaschine , Suche: Universität Erlangen © Google https://www.google.com/search?q=universit%C3%A4t+erlangen
+Bildnachweis: © Google LLC, Suchmaschine , Suche: Universität Erlangen https://www.google.com/search?q=universit%C3%A4t+erlangen
 
 Und bei der Suche nach der LMU wird für diese im Infopanel eine Liste der kommenden Veranstaltungen angeboten.
 
 ![Bild: Anzeige der kommenden Veranstaltungen der LMU](04-entwicklung/strukturierte-daten-lmu-infopanel.png)
 
-Bildnachweis: Google LLC, Suchmaschine, Suche: LMU München © Google https://www.google.com/search?q=lmu+m%C3%BCnchen
+Bildnachweis: © Google LLC, Suchmaschine, Suche: LMU München https://www.google.com/search?q=lmu+m%C3%BCnchen
 
 Der Nebeneffekt dieser Anzeigen ist, dass der Benutzer der Suchmaschine ohne Umweg über die Startseite der jeweilige Webseite gleich zu dem jeweiligen Angebot springen kann.
 
