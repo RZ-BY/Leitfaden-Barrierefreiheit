@@ -40,7 +40,7 @@ Folgende Methoden und Test sind bei dem Besuch einer Seite durchzuführen:
     
 7. Tabellen prüfen.
 
-    Wenn eine Tabelle vorhanden ist, dann ist das Browserfenster zu verkleinern oder die Seite mit dem Handy aufzufen. Kann man die Inhalte der Tabelle noch lesen, ohne ein Scrollbalken nach rechts bedienen zu müssen?
+    Wenn eine Tabelle vorhanden ist, dann ist das Browserfenster zu verkleinern oder die Seite mit dem Handy aufzufen. Kann man die Inhalte der Tabelle noch lesen, ohne einen Scrollbalken nach rechts bedienen zu müssen?
     
     
 
@@ -90,7 +90,7 @@ Es gibt Anbieter, welche Zertifikate über eine Prüfung der Barrierefreiheit an
 
 Im Falle einer Barriere, die bei dem Besuch eines Betroffenen auftritt und dann tatsächlich vorhanden ist, ist ein vorheriges positives Prüfungsergebnis oder ein Zertifikat ohne Bedeutung: Die EU Richtlinie erfordert in allen Fällen die Behebung der Behebung der Barriere und das Anbieten eines geeigneten Feedback-Mechanismus.
 
-Die EU-Richtlinie verpflichtet nicht zu einer Zertifizierung. Stattdessen fordert sie allein die Konformität der Webanwendungen gemäß der Europäischen Norm EN 301 549 V1.1.2 auf Basis der WCAG. Da die WCAG eigene Testverfahren enthält, sind auch diese zu verwenden. 
+Die EU-Richtlinie verpflichtet nicht zu einer Zertifizierung. Stattdessen fordert sie allein die Konformität der Webanwendungen gemäß der Europäischen Norm EN 301 549 V1.1.2 auf Basis der WCAG. Da die WCAG eigene Testverfahren enthalten, sind auch diese zu verwenden. 
 Eigene Prüfverfahren und Zertifikate von einzelnen Anbietern oder von staatlichen Einrichtungen geförderten Projekten werden von der EU Richtlinie und der WCAG nicht erfasst und sind daher nicht relevant.
 Die Autoren des Leitfaden empfehlen daher auf den Gebrauch von Zertifikaten zu verzichten.
 
