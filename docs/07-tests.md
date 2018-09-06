@@ -84,8 +84,8 @@ Hierbei handelt es sich um ein Online-Tool in dem alle 5 Schritte abgebildet wer
 
 ## Nachweis gemäß der Europäischen Norm EN 301 549 V1.1.2
 
-Für Webanwendungen wird Konformität mit den Barrierefreiheitsanforderungen vermutet, sofern und soweit nach Annex C der Norm die Testkriterien erfüllt sind. Über die WCAG 2.0 mit Level AA hinaus, sind dafür auch allgemeine Kriterien zu erfüllen.
-[Europäischen Norm EN 301 549 V1.1.2](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf). Durch die große Schnittmenge werden in vielen Fällen Ergebnisse aus Tests nach WCAG,
+Für Webanwendungen wird Konformität mit den Barrierefreiheitsanforderungen vermutet, sofern und soweit nach Annex C der [Europäischen Norm EN 301 549 V1.1.2](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) die Testkriterien erfüllt sind. Über die WCAG 2.0 mit Level AA hinaus, sind dafür auch allgemeine Kriterien zu erfüllen.
+Durch die große Schnittmenge werden in vielen Fällen Ergebnisse aus Tests nach WCAG die Prüfung gut vorbereiten.
 
 ## Zertifikate
 
