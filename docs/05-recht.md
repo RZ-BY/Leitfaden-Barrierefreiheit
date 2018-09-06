@@ -24,7 +24,7 @@ Die verfassungrechtliche Grenze dieser Leistung ergibt sich nur aus den verfügb
 Mit der Richtlinie 2016/2102 der Europäischen Union vom 26. Oktober 2016 über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen ist nun die [Europäischen Norm EN 301 549 V1.1.2](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf).
 Für den Bereich Web (Dokumente und Software) – enthält diese Norm alle Level A und Level AA - Erfolgskriterien von WCAG 2.0 als Mindestanforderung und für Nicht-Web-Dokumente – orientiert sich die Norm an den Richtlinien der WCAG2ICT Task Force.
 
-Daher kann etwas vereinfacht gesagt werden, dass der Maßstab für Barrierefreiheit im Web der WCAG Standard in der seiner aktuellen Fassung ist, inzwischen 2.1. Wird man den Erfolgskriterien von WCAG 2.1 gerecht, dann erfüllt man auch WCAG 2.0.
+Daher kann etwas vereinfacht gesagt werden, dass der Maßstab für Barrierefreiheit im Web die WCAG Standard in der seiner aktuellen Fassung ist, inzwischen 2.1. Wird man den Erfolgskriterien von WCAG 2.1 gerecht, dann erfüllt man auch WCAG 2.0.
 Mit einer Anpassung der Europäischen Norm ist zurechnen.
 
 ### BITV
@@ -37,12 +37,13 @@ Die einfachgesetzliche Pflicht zur Barrierefreiheit von Webseiten und Programmen
 
 ### Bayerische Barrierefreie Informationstechnik-Verordnung
 
-Die Bayerische Barrierefreie Informationstechnik-Verordnung (BayBITV) setzte in der Fassung von 2006 vorraus, dass die Zugangspfade 
+Die Bayerische Barrierefreie Informationstechnik-Verordnung (BayBITV) setzte in der Fassung von 2006 vorraus, dass die Zugangspfade barrierefrei auszugestalten waren. Für bestehende (vor 31.12.2006) waren je nach Zielgruppe Übergangsfristen bis zum 31.12.2010 bzw. 31.12.2013 vorgesehen.
 
-Seit dem 16. November 2016 gibt es für die Hochschulen gemäß § 1 Abs. 1 BayBITV die Webangebote eine Empfehlung die Barrierefreiheit nach der BITV Analge in der Stufe Priorität I umzusetzen. Für zentrale Navigations- und Einstellungsangebote ist die Empfehlung dies gemäß der BITV Anlage in der Stufe Priorität II umzusetzen.
+Die Umsetzung gemäß § 2 BayBITV (2006) nun § 1 Abs. 1 BayBITV gibt für Webangebote der staatlichen Hochschulen die Empfehlung, die Barrierefreiheit nach der BITV Analge in der Stufe Priorität I umzusetzen. Für zentrale Navigations- und Einstellungsangebote ist die Empfehlung dies gemäß der BITV Anlage in der Stufe Priorität II umzusetzen.
 
-...
-Die Verordnung ist nun an die Richtlinie und den geänderten Art. 13 BayBGG anzupassen oder gänzlich neu zu verfassen.
+Für den Anwendungsbreich der EU-Richtlinie ist die Empfehlung des Standards BITV hinfällig. Maßgeblicher Standard für Webanwendungen der Hochschulen ist nun die WCAG über die Europäischen Norm EN 301 549 V1.1.2. Dies zeigt, dass soweit sich Hochschulen bereits bisher an die WCAG orientiert haben, diese nun einen Vorsprung in der Umsetzung haben. 
+
+Die Verordnung ist nun an die EU-Richtlinie und den geänderten Art. 13 BayBGG anzupassen oder gänzlich neu zu verfassen.
 
 ## Umsetzung
 
