@@ -84,11 +84,12 @@ Hierbei handelt es sich um ein Online-Tool in dem alle 5 Schritte abgebildet wer
 
 ## Nachweis gemäß der Europäischen Norm EN 301 549 V1.1.2
 
-...
+Für Webanwendungen wird Konformität mit den Barrierefreiheitsanforderungen vermutet, sofern und soweit nach Annex C der Norm die Testkriterien erfüllt sind. Über die WCAG 2.0 mit Level AA hinaus, sind dafür auch allgemeine Kriterien zu erfüllen.
+[Europäischen Norm EN 301 549 V1.1.2](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf). Durch die große Schnittmenge werden in vielen Fällen Ergebnisse aus Tests nach WCAG,
 
 ## Zertifikate
 
-Es gibt Anbieter, welche Zertifikate über eine Prüfung der Barrierefreiheit anbieten. Hierzu muss jedoch bemerkt werden, daß eine Prüfung in allen Fällen nur eine Momentaufnahme sein kann. Ein Prüfergebnis, welches die Konformität einer Webseite gemäß der WCAG 2.0 in der Konformitätsstufe AA belegt gilt für den Zeitpunkt des Tests. Da größere Webauftritte steten Änderungen und Aktualisierungen ausgesetzt sind, ist die Gültigkeit einer Prüfung ebenfalls zeitlich begrenzt.
+Es gibt Anbieter, welche Zertifikate über eine Prüfung der Barrierefreiheit anbieten. Hierzu muss jedoch bemerkt werden, daß eine Prüfung in allen Fällen nur eine Momentaufnahme sein kann. Ein Prüfergebnis, welches die Konformität einer Webseite gemäß der WCAG 2.0 in der Konformitätsstufe AA belegt gilt für den Zeitpunkt des Tests. Da größere Webauftritte steten Änderungen und Aktualisierungen ausgesetzt sind, ist die Gültigkeit einer Prüfung ebenfalls zeitlich begrenzt. Diese Einschränkung überliegt auch ein Prüfergebnis gemäß Annex C der europäischen Norm.
 
 Im Falle einer Barriere, die bei dem Besuch eines Betroffenen auftritt und dann tatsächlich vorhanden ist, ist ein vorheriges positives Prüfungsergebnis oder ein Zertifikat ohne Bedeutung: Die EU Richtlinie erfordert in allen Fällen die Behebung der Behebung der Barriere und das Anbieten eines geeigneten Feedback-Mechanismus.
 
