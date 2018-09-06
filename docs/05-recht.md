@@ -1,42 +1,41 @@
-## Organisatorische und rechtliche Anforderungen
+# Organisatorische und rechtliche Anforderungen
 
-Was ist mit Widersprüchen vom Standard zu den rechtlichen Vorgaben bzw. Ausnahmen
 
-### Aufgabenbereich und Zielgruppe
+## Aufgabenbereich und Zielgruppe
 
 Dieser Anwendungsbereich betrifft die rechtlichen und regularischen
 Aspekte bei dem Betrieb eines Webangebotes.
 
 Dieses Kapitel wendet sich an folgende Personenkreise:
 
--   CIOs,
--   Rechenzentren und Provider,
--   Verantwortliche von Webauftritten,
+-   CIOs
+-   Rechenzentren und Provider
+-   Verantwortliche von Webauftritten
 -   Verantwortliche Auftragsgeber
 
-### Grundlagen
+## Grundlagen
 
 Barrierefreiheit ist kein neues Thema. Da die Exekutive durch das Onlinezugangsgesetz und E-Goverment-Gesetze verpflichtet ist, Ihre Leistungen (demnächst) und Informationen auch digital anzubeiten, gewinnt die Barrirefreiheit stark an Bedeutung.
 Verfassungsrechtlich gut begründbar ist es, einen Leistungsanspruch auf Zugänglichkeit von Informationen für benachteiligte Personen anzunehmen (Vgl. Sachs/Bethge GG Art. 5 Rn. 62-63, beck-online zu Art. 5 Abs. 1 2. Halbsatz GG i.V.m. Art. 3 Abs. 1 GG).
 Die verfassungrechtliche Grenze dieser Leistung ergibt sich nur aus den verfügbaren Mitteln der handelnden Behörde.
 
-#### EU-Richtlinie über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen
+### EU-Richtlinie über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen
 
-Mit der Richtlinie 2016/2102 der Europäischen Union vom 26. Oktober 2016 über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen ist nun die Europäischen Norm EN 301 549 V1.1.2 <https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf>
+Mit der Richtlinie 2016/2102 der Europäischen Union vom 26. Oktober 2016 über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen ist nun die [Europäischen Norm EN 301 549 V1.1.2](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf).
 Für den Bereich Web (Dokumente und Software) – enthält diese Norm alle Level A und Level AA - Erfolgskriterien von WCAG 2.0 als Mindestanforderung und für Nicht-Web-Dokumente – orientiert sich die Norm an den Richtlinien der WCAG2ICT Task Force.
 
 Daher kann etwas vereinfacht gesagt werden, dass der Maßstab für Barrierefreiheit im Web der WCAG Standard in der seiner aktuellen Fassung ist, inzwischen 2.1. Wird man den Erfolgskriterien von WCAG 2.1 gerecht, dann erfüllt man auch WCAG 2.0.
 Mit einer Anpassung der Europäischen Norm ist zurechnen.
 
-#### BITV
+### BITV
 
-Auf Bundesebene wurde bisher mit der Verordnung zur Schaffung barrierefreier Informationstechnik nach dem Behindertengleichstellungsgesetz insbesondere für Bundesbehörden ein verbindlicher Standard geschafffen, wie Barrierefreiheit technisch umzusetzen war. Auf diesen Standard wurde oft von Landesgesetzen und Verordnungen verwiesen. Im Anwendungsbereich der Richtlinie ist damit BITV durch die Europäische Norm verdrängt. Für Gesetz- und Verordnungsgeber besteht Anpassungsbedarf.
+Auf Bundesebene wurde bisher mit der Verordnung zur Schaffung barrierefreier Informationstechnik nach dem Behindertengleichstellungsgesetz insbesondere für Bundesbehörden ein verbindlicher Standard geschaffen, wie Barrierefreiheit technisch umzusetzen war. Auf diesen Standard wurde oft von Landesgesetzen und Verordnungen verwiesen. Im Anwendungsbereich der Richtlinie ist damit BITV durch die Europäische Norm verdrängt. Für Gesetz- und Verordnungsgeber besteht Anpassungsbedarf.
 
-#### Bayerisches Gesetz zur Gleichstellung, Integration und Teilhabe von Menschen mit Behinderung
+### Bayerisches Gesetz zur Gleichstellung, Integration und Teilhabe von Menschen mit Behinderung
 
 Die einfachgesetzliche Pflicht zur Barrierefreiheit von Webseiten und Programmen folgt in Bayern für staatliche Hochschulen aus Art. 13 BayBGG. Dieser wurde auch bereits an die Richlinie angepasst und umfasst nun expliziet auch mobile Anwendungen. Die Details werden wie bisher in einer Verordnung geregelt.
 
-#### Bayerische Barrierefreie Informationstechnik-Verordnung
+### Bayerische Barrierefreie Informationstechnik-Verordnung
 
 ...
 
@@ -56,32 +55,31 @@ Entwurf unter:
 
 Wie, wo, was ...
 
-### Feebackmechanismus
+#### Feebackmechanismus
 
 ...
 
 ### Fristen 
 
--   Alle neuen Dateiformate (PDF, u.a.) aus Büroanwendungen müssen ab
-    dem 23.09.2018 barrierefrei sein. Ältere Dateien müssen bis dahin
-    ebenfalls barrierefrei sein, wenn sie für aktive
+-   Alle neuen **Dateiformate (PDF, u.a.)** aus Büroanwendungen müssen **ab dem 23.09.2018** barrierefrei sein. 
+    Ältere Dateien müssen bis dahin ebenfalls barrierefrei sein, wenn sie für aktive 
     Verwaltungsverfahren benötigt werden. (Z.B. Prüfungsordnungen!). 
 
--   Webseiten, die ab dem 23.09.2018 veröffentlicht wurden, müssen bis
-    zum 23.12.2018 auf Stufe AA konform zu WCAG 2.0 sein; Ältere
-    Webseiten erst zum 23.09.2020. 
+-   **Webseiten**, die ab dem 23.09.2018 veröffentlicht wurden, müssen **bis zum 23.12.2018** auf 
+    Stufe AA konform zu WCAG 2.0 sein; Ältere Webseiten erst zum 23.09.2020. 
 
--   \"Intranets/Extranets\" müssen bis zum 23.09.2019 barrierefrei
-    sein. Ausnahmen für Inhalte die vor dem 23. September 2019 erstellt
-    worden sind. 
+-   **"Intranets/Extranets"** müssen **bis zum 23.09.2019** barrierefrei sein. 
+    Ausnahmen für Inhalte die vor dem 23. September 2019 erstellt worden sind. 
 
--   Mobile Anwendungen müssen bis zum 23.06.2021 barrierefrei sein. 
+-   **Mobile Anwendungen** müssen **bis zum 23.06.2021** barrierefrei sein. 
+
 
 ### Barriefreiheit und ihre Grenzen
 
 ### Durchsetzungsmöglichkeiten für Betroffene
 
 Die Ausgestaltung wird in der richtlichen angepassten BayBITV oder einer neuen Verordnung erfolgen.
+
 
 ## Vertragliche Anforderungen bei Auftragsarbeiten 
 
@@ -92,13 +90,20 @@ Es kann immer wiedervorkommen, dass ein begründerter Bedarf besteht, Webseiten 
 Die Einrichtung die solche Aufträge vergibt, hat neben dem Haushaltsrecht sicherzustellen, dass in dem Auftrag festgelegt ist, barrierefrei zu entwickeln und designen.
 
 ### Die Schritte zum Auftrag (vereinfachte Darstellung)
+
 1.  Wirtschaftlichkeitsbetrachtung
-2.  Die Stabsstelle IT-Recht bietet einen Mustertragvertrag an
+2.  Die [Stabsstelle IT-Recht](https://www.rz.uni-wuerzburg.de/dienste/it-recht/) bietet einen Mustertragvertrag an
 3.  Einhalten des Vergaberechts
-    a)  Dokumentation der Entscheidung und des Verfahrens
-    b)  Bis € 1000 (ohne Umsatzsetuer) ist eine Direktvergabe möglich
-    c)  Bis € 50.000 (ohne Umsatzsteuer) ist bei entsprechender Begründung die Vergabe nach Einholung von drei Angeboten erfolgen
+
+    a) Dokumentation der Entscheidung und des Verfahrens
+    
+    b) Bis € 1000 (ohne Umsatzsetuer) ist eine Direktvergabe möglich
+    
+    c) Bis € 50.000 (ohne Umsatzsteuer) ist bei entsprechender Begründung die Vergabe nach Einholung von 
+       drei Angeboten erfolgen
+    
     d)  Bei größeren Aufträgen sollte stehts eine Abstimmung mit dem Einkauf erfolgen
+
 
 ### Die Schritte nach dem Auftrag
 1.  Prüfung des Werkes bei der Abnahme auf seine Barrierefreiheit, ggf. mit Hilfe Ihres Rechenzentrums
@@ -106,9 +111,14 @@ Die Einrichtung die solche Aufträge vergibt, hat neben dem Haushaltsrecht siche
 3.  Bei fehlender Barrierefreiheit setzen einer Frist ca. zwei Wochen bis ein Monat diese zu Erreichen
 4.  Erneute Prüfung auf Barrierefreiheit
 5.  Nach Fristablauf Durchsetzung Ihrer Rechte anstreben
+
     a)  Verlangen eines Vorschusses in Höhe der Kosten für die Herstellung der Barrierefreiheit
+   
     b)  Alternativ vom Vertrag auflösen oder teilweise die Vergütung zurückfordern
+    
     c)  Geltendmachen von Schadensersatzansprüchen
+
+
 
 ## Weitere Pflichtangaben auf Webseiten
 
@@ -126,20 +136,10 @@ Gerade eigenständige Projektseiten oder Webseiten der Hochschulvereine haben ih
 
 Die Musterdatenschutzerkärung der Stabsstelle IT-Recht der bayerischen staatlichen Universitäten und Hochschulen versucht diese Fehlerquellen zu minimieren und versucht in seinem Umfang die üblichen Anfoderungen eines Hochschulinternetauftritts gerecht zu werden.
 
-Spickzettel
------------
-
-*Pflichtangaben Webseiten*
-
-*Rechtliche Angaben: Impressum, Datenschutzerklärung, Barrierrefreiheitserklärung: Enthält was, wo am besten*
-
-*Auftragsvergabe: Welche Anforderungen sind verbindlich, wie wird geprüft, was passiert bei Nicht-Einhalten*
 
 
 
 Vertiefung
 ----------
 
-Links zu Webseiten für die Thematik
-
-...
+* Stabsstelle IT-Recht für die bayerischen staatlichen Hochschulen und Universitäten, <https://www.rz.uni-wuerzburg.de/dienste/it-recht/> 
