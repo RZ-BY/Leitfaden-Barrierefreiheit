@@ -10,7 +10,7 @@
 * Schreiben Sie Abkürzungen, die nicht Teil der Alltagssprache sind, beim ersten Vorkommen im Text aus oder verwenden Sie den abbr-Tag:<br />
     `<abbr title="zum Beispiel">z.B.</abbr>`
 * Markieren Sie Textpassagen, in denen die Sprache wechselt: 
-	`<p lang="en">This is an englisch paragraph.</p>`
+	`<p lang="en">This is an english paragraph.</p>`
 
 
 ### Bilder und Grafiken
@@ -34,9 +34,6 @@
 * Normale Zellinhalte stehen im Element `<td>`.
 * Spalten- oder Zeilenüberschriften bekommen das Element `<th>`.
 * Verwenden Sie das `scope`-Attribut, um anzuzeigen, ob eine Überschrift horizontal oder vertikal wirkt.
-
-### Listen
-
 
 ### Zitate
 * Zitate werden mithilfe des Elements `<blockquote>` gekennzeichnet.
