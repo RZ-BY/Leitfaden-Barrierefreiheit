@@ -49,22 +49,22 @@ Die Verordnung ist nun an die EU-Richtlinie und den geänderten Art. 13 BayBGG a
 
 Die Umsetzung erfordert zum einen die Beachtung formaler Aspekte (Barrierefreiheitserklärung, Feedback-Mechanismus und Umsetzungenfristen) zum anderen inhaltliche Aspekte (Barrierefreiheit der Inhalte die durch technische und organisatorische Maßnahmen). Ergänzend wird die Umsetzung durch Berichtspflichten an die EU-Kommission und leichtere Durchsetzungsmöglichkeiten für Betroffenen angetrieben.
 
-### Barrierefreiheitserklärung gemäß der EU-Richtlinie (deutsch und englisch)
+### Barrierefreiheitserklärung gemäß der EU-Richtlinie
 
 Die Richtline für eine Barrierefreiheitserklärung für Webseiten und mobile Anwendungen verpflichtend ein.
 Der Inhalt der Erklärung wird durch Art. 7 vorgegeben, dessen Inhalt die Kommission in einer Mustererklärung festzulegt.
 
-[Entwurf einer Mustererklärung für die Erklärung zur Barrierefreiheit](https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2018-2604172_en)
+Ein [Entwurf einer Mustererklärung für die Erklärung zur Barrierefreiheit](https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2018-2604172_en) ist bereits verfügbar. Die finale Version ist gegen Ende 2018 zu erwarten.
 
-Ein wesentlicher Bestandteil der Erklärung 
+Ein wesentlicher Bestandteil der Erklärung Für Webanwendungen wird Konformität mit den Barrierefreiheitsanforderungen vermutet, sofern und soweit nach Annex C der Europäischen Norm EN 301 549 V1.1.2 die Testkriterien erfüllt sind.
 
-Wie zu ermitteln ist, ob die rechtlichen Anfoderungen
+Soweit einzelne Unterseiten keiner Prüfung auf die Barrierefreiheit unterzogen worden sind, ist anzugeben, welche sichere barrierefreie zugängliche Alternative besteht. Die erforderlichen Alternativen können Leistungen von Kontakt- und Informationsstellen für Studierende mit Behinderung und chronischer Erkrankung oder die Schwerbehindertenvertretung für die Beschäftigten sein.
 
-...
+#### Feeback-Mechanismus
 
-#### Feebackmechanismus
-
-...
+Über die Anforderungen des Feedback-Mechanismusses äußert sich die EU-Richtlinie kaum.
+Aus dem Entwurf der Mustererklärung für die Erklärung zur Barrierefreiheit wird ersichtlich, dass es Meldemöglichkeit geben muss und ein verantwortliche Person zu benennen ist. Aus den Erwägungsründen wird zudem ersichtlich, dass über den Feeback-Mechanismus nicht barrierefreie Informationen, Dienstleistungen oder Dokumente für den Betroffenen barrierefrei zugänglich gemacht werden sollen. Die Beantwortung der Anfragen muss innerhalb einer angemessen Frist erfolgen.
+Bei einer nicht zufriedenstellenen Antwort können Betroffenen ein Durchsetzungsverfahren einleiten.  
 
 ### Fristen 
 
@@ -85,6 +85,27 @@ Die Barrierefeit war bereits nach nationalem Recht umzusetzen gewesen. Werden je
 
 ### Barriefreiheit und ihre Grenzen
 
+#### Ausnahmen
+
+Die Richtlinie nimmt gewährt einige Ausnahmen bei bestimmten Arten oder Alter von Inhalten:
+
+* Dateiformate von Büroanwendungen, die vor dem 23. September 2018 veröffentlicht wurden, soweit nur dokumentarisch
+    z.B. Folien zu früheren Veranstaltungen
+* aufgezeichnete zeitbasierte Medien, die vor dem 23. September 2020 veröffentlicht wurden
+* live übertragene zeitbasierte Medien
+* Online-Karten und Kartendienste, sofern bei Karten für Navigationszwecke wesentliche Informationen in einer barrierefrei zugänglichen Weise digital bereitgestellt werden
+* Inhalte von Dritten, die von der betreffenden öffentlichen Stelle weder finanziert noch entwickelt werden noch deren Kontrolle unterliegen
+* Reproduktionen von Stücken aus Kulturerbesammlungen, die nicht vollständig barrierefrei zugänglich gemacht werden können
+* Inhalte von Extranets und Intranets, die vor dem 23. September 2019 veröffentlicht wurden
+
+#### Rückausnahmen
+
+Der Bayerische Gesetzgeber hatte bisher schon Inhalte von Extranets und Intranets Bar
+
+#### Verhältnismäßigkeitsausnahme
+
+...
+
 ### Durchsetzungsmöglichkeiten für Betroffene
 
 Die Ausgestaltung wird in der richtlinien angepassten BayBITV oder einer neuen Verordnung erfolgen.
@@ -98,7 +119,7 @@ Die Einrichtung die solche Aufträge vergibt, hat neben dem Haushaltsrecht siche
 ### Die Schritte zum Auftrag (vereinfachte Darstellung)
 
 1.  Wirtschaftlichkeitsbetrachtung
-2.  Die [Stabsstelle IT-Recht](https://www.rz.uni-wuerzburg.de/dienste/it-recht/) bietet einen Mustertragvertrag an
+2.  Konformität zur Europäischen Norm EN 301 549 V1.1.2 - Die [Stabsstelle IT-Recht](https://www.rz.uni-wuerzburg.de/dienste/it-recht/) bietet dafür gegen Ende 2018 einen Mustertragvertrag an.
 3.  Einhalten des Vergaberechts
 
     a) Dokumentation der Entscheidung und des Verfahrens
@@ -142,7 +163,19 @@ Gerade eigenständige Projektseiten oder Webseiten der Hochschulvereine haben ih
 
 Die Musterdatenschutzerkärung der Stabsstelle IT-Recht der bayerischen staatlichen Universitäten und Hochschulen versucht diese Fehlerquellen zu minimieren und versucht in seinem Umfang die üblichen Anfoderungen eines Hochschulinternetauftritts gerecht zu werden.
 
+## Spickzettel
 
+* Abhalten einer Auftaktveranstaltung zur Barrierefreiheit
+* Einsetzen eines Germiums zur Umsetzung
+    * Festlegen von Verantwortlichkeiten für die Umsetzung der Barrierefreit
+    * Prüfung, ob eine Inhaltsfreigabe über eine zentrale Stelle koordiniert werden könnte
+    * Auswahl der Webseiten, die gemäß Annex C der Europäischen Norm EN 301 549 V1.1.2 geprüft werden
+* Prüfung führender Systeme und aller neuen 
+* Konformität zur Europäischen Norm EN 301 549 V1.1.2 in der Regel als verpflichtendes Kriterium für Beschaffungen
+* Beständige Information und Sensiblisierung für das Thema
+* Barrierefreiheitserklärung und Feedback-Mechanismus auf Webseite und in mobilen Anwendungen veröffentlichen
+* Etablieren von Schulungsangeboten
+* Regelmäißiger hochschulübergreifender fachlicher Austausch der Wissensträger
 
 
 Vertiefung
