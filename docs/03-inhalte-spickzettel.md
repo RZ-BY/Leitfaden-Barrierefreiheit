@@ -54,5 +54,6 @@
 ### Embeddings
 * Ob der eingebettete Inhalt barrierefrei ist, hängt von dessen Anbieter ab.
 * Kennzeichnen Sie das Embedding als Inhalt aus einer Drittquelle.
+* Beachten Sie beim Einbinden den Datenschutz, insbesondere Zweiklick- oder Proxylösungen.
 * Sofern das Embedding zwingend notwendige Informationen enthält, sollten diese **Informationen zusätzlich in Textform** bereitgestellt werden.
 

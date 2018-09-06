@@ -1,11 +1,8 @@
-Organisatorische und rechtliche Anforderungen
-=============================================
+## Organisatorische und rechtliche Anforderungen
 
-Was ist mit Widersprüchen vom Standard zu den rechtlichen Vorgaben bzw.
-Ausnahmen
+Was ist mit Widersprüchen vom Standard zu den rechtlichen Vorgaben bzw. Ausnahmen
 
-Aufgabenbereich und Zielgruppe
-------------------------------
+### Aufgabenbereich und Zielgruppe
 
 Dieser Anwendungsbereich betrifft die rechtlichen und regularischen
 Aspekte bei dem Betrieb eines Webangebotes.
@@ -17,34 +14,51 @@ Dieses Kapitel wendet sich an folgende Personenkreise:
 -   Verantwortliche von Webauftritten,
 -   Verantwortliche Auftragsgeber
 
-Grundlagen
-----------
+### Grundlagen
 
-Barrierefreiheit ist kein neues Thema.
-Verfassungsrechtlich gut begründbar ist sogar ein Leistungsanspruch auf Zugänglichkeit von Informationen für benachteiligte Personen (Vgl. Sachs/Bethge GG Art. 5 Rn. 62-63, beck-online zu Art. 5 Abs. 1 2. Halbsatz GG i.V.m. Art. 3 Abs. 1 GG).
-Die verfassungrechtliche Grenze dieser Leistung ergebenen sich nur aus den potentiell verfügbaren Mitteln der handelnden Behörde.
+Barrierefreiheit ist kein neues Thema. Da die Exekutive durch das Onlinezugangsgesetz und E-Goverment-Gesetze verpflichtet ist, Ihre Leistungen (demnächst) und Informationen auch digital anzubeiten, gewinnt die Barrirefreiheit stark an Bedeutung.
+Verfassungsrechtlich gut begründbar ist es, einen Leistungsanspruch auf Zugänglichkeit von Informationen für benachteiligte Personen anzunehmen (Vgl. Sachs/Bethge GG Art. 5 Rn. 62-63, beck-online zu Art. 5 Abs. 1 2. Halbsatz GG i.V.m. Art. 3 Abs. 1 GG).
+Die verfassungrechtliche Grenze dieser Leistung ergibt sich nur aus den verfügbaren Mitteln der handelnden Behörde.
 
-Seit dem 16. November 2016 gilt auch für die Hochschulen die BayBITV und der Verweis auf eine Umsetzung nach der BITV in der Stufe Priorität I. Für zentrale Navigations- und Einstellungsangebote ist die BITV auch in der Stufe Priorität II umzusetzen.
+#### EU-Richtlinie über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen
 
 Mit der Richtlinie 2016/2102 der Europäischen Union vom 26. Oktober 2016 über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen ist nun die Europäischen Norm EN 301 549 V1.1.2 <https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf>
 Für den Bereich Web (Dokumente und Software) – enthält diese Norm alle Level A und Level AA - Erfolgskriterien von WCAG 2.0 als Mindestanforderung und für Nicht-Web-Dokumente – orientiert sich die Norm an den Richtlinien der WCAG2ICT Task Force.
 
 Daher kann etwas vereinfacht gesagt werden, dass der Maßstab für Barrierefreiheit im Web der WCAG Standard in der seiner aktuellen Fassung ist, inzwischen 2.1. Wird man den Erfolgskriterien von WCAG 2.1 gerecht, dann erfüllt man auch WCAG 2.0.
-Wie schnell die Anpassung der Europäischen Norm erfolgt, ist noch nicht absehbar.
+Mit einer Anpassung der Europäischen Norm ist zurechnen.
 
-Umsetzung
----------
+#### BITV
 
-Die Umsetzung erfordert zum einen die Beachtung formaler Aspekte (Barrierefreiheitserklärung, Feedback-Mechanismus und Umsetzungenfristen) zum anderen inhaltliche Aspekte (Barrierefreiheit der Inhalte die durch technische und organisatorische Maßnahmen). Ergännzend wird die Umsetzung durch Berichtspflichten an die EU-Kommission und leichtere Durchsetzungsmöglichkeiten für Betroffenen angetrieben.
+Auf Bundesebene wurde bisher mit der Verordnung zur Schaffung barrierefreier Informationstechnik nach dem Behindertengleichstellungsgesetz insbesondere für Bundesbehörden ein verbindlicher Standard geschafffen, wie Barrierefreiheit technisch umzusetzen war. Auf diesen Standard wurde oft von Landesgesetzen und Verordnungen verwiesen. Im Anwendungsbereich der Richtlinie ist damit BITV durch die Europäische Norm verdrängt. Für Gesetz- und Verordnungsgeber besteht Anpassungsbedarf.
+
+#### Bayerisches Gesetz zur Gleichstellung, Integration und Teilhabe von Menschen mit Behinderung
+
+Die einfachgesetzliche Pflicht zur Barrierefreiheit von Webseiten und Programmen folgt in Bayern für staatliche Hochschulen aus Art. 13 BayBGG. Dieser wurde auch bereits an die Richlinie angepasst und umfasst nun expliziet auch mobile Anwendungen. Die Details werden wie bisher in einer Verordnung geregelt.
+
+#### Bayerische Barrierefreie Informationstechnik-Verordnung
+
+...
+
+Seit dem 16. November 2016 gibt es für die Hochschulen gemäß § 1 Abs. 1 BayBITV die Webangebote eine Empfehlung die Barrierefreiheit nach der BITV in der Stufe Priorität I umzusetzen. Für zentrale Navigations- und Einstellungsangebote ist die Empfehlung dies gemäß der BITV in der Stufe Priorität II umzusetzen.
+
+...
+
+
+## Umsetzung
+
+Die Umsetzung erfordert zum einen die Beachtung formaler Aspekte (Barrierefreiheitserklärung, Feedback-Mechanismus und Umsetzungenfristen) zum anderen inhaltliche Aspekte (Barrierefreiheit der Inhalte die durch technische und organisatorische Maßnahmen). Ergänzend wird die Umsetzung durch Berichtspflichten an die EU-Kommission und leichtere Durchsetzungsmöglichkeiten für Betroffenen angetrieben.
 
 ### Barrierefreiheitserklärung gemäß der EU-Richtlinie (deutsch und englisch)
 
 Entwurf unter:
 <https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2018-2604172_en>
 
-Wie, wo, was...
+Wie, wo, was ...
 
 ### Feebackmechanismus
+
+...
 
 ### Fristen 
 
@@ -66,6 +80,8 @@ Wie, wo, was...
 ### Barriefreiheit und ihre Grenzen
 
 ### Durchsetzungsmöglichkeiten für Betroffene
+
+Die Ausgestaltung wird in der richtlichen angepassten BayBITV oder einer neuen Verordnung erfolgen.
 
 ## Vertragliche Anforderungen bei Auftragsarbeiten 
 
@@ -125,3 +141,5 @@ Vertiefung
 ----------
 
 Links zu Webseiten für die Thematik
+
+...
