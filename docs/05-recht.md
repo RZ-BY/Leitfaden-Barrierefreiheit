@@ -27,9 +27,9 @@ Für den Bereich Web (Dokumente und Software) – enthält diese Norm alle Level
 Daher kann etwas vereinfacht gesagt werden, dass der Maßstab für Barrierefreiheit im Web die WCAG Standard in der seiner aktuellen Fassung ist, inzwischen 2.1. Wird man den Erfolgskriterien von WCAG 2.1 gerecht, dann erfüllt man auch WCAG 2.0.
 Mit einer Anpassung der Europäischen Norm ist zurechnen.
 
-### BITV
+### Verordnung zur Schaffung barrierefreier Informationstechnik (BITV)
 
-Auf Bundesebene wurde bisher mit der Verordnung zur Schaffung barrierefreier Informationstechnik nach dem Behindertengleichstellungsgesetz insbesondere für Bundesbehörden ein verbindlicher Standard geschaffen, wie Barrierefreiheit technisch umzusetzen war. Auf diesen Standard wurde oft von Landesgesetzen und Verordnungen verwiesen. Im Anwendungsbereich der Richtlinie ist damit BITV durch die Europäische Norm verdrängt. Für Gesetz- und Verordnungsgeber besteht Anpassungsbedarf.
+Auf Bundesebene wurde bisher mit der BITV nach dem Behindertengleichstellungsgesetz verpflichtetet Träger öffentlicher Gewalt, insbesondere die Bundesbehörden, ein verbindlicher Standard geschaffen, wie Barrierefreiheit technisch umzusetzen war. Auf diesen Standard wurde oft von Landesgesetzen und Verordnungen verwiesen. Im Anwendungsbereich der Richtlinie ist damit BITV durch die Europäische Norm verdrängt. Für Gesetz- und Verordnungsgeber besteht Anpassungsbedarf.
 
 ### Bayerisches Gesetz zur Gleichstellung, Integration und Teilhabe von Menschen mit Behinderung
 
@@ -51,10 +51,16 @@ Die Umsetzung erfordert zum einen die Beachtung formaler Aspekte (Barrierefreihe
 
 ### Barrierefreiheitserklärung gemäß der EU-Richtlinie (deutsch und englisch)
 
-Entwurf unter:
-<https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2018-2604172_en>
+Die Richtline für eine Barrierefreiheitserklärung für Webseiten und mobile Anwendungen verpflichtend ein.
+Der Inhalt der Erklärung wird durch Art. 7 vorgegeben, dessen Inhalt die Kommission in einer Mustererklärung festzulegt.
 
-Wie, wo, was ...
+[Entwurf einer Mustererklärung für die Erklärung zur Barrierefreiheit](https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2018-2604172_en)
+
+Ein wesentlicher Bestandteil der Erklärung 
+
+Wie zu ermitteln ist, ob die rechtlichen Anfoderungen
+
+...
 
 #### Feebackmechanismus
 
