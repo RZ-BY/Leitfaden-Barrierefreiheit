@@ -13,7 +13,8 @@ Einführung und Hintergründe
 > Barrierefreies Webdesign zielt darauf ab, Inhalte und Interaktionen im Netz für (möglichst) alle  Nutzergruppen und Endgeräte zugänglich zu machen. 
 >
 > <cite> - Charlier / Radtke, "Barrierefreies Webdesign"</cite>.
-
+ 
+&nbsp; 
 
 Anders ausgedrückt bedeutet dies:
 
@@ -69,12 +70,11 @@ Aufgrund der vorhandenen ausführlichen und guten Literatur, wird hier darauf ve
 
 Detailreiche Erläuterungen zum Aufbau der WCAG, deren Prinzipien, Kriterien, Konformitätsbedingungen sowie der weitere Bestandteile, können über folgende Seiten und Artikel gelesen werden:
 
--   W3C:
+- W3C:
     - WCAG 2.0 (W3C Original), <https://www.w3.org/TR/WCAG20/>
     - Autorisierte deutsche Übersetzung der WCAG 2.0: <https://www.w3.org/Translations/WCAG20-de/>
     - WCAG 2.1 (W3C Recommendation vom 5. Juni 2018),  <https://www.w3.org/TR/WCAG21/>
     - Web Accessibility Initiative, WAI, <https://www.w3.org/WAI/>
-
 - Aktion Mensch: WCAG 2.0 im Überblick, <https://www.einfach-fuer-alle.de/artikel/wcag-einfuehrung/>
 - Jan Hellbusch: Richtlinien: WCAG 2.0, <https://www.barrierefreies-webdesign.de/wcag2/>
 

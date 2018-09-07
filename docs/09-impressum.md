@@ -21,10 +21,9 @@ Dieser Leitfaden wurde im Auftrag der bayerischen Hochschulen für Angewandte Wi
 
 Der Leitfaden wird unter einer [Creativ Commons Lizenz](https://creativecommons.org/licenses/?lang=de) bereitgestellt: 
 
-**Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen** 
-[CC BY-NC-SA](https://creativecommons.org/licenses/by-nc/4.0/)
+**Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen** ([CC BY-NC-SA](https://creativecommons.org/licenses/by-nc/4.0/))
 
-Diese Lizenz erlaubt es anderen, Ihr Werk zu verbreiten, zu remixen, zu verbessern und darauf aufzubauen, allerdings nur nicht-kommerziell und solange Sie als Urheber des Originals genannt werden und die auf Ihrem Werk basierenden neuen Werke unter denselben Bedingungen veröffentlicht werden.
+Diese Lizenz erlaubt es anderen, das Dokument zu verbreiten, zu remixen, zu verbessern und darauf aufzubauen, allerdings nur nicht-kommerziell und solange die Urheber des Originals genannt werden und die auf diesem Dokument basierenden neuen Werke unter denselben Bedingungen veröffentlicht werden.
 
 
 
