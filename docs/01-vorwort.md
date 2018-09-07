@@ -2,7 +2,7 @@
 Vorwort
 =======
 
-Dieser Leitfaden soll Einrichtungen und Angehörigen der Hochschulen für Angewandte Wissenschaft in Bayern eine „Erste Hilfe" bei der Umsetzung der Barrierefreiheit in der IT (Webangebote und Dokumente) geben.
+Dieser Leitfaden soll Einrichtungen und Angehörigen der Hochschulen für Angewandte Wissenschaft in Bayern eine "Erste Hilfe" bei der Umsetzung der Barrierefreiheit in der IT (Webangebote und Dokumente) geben.
 Aus rechtlicher Sicht leitet sich der Begriff der Barrierefreiheit aus dem Gleichheitsgrundsatz des Art. 3 GG ab. Dieser garantiert Chancengleichheit und den Ausgleich bestehender Nachteile. Damit soll die Teilnahme aller am öffentlichen Leben umgesetzt werden.
 
 Der Leitfaden liefert einen Rahmen zur Einführung in das Thema der digitalen Barrierefreiheit und eine allgemeine Handreichung. Eine detaillierte und stets aktualisierte Dokumentation hinsichtlich der technischen, organisatorischen und inhaltlichen Umsetzung kann nicht gegeben werden. Stattdessen werden die jeweiligen Bereiche nach Zielgruppen und Themen aufgegliedert und in diesen die jeweils wichtigsten Handlungsempfehlungen aufgeführt. Für Details der Umsetzung, sowie der Hintergründe, die der Vertiefung dienen, werden Links zu relevanten Webseiten und Dokumentationen angegeben.
@@ -10,9 +10,10 @@ Der Leitfaden liefert einen Rahmen zur Einführung in das Thema der digitalen Ba
 Einführung und Hintergründe
 ---------------------------
 
->„Barrierefreies Webdesign zielt darauf ab, Inhalte und Interaktionen im Netz für (möglichst) alle  Nutzergruppen und Endgeräte zugänglich zu machen." 
+> Barrierefreies Webdesign zielt darauf ab, Inhalte und Interaktionen im Netz für (möglichst) alle  Nutzergruppen und Endgeräte zugänglich zu machen. 
 >
-> <cite>(Charlier / Radtke, „Barrierefreies Webdesign")</cite>.
+> <cite> - Charlier / Radtke, "Barrierefreies Webdesign"</cite>.
+
 
 Anders ausgedrückt bedeutet dies:
 
@@ -38,7 +39,7 @@ Die WCAG: Richtlinien für barrierefreie Inhalte
 
 Barrierefreiheit begegnet einem weiten Feld an Behinderungen, einschließlich visueller, auditiver, motorischer, sprachlicher, kognitiver, Sprach-, Lern- und neurologischer Behinderungen. 
 
-Die Richtlinien für barrierefreie Webinhalte (WCAG: „Web Content Accessibility Guildelines", in [autorisierter deutscher Übersetzung der Version 2.0](https://www.w3.org/Translations/WCAG20-de/) )
+Die Richtlinien für barrierefreie Webinhalte (WCAG: "Web Content Accessibility Guildelines", in [autorisierter deutscher Übersetzung der Version 2.0](https://www.w3.org/Translations/WCAG20-de/) )
 definieren, wie man Inhalte für Menschen mit Behinderungen barrierefreier gestalten kann. Gleichwohl können die Richtlinien dennoch kein Garant für eine hunderprozentige Barrierefreiheit sein: Obwohl die WCAG viele Aspekte der Barrierefreiheit abdecken, haben sie nicht auf alle Arten, Ausprägungen und Kombinationen von Einschränkungen eine Antwort.
 Die Einhaltung der Richtlinien sorgt jedoch für einen möglichst breiten Zugang für alle Menschen, unabhängig von ihrer individuellen Lebenssituation. Zudem wird so auch eine deutlich verbesserte Benutzerfreundlichkeit geschaffen und es kommt zu einer signifikant bessere Auffindbarkeit von Webseiten und deren Inhalten über gängige Suchmaschinen. 
 
@@ -50,7 +51,7 @@ durch Menschen überprüfbar sind. Die WCAG sind hierzu auch öffentlich zugäng
 -   die Bereitstellung von Testverfahren (u.a. die WCAG-EM),
 -   die Auflistung anderer Werkzeuge und Verfahren.
 
-Die WCAG sind eine Empfehlung des W3C und wurden in der „Web Content Accessibility Guidelines Working Group (WCAG-WG) erarbeitet. Die WCAG wurden durch das W3C-Verfahren (<https://www.w3.org/WAI/standards-guidelines/w3c-process/>)  in Kooperation mit Einzelpersonen und Organisationen auf der ganzen Welt entwickelt. Die WCAG wird dabei stetig weiterentwickelt, um auch neue Technologien und Entwicklungen zu berücksichtigen. Die letzte Version der WCAG (<https://www.w3.org/TR/WCAG21/)> , die Version 2.1, wurde am 5. Juni 2018 veröffentlicht.
+Die WCAG sind eine Empfehlung des W3C und wurden in der Web Content Accessibility Guidelines Working Group (WCAG-WG) erarbeitet. Die WCAG wurden durch das W3C-Verfahren (<https://www.w3.org/WAI/standards-guidelines/w3c-process/>)  in Kooperation mit Einzelpersonen und Organisationen auf der ganzen Welt entwickelt. Die WCAG wird dabei stetig weiterentwickelt, um auch neue Technologien und Entwicklungen zu berücksichtigen. Die letzte Version der WCAG (<https://www.w3.org/TR/WCAG21/)> , die Version 2.1, wurde am 5. Juni 2018 veröffentlicht.
 
 Das Ziel des W3C ist es, mit den WCAG einen gemeinsamen, international abgestimmten Standard für die Barrierefreiheit von Webinhalten zur Verfügung zu stellen, der die Bedürfnisse von Einzelpersonen, Unternehmen und Organisationen auf internationaler Ebene erfüllt. 
 Hier zeigt sich auch der Vorteil gegenüber kommerziell getriebenen Empfehlungen und Zertifikaten einzelner Anbieter oder nationalen Insellösungen wie der BITV, die sich zwar an den WCAG orientieren, sie jedoch durch eigene Auslegungen und Einschränkungen abschwächen oder auch andere Prioritäten setzen.
@@ -69,12 +70,10 @@ Aufgrund der vorhandenen ausführlichen und guten Literatur, wird hier darauf ve
 Detailreiche Erläuterungen zum Aufbau der WCAG, deren Prinzipien, Kriterien, Konformitätsbedingungen sowie der weitere Bestandteile, können über folgende Seiten und Artikel gelesen werden:
 
 -   W3C:
-    -   WCAG 2.0 (W3C Original), <https://www.w3.org/TR/WCAG20/>
-    -   Autorisierte deutsche Übersetzung der WCAG 2.0:
-        <https://www.w3.org/Translations/WCAG20-de/>
-    -   WCAG 2.1 (W3C Recommendation vom 5. Juni 2018),
-        <https://www.w3.org/TR/WCAG21/>
-    -   Web Accessibility Initiative, WAI, <https://www.w3.org/WAI/>
+    - WCAG 2.0 (W3C Original), <https://www.w3.org/TR/WCAG20/>
+    - Autorisierte deutsche Übersetzung der WCAG 2.0: <https://www.w3.org/Translations/WCAG20-de/>
+    - WCAG 2.1 (W3C Recommendation vom 5. Juni 2018),  <https://www.w3.org/TR/WCAG21/>
+    - Web Accessibility Initiative, WAI, <https://www.w3.org/WAI/>
 
 - Aktion Mensch: WCAG 2.0 im Überblick, <https://www.einfach-fuer-alle.de/artikel/wcag-einfuehrung/>
 - Jan Hellbusch: Richtlinien: WCAG 2.0, <https://www.barrierefreies-webdesign.de/wcag2/>

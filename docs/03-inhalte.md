@@ -77,7 +77,7 @@ Barrierefreie Webseiten setzen die Überschriftenhierachie nicht nur für den In
 [HeadingsMap](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi),
 kann man sich die Überschriftenhierachie einer Webseite gesondert anzeigen lassen.
 
-![Bild: Beispiels einer HeadingsMap](03-inhalte/headingsmap.jpg)
+![Bild: Beispiels einer HeadingsMap](03-inhalte/headingsmap.png)
 
 Neben Screenreadern nutzen auch Suchmaschinen Überschriften und deren logische Abfolge zur Einordnung von Inhalten. Wenn Sie also Wert darauf legen, dass eine Information besser gefunden wird, sollten Sie auf eine
 hierachische Gliederung des Inhalts achten.
@@ -153,9 +153,9 @@ Der zweite Absatz setzt die Sprache auf Englisch:
 
 ```html
    <p>
-      Dies ist ein Absatz ohne Sprachdeklaration. Es wird die Sprache verwendet, 
-      die vom CMS bzw. dem Webseitentemplate im head-Bereich der Seite 
-      angegeben wurde.
+      Dies ist ein Absatz ohne Sprachdeklaration. Es wird die Sprache 
+      verwendet, die vom CMS bzw. dem Webseitentemplate im Kopfteil
+      der Seite angegeben wurde.
    </p>
    <p lang="en">
       This is an english paragraph.
@@ -167,9 +167,9 @@ Sollte sich der Textbereich über mehrere Kapitel und Absätze erstrecken, setzt
 ```html
    <h1>Text in einer deutschsprachigen Seite mit englischen Absätzen</h1>
    <p>
-      Dies ist ein Absatz ohne Sprachdeklaration. Es wird die Sprache verwendet, 
-      die vom CMS bzw. dem Webseitentemplate im head-Bereich der Seite 
-      angegeben wurde.
+      Dies ist ein Absatz ohne Sprachdeklaration. Es wird die Sprache 
+      verwendet, die vom CMS bzw. dem Webseitentemplate im Kopfteil 
+      der Seite angegeben wurde.
    </p>
    <div lang="en">
        <h2>Chapter One</h2>
@@ -291,7 +291,8 @@ diese anzugeben, sofern das Bild keine Schmuckgrafik ist.
     nutzen:
 
     ```html
-    <img alt="Gemälde der Mona Lisa (La Joconde) von Leonardo da Vinci" title="Mona Lisa" src="(BILD-URL)">
+    <img alt="Gemälde der Mona Lisa (La Joconde) von Leonardo da Vinci" 
+         title="Mona Lisa" src="(BILD-URL)">
     ```
 
     Hier wird als Textalternative für das Bild der Text *Gemälde der
@@ -317,7 +318,7 @@ diese anzugeben, sofern das Bild keine Schmuckgrafik ist.
     nicht mehr das Bild:
 
     ```html
-    <a href="https://www.fau.de"><img alt="Zur Website der FAU" src="(LOGO-URL)"></a>
+    <a href="https://www.fau.de"><img alt="Zum Webauftritt der FAU" src="(LOGO-URL)"></a>
     ```
 
 #### Verpflichtende Erfolgskriterien
@@ -451,8 +452,8 @@ Eine einfache Datentabelle ist in HTML wie folgt aufgebaut:
 <table>
   <caption> Tabellenüberschrift </caption>
   <tr>
-    <th> Überschrift Spalte 1  </th>
-    <th> Überschrift Spalte 2  </th>
+    <th> Überschrift Spalte 1 </th>
+    <th> Überschrift Spalte 2 </th>
   </tr>
   <tr>
     <td> Datenzelle </td>
@@ -555,7 +556,8 @@ eingerückt wird und Schriftart und -stil verändert wird.
 ```html
 <blockquote>
   <p>
-   Der Universität ist vorbehalten, was nur der Mensch durch und durch in sich finden kann, die Einsicht in die reine Wissenschaft.
+   Der Universität ist vorbehalten, was nur der Mensch durch und durch in
+   sich finden kann, die Einsicht in die reine Wissenschaft.
   </p>
 </blockquote>
 ```
@@ -570,7 +572,8 @@ getrennt sein (beispielsweie mit einem `<footer>`-Element).
 ```html
 <blockquote>
   <p>
-      Der Universität ist vorbehalten, was nur der Mensch durch und durch in sich finden kann, die Einsicht in die reine Wissenschaft.
+      Der Universität ist vorbehalten, was nur der Mensch durch und durch 
+      in sich finden kann, die Einsicht in die reine Wissenschaft.
   </p>
   <footer>
      <cite>Wilhelm von Humboldt (1767 - 1835)</cite>
@@ -586,7 +589,8 @@ das Element; Es handelt sich aber dennoch um unterschiedliche Dinge).
 ```html
 <blockquote cite="https://de.wikiquote.org/wiki/Albert_Einstein">
   <p>
-      Ich habe keine besondere Begabung, sondern bin nur leidenschaftlich neugierig.
+      Ich habe keine besondere Begabung, sondern bin nur leidenschaftlich 
+      neugierig.
   </p>
   <footer>
      <cite>Albert Einstein</cite>
@@ -600,7 +604,8 @@ kann man auch das `<cite>`-Element innerhalb eines Absatzes nutzen:
 ```html
 <p>
     <cite>
-    Woran erkennt man barrrierefreies Internet? - Gar nicht! Das ist ja gerade das Gute!
+    Woran erkennt man barrrierefreies Internet? 
+    - Gar nicht! Das ist ja gerade das Gute!
     </cite>
 </p>
 ```
@@ -655,11 +660,9 @@ integrieren kann:
 
 ![Bild: Embedding eines Videos von YouTube](03-inhalte/embedding-youtube.jpg)
 
-Moderne CMS nutzen zudem vermehrt die
-[oEmbed-Schnittstelle](https://oembed.com/) . Mit dieser ist es für den
-Autor einer Seite nicht mehr nötig, irgendeinen HTML-Code auf der
-Portalseite zu suchen und ihn dann einzubinden.
-
+Moderne CMS nutzen zudem vermehrt die [oEmbed-Schnittstelle](https://oembed.com/) . 
+Mit dieser ist es für den Autor einer Seite nicht mehr nötig, irgendeinen HTML-Code 
+auf der Portalseite zu suchen und ihn dann einzubinden.
 Stattdessen reicht es, die URL des Videos oder der Information auf dem
 Portal aus der Adresszeile des Browsers zu nehmen und in den Editor zu
 kopieren.
@@ -668,8 +671,7 @@ kopieren.
 
 Dies passiert im CMS WordPress sogar schon im WYSIWYG-Editor:
 
-![Bild: Embedding über URL -
-WYSIWYG-Ansicht](03-inhalte/embedding-ueber-url2.jpg)
+![Bild: Embedding über URL - WYSIWYG-Ansicht](03-inhalte/embedding-ueber-url2.jpg)
 
 Im Kontext der Barrierefreiheit ist Embedding umstritten: Die Betreiber einer Seite und erst recht nicht die Redakteure haben Einfluss auf die Barrierefreiheit des Embeddings. Es bleibt in vielen Fällen nur
 die Wahl: Wenn man die Information einer fremden und nicht barrierefreien Quelle einbindet, hilft man einer großen Zahl an Personen. Läßt man die Einbindung hingegen weg, da sie nicht vollständig
@@ -684,12 +686,12 @@ den betreffenden Portalen weitgehend automatisch, ist jedoch auch abhängig von 
 Der Autor einer Seite kann sich bei einem Embedding nicht sicher sein,
 ob dieses tatsächlich barrierefrei geliefert wird oder nicht. Daher
 sollte hier eine Lösung ähnlich wie der bei dem Einsatz von Bildern
-vorgenommen werden:
+vorgenommen werden. Um den Konformitätsanforderungen der WCAG Genüge zu tun, ist zudem 
+deutlich zu machen, dass der angezeigte Content von einer Drittquelle kommt.
+
+Daher:
 
 - Sofern das Embedding **zwingend notwendige Informationen** enthält, die der Leser der Webseite erfahren muss, sollten diese Informationen **zusätzlich in Textform** bereitgestellt werden.
-
-Um den Konformitätsanforderungen der WCAG Genüge zu tun, ist deutlich zu
-machen, dass der angezeigte Content von einer Drittquelle kommt. Daher:
 
 - **An geeigneter Stelle vor oder nach dem Embedding wird auf die Quelle hingewiesen.** Hierbei sollte bestenfalls das Quellportal (z.B. der YouTube-Kanal ) und der Titel sichtbar sein. Eine gesonderte Verlinkung sollte ebenfalls vorgenommen werden, so dass man hierfür nicht auf das Embedding selbst angewiesen ist.
 
@@ -705,7 +707,7 @@ Die EU-Richtlinie schränkt in Artikel 1, Absatz 4d) und 4e) die Umsetzung der W
 
 #### Vertiefung
 
--   [oEmbed](https://oembed.com/),
+-   oEmbed Spec: [oEmbed](https://oembed.com/),
 -   W3C: [Erklärung partieller Konformität - Inhalte von
     Dritten](https://www.w3.org/Translations/WCAG20-de/#conformance-partial)
 

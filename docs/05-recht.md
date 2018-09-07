@@ -98,6 +98,7 @@ Die Richtlinie nimmt gewährt einige Ausnahmen bei bestimmten Arten oder Alter v
 * Reproduktionen von Stücken aus Kulturerbesammlungen, die nicht vollständig barrierefrei zugänglich gemacht werden können
 * Inhalte von Extranets und Intranets, die vor dem 23. September 2019 veröffentlicht wurden
 
+<!-- 
 #### Rückausnahmen
 
 Der Bayerische Gesetzgeber hatte bisher schon Inhalte von Extranets und Intranets Bar
@@ -106,6 +107,9 @@ Der Bayerische Gesetzgeber hatte bisher schon Inhalte von Extranets und Intranet
 
 ...
 
+-->
+
+
 ### Durchsetzungsmöglichkeiten für Betroffene
 
 Die Ausgestaltung wird in der richtlinien angepassten BayBITV oder einer neuen Verordnung erfolgen.
@@ -113,8 +117,9 @@ Die Ausgestaltung wird in der richtlinien angepassten BayBITV oder einer neuen V
 
 ## Vertragliche Anforderungen bei Auftragsarbeiten 
 
-Es kann immer wiedervorkommen, dass ein begründerter Bedarf besteht, Webseiten nicht hochschulintern zu entwicklen oder designen sondern extern entwicklen oder desingen zu lassen.
-Die Einrichtung die solche Aufträge vergibt, hat neben dem Haushaltsrecht sicherzustellen, dass in dem Auftrag festgelegt ist, barrierefrei zu entwickeln und designen.
+Es kann immer wiedervorkommen, dass ein begründerter Bedarf besteht, Webseiten nicht hochschulintern zu entwickeln oder designen sondern diese Aufgabe extern zu vergeben.
+Die Einrichtung, die solche Aufträge vergibt, hat neben dem Haushaltsrecht sicherzustellen, dass in der Auftragsdefinition die Einhaltung der EU Norm zur Barrierefreiheit verbindlich gefordert wird. Dies gilt nicht nur für Programmierarbeiten, sondern auch für designerische Leistungen.
+
 
 ### Die Schritte zum Auftrag (vereinfachte Darstellung)
 
@@ -124,7 +129,7 @@ Die Einrichtung die solche Aufträge vergibt, hat neben dem Haushaltsrecht siche
 
     a) Dokumentation der Entscheidung und des Verfahrens
     
-    b) Bis € 1000 (ohne Umsatzsetuer) ist eine Direktvergabe möglich
+    b) Bis € 1000 (ohne Umsatzsteuer) ist eine Direktvergabe möglich
     
     c) Bis € 50.000 (ohne Umsatzsteuer) ist bei entsprechender Begründung die Vergabe nach Einholung von 
        drei Angeboten erfolgen. Ab € 25.000 (ohne Umsatzsteuer) ist eine elektronische Vergabe vorgesehen.
@@ -149,13 +154,13 @@ Die Einrichtung die solche Aufträge vergibt, hat neben dem Haushaltsrecht siche
 
 ## Weitere Pflichtangaben auf Webseiten
 
-Da die Webseite um eine Barrierefreiheitskonformitätserklärung zu erweitern ist, lohnt sich ein prüffender Blick auf Impressum und Datenschutz.
+Da die Webseite um eine Barrierefreiheitskonformitätserklärung zu erweitern ist, lohnt sich in dem Zuge auch nochmal, einen prüfenden Blick auf Impressum und Datenschutzerklärung zu werfen.
 
 ### Impressum
 
-Häufige Fehler sind, die fehlende Angabe der Rechtsform, fehlende gesetzliche Vertreter oder ein nicht aktualisierter Name der zuständingen Aufsichtsbheörde.
+Häufige Fehler sind die fehlende Angabe der Rechtsform, fehlende gesetzliche Vertreter oder ein nicht aktualisierter Name der zuständigen Aufsichtsbehörde.
 
-Über ein Webformular stellt die Stabsstelle IT-Recht der bayerischen staatlichen Universitäten und Hochschulen im Rahmen Ihrer Zuständigkeit einen Vorschlag für ein Impressum zur Verfügung.
+Über ein [Webformular](https://www.rz.uni-wuerzburg.de/dienste/it-recht/generatoren-beta/) stellt die Stabsstelle IT-Recht der bayerischen staatlichen Universitäten und Hochschulen im Rahmen Ihrer Zuständigkeit einen Vorschlag für ein Impressum zur Verfügung.
 
 ### Datenschutzerklärung
 
@@ -163,10 +168,10 @@ Gerade eigenständige Projektseiten oder Webseiten der Hochschulvereine haben ih
 
 Die Musterdatenschutzerkärung der Stabsstelle IT-Recht der bayerischen staatlichen Universitäten und Hochschulen versucht diese Fehlerquellen zu minimieren und versucht in seinem Umfang die üblichen Anfoderungen eines Hochschulinternetauftritts gerecht zu werden.
 
-## Spickzettel
+## Handlungsempfehlungen
 
 * Abhalten einer Auftaktveranstaltung zur Barrierefreiheit
-* Einsetzen eines Germiums zur Umsetzung
+* Einsetzen eines Gremiums zur Umsetzung
     * Festlegen von Verantwortlichkeiten für die Umsetzung der Barrierefreit
     * Prüfung, ob eine Inhaltsfreigabe über eine zentrale Stelle koordiniert werden könnte
     * Auswahl der Webseiten, die gemäß Annex C der Europäischen Norm EN 301 549 V1.1.2 geprüft werden
@@ -175,7 +180,7 @@ Die Musterdatenschutzerkärung der Stabsstelle IT-Recht der bayerischen staatlic
 * Beständige Information und Sensiblisierung für das Thema
 * Barrierefreiheitserklärung und Feedback-Mechanismus auf Webseite und in mobilen Anwendungen veröffentlichen
 * Etablieren von Schulungsangeboten
-* Regelmäißiger hochschulübergreifender fachlicher Austausch der Wissensträger
+* Regelmäßiger hochschulübergreifender fachlicher Austausch der Wissensträger
 
 
 Vertiefung

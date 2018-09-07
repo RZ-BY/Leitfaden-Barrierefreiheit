@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de-DE" xml:lang="de-DE">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Johannes Nehlsen, Stabsstelle IT-Recht" />
+  <meta name="author" content="Wolfgang Wiese, Regionales Rechenzentrum Erlangen (RRZE)" />
+  <title>Leitfaden digitale Barrierefreiheit</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="../templates/pandoc.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header>
+<h1 class="title">Leitfaden digitale Barrierefreiheit</h1>
+<p class="subtitle">Bessere Benutzerfreundlichkeit, Suchmaschinenoptimierung und Inklusion: Einfach für alle!</p>
+<p class="author">Johannes Nehlsen, Stabsstelle IT-Recht</p>
+<p class="author">Wolfgang Wiese, Regionales Rechenzentrum Erlangen (RRZE)</p>
+<p class="date">7. September 2018</p>
+</header>
+<h1 id="vorwort">Vorwort</h1>
+<p>Dieser Leitfaden soll Einrichtungen und Angehörigen der Hochschulen für Angewandte Wissenschaft in Bayern eine “Erste Hilfe” bei der Umsetzung der Barrierefreiheit in der IT (Webangebote und Dokumente) geben. Aus rechtlicher Sicht leitet sich der Begriff der Barrierefreiheit aus dem Gleichheitsgrundsatz des Art. 3 GG ab. Dieser garantiert Chancengleichheit und den Ausgleich bestehender Nachteile. Damit soll die Teilnahme aller am öffentlichen Leben umgesetzt werden.</p>
+<p>Der Leitfaden liefert einen Rahmen zur Einführung in das Thema der digitalen Barrierefreiheit und eine allgemeine Handreichung. Eine detaillierte und stets aktualisierte Dokumentation hinsichtlich der technischen, organisatorischen und inhaltlichen Umsetzung kann nicht gegeben werden. Stattdessen werden die jeweiligen Bereiche nach Zielgruppen und Themen aufgegliedert und in diesen die jeweils wichtigsten Handlungsempfehlungen aufgeführt. Für Details der Umsetzung, sowie der Hintergründe, die der Vertiefung dienen, werden Links zu relevanten Webseiten und Dokumentationen angegeben.</p>
+<h2 id="einführung-und-hintergründe">Einführung und Hintergründe</h2>
+<blockquote>
+<p>Barrierefreies Webdesign zielt darauf ab, Inhalte und Interaktionen im Netz für (möglichst) alle Nutzergruppen und Endgeräte zugänglich zu machen.</p>
+<p><cite> - Charlier / Radtke, “Barrierefreies Webdesign”</cite>.</p>
+</blockquote>
+<p>Anders ausgedrückt bedeutet dies:</p>
+<p>Jeder,</p>
+<ul>
+<li>unabhängig von der jeweiligen Auffassungsgabe</li>
+<li>unabhängig von der jeweiligen Methodik</li>
+<li>unabhängig vom Gerät</li>
+<li>unabhängig vom Betriebssystem</li>
+<li>unabhängig von der Software</li>
+</ul>
+<p>bekommt <strong>beim Zugriff auf dieselbe Seite dieselben Inhalte angezeigt</strong>.</p>
+<p>Die Umsetzung dieses Prinzips nutzt nicht allein Menschen mit Behinderungen. Auch neue Medien, neue Geräte und auch Inhaltsaggregatoren (u.a. von Suchmaschinen), profitieren davon.</p>
+<p>Besonders deutlich wird dies bei der stark gestiegenen Nutzung von Smartphones und Tablet-Rechnern: Wurden noch vor 10 Jahren Webauftritte nur über Desktop-Rechner abgerufen, so ist es heutzutage längst üblich geworden, stattdessen auch mit Smartphones Informationen abzurufen. Diese zeigen zwar moderne Webseiten nicht im selben optischen Design wie auf einem großen Monitor, sie zeigen aber dennoch dieselben Inhalte.</p>
+<p>Hier hat man also mit modernen Webseiten erfolgreich erreicht, dass Webseiten unabhängig vom Gerät, dessen Betriebssystem oder der Software abrufbar sind.</p>
+<h2 id="die-wcag-richtlinien-für-barrierefreieinhalte">Die WCAG: Richtlinien für barrierefreie Inhalte</h2>
+<p>Barrierefreiheit begegnet einem weiten Feld an Behinderungen, einschließlich visueller, auditiver, motorischer, sprachlicher, kognitiver, Sprach-, Lern- und neurologischer Behinderungen.</p>
+<p>Die Richtlinien für barrierefreie Webinhalte (WCAG: “Web Content Accessibility Guildelines”, in <a href="https://www.w3.org/Translations/WCAG20-de/">autorisierter deutscher Übersetzung der Version 2.0</a> ) definieren, wie man Inhalte für Menschen mit Behinderungen barrierefreier gestalten kann. Gleichwohl können die Richtlinien dennoch kein Garant für eine hunderprozentige Barrierefreiheit sein: Obwohl die WCAG viele Aspekte der Barrierefreiheit abdecken, haben sie nicht auf alle Arten, Ausprägungen und Kombinationen von Einschränkungen eine Antwort. Die Einhaltung der Richtlinien sorgt jedoch für einen möglichst breiten Zugang für alle Menschen, unabhängig von ihrer individuellen Lebenssituation. Zudem wird so auch eine deutlich verbesserte Benutzerfreundlichkeit geschaffen und es kommt zu einer signifikant bessere Auffindbarkeit von Webseiten und deren Inhalten über gängige Suchmaschinen.</p>
+<p>Die Richtlinien der WCAG wurden so konzipiert, dass sie sich weitgehend auf verschiedene Webtechniken der Gegenwart und Zukunft anwenden lassen sowie mit einer Kombination aus automatisierten Tests und der Evaluation durch Menschen überprüfbar sind. Die WCAG sind hierzu auch öffentlich zugänglich und werden ergänzt durch:</p>
+<ul>
+<li>ausführliche Erläuterungen mit Anwendungsbeispielen,</li>
+<li>Tutorien und Schulmaterialien,</li>
+<li>die Bereitstellung von Testverfahren (u.a. die WCAG-EM),</li>
+<li>die Auflistung anderer Werkzeuge und Verfahren.</li>
+</ul>
+<p>Die WCAG sind eine Empfehlung des W3C und wurden in der Web Content Accessibility Guidelines Working Group (WCAG-WG) erarbeitet. Die WCAG wurden durch das W3C-Verfahren (<a href="https://www.w3.org/WAI/standards-guidelines/w3c-process/" class="uri">https://www.w3.org/WAI/standards-guidelines/w3c-process/</a>)  in Kooperation mit Einzelpersonen und Organisationen auf der ganzen Welt entwickelt. Die WCAG wird dabei stetig weiterentwickelt, um auch neue Technologien und Entwicklungen zu berücksichtigen. Die letzte Version der WCAG (<a href="https://www.w3.org/TR/WCAG21/)" class="uri">https://www.w3.org/TR/WCAG21/)</a> , die Version 2.1, wurde am 5. Juni 2018 veröffentlicht.</p>
+<p>Das Ziel des W3C ist es, mit den WCAG einen gemeinsamen, international abgestimmten Standard für die Barrierefreiheit von Webinhalten zur Verfügung zu stellen, der die Bedürfnisse von Einzelpersonen, Unternehmen und Organisationen auf internationaler Ebene erfüllt. Hier zeigt sich auch der Vorteil gegenüber kommerziell getriebenen Empfehlungen und Zertifikaten einzelner Anbieter oder nationalen Insellösungen wie der BITV, die sich zwar an den WCAG orientieren, sie jedoch durch eigene Auslegungen und Einschränkungen abschwächen oder auch andere Prioritäten setzen.</p>
+<p>Die EU-Richtlinie 2016/2102 fordert für das Angebot von Webseiten einschließlich von Dateiformaten aus Büroanwendungen (u.a. PDF-Dokumenten) und Intranets hingegen die Einhaltung der WCAG, und zwar auf der Konformitätsstufe AA. Daher sollte zukünftig nur noch die Konformität zu den WCAG als Maßstab für die Umsetzung und Prüfung von Inhalten, Webangeboten und Dokumenten verwendet werden und nicht mehr daraus abgeleitete oder interpretierte Formen.</p>
+<h3 id="aufbau-und-inhalt-der-wcag">Aufbau und Inhalt der WCAG</h3>
+<p>Die WCAG basieren auf vier grundlegenden Prinzipien, denen mehrere Richtlinien zugeordnet sind. Zur Erfüllung dieser Richtlinien wurden Erfolgskriterien (in der WCAG 2.0: 61, in der WCAG 2.1: 76) definiert, mit denen geprüft werden kann, ob die Richtlinien eingehalten werden.</p>
+<p>Aufgrund der vorhandenen ausführlichen und guten Literatur, wird hier darauf verzichtet, weitere Ausführungen zu ergänzen. Wenn in den folgenden Kapiteln auf einzelne Erfolgskriterien Bezug genommen wird, sind diese gesondert gekennzeichnet.</p>
+<p>Detailreiche Erläuterungen zum Aufbau der WCAG, deren Prinzipien, Kriterien, Konformitätsbedingungen sowie der weitere Bestandteile, können über folgende Seiten und Artikel gelesen werden:</p>
+<ul>
+<li>W3C:
+<ul>
+<li>WCAG 2.0 (W3C Original), <a href="https://www.w3.org/TR/WCAG20/" class="uri">https://www.w3.org/TR/WCAG20/</a></li>
+<li>Autorisierte deutsche Übersetzung der WCAG 2.0: <a href="https://www.w3.org/Translations/WCAG20-de/" class="uri">https://www.w3.org/Translations/WCAG20-de/</a></li>
+<li>WCAG 2.1 (W3C Recommendation vom 5. Juni 2018), <a href="https://www.w3.org/TR/WCAG21/" class="uri">https://www.w3.org/TR/WCAG21/</a></li>
+<li>Web Accessibility Initiative, WAI, <a href="https://www.w3.org/WAI/" class="uri">https://www.w3.org/WAI/</a></li>
+</ul></li>
+<li>Aktion Mensch: WCAG 2.0 im Überblick, <a href="https://www.einfach-fuer-alle.de/artikel/wcag-einfuehrung/" class="uri">https://www.einfach-fuer-alle.de/artikel/wcag-einfuehrung/</a></li>
+<li>Jan Hellbusch: Richtlinien: WCAG 2.0, <a href="https://www.barrierefreies-webdesign.de/wcag2/" class="uri">https://www.barrierefreies-webdesign.de/wcag2/</a></li>
+</ul>
+<h2 id="gesetze-verordnungen-und-richtlinien">Gesetze, Verordnungen und Richtlinien</h2>
+<p>Die Barrierefreiheit von Webangeboten für Einrichtungen des öffentlichen Dienstes ist seit der Verabschiedung des Bayerischen Gesetzes zur Gleichstellung, Integration und Teilhabe von Menschen mit Behinderung (BayBGG, <a href="http://gesetze-bayern.de/Content/Document/BayBGG" class="uri">http://gesetze-bayern.de/Content/Document/BayBGG</a>) im Jahr 2003 verbindlich geregelt. Die dazugehörige Verordnung BayBITV (<a href="http://www.gesetze-bayern.de/Content/Document/BayBITV" class="uri">http://www.gesetze-bayern.de/Content/Document/BayBITV</a>) vom 24. Oktober 2006 regelt hierbei verbindlich die Art der Umsetzung und Fristen und Empfehlungen. Für bayerische staatliche Hochschulen sind die Fristen in der BayBITV nur Empfehlungen ebenso der technische Standard BITV. Die vermeindliche Großzügigkeit der Verordnung hinsichtlich der Art der Umsetzung ändert jedoch nichts an der gesetzlichen Pflicht zur Barrierefreieit, die seit Jahren besteht und bis heute bei vielen Webangeboten nicht erfüllt ist.</p>
+<p>Die entsprechenden Fristen zur Umsetzung der Barrierefreiheit von Internet-Angeboten nach dem bisherigen BayBGG sind seit 2010 abgelaufen. Gleichwohl wurden diese gesetzlichen Vorgaben bis heute nicht bei vielen Webangeboten erfüllt. Das Problem der mangelnden Umsetzung und der Wunsch nach Harmonisierung der Gesetzgebung auf EU-Ebene führte zum Erlass der Richtlinie 2016/2102. Aus diesem Grund wurde eine Richtlinie entworfen, die sich dieses Problems annahm: Am 18.7.2016 wurde auf EU-Ministerratsebene die “Web-Accessibility-Richtlinie” angenommen, die nach der darauf folgenden Annahme von Rat und Parlament am 20. Tag nach ihrer Veröffentlichung im Amtsblatt der EU (ABl. L 327, 2. Dezember 2016) - am 22. Dezember 2016 - in Kraft trat.</p>
+<p>Mit der Richtlinie soll eine Angleichung der Rechts- und Verwaltungsvorschriften der Mitgliedstaaten zum barrierefreien Zugang zu Webseiten öffentlicher Stellen erfolgen. Dies soll dabei unterstützen, die nationalen Verpflichtungen hinsichtlich eines barrierefreien Webzugangs zu erfüllen und das Bekenntnis der Mitgliedstaaten zum Übereinkommen der Vereinten Nationen über die Rechte von Menschen mit Behinderungen in Bezug auf die Websites öffentlicher Stellen zu bekräftigen. Gegenstand der vorgeschlagenen Richtlinie sind sowohl Webseiten, als auch Dokumente und Apps öffentlicher Stellen, da sie Informationen und Dienste bereitstellen, die für Bürgerinnen und Bürger von grundlegender Bedeutung sind.</p>
+<p>In technischer Hinsicht gilt als Richtschnur die Erfüllung des Konformitätsstufe AA der <a href="https://www.ag.bka.gv.at/at.gv.bka.wiki-bka/index.php/WCAG20">Richtlinien für barrierefreie Webinhalte (Web Content Accessibility Guidelines - WCAG 2.0)</a>, wie sie in der Europäischen Norm (<a href="https://www.ag.bka.gv.at/at.gv.bka.wiki-bka/index.php/Barrierefrei:EN_301_549">Europäischer Standard EN 301 549 - Anforderungen an Barrierefreiheit bei der Beschaffung von IKT-Produkten und Dienstleistungen</a>) enthalten sind. </p>
+<p>Aufgrund der im Juni 2018 veröffentlichten neuen Version 2.1 der WCAG, ist es möglich, dass die Europäische Norm in Kürze um die zusätzlichen Erfolgskriterien aktualisiert wird. Es ist daher in Erwägung zu ziehen, sich bereits jetzt an die WCAG 2.1 zu halten, da diese zu der Version 2.0 abwärtskompatibel gestaltet worden ist. Dieser Leitfaden wird bei den Empfehlungen, die nicht durch die WCAG 2.0 gefordert, aber in der WCAG 2.1 enthalten sind, jeweils einen entsprechenden Hinweis setzen.</p>
+<h2 id="anwendungsbereiche">Anwendungsbereiche</h2>
+<p>Dieser Leitfaden gliedert sich nach den Anforderungen unterschiedlicher Zielgruppen und Aufgabengebiete. Je nachdem gelten verschiedene Empfehlungen oder Anforderungen, die sich aus der EU Richtlinie oder der WCAG ergeben.</p>
+<ol type="1">
+<li>Bereitstellung und Pflege von Inhalten
+<ul>
+<li>für: <em>Redakteure und Autoren von Webinhalten</em></li>
+</ul></li>
+<li>Entwicklung und Design
+<ul>
+<li>für: <em>Webentwickler und Webdesigner</em></li>
+</ul></li>
+<li>Organisatorische und rechtliche Anforderungen
+<ul>
+<li>für: <em>Verantwortliche Betreiber von Webauftritten, Auftraggeber, Entscheider</em></li>
+</ul></li>
+<li>Satzungen, Prüfungsordnungen, Dienstanweisungen
+<ul>
+<li>für: <em>Bearbeiter aus Prüfungsämtern und Rechtsabteilungen, sowie Verwaltungsmitarbeiter</em></li>
+</ul></li>
+</ol>
+<p>Die einzelnen Kapitel orientieren sich im Aufbau nach den Anforderungen und Tätigkeiten der jeweiligen Zielgruppen. Dabei wird auch von der Reihenfolge abgewichen, die sich durch die WCAG (Sortierung gemäß den Richtlinien „Wahrnehmbar“, „Bedienbar”, „Verständlich“, „Robust”) ergibt.</p>
+<p>Zur Umsetzung können die jeweiligen Kapitel auch getrennt voneinander weitergegeben werden.</p>
+<h1 id="bereitstellung-und-pflege-von-inhalten">Bereitstellung und Pflege von Inhalten</h1>
+<h2 id="aufgabenbereich-und-zielgruppe">Aufgabenbereich und Zielgruppe</h2>
+<p>Dieser Anwendungsbereich betrifft die Erstellung von Pflege von Inhalten auf Webauftritten von Hochschulen, deren Einrichtungen, Lehrstühlen, Projekten und anderen Informationsseiten.</p>
+<p>Dieses Kapitel wendet sich an folgende Personenkreise:</p>
+<ul>
+<li>Redakteure</li>
+<li>Autoren</li>
+<li>Fotoredakteure</li>
+<li>sonstige Bearbeiter von Inhalten</li>
+</ul>
+<p>Es wird davon ausgegangen, dass Webangebote in diesen Bereichen über ein geeignetes Content-Management-System verwaltet werden, das über Eingabeverfahren mit Hilfe von einem WYSIWYG- oder zumindest Text-Editor verfügt, in dem einfache HTML-Anweisungen eingegeben werden können.</p>
+<p><strong>Abgrenzung: Die Programmierung von CMS oder die optische und technische Gestaltung der Ausgaben über HTML, CSS und JavaScript ist nicht Teil dieses Kapitels.</strong></p>
+<h2 id="grundlagen">Grundlagen</h2>
+<p>Mit Inhalten sind all die Informationen gemeint, die vom Leser wahrgenommen werden müssen. Zur Darstellung und Strukturierung der Inhalte wird auf Webseiten die Strukturierungssprache HTML verwendet. Mit dieser kann die inhaltliche Bedeutung eindeutig definiert werden, wozu auch nur wenige, leicht zu merkendende Elemente notwendig sind: Nämlich die Elemente für Überschriften, Absätze, Bilder, Listenelemente, Zitate und Tabellen. In HTML nutzt man den Begriff der <a href="https://blog.kulturbanause.de/2008/01/html-elemente-und-semantik/">Semantik</a>.</p>
+<p>Wichtig hierbei ist, dass die Semantik eingehalten wird: Überschriften, die nicht mittels der verfügbaren HTML-Elementen als solche gekennzeichnet sind, sind keine. Der “klassische Fehler” vieler Autoren besteht dann auch darin, dass keine Überschriften gesetzt wurden, sondern eine Textzeile schlicht mit Fettdruck und einer größeren Schrift optisch hervorgehoben wurde. Semantisch sind solche Überschriften jedoch keine und werden daher auch nicht als solche interpretiert: Screenreader können diese nicht von normalem Text unterscheiden und auch die Analyse von Suchmaschinen wird hier den Inhalt dieser Zeile nicht als hervorhebenswerte Überschrift einstufen. Der Fettdruck und die Schriftgröße werden lediglich als optische Darstellung interpretiert; eine <em>automatische Erkennung</em>, dass hier eine Überschrift gemeint sei, passiert nicht. Diese Interpretation findet allein im Auge des Autors statt.</p>
+<p>Ein weiterer häufiger Fehler neben dem, keine Semantik zu verwenden, ist es, eine Semantik falsch zu verwenden mit dem Ziel eine optische Darstellung zu erlangen. So zum Beispiel verwenden einige Autoren gern Überschriften, um einen in ihren Augen wichtigen Text hervorzuheben. Ebenso häufig ist der Fehler, eine Überschrift einer bestimmten Ebene nur deswegen zu verwenden, weil sie dem Autor in der jeweiligen Größe besser gefällt als die Überschrift in ihrer korrekten Ebene. Oder es werden Tabellen verwendet, um eine rein optische Ausrichtung des Textes zu erlangen.</p>
+<p>Auf Webseiten, aber auch auf Flyern und anderen Print-Produkten erfolgt sehr häufig eine optische Verschönerung durch sogenannte <em>Schmuckgrafiken</em>. Da diese Grafiken jedoch keine inhaltliche Aussage übermitteln, können sie jederzeit auch weggelassen oder ausgetauscht werden. Mit diesem Verständnis kann man solche Grafiken auch von Schemagrafiken, Auswertungen oder anderen Grafiken unterscheiden: Schmuckgrafiken können jederzeit ausgetauscht oder weggelassen werden, während Grafiken, die einen Inhalt tragen, ein nicht wegzulassender Bestandteil der Seite sind.</p>
+<p>Wenn eine optische Hervorhebung von Texten gewünscht ist, dürfen hierzu keine Strukturelemente, die für die inhaltliche Kennzeichnung vorgesehen sind, verwendet werden. Wenn ein Absatz oder einzelne Worte optisch hervorgehoben werden sollen, ist es Sache des Webdesigns, eine entsprechende Funktionalität bereitzustellen. Viele Webdesigns enthalten bereits entsprechende Funktionalitäten für optionale Boxen, Spaltensatz, Hinweismarken oder Buttons. Sollte eine entsprechende Dokumentation oder ein Styleguide vorhanden sein, sollten diese konsultiert werden.</p>
+<h2 id="umsetzung">Umsetzung</h2>
+<h3 id="überschriften-und-überschriftenhierachien">Überschriften und Überschriftenhierachien</h3>
+<p>Inhalte beginnen üblicherweise mit einer Überschrift, gefolgt von einem oder mehren Absätzen. Beim Schreiben von längeren Texten ist eine logische Überschriftenhierachie wichtig:</p>
+<p>Die erste Überschrift im Dokument ist eine Überschrift der Ebene 1. Ist der Text hierarchisch gegliedert, folgt ein Absatz mit einer Überschrift der Ebene 2. Besteht dieses Kapitel aus weiteren hierarchisch untergeordneten Kapitel folgen hier die Überschriften der Ebene 3 und so weiter.</p>
+<p>In HTML wird die Überschrift der ersten Ebene mit <code>&lt;h1&gt;</code> deklariert, die zweite Ebene mit <code>&lt;h2&gt;</code>, die dritte mit <code>&lt;h3&gt;</code> und so weiter bis zur sechsten Ebene. Wird in einem CMS ein WYSIWYG-Editor wie beispielsweise der populäre TinyMCE-Editor angeboten, werden die Überschriften als Absatzvorlagen angeboten. Diese werden nach der Eingabe in dem Editor in die entsprechende HTML-Variante gesetzt.</p>
+<figure>
+<img src="03-inhalte/ueberschriften-tinymce.jpg" alt="Bild: Ansicht der Überschriften in einem CMS mit dem TinyMCE Editor" /><figcaption>Bild: Ansicht der Überschriften in einem CMS mit dem TinyMCE Editor</figcaption>
+</figure>
+<p>Bei einigen CMS und Redaktionssystemen wurde die Überschrift der ersten Ebene aus den Absatzvorlagen entfernt, wie es auch das obige Bild zeigt. Grund ist, dass viele Webseiten in der Ausgabe den Titel der Seite als erste Überschrift ausgeben.</p>
+<p>Die Überschriften sind nur in ihrer logischen Struktur zu nutzen und nicht als Hilfsmittel zur optischen Formatierung der Texte. Wie eine Überschrift einer beliebigen Ebene optisch auf einem Browser, in einem Office-Dokument oder einem Ausdruck aussieht, ist Sache des Corporate Designs oder der zugrundeliegenden Dokumentenvorlage. Wenn die optische Darstellung nicht passend erscheint, so ist nicht die Überschriftenhierachie zu ändern, sondern das Corporate Design bzw. die Dokumentenvorlage. Als Redakteur oder Autor einer Webseite oder eines Dokumentes sollte man sich jedoch grundsätzlich nicht um die optische Gestaltung der Inhalte kümmern und daher auch nicht versuchen, diese zu beeinflussen.</p>
+<p>Logische Überschriftenhierachien sind von hoher Bedeutung bei der barrierefreien Umsetzung von Webseiten und Dokumenten: Die Überschriften sind für Screenreader-Software ein unverzichtbares Mittel, um innerhalb der Seite zu navigieren. Die Software erkennt Überschriften anhand der korrekten HTML-Markierung und bietet dem (blinden) Leser der Seite die Möglichkeit an, von Kapitel zu Kapitel zu springen. Sind die Kapitel jedoch nicht mit Überschriften versehen funktioniert dies nicht. Im Falle von Überschriften der falschen Hierachieebene wird diese hingegen einem anderen Kontext zugeordnet.</p>
+<p>Barrierefreie Webseiten setzen die Überschriftenhierachie nicht nur für den Inhaltsbereich um, sondern gliedern auch alle anderen Bestandteile der Webseite in einer passenden Hierachie. Mit einem Browser-Add-on, wie <a href="https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi">HeadingsMap</a>, kann man sich die Überschriftenhierachie einer Webseite gesondert anzeigen lassen.</p>
+<figure>
+<img src="03-inhalte/headingsmap.png" alt="Bild: Beispiels einer HeadingsMap" /><figcaption>Bild: Beispiels einer HeadingsMap</figcaption>
+</figure>
+<p>Neben Screenreadern nutzen auch Suchmaschinen Überschriften und deren logische Abfolge zur Einordnung von Inhalten. Wenn Sie also Wert darauf legen, dass eine Information besser gefunden wird, sollten Sie auf eine hierachische Gliederung des Inhalts achten.</p>
+<h4 id="verpflichtende-erfolgskriterien">Verpflichtende Erfolgskriterien</h4>
+<ul>
+<li><a href="https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">1.3.1 Info und Beziehungen</a> (Stufe A)</li>
+<li><a href="https://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels">2.4.6 Überschriften und Labels</a> (Stufe AA)</li>
+</ul>
+<h4 id="optionale-erfolgskriterien">Optionale Erfolgskriterien</h4>
+<ul>
+<li><a href="https://www.w3.org/WAI/WCAG21/quickref/#section-headings">2.4.10 Abschnittsüberschriften</a> (Stufe AAA)</li>
+</ul>
+<h3 id="absätze-und-andere-textbereiche">Absätze und andere Textbereiche</h3>
+<p>Beim Schreiben von Text für Webseiten gelten dieselben Regeln wie auch bei jeder anderen Publikation oder wissenschaftlichen Arbeit: Der Text muss für die jeweilige Zielgruppe verständlich sein, klar strukturiert werden und frei von Rechtsschreibfehlern sein. Dabei sollte man jedoch nicht davon ausgehen, dass der Leser der Webseite denselben Kenntnisstand hat wie der Autor. Abkürzungen, interne Begriffe und Codewörter, die im Umfeld des Autors oder in Projekten alltäglich verwendet werden, müssen für andere nicht bekannt sein. Zudem können dieselben Abkürzungen je nach Umfeld und Kontext auch verschiedene Bedeutungen haben. Bei einem längeren Text bietet es sich zudem an, im ersten Absatz eine kurze Zusammenfassung oder eine Einführung zu schreiben. Die WCAG selbst fordern die Verständlichkeit von Texten.</p>
+<p>Jan Eric Hellbusch schreibt zur <a href="https://www.barrierefreies-webdesign.de/knowhow/verstaendliche-inhalte/">Verständlichkeit</a>: &gt; Textverstehen ist ein aktiver Prozess und eine Interaktion zwischen Text und Leser. Texte sind für unterschiedliche Leser unterschiedlich leicht verstehbar. Dies hat sowohl mit den Interessen und dem Vorwissen des Lesers zu tun, als auch mit dessen individuellen Fähigkeiten. Aufgrund der unterschiedlichen Voraussetzungen können Texte nicht für alle Leser gleichermaßen verständlich gemacht werden. Dennoch können Voraussetzungen geschaffen werden, die zur Textverständlichkeit beitragen und die Zugänglichkeit der Inhalte auf der Verständlichkeitsebene fördern. Hierzu zählen redaktionelle Aspekte wie die Verwendung geläufiger Begriffe oder kurzer Sätze und gestalterische Maßnahmen wie das Vermeiden von Blocksatz und die Berücksichtigung von relativen Schriftgrößen und höheren Zeilenabständen. Auch die Verwendung von Zwischenüberschriften gehört zu den Anforderungen der Verständlichkeit</p>
+<h4 id="sprache">Sprache</h4>
+<p>Ein Text wird üblicherweise in nur einer Sprache geschrieben. Auch wenn die Sprache für einen <em>sehenden Leser</em> offensichtlich ist, muss die Sprache der Webseite im Quellcode der Seite angegeben sein. Diies gilt insbesondere dann, wenn Teile von Texten einer Seite einer andere Sprache nutzen als der Rest der Seite.</p>
+<p>Für die Definition der gesamten Seite in einer Sprache ist bei modernen Webauftritten das jeweilige CMS zuständig. Je nach Einstellung des Webauftritts wird dabei vorgegeben, welches die Hauptsprache des Webauftritts und damit auch der Inhalte ist. Als Autor oder Redakteur kann man diese <em>globale</em> Einstellung normalerweise nicht ändern. Unter Umständen bieten manche CMS Installationen die Option an, die Sprache einer einzelnen Inhaltseite gesondert anzugeben:</p>
+<figure>
+<img src="03-inhalte/seitensprache-aendern.png" alt="Bild: Seitensprache ändern" /><figcaption>Bild: Seitensprache ändern</figcaption>
+</figure>
+<p>Auch wenn die Angabe der Sprache für einen <em>sehenden Leser</em> unnötig erscheint, ist sie dennoch von großer Bedeutung:</p>
+<ul>
+<li>Screenreader lesen den Text vor. Damit der Text jedoch in der richtigen Sprache und in der korrekten Aussprache vorgelesen werden kann, muss die Screenreader-Software auch erkennen können, um welche Sprache es sich handelt. Eine automatische Erkennung ist zwar nicht unmöglich, sie ist jedoch nicht zuverlässig. Zumal dann, wenn die Hauptsprache des Webauftritts ebenfalls angegeben wurde und sich von der Sprache des Textabschnitts unterscheidet.</li>
+<li>Neben Menschen besuchen auch Suchmaschinen und Inhaltsaggregatoren die Webseiten. Auch diese versuchen, den Inhalt zu interpretieren und verwenden zur Einordnung und Erkennung von Keywords und Synonymen die angegebene Sprache. Ist die Sprache nicht oder falsch angegeben, kann der Inhalt falsch zugeordnet werden, was in der Praxis bedeuten kann, dass die Seite in der Ergebisliste einer Suchmaschine an einer schlechten Position aufgelistet wird.</li>
+</ul>
+<p>Gibt das CMS oder dessen Bearbeitungswerkzeuge keine Optionen vor, um die Sprache der Inhaltsbereiche anzugeben, ist diese mittels HTML zu setzen. Hierzu eignet sich das Attribut <code>lang=&quot;&quot;</code> welches in dem HTML-Element angegeben wird, das den Text mit der Sprache umgibt. Handelt es sich nur um einen Absatz, kann man das <code>&lt;p&gt;</code> Element nutzen, handelt es sich um ein längeres Zitat, verwendet man das <code>&lt;blockquote&gt;</code> Element.</p>
+<p>Beispiel mit zwei Absätzen. Der erste gibt keine Sprachdefinition an. Der zweite Absatz setzt die Sprache auf Englisch:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode html"><code class="sourceCode html"><a class="sourceLine" id="cb1-1" data-line-number="1">   <span class="kw">&lt;p&gt;</span></a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">      Dies ist ein Absatz ohne Sprachdeklaration. Es wird die Sprache </a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">      verwendet, die vom CMS bzw. dem Webseitentemplate im Kopfteil</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">      der Seite angegeben wurde.</a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">   <span class="kw">&lt;/p&gt;</span></a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">   <span class="kw">&lt;p</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span><span class="kw">&gt;</span></a>
+<a class="sourceLine" id="cb1-7" data-line-number="7">      This is an english paragraph.</a>
+<a class="sourceLine" id="cb1-8" data-line-number="8">   <span class="kw">&lt;/p&gt;</span> </a></code></pre></div>
+<p>Sollte sich der Textbereich über mehrere Kapitel und Absätze erstrecken, setzt man die Sprachdefinition nicht für jedem einzelnen Absatz neu, sondern verwendet das Element <code>&lt;div&gt;</code> um alle darin liegenden Absätze zu deklarieren:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode html"><code class="sourceCode html"><a class="sourceLine" id="cb2-1" data-line-number="1">   <span class="kw">&lt;h1&gt;</span>Text in einer deutschsprachigen Seite mit englischen Absätzen<span class="kw">&lt;/h1&gt;</span></a>
+<a class="sourceLine" id="cb2-2" data-line-number="2">   <span class="kw">&lt;p&gt;</span></a>
+<a class="sourceLine" id="cb2-3" data-line-number="3">      Dies ist ein Absatz ohne Sprachdeklaration. Es wird die Sprache </a>
+<a class="sourceLine" id="cb2-4" data-line-number="4">      verwendet, die vom CMS bzw. dem Webseitentemplate im Kopfteil </a>
+<a class="sourceLine" id="cb2-5" data-line-number="5">      der Seite angegeben wurde.</a>
+<a class="sourceLine" id="cb2-6" data-line-number="6">   <span class="kw">&lt;/p&gt;</span></a>
+<a class="sourceLine" id="cb2-7" data-line-number="7">   <span class="kw">&lt;div</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span><span class="kw">&gt;</span></a>
+<a class="sourceLine" id="cb2-8" data-line-number="8">       <span class="kw">&lt;h2&gt;</span>Chapter One<span class="kw">&lt;/h2&gt;</span></a>
+<a class="sourceLine" id="cb2-9" data-line-number="9">       <span class="kw">&lt;p&gt;</span></a>
+<a class="sourceLine" id="cb2-10" data-line-number="10">           This is an english paragraph in chapter one.</a>
+<a class="sourceLine" id="cb2-11" data-line-number="11">       <span class="kw">&lt;/p&gt;</span> </a>
+<a class="sourceLine" id="cb2-12" data-line-number="12"></a>
+<a class="sourceLine" id="cb2-13" data-line-number="13">       <span class="kw">&lt;h2&gt;</span>Chapter Two<span class="kw">&lt;/h2&gt;</span></a>
+<a class="sourceLine" id="cb2-14" data-line-number="14">       <span class="kw">&lt;p&gt;</span></a>
+<a class="sourceLine" id="cb2-15" data-line-number="15">           This is the first paragraph in chapter two.</a>
+<a class="sourceLine" id="cb2-16" data-line-number="16">       <span class="kw">&lt;/p&gt;</span> </a>
+<a class="sourceLine" id="cb2-17" data-line-number="17">       <span class="kw">&lt;p&gt;</span></a>
+<a class="sourceLine" id="cb2-18" data-line-number="18">           This is the second paragraph in chapter two.</a>
+<a class="sourceLine" id="cb2-19" data-line-number="19">       <span class="kw">&lt;/p&gt;</span></a>
+<a class="sourceLine" id="cb2-20" data-line-number="20">   <span class="kw">&lt;/div&gt;</span> </a></code></pre></div>
+<h4 id="abkürzungen">Abkürzungen</h4>
+<p>Bei der Verwendung von Abkürzungen sollte man grundsätzlich folgende Dinge beachten:</p>
+<ul>
+<li>Abkürzungen sollten diese beim ersten Auftreten im Text ausgeschrieben werden. Dies gilt besonders bei längeren Namen von Einrichtungen oder Titeln. Dabei wird zunächst der Name ausgeschrieben, gefolgt von der Abkürzung in runden Klammern. Beispiel: <em>Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)</em>.</li>
+<li>Eine Ausnahme gibt es bei solchen Abkürzungen, die in der kurzen Form bereits Teil der Alltagssprache, in ihrer ausgeschriebenen Form hingegen weitgehend unbekannt sind. So zum Beispiel die Abkürzungen “DSL” oder “WLAN”. Die ausgeschriebenen Formen dieser Abkürzungen (“<em><span lang="en">Digital Subscriber Line</span></em>” und “<em><span lang="en">Wireless Local Area Network</span></em>”) sind oft nicht gängig, während die Bedeutung der kurzen Form für jeden Leser klar ist.</li>
+<li>Sollte bei der Ausschreibung der Abkürzung ein Sprachwechsel erfolgen, muss diese über geeignete HTML-Anweisungen im Code deklariert werden. Hierzu eignet sich das Attribut <code>lang=&quot;&quot;</code> .</li>
+</ul>
+<h5 id="beispiele">Beispiele:</h5>
+<p>Bei der Ausschreibung von <em>WLAN</em> sähe der entsprechende HTML-Code daher so aus:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode html"><code class="sourceCode html"><a class="sourceLine" id="cb3-1" data-line-number="1">   <span class="kw">&lt;span</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span><span class="kw">&gt;</span>Digital Subscriber Line<span class="kw">&lt;/span&gt;</span></a></code></pre></div>
+<p>Wird die Abkürzung nicht ausgeschrieben, wird das <code>&lt;abbr&gt;</code>-Element verwendet um sie als solche zu deklarieren:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode html"><code class="sourceCode html"><a class="sourceLine" id="cb4-1" data-line-number="1"><span class="kw">&lt;abbr</span><span class="ot"> title=</span><span class="st">&quot;zum Beispiel&quot;</span><span class="kw">&gt;</span>z.B.<span class="kw">&lt;/abbr&gt;</span></a></code></pre></div>
+<p>Kommt es dabei zudem zu einem Sprachwechsel, wird das Attribut <em>lang=&quot;&quot;</em> ergänzt; Als Inhalt des Attributs wird der jeweilige <a href="https://www.w3.org/International/questions/qa-html-language-declarations.de">Code der Sprache</a> der Abkürzung verwenden:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode html"><code class="sourceCode html"><a class="sourceLine" id="cb5-1" data-line-number="1"><span class="kw">&lt;abbr</span><span class="ot"> title=</span><span class="st">&quot;World Wide Web&quot;</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span><span class="kw">&gt;</span>WWW<span class="kw">&lt;abbr&gt;</span></a></code></pre></div>
+<h4 id="verpflichtende-erfolgskriterien-1">Verpflichtende Erfolgskriterien</h4>
+<ul>
+<li><a href="https://www.w3.org/WAI/WCAG21/quickref/#language-of-page">3.1.1 Sprache der Seite</a> (Stufe A)</li>
+<li><a href="https://www.w3.org/WAI/WCAG21/quickref/#language-of-parts">3.1.2 Sprache von Teilen</a> (Stufe AA)</li>
+</ul>
+<h4 id="optionale-erfolgskriterien-1">Optionale Erfolgskriterien</h4>
+<ul>
+<li><a href="https://www.w3.org/WAI/WCAG21/quickref/#unusual-words">3.1.3 Ungewöhnliche Wörter</a> (Stufe AAA)</li>
+<li><a href="https://www.w3.org/WAI/WCAG21/quickref/#abbreviations">3.1.4 Abkürzungen</a> (Stufe AAA)</li>
+<li><a href="https://www.w3.org/WAI/WCAG21/quickref/#reading-level">3.1.5 Leseniveau</a> (Stufe AAA)</li>
+<li><a href="https://www.w3.org/WAI/WCAG21/quickref/#pronunciation">3.1.6 Aussprache</a> (Stufe AAA)</li>
+</ul>
+<h4 id="vertiefung">Vertiefung</h4>
+<ul>
+<li>Jan Eric Hellbusch: <a href="https://www.barrierefreies-webdesign.de/knowhow/sprachangabe/">Sprachangabe</a></li>
+</ul>
+<h3 id="bilder-und-schemagrafiken">Bilder und Schemagrafiken</h3>
+<p>Mit Hilfe von Bildern und Schemagrafiken können viele Informationen an den Leser übermittelt werden: Inhaltliche Informationen und Daten, aber auch Stimmungen. Im letzteren Fall wird oft von sogenannten <em>Schmuckgrafiken</em> oder von <em>dekorativen Elementen</em> gesprochen: Die Bilder tragen keinen eigentlichen Inhalt, sondern dienen dazu, die Webseite für einen sehenden Leser oder für den Ausdruck optisch ansprechend zu gestalten. Würde man diese Bilder weglassen, würde der Leser keine Information vermissen. Dem gegenüber stehen Bilder und Schemagrafiken, die tatsächlich Informationen enthalten. Würde man diese Bilder ausblenden, würden wesentliche Informationen fehlen oder gar die gesamte Seite inhaltsleer sein.</p>
+<p>Für die Barrierefreiheit ist es wichtig, dass Bilder und Schemagrafiken entweder im Text erklärt werden, so dass man auch ohne diese auskommt, oder dass die Bilder über eine geeignete Textalternative verfügen. Die Textalternative muss die gesamte vom Bild übermittelte Information enthalten.</p>
+<p>Die Art der Textalternative ist dabei abhängig von der Art des Bildes:</p>
+<ul>
+<li>Handelt es sich um eine Schmuckgrafik, so sollte keine Textalternative angegeben werden. Screenreader sollen diese Bilder ignorieren; Eine Beschreibung ist daher wegzulassen.</li>
+<li>Handelt es sich um die Illustration eines im Text beschriebenen Sachverhaltes, ist lediglich eine kurze Textbeschreibung notwendig.</li>
+<li>Wenn es sich bei dem Bild um ein informatives Bild handelt, welches nicht im Text beschrieben wird, ist eine ausführliche Textalternative für das Bild zu hinterlegen.</li>
+<li>Handelt es sich bei dem Bild um ein aktives Element um auf eine andere Webseite zu verlinken oder als grafischer Button eine Aktion auszulösen, ist nicht das Bild inhaltlich zu beschreiben, sondern das Linkziel oder das was passiert, wenn man auf das Bild klickt.</li>
+</ul>
+<p>Um eine Textalternative eines Bildes anzugeben, verwendet man im HTML-Element <code>&lt;img&gt;</code> die Attribute <code>alt=&quot;&quot;</code> und <code>title=&quot;&quot;</code>. Unterstützt das CMS des Webauftritts auch Bildunterschriften, sind auch diese anzugeben, sofern das Bild keine Schmuckgrafik ist.</p>
+<h4 id="beispiele-1">Beispiele:</h4>
+<ol type="1">
+<li><p>Die Wikipedia-Seite zur <a href="https://de.wikipedia.org/wiki/Mona_Lisa">Mona Lisa</a> beschreibt das gleichnamige Bild von Leonardo da Vinci. Wenn man das Bild nun in einer Seite einbinden möchte, könnte man folgende HTML-Anweisung nutzen:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode html"><code class="sourceCode html"><a class="sourceLine" id="cb6-1" data-line-number="1"><span class="kw">&lt;img</span><span class="ot"> alt=</span><span class="st">&quot;Gemälde der Mona Lisa (La Joconde) von Leonardo da Vinci&quot;</span> </a>
+<a class="sourceLine" id="cb6-2" data-line-number="2"><span class="ot">     title=</span><span class="st">&quot;Mona Lisa&quot;</span><span class="ot"> src=</span><span class="st">&quot;(BILD-URL)&quot;</span><span class="kw">&gt;</span></a></code></pre></div>
+<p>Hier wird als Textalternative für das Bild der Text <em>Gemälde der Mona Lisa (La Joconde) von Leonardo da Vinci</em> angegeben, während der Titel schlicht <em>Mona Lisa</em> ist. Gleichwohl wäre diese Beschreibung als Ersatz sehr knapp - auch für sehende Menschen. Es fehlt an weiteren Informationen über das Bild. Diese sollte man entweder im dem Bild umrandenden Text angeben oder verlinken. Das Attribut <code>alt=&quot;&quot;</code> sollte hingegen nicht für Essays verwendet werden. Der Alternativtext im Bild-Element soll zweckmäßig sein und die Länge von 80 Zeichen nicht überschreiten. Handelt es sich bei dem Bild um ein Foto mit Personen oder Gegenstände, sollte man diese im Alternativtext namentlich angeben.</p></li>
+<li><p>Bei einem dekorativen Bild wird das Attribut <code>alt=&quot;&quot;</code> leer gelassen:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode html"><code class="sourceCode html"><a class="sourceLine" id="cb7-1" data-line-number="1"><span class="kw">&lt;img</span><span class="ot"> alt=</span><span class="st">&quot;&quot;</span><span class="ot"> src=</span><span class="st">&quot;(BILD-URL)&quot;</span><span class="kw">&gt;</span></a></code></pre></div></li>
+<li><p>Bei einem grafischen Link wird hingegen das Linkziel beschrieben und nicht mehr das Bild:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode html"><code class="sourceCode html"><a class="sourceLine" id="cb8-1" data-line-number="1"><span class="kw">&lt;a</span><span class="ot"> href=</span><span class="st">&quot;https://www.fau.de&quot;</span><span class="kw">&gt;&lt;img</span><span class="ot"> alt=</span><span class="st">&quot;Zum Webauftritt der FAU&quot;</span><span class="ot"> src=</span><span class="st">&quot;(LOGO-URL)&quot;</span><span class="kw">&gt;&lt;/a&gt;</span></a></code></pre></div></li>
+</ol>
+<h4 id="verpflichtende-erfolgskriterien-2">Verpflichtende Erfolgskriterien</h4>
+<ul>
+<li><a href="https://www.w3.org/WAI/WCAG21/quickref/#non-text-content">1.1.1 Nicht-Text-Inhalt</a> (Stufe A)</li>
+<li><a href="https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context">2.4.4 Linkzweck (im Kontext)</a> (Stufe A)</li>
+</ul>
+<h4 id="vertiefung-1">Vertiefung</h4>
+<ul>
+<li>Jan Eric Hellbusch: <a href="https://www.barrierefreies-webdesign.de/knowhow/textalternative/informative-bilder.html">Informative Bilder</a></li>
+<li>Jan Eric Hellbusch: <a href="https://www.barrierefreies-webdesign.de/knowhow/textalternative/entscheidungsschema.html">Entscheidungsschema für Textalternativen von Bildern</a></li>
+</ul>
+<h3 id="links">Links</h3>
+<p>Abseits von den Menüs und Navigationskonzepten einer Website werden auch Links im Inhaltsbereich von Seiten gesetzt. Auch wenn das eigentliche Setzen von Links nicht schwierig ist, können einige Fehler gemacht werden, die negative Auswirkungen auf Barrierefreiheit, Verständnis und auch Findbarkeit haben.</p>
+<p>Folgende Eigenschaften muss jeder Link erfüllen:</p>
+<ul>
+<li>Ein Link sollte grundsätzlich immer klar und deutlich machen, was den Leser erwartet, wenn er diesen auswählt. Und zwar schon vor dem “Klick” und auch vor einem <em>mouseover</em>.</li>
+<li>Das Ziel eines Links muss stets klar erkennbar sein. Mit der Konformitätsstufe AA reicht hier auch die Betrachtung des Kontextes in dem sich der Link befindet. So ist ein Link mit dem Linktext “Download” durchaus legitim, sofern dies im Kontext einer Liste mit eigenen Überschriften statt findet.<br />
+</li>
+<li>Soll auch die Konformitätsstufe AAA erreicht werden, muss ein Link für sich allein</li>
+<li>genommen verständlich sein. So muss er auch dann, wenn er allein und ohne umgebenden Text ausgegeben wird, noch immer das Ziel und seinen Zweck klar beschreiben.</li>
+</ul>
+<p>Verlinkt man auf eine andere Webseite, ist der Linktext optimalerweise der Titel der Webseite. Verlinkt man auf ein Dokument, so wird der Titel des Dokumentes verwendet. Keinesfalls sollte man als Linktext jedoch Handlungsanweisungen verwenden. Ein Klassiker bei fehlerhaften Umsetzungen ist ein Link wie dieser: “<em>Klicken Sie <strong>hier</strong></em>” . Das Wort “<strong>hier</strong>” für sich allein genommen sagt nichts darüber aus, was passiert, wenn man tatsächlich auf den Link klickt. Stattdessen sollte an solchen Stellen besser so formuliert werden: “<em>Rufen Sie die <strong>Online-Broschüre zum Thema ABC</strong> auf.</em>”. Der eigentliche Link wäre dann auf den Worten “<strong>Online-Broschüre zum Thema ABC</strong>”. Dies ist ohne den Text davor auch für sich allein verständlich und der Leser wird wissen, was ihn beim Klick auf den Link erwartet.</p>
+<p>Im normalen Textbereichen wird ein Link mit den HTML-Element <code>&lt;a&gt;</code> gesetzt:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode html"><code class="sourceCode html"><a class="sourceLine" id="cb9-1" data-line-number="1">Rufen Sie die <span class="kw">&lt;a</span><span class="ot"> href=</span><span class="st">&quot;(URL)&quot;</span><span class="kw">&gt;&lt;Online-Brosch</span><span class="er">üre</span><span class="ot"> zum Thema ABC</span><span class="er">&lt;/a</span><span class="kw">&gt;</span> auf.</a></code></pre></div>
+<p>Bei Nutzung eines WYSIWYG-Editors reicht es oft, den entsprechenden Text zu selektieren und dann in einem erscheinenden Fenster die Zieladresse einzugeben oder aus einer Liste vorhandener Seiten auszuwählen.</p>
+<figure>
+<img src="03-inhalte/links-einfuegen.jpg" alt="Bild: Screenshot des Modals zum Einfügen eines neues neuen Links im Visuellen Editor von WordPress" /><figcaption>Bild: Screenshot des Modals zum Einfügen eines neues neuen Links im Visuellen Editor von WordPress</figcaption>
+</figure>
+<h4 id="weitere-attribute">Weitere Attribute</h4>
+<p>Zu beachten ist, dass im Fall einfacher Links auf Dokumente keine weiteren Angaben oder Attribute notwendig sind. Auch die Angabe, welche dafür sorgt, dass ein Link in einem neuen Fenster oder Tab geöffnet wird, sollte vermieden werden. Man kann nicht davon ausgehen, dass das Öffnen eines neuen Fensters für Links von jedem Leser erwünscht ist. Tatsächlich sorgt das Öffnen eines neuen Fensters auch zu einigen Nachteilen bei den Lesern der Seite: Die <em>“Zurück”-Funktion</em> des Browser funktioniert für das neue Fenster nicht mehr und der Rechner wird möglicherweise durch viele neue Fenster stärker belastet. Wurde die Seite zudem mit einem Smartphone aufgerufen, wird das neue Fenster üblicherweise das vorherige komplett überlagern. Ob ein neues Fenster oder ein Tab geöffnet wird, sollte daher grundsätzlich dem Leser selbst überlassen bleiben, der hierfür die dafür gedachten Werkzeuge seines Browsers nutzen kann.</p>
+<p>Auf manchen Webseiten sieht man, dass Links zusätzlich mit einem <em>title=&quot;&quot;</em>-Attribut versehen wurden. Dies sollte man ebenfalls nur in besonderen Ausnahmefällen tun. Das Attribut sollte nur dann verwendet werden, wenn der Linktext nicht gleich dem tatsächlichen Titel des aufzurufenden Dokumentes ist. Screenreader werden bei einem Link üblicherweise sowohl den Title, sofern vorhanden, als auch den Linktext vorlesen. Sind Linktext und Titel dagegen gleich, werden Menschen mit Screenreader daher denselben Text unnötigerweise zweimal anhören müssen.</p>
+<h4 id="verpflichtende-erfolgskriterien-3">Verpflichtende Erfolgskriterien</h4>
+<ul>
+<li><a href="https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context">2.4.4 Linkzweck (im Kontext)</a> (Stufe A)</li>
+</ul>
+<h4 id="optionale-erfolgskriterien-2">Optionale Erfolgskriterien</h4>
+<ul>
+<li><a href="https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=249#link-purpose-link-only">2.4.9 Linkzweck (reiner Link)</a> (Stufe AAA)</li>
+</ul>
+<h3 id="tabellen">Tabellen</h3>
+<p>Für die Nutzung von Tabellen gilt eine feste Regel: <strong>Tabellen dürfen nur für tabellarische Daten genutzt werden.</strong> Tabellen sind nicht dazu gedacht, Texte und Bilder auszurichten oder die Seite zu layouten. Es gilt auch hier das oben Genannte: Wenn eine besondere optische Darstellung benötigt wird, so ist es Aufgabe des Designs und der Technik, entsprechende Funktionalitäten bereitzustellen. Wird beispielsweise eine Ausrichtung des Inhaltes in zwei oder mehr Spalten gewünscht, wird dies bei modernen Websites oft durch eigene Anweisungen geleistet. So verfügen Websites, die auf dem populären Bootstrap-Framework beruhen, über eine umfangreiche Klassenbibliothek um Inhaltsbereiche in bis zu 12 Spalten aufzutrennen. Eine Tabelle erweist sich bei der Nutzung als Gestaltungswerkzeug spätestens bei dem Aufruf der Seite mit dem Smartphone als untauglich: So werden dann Inhalte nicht mehr erkennbar und es kommt zu horizonatlen Scrollbalken. Wird hingegen ein vorgegebenes Grid-System verwendet, werden die Spalten serialisiert und in korrekter Reihenfolge übereinander positioniert.</p>
+<p>Bei der Nutzung von Datentabellen ist den jeweiligen Zellen eine Überschrift zuzuordnen. Dies erfolgt mit Hilfe des Elements <code>&lt;th&gt;</code>. Die eigentlichen Zellen mit Daten werden dagegen mit dem Element <code>&lt;td&gt;</code> gekennzeichnet. Die Zeilen werden durch das Element <code>&lt;tr&gt;</code> ausgezeichnet.</p>
+<p>Eine einfache Datentabelle ist in HTML wie folgt aufgebaut:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode html"><code class="sourceCode html"><a class="sourceLine" id="cb10-1" data-line-number="1"><span class="kw">&lt;table&gt;</span></a>
+<a class="sourceLine" id="cb10-2" data-line-number="2">  <span class="kw">&lt;caption&gt;</span> Tabellenüberschrift <span class="kw">&lt;/caption&gt;</span></a>
+<a class="sourceLine" id="cb10-3" data-line-number="3">  <span class="kw">&lt;tr&gt;</span></a>
+<a class="sourceLine" id="cb10-4" data-line-number="4">    <span class="kw">&lt;th&gt;</span> Überschrift Spalte 1 <span class="kw">&lt;/th&gt;</span></a>
+<a class="sourceLine" id="cb10-5" data-line-number="5">    <span class="kw">&lt;th&gt;</span> Überschrift Spalte 2 <span class="kw">&lt;/th&gt;</span></a>
+<a class="sourceLine" id="cb10-6" data-line-number="6">  <span class="kw">&lt;/tr&gt;</span></a>
+<a class="sourceLine" id="cb10-7" data-line-number="7">  <span class="kw">&lt;tr&gt;</span></a>
+<a class="sourceLine" id="cb10-8" data-line-number="8">    <span class="kw">&lt;td&gt;</span> Datenzelle <span class="kw">&lt;/td&gt;</span></a>
+<a class="sourceLine" id="cb10-9" data-line-number="9">    <span class="kw">&lt;td&gt;</span> Datenzelle <span class="kw">&lt;/td&gt;</span></a>
+<a class="sourceLine" id="cb10-10" data-line-number="10">  <span class="kw">&lt;/tr&gt;</span></a>
+<a class="sourceLine" id="cb10-11" data-line-number="11"><span class="kw">&lt;/table&gt;</span></a></code></pre></div>
+<p>Je nach Komplexität der Datentabelle ist es sinnvoll, weitere Überschriften und Beziehungen von Zellen zueinander zu definieren. Die <a href="https://www.w3.org/WAI/tutorials/tables/">Anleitung des W3C zu Tabellen</a> bietet eine ausführliche Erläuterung mit Beispielen zum korrekten Gebrauch und Einsatz.</p>
+<p>Gängige WYSWIYG-Editoren, wie beispielsweise der TinyMCE-Edtor, verfügen über Hilfsmittel um Tabellen auch ohne Kenntnisse von HTML zu erstellen.</p>
+<figure>
+<img src="03-inhalte/tables-tinymce.jpg" alt="Bild: Screenshot des Table-Wizards in TinyMCE" /><figcaption>Bild: Screenshot des Table-Wizards in TinyMCE</figcaption>
+</figure>
+<p>Hier erfolgt die Bedienung ähnlich zu der in Microsoft Office.</p>
+<h4 id="verpflichtende-erfolgskriterien-4">Verpflichtende Erfolgskriterien</h4>
+<ul>
+<li><a href="https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">1.3.1 Info und Beziehungen</a> (Stufe A)</li>
+</ul>
+<h4 id="vertiefung-2">Vertiefung</h4>
+<ul>
+<li>W3C/WAI: <a href="https://www.w3.org/WAI/tutorials/tables/">Tutorial zu Tabellen</a></li>
+<li>Einfach für Alle: <a href="https://www.einfach-fuer-alle.de/artikel/barrierefreie-datentabellen/">Benimmregeln für Datentabellen</a></li>
+</ul>
+<h3 id="listen">Listen</h3>
+<p>Nummerierte Aufzählungen und Listen werden auf Webseiten mit eigenen HTML-Elementen deklariert. Wie bei Überschriften und Absätzen ist bei Listen die Einhaltung dieser Semantik wichtig, damit Aufzählungselemente und Listenpunkte von Screenreader erkannt werden können.</p>
+<p>Im Redaktionsalltag sind im wesentlichen zwei Formen von Listen in Gebrauch: Unsortierte und nummerierte Listen. (Es gibt noch eine dritte Form: <a href="https://wiki.selfhtml.org/wiki/HTML/Textstrukturierung/dl">Definitionslisten</a>; Diese werden jedoch nur selten verwendet und sie lassen sich durch eine normale Überschrift mit einem darauf folgenden Absatz ersetzen).</p>
+<p>Eine einfache unsortierte Liste wird in HTML wie folgt aufgebaut:</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode html"><code class="sourceCode html"><a class="sourceLine" id="cb11-1" data-line-number="1"><span class="kw">&lt;ul&gt;</span></a>
+<a class="sourceLine" id="cb11-2" data-line-number="2">  <span class="kw">&lt;li&gt;</span> Unnummeriertes Listenelement <span class="kw">&lt;/li&gt;</span></a>
+<a class="sourceLine" id="cb11-3" data-line-number="3">  <span class="kw">&lt;li&gt;</span> Unnummeriertes Listenelement <span class="kw">&lt;/li&gt;</span></a>
+<a class="sourceLine" id="cb11-4" data-line-number="4"><span class="kw">&lt;/ul&gt;</span></a></code></pre></div>
+<p>Die sortierte Liste unterscheidet sich hiervon nur durch die Verwendung des Elements <code>&lt;ol&gt;</code> anstelle von <code>&lt;ul&gt;</code>:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode html"><code class="sourceCode html"><a class="sourceLine" id="cb12-1" data-line-number="1"><span class="kw">&lt;ol&gt;</span></a>
+<a class="sourceLine" id="cb12-2" data-line-number="2">  <span class="kw">&lt;li&gt;</span> Nummeriertes Listenelement 1 <span class="kw">&lt;/li&gt;</span></a>
+<a class="sourceLine" id="cb12-3" data-line-number="3">  <span class="kw">&lt;li&gt;</span> Nummeriertes Listenelement 2 <span class="kw">&lt;/li&gt;</span></a>
+<a class="sourceLine" id="cb12-4" data-line-number="4"><span class="kw">&lt;/ol&gt;</span></a></code></pre></div>
+<p>In den Listenelementen können eigene Überschriften, Absätze, weitere Listen oder andere Elemente gesetzt werden. So kann eine Liste auch eine untergeordnete Liste enthalten.</p>
+<p>Gängige WYSIWYG-Editoren wie der TinyMCE unterstützen Listen durch eigene Bedienelemente:</p>
+<figure>
+<img src="03-inhalte/listen-tinymce.jpg" alt="Bild: Nummerierte Liste mit unnummierten Unterlisten in einem TinyMCE-Editor" /><figcaption>Bild: Nummerierte Liste mit unnummierten Unterlisten in einem TinyMCE-Editor</figcaption>
+</figure>
+<p>Zu beachten ist auch hier, wie oben bereits bei den Überschriften und den Tabellen erwähnt: Listen dienen nicht der optischen Gestaltung beliebiger Texte oder zur Einrückung derselben. Sie haben den Zweck, eine Liste auszuzeichnen. Umgekehrt bedeutet das: Wer eine Liste auf einer Seite angeben möchte, der muss dazu auch die Listenelemente verwenden — und nicht etwa Absätze aus einzelnen Zeilen, die mit einer Zahl beginnen und einem erzwungen Umbruch enden.</p>
+<p>Eine korrekt ausgezeichnete Liste wird im Gegensatz zu Absatzzeilen von Screenreader und Analysesoftware als zusammenhängende Liste erkannt. Zusätzlich wird eine Liste auch bei der Darstellung auf mobilen Endgeräten mit kleinem Display korrekt umbrochen.</p>
+<p>Die Optik der unnummerierten Listen und das Zahlenformat der nummerierten Listen wird durch das zugrundeliegende Design bestimmt. Zwar lassen sich in HTML die Zahlenformate über das <code>list-style-type</code> Attribut vorgeben, dies sollte man jedoch nur in Ausnahmefällen nutzen, da üblicherweise das Webdesign die Nutzung ohne weitere Attribute als Standard betrachtet.</p>
+<h4 id="verpflichtende-erfolgskriterien-5">Verpflichtende Erfolgskriterien</h4>
+<ul>
+<li><a href="https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">1.3.1 Info und Beziehungen</a> (Stufe A)</li>
+</ul>
+<h4 id="vertiefung-3">Vertiefung</h4>
+<ul>
+<li>Webkrauts: Artikel <a href="http://webkrauts.de/artikel/2008/die-etwas-besseren-listen-teil-1">Die etwas besseren Listen</a></li>
+<li>SELFHTML: <a href="https://wiki.selfhtml.org/wiki/HTML/Textstrukturierung/Listen">Listen</a></li>
+</ul>
+<h3 id="zitate">Zitate</h3>
+<p>Um längere Zitate darzustellen, verwendet man das <code>&lt;blockquote&gt;</code>-Element. Die optische Form dieser Darstellung wird wie gewohnt von dem zugrundeliegenden Webdesign bestimmt. Üblicherweise wird ein Zitat jedoch optisch hervorgehoben, indem es links und rechts eingerückt wird und Schriftart und -stil verändert wird.</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode html"><code class="sourceCode html"><a class="sourceLine" id="cb13-1" data-line-number="1"><span class="kw">&lt;blockquote&gt;</span></a>
+<a class="sourceLine" id="cb13-2" data-line-number="2">  <span class="kw">&lt;p&gt;</span></a>
+<a class="sourceLine" id="cb13-3" data-line-number="3">   Der Universität ist vorbehalten, was nur der Mensch durch und durch in</a>
+<a class="sourceLine" id="cb13-4" data-line-number="4">   sich finden kann, die Einsicht in die reine Wissenschaft.</a>
+<a class="sourceLine" id="cb13-5" data-line-number="5">  <span class="kw">&lt;/p&gt;</span></a>
+<a class="sourceLine" id="cb13-6" data-line-number="6"><span class="kw">&lt;/blockquote&gt;</span></a></code></pre></div>
+<p>Das <code>&lt;blockquote&gt;</code>-Element umrandet darin befindliche Absätze.</p>
+<p>Soll zusätzlich ein Zitatgeber oder eine Quelle genannt werden, kann dies mit Hilfe des <code>&lt;cite&gt;</code> Elements vorgenommen werden. Dies darf dann jedoch nicht im eigentlichen Zitat-Absatz stehen, sondern muss hiervon getrennt sein (beispielsweie mit einem <code>&lt;footer&gt;</code>-Element).</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode html"><code class="sourceCode html"><a class="sourceLine" id="cb14-1" data-line-number="1"><span class="kw">&lt;blockquote&gt;</span></a>
+<a class="sourceLine" id="cb14-2" data-line-number="2">  <span class="kw">&lt;p&gt;</span></a>
+<a class="sourceLine" id="cb14-3" data-line-number="3">      Der Universität ist vorbehalten, was nur der Mensch durch und durch </a>
+<a class="sourceLine" id="cb14-4" data-line-number="4">      in sich finden kann, die Einsicht in die reine Wissenschaft.</a>
+<a class="sourceLine" id="cb14-5" data-line-number="5">  <span class="kw">&lt;/p&gt;</span></a>
+<a class="sourceLine" id="cb14-6" data-line-number="6">  <span class="kw">&lt;footer&gt;</span></a>
+<a class="sourceLine" id="cb14-7" data-line-number="7">     <span class="kw">&lt;cite&gt;</span>Wilhelm von Humboldt (1767 - 1835)<span class="kw">&lt;/cite&gt;</span></a>
+<a class="sourceLine" id="cb14-8" data-line-number="8">  <span class="kw">&lt;/footer&gt;</span></a>
+<a class="sourceLine" id="cb14-9" data-line-number="9"><span class="kw">&lt;/blockquote&gt;</span></a></code></pre></div>
+<p>Liegt dem gesamten Zitat eine externe Quelle zugrunde, kann diese mit einem Attribut im <code>&lt;blockquote&gt;</code>-Element ergänzt werden, nämlich mit <em>cite=“(URL)”</em>. (Bedauerlicherweise hat das Attribut denselben Namen wie das Element; Es handelt sich aber dennoch um unterschiedliche Dinge).</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode html"><code class="sourceCode html"><a class="sourceLine" id="cb15-1" data-line-number="1"><span class="kw">&lt;blockquote</span><span class="ot"> cite=</span><span class="st">&quot;https://de.wikiquote.org/wiki/Albert_Einstein&quot;</span><span class="kw">&gt;</span></a>
+<a class="sourceLine" id="cb15-2" data-line-number="2">  <span class="kw">&lt;p&gt;</span></a>
+<a class="sourceLine" id="cb15-3" data-line-number="3">      Ich habe keine besondere Begabung, sondern bin nur leidenschaftlich </a>
+<a class="sourceLine" id="cb15-4" data-line-number="4">      neugierig.</a>
+<a class="sourceLine" id="cb15-5" data-line-number="5">  <span class="kw">&lt;/p&gt;</span></a>
+<a class="sourceLine" id="cb15-6" data-line-number="6">  <span class="kw">&lt;footer&gt;</span></a>
+<a class="sourceLine" id="cb15-7" data-line-number="7">     <span class="kw">&lt;cite&gt;</span>Albert Einstein<span class="kw">&lt;/cite&gt;</span></a>
+<a class="sourceLine" id="cb15-8" data-line-number="8">  <span class="kw">&lt;/footer&gt;</span></a>
+<a class="sourceLine" id="cb15-9" data-line-number="9"><span class="kw">&lt;/blockquote&gt;</span></a></code></pre></div>
+<p>Falls die Zitate kürzer ausfallen und keinen langen Text beinhalten, kann man auch das <code>&lt;cite&gt;</code>-Element innerhalb eines Absatzes nutzen:</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode html"><code class="sourceCode html"><a class="sourceLine" id="cb16-1" data-line-number="1"><span class="kw">&lt;p&gt;</span></a>
+<a class="sourceLine" id="cb16-2" data-line-number="2">    <span class="kw">&lt;cite&gt;</span></a>
+<a class="sourceLine" id="cb16-3" data-line-number="3">    Woran erkennt man barrrierefreies Internet? </a>
+<a class="sourceLine" id="cb16-4" data-line-number="4">    - Gar nicht! Das ist ja gerade das Gute!</a>
+<a class="sourceLine" id="cb16-5" data-line-number="5">    <span class="kw">&lt;/cite&gt;</span></a>
+<a class="sourceLine" id="cb16-6" data-line-number="6"><span class="kw">&lt;/p&gt;</span></a></code></pre></div>
+<h4 id="verpflichtende-erfolgskriterien-6">Verpflichtende Erfolgskriterien</h4>
+<ul>
+<li><a href="https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=249#info-and-relationships">1.3.1 Info und Beziehungen</a> (Stufe A)</li>
+<li><a href="https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=324#consistent-identification">3.2.4 Konsistente Erlennung</a> (Stufe AA)</li>
+</ul>
+<h4 id="vertiefung-4">Vertiefung</h4>
+<ul>
+<li>mediaevent.de: <a href="https://www.mediaevent.de/xhtml/blockquote.html">HTML blockquote - Zitat</a></li>
+<li>developer.mozilla.org: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite">The Citation element</a></li>
+</ul>
+<h3 id="embeddings">Embeddings</h3>
+<p>Immer mehr moderne Webseiten ergänzen textuelle Informationen mit multimedialen Inhalten, die von darauf spezialisierten Portalen kommen. Dies können zum Beispiel Bildergalerien, Videos, Tonmitschnitte, Karten, Vortragsfolien aber auch interaktive Bedienoberflächen sein. Beispielsweise werden viele Online-Kurse und Tutorials in Form kurzer Videos auf der Plattform <a href="https://www.youtube.com">YouTube</a> abgelegt und Vortragsfolien finden sich oft auf dem Portal <a href="https://www.slideshare.net">SlideShare</a>. Auf sehr vielen Webauftritten finden sich unter der Beschreibung des Kontakts auch eingebundene Karten von <a href="https://www.openstreetmap.de/">OpenStreetMap</a> oder Google Maps.</p>
+<p>Von einem <em>Embedding</em> wird gesprochen, wenn ein Inhalt von einem dieser Portale in die eigene Webseite integriert wird. So wird beispielsweise ein Video von YouTube im Inhaltsbereich der Seite gezeigt.</p>
+<p>Auch wenn viele CMS inzwischen die Bereitstellung und Wiedergabe entsprechender Dateien beherrschen, sind die Portale aufgrund ihrer Spezialisierung in der spezifischen Bereitstellung des Contents jedem CMS technisch und funktionell überlegen. Es ist daher nicht verwunderlich, wenn auch große Websites für die Bereitstellung von Videos oder Karten auf die entsprechenden Portale oder eigenständige Softwarelösungen außerhalb des CMS ausweichen.</p>
+<p>Die meisten Inhaltsportale und auch die meisten CMS unterstützen das Embedding mit Hilfe entsprechender Funktionalitäten, mit deren Hilfe externer Content einfach in die eigene Webseite “embedded” werden kann.</p>
+<p>So bietet YouTube beispielsweise unter dem Link <em>Teilen</em> die Funktion zum Einbetten an. Dieses öffnet ein neues Fenster in dem man einen HTML-Code angeboten bekommt, welchen man in seine eigene Webseite integrieren kann:</p>
+<figure>
+<img src="03-inhalte/embedding-youtube.jpg" alt="Bild: Embedding eines Videos von YouTube" /><figcaption>Bild: Embedding eines Videos von YouTube</figcaption>
+</figure>
+<p>Moderne CMS nutzen zudem vermehrt die <a href="https://oembed.com/">oEmbed-Schnittstelle</a> . Mit dieser ist es für den Autor einer Seite nicht mehr nötig, irgendeinen HTML-Code auf der Portalseite zu suchen und ihn dann einzubinden. Stattdessen reicht es, die URL des Videos oder der Information auf dem Portal aus der Adresszeile des Browsers zu nehmen und in den Editor zu kopieren.</p>
+<figure>
+<img src="03-inhalte/embedding-ueber-url1.jpg" alt="Bild: Embedding über URL - Codeansicht des Editors" /><figcaption>Bild: Embedding über URL - Codeansicht des Editors</figcaption>
+</figure>
+<p>Dies passiert im CMS WordPress sogar schon im WYSIWYG-Editor:</p>
+<figure>
+<img src="03-inhalte/embedding-ueber-url2.jpg" alt="Bild: Embedding über URL - WYSIWYG-Ansicht" /><figcaption>Bild: Embedding über URL - WYSIWYG-Ansicht</figcaption>
+</figure>
+<p>Im Kontext der Barrierefreiheit ist Embedding umstritten: Die Betreiber einer Seite und erst recht nicht die Redakteure haben Einfluss auf die Barrierefreiheit des Embeddings. Es bleibt in vielen Fällen nur die Wahl: Wenn man die Information einer fremden und nicht barrierefreien Quelle einbindet, hilft man einer großen Zahl an Personen. Läßt man die Einbindung hingegen weg, da sie nicht vollständig barrierefrei ist, hat niemand einen Vorteil.</p>
+<p>Große Portale kennen diese Problematik auch und versuchen bereits von sich aus, den Content eines Embeddings barrierefrei zu liefern. So werden die Embeddings inzwischen mit Techniken ausgeliefert, die eine Zugänglichkeit für assistive Technologien unterstützen. Videos werden beispielsweise automatisch mit Audiotranskriptionen versehen und von Vortragsfolien wird eine Textfassung bereitgestellt. Dies geschieht bei den betreffenden Portalen weitgehend automatisch, ist jedoch auch abhängig von der Sorgfalt der Personen, welche die Informationen hochgeladen haben und dort die Möglichkeit hatten, entsprechende notwendige Informationen zu ergänzen.</p>
+<h4 id="empfehlungen-für-den-einsatz-von-embeddings">Empfehlungen für den Einsatz von Embeddings</h4>
+<p>Der Autor einer Seite kann sich bei einem Embedding nicht sicher sein, ob dieses tatsächlich barrierefrei geliefert wird oder nicht. Daher sollte hier eine Lösung ähnlich wie der bei dem Einsatz von Bildern vorgenommen werden. Um den Konformitätsanforderungen der WCAG Genüge zu tun, ist zudem deutlich zu machen, dass der angezeigte Content von einer Drittquelle kommt.</p>
+<p>Daher:</p>
+<ul>
+<li><p>Sofern das Embedding <strong>zwingend notwendige Informationen</strong> enthält, die der Leser der Webseite erfahren muss, sollten diese Informationen <strong>zusätzlich in Textform</strong> bereitgestellt werden.</p></li>
+<li><p><strong>An geeigneter Stelle vor oder nach dem Embedding wird auf die Quelle hingewiesen.</strong> Hierbei sollte bestenfalls das Quellportal (z.B. der YouTube-Kanal ) und der Titel sichtbar sein. Eine gesonderte Verlinkung sollte ebenfalls vorgenommen werden, so dass man hierfür nicht auf das Embedding selbst angewiesen ist.</p></li>
+</ul>
+<h4 id="verpflichtende-erfolgskriterien-7">Verpflichtende Erfolgskriterien</h4>
+<p>Autoren von Webseiten, die aufgrund von externen, nicht kontrollierbaren Inhalten nicht konform sein können, müssen eine <a href="https://www.w3.org/Translations/WCAG20-de/#conformance-partial">Erklärung partieller Konformität</a> vornehmen. Bei einer Prüfung der Seite gemäß den Richtlinien der WCAG würde dies bedeuten, dass man die Seite nur ohne das Embedding prüft und die eingebundenen Teile als solche deutlich erkennbar macht. Das kann zum Beispiel dadurch geschehen, dass man den Inhalt, wie oben empfohlen, als zusätzlichen Text beschreibt.</p>
+<p>Wichtig ist hierbei, dass der Leser der Seite deutlich erkennen kann, dass der Inhalt aus einer Drittquelle kommt.</p>
+<h4 id="rechtlicher-hinweis-stand-august-2018">Rechtlicher Hinweis (Stand August 2018)</h4>
+<p>Die EU-Richtlinie schränkt in Artikel 1, Absatz 4d) und 4e) die Umsetzung der WCAG ein. Dieser Teil der Richtlinie -nämlich die Einschränkungen und Ausnahmen im Anwendungsbereich- wurde jedoch bei der Umsetzung der Gesetzgebung von einigen Bundesländern (noch) nicht übernommen. Es gilt daher das, was in der WCAG zur Umsetzung der Konformität beschrieben wurde.</p>
+<h4 id="vertiefung-5">Vertiefung</h4>
+<ul>
+<li>oEmbed Spec: <a href="https://oembed.com/">oEmbed</a>,</li>
+<li>W3C: <a href="https://www.w3.org/Translations/WCAG20-de/#conformance-partial">Erklärung partieller Konformität - Inhalte von Dritten</a></li>
+</ul>
+<h2 id="spickzettel">Spickzettel</h2>
+<h3 id="überschriften">Überschriften</h3>
+<ul>
+<li>Überschriften <strong>immer</strong> als solche formatieren.</li>
+<li><strong>Hierarchie</strong> der Überschriften streng einhalten (Überschrift 1 &gt; 2 &gt; 3 etc.).</li>
+<li>Was inhaltlich keine Überschrift ist, wird auch nicht als solche formatiert, nur um ein bestimmtes Aussehen zu erreichen.</li>
+</ul>
+<h3 id="text">Text</h3>
+<ul>
+<li>Schreiben Sie verständlich und frei von Rechtschreibfehlern.</li>
+<li>Schreiben Sie Abkürzungen, die nicht Teil der Alltagssprache sind, beim ersten Vorkommen im Text aus oder verwenden Sie den abbr-Tag:<br /> <code>&lt;abbr title=&quot;zum Beispiel&quot;&gt;z.B.&lt;/abbr&gt;</code></li>
+<li>Markieren Sie Textpassagen, in denen die Sprache wechselt: <code>&lt;p lang=&quot;en&quot;&gt;This is an english paragraph.&lt;/p&gt;</code></li>
+</ul>
+<h3 id="bilder-und-grafiken">Bilder und Grafiken</h3>
+<ul>
+<li>Alle Bilder, die Inhalt vermitteln, müssen im Alt-Text eine <strong>Text-Alternative</strong> bereitstellen:<br/> <code>&lt;img src=&quot;bild.jpg&quot; alt=&quot;Beschreibung des Bildinhaltes&quot; /&gt;</code>. Zusätzlich kann der Titel oder Name des Bildes im Titel-Text angegeben werden:<br/> <code>&lt;img src=&quot;bild.jpg&quot; alt=&quot;Beschreibung des Bildinhaltes&quot; title=&quot;Titel des Bildes&quot; /&gt;</code></li>
+<li>Bei <strong>rein dekorativen Bilder</strong>, die keinen inhaltlichen Mehrwert bieten, wird der Alt-Text eingefügt, aber leer gelassen, und dadurch z.B. für Screenreader etc. unsichtbar gemacht: <code>&lt;img src=&quot;hintergrund.jpg&quot; alt=&quot;&quot; /&gt;</code></li>
+</ul>
+<h3 id="links-1">Links</h3>
+<ul>
+<li>Das Linkziel muss im Link stehen:
+<ul>
+<li>Bei Text direkt: <code>&lt;a href=&quot;link.html&quot;&gt;Prüfungsordnung&lt;/a&gt;</code></li>
+<li>Bei Bildlinks im alt-Tag des Bildes: <code>&lt;a href=&quot;link.html&quot;&gt;&lt;img src=&quot;pdf.gif&quot; width=&quot;15&quot; height=&quot;15&quot; alt=&quot;Prüfungsordnung  als PDF-Datei&quot; /&gt;&lt;/a&gt;</code></li>
+</ul></li>
+<li>Weitere Attribute sind nicht notwendig.</li>
+<li>Vermeiden Sie das Öffnen im neuen Tab/Fenster.</li>
+</ul>
+<h3 id="tabellen-1">Tabellen</h3>
+<ul>
+<li>Tabellen dürfen nur für tabellarische Daten genutzt werden, nicht als Layout-Ersatz!</li>
+<li>Normale Zellinhalte stehen im Element <code>&lt;td&gt;</code>.</li>
+<li>Spalten- oder Zeilenüberschriften bekommen das Element <code>&lt;th&gt;</code>.</li>
+<li>Verwenden Sie das <code>scope</code>-Attribut, um anzuzeigen, ob eine Überschrift horizontal oder vertikal wirkt.</li>
+</ul>
+<h3 id="zitate-1">Zitate</h3>
+<ul>
+<li>Zitate werden mithilfe des Elements <code>&lt;blockquote&gt;</code> gekennzeichnet.</li>
+<li>Der Urheber steht im <code>&lt;footer&gt;</code> im <code>&lt;cite&gt;</code>-Element: <code>&lt;blockquote&gt; &lt;p&gt;     Zitat &lt;/p&gt; &lt;footer&gt;    &lt;cite&gt;Urheber&lt;/cite&gt; &lt;/footer&gt; &lt;/blockquote&gt;</code></li>
+</ul>
+<h3 id="embeddings-1">Embeddings</h3>
+<ul>
+<li>Ob der eingebettete Inhalt barrierefrei ist, hängt von dessen Anbieter ab.</li>
+<li>Kennzeichnen Sie das Embedding als Inhalt aus einer Drittquelle.</li>
+<li>Beachten Sie beim Einbinden den Datenschutz, insbesondere Zweiklick- oder Proxylösungen.</li>
+<li>Sofern das Embedding zwingend notwendige Informationen enthält, sollten diese <strong>Informationen zusätzlich in Textform</strong> bereitgestellt werden.</li>
+</ul>
+<h1 id="entwicklung-und-design">Entwicklung und Design</h1>
+<h2 id="aufgabenbereich-und-zielgruppe-1">Aufgabenbereich und Zielgruppe</h2>
+<p>Dieser Anwendungsbereich betrifft die Entwicklung und das Webdesign von Webangeboten, Webauftritten und Apps. Teil der Entwicklung ist auch die Umsetzung und Bereitstellung von Templates und Musterseiten, die von Autoren verwendet werden. Auch automatisch erstellte Ausgaben werden durch diese Zielgruppe definiert.</p>
+<p>Dieses Kapitel wendet sich an folgende Personenkreise:</p>
+<ul>
+<li>Webdesigner</li>
+<li>Webentwickler</li>
+</ul>
+<h2 id="grundlagen-1">Grundlagen</h2>
+<p>Die Entwicklung von Webangeboten, Webauftritten und Apps ist abhängig von der jeweiligen Arbeitsweise der Beteiligten, von definierten Workflows und Prozessen und von vorgegebenen Frameworks. Der Leitfaden kann keine Empfehlungen zur Arbeitsorganisation und zum idealen Ablauf eines Webprojektes geben. Dies würde den Rahmen des Leitfadens deutlich sprengen. Daher werden hier nur die wichtigsten Problemfelder bei der Entwicklung und Bereitstellung von Webangeboten, Webauftritten und Apps angesprochen und für eine tiefergehende Beschäftigung auf relevante Webseiten verwiesen.</p>
+<p>Ein umfangreiches Tutorial für die Entwicklung und Gestaltung von Webangeboten und Webauftritten bietet das <a href="https://www.w3.org/WAI/tutorials/">Web Accessibility Tutorial des W3C</a>. Dieses sollte sowohl bei Neuentwicklungen als auch bei der Korrektur vorhandener Webangebote als Grundlage und Nachschlagewerk genommen werden. Das Tutorial erläutert, wie Teile von Webangeboten erstellt werden können, um sowohl die Konformität zu den WCAG sicherzustellen, als auch die Benutzererfahrung für alle Nutzer einer Seite zu erhöhen. Es gliedert sich in folgende Teile:</p>
+<ul>
+<li><a href="https://www.w3.org/WAI/tutorials/page-structure/">Strukturierung und Layout</a></li>
+<li><a href="https://www.w3.org/WAI/tutorials/menus/">Menüs und Navigationskonzepte</a></li>
+<li><a href="https://www.w3.org/WAI/tutorials/images/">Bilder</a></li>
+<li><a href="https://www.w3.org/WAI/tutorials/tables/">Tabellen</a></li>
+<li><a href="https://www.w3.org/WAI/tutorials/forms/">Formulare</a></li>
+<li><a href="https://www.w3.org/WAI/tutorials/carousels/">Carousels</a></li>
+</ul>
+<p>Weiterhin wurden für Designer und Entwickler die folgenden Empfehlungen und Hinweise zusammengefasst:</p>
+<ul>
+<li><a href="https://www.w3.org/WAI/tips/designing/">Tipps und Hinweise zum barrierefreien Webdesign</a></li>
+<li><a href="https://www.w3.org/WAI/design-develop/">Tipps und Hinweise zur Entwicklung von barrierefreien Markup</a></li>
+</ul>
+<p>Eine weitere hilfreiche Quelle ist die <a href="https://www.w3.org/standards/">Standards-Seite des W3C</a>: Die Plattform enthält ein umfangreiches Nachschlagewerk zur Entwicklung von Webangeboten, Webauftritten, Apps, aber auch von Schnittstellen, strukturierten Daten und Kommunikationsprotokollen.</p>
+<h2 id="umsetzung-1">Umsetzung</h2>
+<p>Die wesentlichen Grundlagen und Beispiele zur Umsetzung werden in den oben genannten Tutorials behandelt. Hier folgen daher lediglich Umsetzungshilfen, die obige Tutorials ergänzen oder Sonderfälle betreffen.</p>
+<h3 id="strukturierte-daten">Strukturierte Daten</h3>
+<p><strong>Hinweis: Die Umsetzung von strukturierten Daten ist derzeit für die Umsetzung der Barrierefreiheit nicht erforderlich.</strong> Gleichwohl kommt es zu positiven Auswirkungen in der Form, dass die Webseite durch Software besser analysiert werden kann. Dies führt unter anderem zu einer besseren Auffindbarkeit mit Hilfe von Suchmaschinen und somit wiederum dazu, dass Menschen die Inhalte besser finden, bevor sie die Seite überhaupt besuchen.</p>
+<p>Strukturierte Daten erlauben es, die Semantik von HTML mit Hilfe standardisierter Anweisungen zu erweitern. HTML erlaubt zwar die Auszeichnung von Überschriften, Absätzen und Bildern, definiert jedoch keine Aussagen über den Inhalt. Menschen können anhand von Kontext und Inhalt erkennen, worum es geht. Diese Möglichkeit hat Software (abseits von Machine Learning) jedoch nicht. Die in der <a href="https://www.w3.org/TR/wai-aria/">WAI-ARIA 1.1</a> durch die W3C definierte Spezifikation kann dieses Problem auch nicht lösen. Die ARIA erlaubt zwar die Auszeichnung von Strukturen, Bedienelementen und Inhaltstypen einer Webseite, sie macht aber keine Aussagen zur inhaltlichen Bedeutung.</p>
+<figure>
+<img src="04-entwicklung/strukturierte-daten-schema-w3c.png" alt="Bild: Schemagrafik zur Erkennung von Inhalten" /><figcaption>Bild: Schemagrafik zur Erkennung von Inhalten</figcaption>
+</figure>
+<p>Das Schema aus der Beschreibung des W3C zur <a href="https://www.w3.org/TR/rdfa-primer/">Spezifikation RDFa 1.1</a> beschreibt das Problem: Auf der linken Seite ist das zu sehen, was die Browsersoftware sieht: Zwei Überschriften, einen mit <code>&lt;em&gt;</code> markierten Text und darunter ein Absatz. Gefolgt von eine Linkliste.</p>
+<p>Ein Mensch hingegen interpretiert es als einen Artikel mit einer Hauptüberschrift, einer kleineren Überschrift zur Angabe des Autors, einer Datumsangabe und darauf folgend den eigentlichen Artikel, gefolgt von einer Tagclound und einem Link zu Copyright-Informationen.</p>
+<p>Suchmaschinen und spezialisierte Softwareprodukte werten strukturierte Daten auf Webseiten aus und liefern diese dann in geeigneter Weise an Menschen aus. So zum Beispiel:</p>
+<ul>
+<li>durch die Anreicherung der Ergebnisliste einer Suche mit Öffnungszeiten, Terminen, lokaler Suche, hervorgehobenen Links;</li>
+<li>durch Auslesen von aktuellen Terminen aus Webseiten und Weiterverwendung dieser in anderen Anwendungen;</li>
+<li>durch die automatische Erkennung von Telefonnummern auf Webseiten und Verknüpfung dieser mit der Anruffunktion auf mobilen Devices.</li>
+</ul>
+<p>Bei der Suche in Google wird beispielsweise bei der Suche nach der Universität Erlangen unterhalb eines Treffers auch eine Auswahlliste an Öffnungszeiten gezeigt.</p>
+<figure>
+<img src="04-entwicklung/strukturierte-daten-fau-oeffnungszeiten.png" alt="Bild: Anzeige der Öffnungszeiten von Teilen der Universität bei der Ausgabe einer Suche mit Google" /><figcaption>Bild: Anzeige der Öffnungszeiten von Teilen der Universität bei der Ausgabe einer Suche mit Google</figcaption>
+</figure>
+<p>Bildnachweis: © Google LLC, Suchmaschine , Suche: Universität Erlangen https://www.google.com/search?q=universit%C3%A4t+erlangen</p>
+<p>Und bei der Suche nach der LMU wird für diese im Infopanel eine Liste der kommenden Veranstaltungen angeboten.</p>
+<figure>
+<img src="04-entwicklung/strukturierte-daten-lmu-infopanel.png" alt="Bild: Anzeige der kommenden Veranstaltungen der LMU" /><figcaption>Bild: Anzeige der kommenden Veranstaltungen der LMU</figcaption>
+</figure>
+<p>Bildnachweis: © Google LLC, Suchmaschine, Suche: LMU München https://www.google.com/search?q=lmu+m%C3%BCnchen</p>
+<p>Der Nebeneffekt dieser Anzeigen ist, dass der Benutzer der Suchmaschine ohne Umweg über die Startseite der jeweilige Webseite gleich zu dem jeweiligen Angebot springen kann.</p>
+<p>In HTML geschieht die Auszeichnung dieser Inhalte durch die Attribute <code>itemscope</code> und <code>itemprop</code>.</p>
+<h5 id="beispiel-termin-mit-strukturierten-daten">Beispiel Termin mit strukturierten Daten</h5>
+<p>Ohne strukturierte Daten würde eine Terminangabe in HTML so aussehen:</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode html"><code class="sourceCode html"><a class="sourceLine" id="cb17-1" data-line-number="1"><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;event&quot;</span><span class="kw">&gt;</span></a>
+<a class="sourceLine" id="cb17-2" data-line-number="2">      <span class="kw">&lt;h2&gt;</span>Webkongress Erlangen<span class="kw">&lt;/h2&gt;</span></a>
+<a class="sourceLine" id="cb17-3" data-line-number="3">      <span class="kw">&lt;em&gt;</span>12. September 2018, 9:00 Uhr<span class="kw">&lt;/em&gt;</span></a>
+<a class="sourceLine" id="cb17-4" data-line-number="4">      Department Mathematik </a>
+<a class="sourceLine" id="cb17-5" data-line-number="5">      <span class="kw">&lt;address&gt;</span>  </a>
+<a class="sourceLine" id="cb17-6" data-line-number="6">            Cauerstraße 11</a>
+<a class="sourceLine" id="cb17-7" data-line-number="7">            91058 Erlangen</a>
+<a class="sourceLine" id="cb17-8" data-line-number="8">      <span class="kw">&lt;/address&gt;</span></a>
+<a class="sourceLine" id="cb17-9" data-line-number="9"><span class="kw">&lt;/div&gt;</span></a></code></pre></div>
+<p>Mit Anwendung der <a href="https://schema.org/Event">Schema.org-Beschreibung zu Terminen</a> wird hieraus folgendes:</p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode html"><code class="sourceCode html"><a class="sourceLine" id="cb18-1" data-line-number="1"><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;event&quot;</span><span class="ot"> itemscope itemtype=</span><span class="st">&quot;http://schema.org/Event&quot;</span><span class="kw">&gt;</span></a>
+<a class="sourceLine" id="cb18-2" data-line-number="2">      <span class="kw">&lt;h2&gt;</span>Webkongress Erlangen<span class="kw">&lt;/h2&gt;</span></a>
+<a class="sourceLine" id="cb18-3" data-line-number="3">      <span class="kw">&lt;em</span><span class="ot"> itemprop=</span><span class="st">&quot;startDate&quot;</span><span class="ot"> content=</span><span class="st">&quot;2018-09-12T09:00&quot;</span><span class="kw">&gt;</span></a>
+<a class="sourceLine" id="cb18-4" data-line-number="4">          12. September 2018, 9:00 Uhr</a>
+<a class="sourceLine" id="cb18-5" data-line-number="5">      <span class="kw">&lt;/em&gt;</span></a>
+<a class="sourceLine" id="cb18-6" data-line-number="6">      <span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;event-venue&quot;</span><span class="ot"> itemprop=</span><span class="st">&quot;location&quot;</span> </a>
+<a class="sourceLine" id="cb18-7" data-line-number="7"><span class="ot">            itemscope itemtype=</span><span class="st">&quot;http://schema.org/Place&quot;</span><span class="kw">&gt;</span></a>
+<a class="sourceLine" id="cb18-8" data-line-number="8">            <span class="kw">&lt;span</span><span class="ot"> itemprop=</span><span class="st">&quot;name&quot;</span><span class="kw">&gt;</span>  Department Mathematik <span class="kw">&lt;/span&gt;</span></a>
+<a class="sourceLine" id="cb18-9" data-line-number="9">            <span class="kw">&lt;address</span><span class="ot"> itemprop=</span><span class="st">&quot;address&quot;</span> </a>
+<a class="sourceLine" id="cb18-10" data-line-number="10"><span class="ot">                     itemscope itemtype=</span><span class="st">&quot;http://schema.org/PostalAddress&quot;</span><span class="kw">&gt;</span>  </a>
+<a class="sourceLine" id="cb18-11" data-line-number="11">                <span class="kw">&lt;span</span><span class="ot"> itemprop=</span><span class="st">&quot;streetAddress&quot;</span><span class="kw">&gt;</span>Cauerstraße 11<span class="kw">&lt;/span&gt;</span></a>
+<a class="sourceLine" id="cb18-12" data-line-number="12">                <span class="kw">&lt;span</span><span class="ot"> itemprop=</span><span class="st">&quot;postalCode&quot;</span><span class="kw">&gt;</span>91058<span class="kw">&lt;/span&gt;</span> </a>
+<a class="sourceLine" id="cb18-13" data-line-number="13">                <span class="kw">&lt;span</span><span class="ot"> itemprop=</span><span class="st">&quot;addressLocality&quot;</span><span class="kw">&gt;</span>Erlangen<span class="kw">&lt;/span&gt;</span></a>
+<a class="sourceLine" id="cb18-14" data-line-number="14">            <span class="kw">&lt;/address&gt;</span></a>
+<a class="sourceLine" id="cb18-15" data-line-number="15">       <span class="kw">&lt;/div&gt;</span></a>
+<a class="sourceLine" id="cb18-16" data-line-number="16"> <span class="kw">&lt;/div&gt;</span></a></code></pre></div>
+<p>Dieser HTML-Code kann von einer Software ausgelesen und interpretiert werden. Dabei spielt dann auch die individuelle Schreibweise bei der Datumsangabe keine Rolle mehr, da die standardisierte Form im Attribut <code>content=&quot;2018-09-12T09:00&quot;</code> angegeben wurde.</p>
+<p>Auf der Seite <a href="https://schema.org/">schema.org</a> findet sich eine Übersicht der gebräuchlichsten Inhaltstypen mit Beispielen für deren Anwendung. Um zu prüfen, ob die Angaben korrekt waren, kann das <a href="https://search.google.com/structured-data/testing-tool?hl=de">Testtool von Google</a> aber auch die Browsererweitertung <a href="https://chrome.google.com/webstore/detail/semantic-inspector/jobakbebljifplmcapcooffdbdmfdbjh">Semantic Inspector</a> (siehe unten) verwendet werde.</p>
+<h4 id="vertiefung-6">Vertiefung</h4>
+<ul>
+<li>Schema.org: <a href="https://schema.org/docs/schemas.html">Übersicht über die Typen strukturierter Daten</a></li>
+<li>Google: <a href="https://developers.google.com/search/docs/guides/">Tutorial zu strukturierten Daten</a></li>
+<li>lunapark: <a href="https://www.luna-park.de/blog/29207-strukturierte-daten/">Strukturierte Daten: Mehr Aufmerksamkeit in den SERPs</a></li>
+<li>t3n: <a href="https://t3n.de/news/rich-snippets-anleitung-534054/">Rich Snippets</a></li>
+</ul>
+<h3 id="browser-add-ons">Browser-Add-ons</h3>
+<p>Beim Entwickeln und Testen von Websites können verschiedene Add-ons eine Hilfe sein.</p>
+<p>Der Chrome-Browser von Google hat sich in den letzten Jahren zum meistgenutzten Browser weltweit entwickelt. Auf dem Gebiet der Webentwicklung lag dies unter anderem an der im Vergleich zu Firefox besseren Unterstützung mit Hilfe von nativen Entwickler-Tools, aber auch an der besseren Unterstützung von Webstandards. (Siehe hierzu u.a. die Plattform <a href="https://caniuse.com">CanIuse.com</a>). Mit dem neuen Firefox Quantum kann sich diese Situation wieder ändern, aber aktuell ist bei Webentwicklern der Chrome-Browser nach wie vor der am häufigsten verwendete Browser. Unabhängig davon muss jeder Entwickler dennoch weitere Browser auf seinen Arbeitsplatzgeräten oder virtuellen Umgebungen haben. Neue Webauftritte sollten im Idealfall stets mit mindestens drei verschiedenen Browsern auf mindestens zwei verschiedenen Betriebssystemen getestet werden.</p>
+<p>Die folgende Liste der Add-ons basiert auf dem aktuellen Chrome-Browser. Ähnliche oder auch dieselben Add-ons gibt es jedoch auch für die anderen Browser.</p>
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 54%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Beschreibung</th>
+<th style="text-align: center;">Link</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>CertViewer</td>
+<td>Anzeige von Informationen zum SSL-Zertifikat einer Website.</td>
+<td style="text-align: center;"><a href="https://chrome.google.com/webstore/detail/certviewer/dcfpfgpnkmklbdnicbooifodgdekdgie">Download</a></td>
+</tr>
+<tr class="even">
+<td>ColorA11y</td>
+<td>Dieses Add-on prüft, ob bei einer Website die verwendeten Farben für Texte und Hintergründe den WCAG 2.0 Anforderungen Genüge tun.</td>
+<td style="text-align: center;"><a href="https://chrome.google.com/webstore/detail/colora11y/icfneoldcbdmgaiocnnobpbbjncdfbfb">Download</a></td>
+</tr>
+<tr class="odd">
+<td>ColorZilla</td>
+<td>Dieses Add-on erlaubt das “Entnehmen” von Farbwerten aus einer aktuellen Website (“Color Picker”) und bietet andere hilfreiche Informationen zur Farbauswahl an.</td>
+<td style="text-align: center;"><a href="https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp">Download</a></td>
+</tr>
+<tr class="even">
+<td>Full Page Screenshot</td>
+<td>Für Protokoll- und Testzwecke oder die Diskussion von Bestandteilen einer Website ist ein Screencapture-Werkzeug unumgänglich. Dieses Add-on erlaubt sowohl das Erstellen von Screenshots einer ganzen Seite als auch das gezielte Selektieren von Ausschnitten. Die jeweiligen Bilder können als Datei gespeichert werden.</td>
+<td style="text-align: center;"><a href="https://chrome.google.com/webstore/detail/full-page-screenshot/glgomjpomoahpeekneidkinhcfjnnhmb">Download</a></td>
+</tr>
+<tr class="odd">
+<td>headingsMap</td>
+<td>Anzeige der Überschriftenhierarchie einer Webseite. Diese Anzeige ist besonders wichtig, um zu erkennen, ob die Navigation innerhalb einer Seite plausibel und logisch strukturiert ist. Auch dies wird zur Einhaltung der WCAG-Bedingungen gefordert.</td>
+<td style="text-align: center;"><a href="https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi">Download</a></td>
+</tr>
+<tr class="even">
+<td>IP-Domain-Markierungsfahne</td>
+<td>Dieses einfache Plugin ermittelt auf Basis bekannter IP-Adressebereiche die für die aktuell aufgerufene Domain jeweils wahrscheinlich passende Länderfahne.</td>
+<td style="text-align: center;"><a href="https://dnslytics.com/">Download</a></td>
+</tr>
+<tr class="odd">
+<td>Semantic Inspector</td>
+<td>Moderne Websites geben über die HTML-Semantik hinaus mit Hilfe von strukturierten Elementen (vgl. auch <a href="http://schema.org/">schema.org</a>) Aussagen darüber, aus welcher Art von Inhalten eine Seite und deren Bestandteile besteht. Insbesondere Suchmaschinen und UserAgents nutzen diese Formate, um Informationen aus Webseiten auszulesen und entsprechend weiterzuverabeiten. Der Semantic Inspector macht diese Inhalte sichtbar und bietet damit gleichzeitig ein Testtool an, ob die selbst eingestellten strukturierten Elemente korrekt waren.</td>
+<td style="text-align: center;"><a href="https://chrome.google.com/webstore/detail/semantic-inspector/jobakbebljifplmcapcooffdbdmfdbjh">Download</a></td>
+</tr>
+<tr class="even">
+<td>WAVE Evaluation Tool</td>
+<td>Dieses Tool ermöglicht einen automatisierten WCAG-Test der gerade besuchten Website. Die Ergebnisse sind hinreichend nutzbar für Tests und Entwicklung. Zu beachten ist jedoch, dass dieses Testtool, wie auch andere WCAG-Testtools auch viele “False Positives” meldet - also Dinge als Fehler markiert, die sich bei einer genaueren Prüfung als korrekt erweisen.</td>
+<td style="text-align: center;"><a href="https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh">Download</a></td>
+</tr>
+<tr class="odd">
+<td>Web Developer</td>
+<td>Dieses Add-on ergänzt die Toolbar um einen Button mit hilfreichen Informationen zur Website. So beispielsweise die semantische und topographische Gestaltung der Webseite. Auch werden weitere Links angeboten, mit denen man die W3C-Validation oder andere Werkzeuge bequem aufrufen kann.</td>
+<td style="text-align: center;"><a href="http://chrispederick.com/work/web-developer/">Download</a></td>
+</tr>
+</tbody>
+</table>
+<p>Üblicherweise sind weitere Add-ons vorhanden, wie beispielsweise das uBlock Origin Add-on, welches effektiv Werbung unsichtbar macht bzw. das Laden dieser unterdrückt oder Ghostery, der (in Kombination mit uBlock Origin) ebenfalls ein gutes und datenschutzorientes Add-on zur digitalen Selbstverteidigung gegen Tracking und durch Werbung eingeschleuste Schadsoftware ist.</p>
+<h1 id="organisatorische-und-rechtliche-anforderungen">Organisatorische und rechtliche Anforderungen</h1>
+<h2 id="aufgabenbereich-und-zielgruppe-2">Aufgabenbereich und Zielgruppe</h2>
+<p>Dieser Anwendungsbereich betrifft die rechtlichen und regularischen Aspekte bei dem Betrieb eines Webangebotes.</p>
+<p>Dieses Kapitel wendet sich an folgende Personenkreise:</p>
+<ul>
+<li>CIOs</li>
+<li>Rechenzentren und Provider</li>
+<li>Verantwortliche von Webauftritten</li>
+<li>Verantwortliche Auftragsgeber</li>
+</ul>
+<h2 id="grundlagen-2">Grundlagen</h2>
+<p>Barrierefreiheit ist kein neues Thema. Da die Exekutive durch das Onlinezugangsgesetz und E-Goverment-Gesetze verpflichtet ist, Ihre Leistungen (demnächst) und Informationen auch digital anzubeiten, gewinnt die Barrirefreiheit stark an Bedeutung. Verfassungsrechtlich gut begründbar ist es, einen Leistungsanspruch auf Zugänglichkeit von Informationen für benachteiligte Personen anzunehmen (Vgl. Sachs/Bethge GG Art. 5 Rn. 62-63, beck-online zu Art. 5 Abs. 1 2. Halbsatz GG i.V.m. Art. 3 Abs. 1 GG). Die verfassungrechtliche Grenze dieser Leistung ergibt sich nur aus den verfügbaren Mitteln der handelnden Behörde.</p>
+<h3 id="eu-richtlinie-über-den-barrierefreien-zugang-zu-den-websites-und-mobilen-anwendungen-öffentlicher-stellen">EU-Richtlinie über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen</h3>
+<p>Mit der Richtlinie 2016/2102 der Europäischen Union vom 26. Oktober 2016 über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen ist nun die <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf">Europäischen Norm EN 301 549 V1.1.2</a>. Für den Bereich Web (Dokumente und Software) – enthält diese Norm alle Level A und Level AA - Erfolgskriterien von WCAG 2.0 als Mindestanforderung und für Nicht-Web-Dokumente – orientiert sich die Norm an den Richtlinien der WCAG2ICT Task Force.</p>
+<p>Daher kann etwas vereinfacht gesagt werden, dass der Maßstab für Barrierefreiheit im Web die WCAG Standard in der seiner aktuellen Fassung ist, inzwischen 2.1. Wird man den Erfolgskriterien von WCAG 2.1 gerecht, dann erfüllt man auch WCAG 2.0. Mit einer Anpassung der Europäischen Norm ist zurechnen.</p>
+<h3 id="verordnung-zur-schaffung-barrierefreier-informationstechnik-bitv">Verordnung zur Schaffung barrierefreier Informationstechnik (BITV)</h3>
+<p>Auf Bundesebene wurde bisher mit der BITV nach dem Behindertengleichstellungsgesetz verpflichtetet Träger öffentlicher Gewalt, insbesondere die Bundesbehörden, ein verbindlicher Standard geschaffen, wie Barrierefreiheit technisch umzusetzen war. Auf diesen Standard wurde oft von Landesgesetzen und Verordnungen verwiesen. Im Anwendungsbereich der Richtlinie ist damit BITV durch die Europäische Norm verdrängt. Für Gesetz- und Verordnungsgeber besteht Anpassungsbedarf.</p>
+<h3 id="bayerisches-gesetz-zur-gleichstellung-integration-und-teilhabe-von-menschen-mit-behinderung">Bayerisches Gesetz zur Gleichstellung, Integration und Teilhabe von Menschen mit Behinderung</h3>
+<p>Die einfachgesetzliche Pflicht zur Barrierefreiheit von Webseiten und Programmen folgt in Bayern für staatliche Hochschulen aus Art. 13 BayBGG. Dieser wurde auch bereits an die Richlinie angepasst und umfasst nun explizit auch mobile Anwendungen. Die Details werden wie bisher in einer Verordnung geregelt. Jedoch waren Apps auch bereits zuvor vom BayBGG erfasst.</p>
+<h3 id="bayerische-barrierefreie-informationstechnik-verordnung">Bayerische Barrierefreie Informationstechnik-Verordnung</h3>
+<p>Die Bayerische Barrierefreie Informationstechnik-Verordnung (BayBITV) setzte in der Fassung von 2006 vorraus, dass die Zugangspfade barrierefrei auszugestalten waren. Für bestehende (vor 31.12.2006) waren je nach Zielgruppe Übergangsfristen bis zum 31.12.2010 bzw. 31.12.2013 vorgesehen.</p>
+<p>Die Umsetzung gemäß § 2 BayBITV (2006) nun § 1 Abs. 1 BayBITV gibt für Webangebote der staatlichen Hochschulen die Empfehlung, die Barrierefreiheit nach der BITV Analge in der Stufe Priorität I umzusetzen. Für zentrale Navigations- und Einstellungsangebote ist die Empfehlung dies gemäß der BITV Anlage in der Stufe Priorität II umzusetzen.</p>
+<p>Für den Anwendungsbreich der EU-Richtlinie ist die Empfehlung des Standards BITV hinfällig. Maßgeblicher Standard für Webanwendungen der Hochschulen ist nun die WCAG über die Europäischen Norm EN 301 549 V1.1.2. Dies zeigt, dass soweit sich Hochschulen bereits bisher an die WCAG orientiert haben, diese nun einen Vorsprung in der Umsetzung haben.</p>
+<p>Die Verordnung ist nun an die EU-Richtlinie und den geänderten Art. 13 BayBGG anzupassen oder gänzlich neu zu verfassen.</p>
+<h2 id="umsetzung-2">Umsetzung</h2>
+<p>Die Umsetzung erfordert zum einen die Beachtung formaler Aspekte (Barrierefreiheitserklärung, Feedback-Mechanismus und Umsetzungenfristen) zum anderen inhaltliche Aspekte (Barrierefreiheit der Inhalte die durch technische und organisatorische Maßnahmen). Ergänzend wird die Umsetzung durch Berichtspflichten an die EU-Kommission und leichtere Durchsetzungsmöglichkeiten für Betroffenen angetrieben.</p>
+<h3 id="barrierefreiheitserklärung-gemäß-der-eu-richtlinie">Barrierefreiheitserklärung gemäß der EU-Richtlinie</h3>
+<p>Die Richtline für eine Barrierefreiheitserklärung für Webseiten und mobile Anwendungen verpflichtend ein. Der Inhalt der Erklärung wird durch Art. 7 vorgegeben, dessen Inhalt die Kommission in einer Mustererklärung festzulegt.</p>
+<p>Ein <a href="https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2018-2604172_en">Entwurf einer Mustererklärung für die Erklärung zur Barrierefreiheit</a> ist bereits verfügbar. Die finale Version ist gegen Ende 2018 zu erwarten.</p>
+<p>Ein wesentlicher Bestandteil der Erklärung Für Webanwendungen wird Konformität mit den Barrierefreiheitsanforderungen vermutet, sofern und soweit nach Annex C der Europäischen Norm EN 301 549 V1.1.2 die Testkriterien erfüllt sind.</p>
+<p>Soweit einzelne Unterseiten keiner Prüfung auf die Barrierefreiheit unterzogen worden sind, ist anzugeben, welche sichere barrierefreie zugängliche Alternative besteht. Die erforderlichen Alternativen können Leistungen von Kontakt- und Informationsstellen für Studierende mit Behinderung und chronischer Erkrankung oder die Schwerbehindertenvertretung für die Beschäftigten sein.</p>
+<h4 id="feeback-mechanismus">Feeback-Mechanismus</h4>
+<p>Über die Anforderungen des Feedback-Mechanismusses äußert sich die EU-Richtlinie kaum. Aus dem Entwurf der Mustererklärung für die Erklärung zur Barrierefreiheit wird ersichtlich, dass es Meldemöglichkeit geben muss und ein verantwortliche Person zu benennen ist. Aus den Erwägungsründen wird zudem ersichtlich, dass über den Feeback-Mechanismus nicht barrierefreie Informationen, Dienstleistungen oder Dokumente für den Betroffenen barrierefrei zugänglich gemacht werden sollen. Die Beantwortung der Anfragen muss innerhalb einer angemessen Frist erfolgen. Bei einer nicht zufriedenstellenen Antwort können Betroffenen ein Durchsetzungsverfahren einleiten.</p>
+<h3 id="fristen">Fristen </h3>
+<p>Die Barrierefeit war bereits nach nationalem Recht umzusetzen gewesen. Werden jedoch die neuen Fristen aus der EU-Richtlinie nicht eingehalten, liegt ein neben der verletzten gesetzlichen Pflicht ein Verstoß gegen EU-Recht vor. Aus diesem Grund sind die neuen Fristen von besonderer Relevanz.</p>
+<ul>
+<li><p>Alle neuen <strong>Dateiformate (PDF, u.a.)</strong> aus Büroanwendungen müssen <strong>ab dem 23.09.2018</strong> barrierefrei sein. Ältere Dateien müssen bis dahin ebenfalls barrierefrei sein, wenn sie für aktive Verwaltungsverfahren benötigt werden. (Z.B. Prüfungsordnungen!). </p></li>
+<li><p><strong>Webseiten</strong>, die ab dem 23.09.2018 veröffentlicht wurden, müssen <strong>bis zum 23.09.2019</strong> auf Stufe AA konform zu WCAG 2.0 sein; Ältere Webseiten erst zum 23.09.2020. </p></li>
+<li><p><strong>“Intranets/Extranets”</strong> müssen <strong>bis zum 23.09.2019</strong> barrierefrei sein.  Ausnahmen für Inhalte die vor dem 23. September 2019 erstellt worden sind. </p></li>
+<li><p><strong>Mobile Anwendungen</strong> müssen <strong>bis zum 23.06.2021</strong> barrierefrei sein. </p></li>
+</ul>
+<h3 id="barriefreiheit-und-ihre-grenzen">Barriefreiheit und ihre Grenzen</h3>
+<h4 id="ausnahmen">Ausnahmen</h4>
+<p>Die Richtlinie nimmt gewährt einige Ausnahmen bei bestimmten Arten oder Alter von Inhalten:</p>
+<ul>
+<li>Dateiformate von Büroanwendungen, die vor dem 23. September 2018 veröffentlicht wurden, soweit nur dokumentarisch z.B. Folien zu früheren Veranstaltungen</li>
+<li>aufgezeichnete zeitbasierte Medien, die vor dem 23. September 2020 veröffentlicht wurden</li>
+<li>live übertragene zeitbasierte Medien</li>
+<li>Online-Karten und Kartendienste, sofern bei Karten für Navigationszwecke wesentliche Informationen in einer barrierefrei zugänglichen Weise digital bereitgestellt werden</li>
+<li>Inhalte von Dritten, die von der betreffenden öffentlichen Stelle weder finanziert noch entwickelt werden noch deren Kontrolle unterliegen</li>
+<li>Reproduktionen von Stücken aus Kulturerbesammlungen, die nicht vollständig barrierefrei zugänglich gemacht werden können</li>
+<li>Inhalte von Extranets und Intranets, die vor dem 23. September 2019 veröffentlicht wurden</li>
+</ul>
+<!-- 
+#### Rückausnahmen
+
+Der Bayerische Gesetzgeber hatte bisher schon Inhalte von Extranets und Intranets Bar
+
+#### Verhältnismäßigkeitsausnahme
+
+...
+
+-->
+<h3 id="durchsetzungsmöglichkeiten-für-betroffene">Durchsetzungsmöglichkeiten für Betroffene</h3>
+<p>Die Ausgestaltung wird in der richtlinien angepassten BayBITV oder einer neuen Verordnung erfolgen.</p>
+<h2 id="vertragliche-anforderungen-bei-auftragsarbeiten">Vertragliche Anforderungen bei Auftragsarbeiten</h2>
+<p>Es kann immer wiedervorkommen, dass ein begründerter Bedarf besteht, Webseiten nicht hochschulintern zu entwickeln oder designen sondern diese Aufgabe extern zu vergeben. Die Einrichtung, die solche Aufträge vergibt, hat neben dem Haushaltsrecht sicherzustellen, dass in der Auftragsdefinition die Einhaltung der EU Norm zur Barrierefreiheit verbindlich gefordert wird. Dies gilt nicht nur für Programmierarbeiten, sondern auch für designerische Leistungen.</p>
+<h3 id="die-schritte-zum-auftrag-vereinfachte-darstellung">Die Schritte zum Auftrag (vereinfachte Darstellung)</h3>
+<ol type="1">
+<li>Wirtschaftlichkeitsbetrachtung</li>
+<li>Konformität zur Europäischen Norm EN 301 549 V1.1.2 - Die <a href="https://www.rz.uni-wuerzburg.de/dienste/it-recht/">Stabsstelle IT-Recht</a> bietet dafür gegen Ende 2018 einen Mustertragvertrag an.</li>
+<li><p>Einhalten des Vergaberechts</p>
+<ol type="a">
+<li><p>Dokumentation der Entscheidung und des Verfahrens</p></li>
+<li><p>Bis € 1000 (ohne Umsatzsteuer) ist eine Direktvergabe möglich</p></li>
+<li><p>Bis € 50.000 (ohne Umsatzsteuer) ist bei entsprechender Begründung die Vergabe nach Einholung von drei Angeboten erfolgen. Ab € 25.000 (ohne Umsatzsteuer) ist eine elektronische Vergabe vorgesehen.</p></li>
+<li><p>Bei größeren Aufträgen sollte stehts eine Abstimmung mit dem Einkauf erfolgen</p></li>
+</ol></li>
+</ol>
+<h3 id="die-schritte-nach-dem-auftrag">Die Schritte nach dem Auftrag</h3>
+<ol type="1">
+<li>Prüfung des Werkes bei der Abnahme auf seine Barrierefreiheit, ggf. mit Hilfe Ihres Rechenzentrums</li>
+<li>Vorbehalten der Abnahme bis zur erfolgreichen Barrierefreiheitsprüfung</li>
+<li>Bei fehlender Barrierefreiheit setzen einer Frist ca. zwei Wochen bis ein Monat diese zu Erreichen</li>
+<li>Erneute Prüfung auf Barrierefreiheit</li>
+<li><p>Nach Fristablauf Durchsetzung Ihrer Rechte anstreben</p>
+<ol type="a">
+<li><p>Verlangen eines Vorschusses in Höhe der Kosten für die Herstellung der Barrierefreiheit</p></li>
+<li><p>Alternativ vom Vertrag auflösen oder teilweise die Vergütung zurückfordern</p></li>
+<li><p>Geltendmachen von Schadensersatzansprüchen</p></li>
+</ol></li>
+</ol>
+<h2 id="weitere-pflichtangaben-auf-webseiten">Weitere Pflichtangaben auf Webseiten</h2>
+<p>Da die Webseite um eine Barrierefreiheitskonformitätserklärung zu erweitern ist, lohnt sich in dem Zuge auch nochmal, einen prüfenden Blick auf Impressum und Datenschutzerklärung zu werfen.</p>
+<h3 id="impressum">Impressum</h3>
+<p>Häufige Fehler sind die fehlende Angabe der Rechtsform, fehlende gesetzliche Vertreter oder ein nicht aktualisierter Name der zuständigen Aufsichtsbehörde.</p>
+<p>Über ein <a href="https://www.rz.uni-wuerzburg.de/dienste/it-recht/generatoren-beta/">Webformular</a> stellt die Stabsstelle IT-Recht der bayerischen staatlichen Universitäten und Hochschulen im Rahmen Ihrer Zuständigkeit einen Vorschlag für ein Impressum zur Verfügung.</p>
+<h3 id="datenschutzerklärung">Datenschutzerklärung</h3>
+<p>Gerade eigenständige Projektseiten oder Webseiten der Hochschulvereine haben ihr Impressum noch nicht aktualisiert. Häufig werden auch unbedacht nicht passende Textbausteine aus Musterdatenschutzerklärungen eingefügt.</p>
+<p>Die Musterdatenschutzerkärung der Stabsstelle IT-Recht der bayerischen staatlichen Universitäten und Hochschulen versucht diese Fehlerquellen zu minimieren und versucht in seinem Umfang die üblichen Anfoderungen eines Hochschulinternetauftritts gerecht zu werden.</p>
+<h2 id="handlungsempfehlungen">Handlungsempfehlungen</h2>
+<ul>
+<li>Abhalten einer Auftaktveranstaltung zur Barrierefreiheit</li>
+<li>Einsetzen eines Gremiums zur Umsetzung
+<ul>
+<li>Festlegen von Verantwortlichkeiten für die Umsetzung der Barrierefreit</li>
+<li>Prüfung, ob eine Inhaltsfreigabe über eine zentrale Stelle koordiniert werden könnte</li>
+<li>Auswahl der Webseiten, die gemäß Annex C der Europäischen Norm EN 301 549 V1.1.2 geprüft werden</li>
+</ul></li>
+<li>Prüfung führender Systeme und aller neuen</li>
+<li>Konformität zur Europäischen Norm EN 301 549 V1.1.2 in der Regel als verpflichtendes Kriterium für Beschaffungen</li>
+<li>Beständige Information und Sensiblisierung für das Thema</li>
+<li>Barrierefreiheitserklärung und Feedback-Mechanismus auf Webseite und in mobilen Anwendungen veröffentlichen</li>
+<li>Etablieren von Schulungsangeboten</li>
+<li>Regelmäßiger hochschulübergreifender fachlicher Austausch der Wissensträger</li>
+</ul>
+<h2 id="vertiefung-7">Vertiefung</h2>
+<ul>
+<li>Stabsstelle IT-Recht für die bayerischen staatlichen Hochschulen und Universitäten, <a href="https://www.rz.uni-wuerzburg.de/dienste/it-recht/" class="uri">https://www.rz.uni-wuerzburg.de/dienste/it-recht/</a></li>
+</ul>
+<h1 id="satzungen">Satzungen</h1>
+<h2 id="aufgabenbereich-und-zielgruppe-3">Aufgabenbereich und Zielgruppe</h2>
+<p>Dieser Anwendungsbereich betrifft die Erstellung und Pflege von Satzungen, Prüfungsordnungen, Ordnungen und anderen Dokumenten mit regularischen oder dienstrechtlichen Anweisungen.</p>
+<p>Diese Art von Dokumenten bedürfen gesonderten Hinweisen und müssen besondere Ansprüche genügen. Daher wird diesem Aufgabenbereich ein eigener Kapitel gewittmet.</p>
+<p>Dieses Kapitel wendet sich an folgende Personenkreise:</p>
+<ul>
+<li>Prüfungsämter</li>
+<li>Weisungsbefugte Einrichtungen und Abteilungen auf Leitungsebene, die Dokumente für den Geschäftsverkehr erstellen</li>
+</ul>
+<h2 id="grundlagen-3">Grundlagen</h2>
+<p>Hochschulen gestalten viele ihrer eigenen und staatlichen Aufgaben durch Satzungen oder auch Ordnungen. Anders als der Gesetzgeber, der nur durch Menschenrechte, das Grundgesetz und höherrangiges Recht, müssen bei Satzungen auch das einfache Recht beachtet werden. Form und Inhalt der Satzungen dürfen daher Menschen mit Behinderung nicht beeinträchtigen. Zudem sind Satzungen durch ihre Bekanntmachung eine allgemein zugänglichen Quellen zur Information, und müssen daher ungehindert jeder Person zugänglich sein. Aus diesen Grundsätzen folgt, dass die veröffentlichten Dateiformate der Satzungen barrierefrei gestaltet sein müssen.</p>
+<h2 id="umsetzung-3">Umsetzung</h2>
+<h3 id="allgemeines-zu-satzungen-und-prüfungsordnungen">Allgemeines zu Satzungen und Prüfungsordnungen</h3>
+<p>Zu prüfen wäre, ob eine grundsätzliche Barrierefreiheit schon durch den Einsatz der <a href="https://www.enorm.bund.de/eNorm/">elektronischen Arbeitshilfen “eNorm”</a> aus dem Projekt des Bundesministerium der Justiz und für Verbraucherschutz “Elektronische Arbeitshilfen und Verkündung” bei Satzungen genutzt werden kann.</p>
+<h3 id="neue-satzungen-und-prüfungsordnungen">Neue Satzungen und Prüfungsordnungen</h3>
+<p>Soweit neue Satzungen erstellt werden, kann durch die Nutzung von Formatvorlagen und der Gliederungsmöglichkeiten der zum Verfassen genutzten Büroanwendungen bei Artbezeichnungen, Zählbezeichnungen, Überschriften, Absätzen und deren Untergliederung die Barrierefreiheit umgesetzt werden.</p>
+<h3 id="änderungssatzungen-und-änderungen-in-prüfungsordnungen">Änderungssatzungen und Änderungen in Prüfungsordnungen</h3>
+<p>Nur bei umfassenden Neugestaltung kann statt einer Änderungssatzung eine vollständige Neubekanntmachunng erfolgen. Zur Barrierefreiheit der veröffentlichten Änderungssatzung gilt das gleiche wie für neue Satzungen.</p>
+<h3 id="ordnungen-und-sonstige-rechtsdokumente">Ordnungen und sonstige Rechtsdokumente</h3>
+<p>Für Ordnungen wie sonstige Rechtsdokumente gilt anders als für Satzungen keine Einschränkung dahingehend, dass bei kleineren Änderungen keine Neuveröffentlichung zulässig ist. Daher beitet es sich an, diese stets im ganzen neu zu verfassen oder das Vorgängerdokument unmittelbar zu bearbeiten.</p>
+<h3 id="empfehlung">Empfehlung</h3>
+<p>Da die Veröffentlichung anders als die Bekanntmachung für Satzungen nicht konstitutiv ist, kann neben dem Einstellen des neuen oder geänderten Rechtstextes eine redaktionelle Lesefassung angeboten werden. Für diese bietet es sich an, auf eine native Webseite mit Exportmöglichkeiten zu setzen, da über Webanwendungen leichter eine Zugänglichkeit umsetzbar ist.</p>
+<p>Soweit für Dokumente oder dateibasierte Formulare keine alternative barrierefreie Webanwendung zu Verfügung steht, sind Dokumente und Formulare barrierefrei zu gestalten gemäß Kapitel 10 der Norm EN 301 549 V1.1.2 (2015-04). In diesem Leitfaden ist jedoch derzeit kein Kapitel für barrierefreie Dateiformate von Büroanwendungen vorgesehen.</p>
+<h2 id="rechtsquellen">Rechtsquellen</h2>
+<h3 id="grundgesetz">Grundgesetz</h3>
+<ul>
+<li>Art. 3 Abs. 3 S. 2, <a href="https://www.gesetze-im-internet.de/gg/art_3.html" class="uri">https://www.gesetze-im-internet.de/gg/art_3.html</a></li>
+<li>Art. 5 Abs. 1 S. 1, <a href="https://www.gesetze-im-internet.de/gg/art_5.html" class="uri">https://www.gesetze-im-internet.de/gg/art_5.html</a></li>
+</ul>
+<h3 id="völkerrechtliche-vereinbarungen-und-verträge">Völkerrechtliche Vereinbarungen und Verträge</h3>
+<ul>
+<li>Art. 21 Buchstabe a Übereinkommen der Vereinten Nationen über die Rechte von Menschen mit Behinderungen, <a href="http://www.bmas.de/SharedDocs/Downloads/DE/PDF-Publikationen/a729-un-konvention.pdf?__blob=publicationFile" class="uri">http://www.bmas.de/SharedDocs/Downloads/DE/PDF-Publikationen/a729-un-konvention.pdf?__blob=publicationFile</a></li>
+</ul>
+<h3 id="bundesgesetze">Bundesgesetze</h3>
+<p>Gemeinsame Geschäftsordnung der Bundesministerien, <a href="http://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_21072009_O11313012.htm" class="uri">http://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_21072009_O11313012.htm</a></p>
+<ul>
+<li>§ 42 Abs. 6 für barrierefreie Gesetzesentwürfe</li>
+<li>§ 62 Abs. 2 für barrierefreie Verordnungsentwürfe</li>
+</ul>
+<h3 id="bayerische-verfassung">Bayerische Verfassung</h3>
+<ul>
+<li>Art. 118a S. 1 <a href="http://www.gesetze-bayern.de/Content/Document/BayVerf-118a" class="uri">http://www.gesetze-bayern.de/Content/Document/BayVerf-118a</a></li>
+</ul>
+<h3 id="bayerisches-hochschulgesetz">Bayerisches Hochschulgesetz</h3>
+<ul>
+<li>Art. 2 Abs. 3 S. 3 und 4, <a href="http://www.gesetze-bayern.de/Content/Document/BayHSchG-2" class="uri">http://www.gesetze-bayern.de/Content/Document/BayHSchG-2</a></li>
+<li>Art. 13 Abs. 3 S. 2, <a href="http://www.gesetze-bayern.de/Content/Document/BayHSchG-13" class="uri">http://www.gesetze-bayern.de/Content/Document/BayHSchG-13</a></li>
+<li>Verordnung über die Bekanntmachung von Hochschulsatzungen, <a href="http://www.gesetze-bayern.de/Content/Document/BayHSchBekV/true" class="uri">http://www.gesetze-bayern.de/Content/Document/BayHSchBekV/true</a></li>
+</ul>
+<h2 id="vertiefung-8">Vertiefung</h2>
+<ul>
+<li>Handbuch der Rechtsförmigkeit, <a href="http://hdr.bmj.de/vorwort.html" class="uri">http://hdr.bmj.de/vorwort.html</a></li>
+<li>BeckOK HochschulR Bayern/Leiher BayHSchG Art. 13, <a href="https://beck-online.beck.de/" class="uri">https://beck-online.beck.de/</a></li>
+</ul>
+<h1 id="test-zur-barrierefreiheit">Test zur Barrierefreiheit</h1>
+<p>Dieses Kapitel soll eine schnelle Hilfe und Übersicht zur Prüfung der Barrierefreiheit geben.</p>
+<h2 id="schnelle-jedermann-sichtprüfung">Schnelle “Jedermann”-Sichtprüfung</h2>
+<p><strong>Hinweis: Die in diesem Kapitel aufgeführten Methoden ersetzen keinesfalls einen durch Experten durchgeführten WCAG-Test. Die Methoden sollen nur eine Möglichkeit aufzeigen, damit auch technisch und sachlich nicht vertraute Menschen zu einer schnellen Grundsatzaussage kommen.</strong></p>
+<p>Folgende Methoden und Test sind bei dem Besuch einer Seite durchzuführen:</p>
+<ol type="1">
+<li><p><strong>Maus weg!</strong></p>
+<p>Erreiche ich jede Seite? Jede Ebene der Navigation? Sehe ich das aktive Element deutlich und genauso wie wenn ich mit der Maus drüber fahre?</p></li>
+<li><p><strong>Seite mit dem Handy aufrufen!</strong></p>
+<p>Jeder Inhalt und jede Aktion muss auch mit dem Handy ausführbar sein. Dabei muss die Webseite nicht die selbe Optik haben wie eine Bildschirmseite auf einem großen Monitor. Ganz im Gegenteil sollte eine Seite auf einem Smartphone auch in der Reihenfolge und Anordnung von Seitenelementen auf die kleine Auflösung optimiert sein. Zudem lässt sich feststellen, ob sämtliche Elemente auch durch Touch-Bedienung erreichbar sind.</p></li>
+<li><p><strong>Vergrößern Sie die Schrift auf 200%</strong></p>
+<p>Ist noch alles nutzbar und erkennbar? KOmmt es zur Überlagerung von Innhalten, so daß diese nicht mehr erreciht oder gelesen werden können?</p></li>
+<li><p><strong>Enthält die Seite Bilder?</strong></p>
+<p>Wenn ja: Sind diese Bilder informativ und wenn dies zutrifft, sind die Inhalte auch im Text vorhanden? Wird auf das Bild im Text bezug genommen?</p></li>
+<li><p><strong>Drucken Sie die Seite auf einem Drucker im Schwarz-Weiß-Modus aus.</strong></p>
+<p>Gibt es Inhalte, die nicht les- oder erkennbar sind? Und: Sieht die Seite gedruckt genauso aus, wie auf dem Bildschirm? Ist nach dem Ausdruck noch immer ein Menü vorhanden?</p></li>
+<li><p><strong>Bewegung, Töne, Videos checken!</strong></p>
+<p>Bewegt sich etwas? Gibt es ein “Carousel”, ein Bereich in dem Artikel und Bilder von selbst eingeblendet werden. Enthält die Seite sich bewegenden oder wechselnden Content? Wird beim Aufruf der Seite ein Video unaufgefordert abgespielt? Wenn ja: Kann ich es stoppen? Auch ohne Maus?</p></li>
+<li><p><strong>Tabellen prüfen.</strong></p>
+<p>Wenn eine Tabelle vorhanden ist, dann ist das Browserfenster zu verkleinern oder die Seite mit dem Handy aufzufen. Kann man die Inhalte der Tabelle noch lesen, ohne einen Scrollbalken nach rechts bedienen zu müssen?</p></li>
+</ol>
+<p>Sollte eine oder mehrere der obigen Situationen Probleme aufzeigen, ist die Zugänglichkeit der Seite nicht vollständig gegeben. Es ist in diesem Fall davon auszugehen, daß keine Konformität zur WCAG vorliegt.</p>
+<p>Das W3C selbst bietet ebenfalls einen Schnelltest an: <a href="https://www.w3.org/WAI/test-evaluate/preliminary/">Easy Checks - A First Review of Web Accessibility</a>. Dieser ist schon ein wenig aufwendiger als oben aufgeführte Punkte; wenn auch ebenfalls noch keine vollständige Prüfung.</p>
+<h2 id="prüfung-zur-konformität-zur-wcag">Prüfung zur Konformität zur WCAG</h2>
+<p>Das W3C hat eine eigene Seite zur Evaluierung der Barrierefreiheit eingerichtet: Unter <a href="https://www.w3.org/WAI/test-evaluate/">Test &amp; Evaluate</a> erhält man einen Überblick über verschiedene Textmethoden, Werkzeugen und weiterführenden Informationen. Hierzu gehört auch eine umfangreiche Sammlung an Werkzeugen, die auf der Seite <a href="https://www.w3.org/WAI/ER/tools/">Web Accessibility Evaluation Tool List</a> angeboten wird. Die Sammlung ist entsprechend der Anforderungen und des zu testenden Angebots sortier- und filterbar.</p>
+<p>Eine vollständige Prüfung über die Einhaltung der WCAG kann mit Hilfe der <a href="https://www.w3.org/TR/WCAG-EM/">Accessibility Conformance Evaluation Methodology (WCAG-EM)</a> erfolgen. Die WCAG selbst definiert bereits durch die Erfolgskriterien und die Konformitätsbedingungen, wie man einzelne Seiten und Webangebote auf Barrierefreiheit prüft. Was jedoch durch die WCAG nicht geleistet wird, ist eine Wertung der Ergebnisse. So lässt sich ein Webauftritt anhand von einzelnen Punkten aus der WCAG nicht pauschal einordnen. Dies wird durch die Methode geleistet, die durch die WCAG-EM vorgegeben wird. Die WCAG-EM beschreibt das Best-Practice-Vorgehen zur Prüfung von Webangeboten, zur Dfeinition des Testumgangs, der Auswahl von Stichproben und zur Berichterstattung.</p>
+<p>Die WCAG-EM besteht aus 5 Teilen:</p>
+<figure>
+<img src="07-tests/wcag-em-process.png" alt="Bild: Schemagrafik zur Auswahl des Umfangs einer Evaluation" /><figcaption>Bild: Schemagrafik zur Auswahl des Umfangs einer Evaluation</figcaption>
+</figure>
+<ol type="1">
+<li>Festlegung des Bewertungsumfangs</li>
+<li>Sichtung der zu bewertenden Webauftritts</li>
+<li>Festlegung eines repräsentativen Seitenauswahl</li>
+<li>Prüfung der Seitenauswahl</li>
+<li>Erstellung des Gutachtens</li>
+</ol>
+<p>Die WCAG-EM bietet Hilfestellung und Empfehlungen zu jedem der genannten Schritte. Eine Zusammenfassung findet sich auch in der Dokumentation von Jan Hellbusch auf der Seite <a href="https://www.barrierefreies-webdesign.de/wcag2/konformitaet/konformitaetsbewertung.html">Konformität nach den Web Content Accessibility Guidelines 2.0</a>.</p>
+<p>Ein sehr nützliches Hilfsmittel bietet das <a href="https://www.w3.org/WAI/eval/report-tool/">WCAG-EM Report Tool</a>.</p>
+<figure>
+<img src="07-tests/wcag-em-tool.png" alt="Bild: Screenshot WCAG-EM Report Tool" /><figcaption>Bild: Screenshot WCAG-EM Report Tool</figcaption>
+</figure>
+<p>Hierbei handelt es sich um ein Online-Tool in dem alle 5 Schritte abgebildet werden können. Interaktive Eingabefelder und Auswahllisten unterstützen den Prüfer in diesem Werkzeug bei der Evaluation und erlauben es am Ende des Prozesses eine Vorlage für ein Gutachten zu erstellen. Die Vorlage kann in den Formaten HTML oder JSON exportiert, aber auch für die spätere Weiterbearbeitung gespeichert werden.</p>
+<h2 id="nachweis-gemäß-der-europäischen-norm-en-301-549-v1.1.2">Nachweis gemäß der Europäischen Norm EN 301 549 V1.1.2</h2>
+<p>Für Webanwendungen wird Konformität mit den Barrierefreiheitsanforderungen vermutet, sofern und soweit nach Annex C der <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf">Europäischen Norm EN 301 549 V1.1.2</a> die Testkriterien erfüllt sind. Über die WCAG 2.0 mit Level AA hinaus, sind dafür auch allgemeine Kriterien zu erfüllen. Durch die große Schnittmenge werden in vielen Fällen Ergebnisse aus Tests nach WCAG die Prüfung gut vorbereiten.</p>
+<h2 id="zertifikate">Zertifikate</h2>
+<p>Es gibt Anbieter, welche Zertifikate über eine Prüfung der Barrierefreiheit anbieten. Hierzu muss jedoch bemerkt werden, daß eine Prüfung in allen Fällen nur eine Momentaufnahme sein kann. Ein Prüfergebnis, welches die Konformität einer Webseite gemäß der WCAG 2.0 in der Konformitätsstufe AA belegt gilt für den Zeitpunkt des Tests. Da größere Webauftritte steten Änderungen und Aktualisierungen ausgesetzt sind, ist die Gültigkeit einer Prüfung ebenfalls zeitlich begrenzt. Diese Einschränkung überliegt auch ein Prüfergebnis gemäß Annex C der europäischen Norm.</p>
+<p>Im Falle einer Barriere, die bei dem Besuch eines Betroffenen auftritt und dann tatsächlich vorhanden ist, ist ein vorheriges positives Prüfungsergebnis oder ein Zertifikat ohne Bedeutung: Die EU Richtlinie erfordert in allen Fällen die Behebung der Behebung der Barriere und das Anbieten eines geeigneten Feedback-Mechanismus.</p>
+<p>Die EU-Richtlinie verpflichtet nicht zu einer Zertifizierung. Stattdessen fordert sie allein die Konformität der Webanwendungen gemäß der Europäischen Norm EN 301 549 V1.1.2 auf Basis der WCAG. Da die WCAG eigene Testverfahren enthalten, sind auch diese zu verwenden. Eigene Prüfverfahren und Zertifikate von einzelnen Anbietern oder von staatlichen Einrichtungen geförderten Projekten werden von der EU Richtlinie und der WCAG nicht erfasst und sind daher nicht relevant. Die Autoren des Leitfaden empfehlen daher auf den Gebrauch von Zertifikaten zu verzichten.</p>
+<h1 id="weitere-leitfäden-und-relevante-informationsangebote">Weitere Leitfäden und relevante Informationsangebote</h1>
+<h2 id="für-webseiten">Für Webseiten</h2>
+<ul>
+<li>The A11Y Project, <a href="https://a11yproject.com/" class="uri">https://a11yproject.com/</a></li>
+<li>Accessibility Cheatsheet, <a href="https://bitsofco.de/the-accessibility-cheatsheet/" class="uri">https://bitsofco.de/the-accessibility-cheatsheet/</a></li>
+<li>Inklusion im World Wide Web – Eine Hilfestellung zur barrierefreien Gestaltung von Internetseiten, Bay. Staatsministerium für Bildung und Kultus, Wissenschaft und Kunst, <a href="https://www.uni-wuerzburg.de/fileadmin/32500250/Inklusion_im_World_Wide_Web.pdf" class="uri">https://www.uni-wuerzburg.de/fileadmin/32500250/Inklusion_im_World_Wide_Web.pdf</a></li>
+<li>Webinhalte barrierefrei pflegen – ein Leitfaden für Online-Redakteuere, BIK, <a href="http://www.bik-fuer-alle.de/webinhalte-barrierefrei-pflegen.html" class="uri">http://www.bik-fuer-alle.de/webinhalte-barrierefrei-pflegen.html</a></li>
+</ul>
+<h2 id="erstellung-von-dokumenten-aus-büroanwendungen-pdf-office-u.a.">Erstellung von Dokumenten aus Büroanwendungen (PDF, Office, u.a.)</h2>
+<ul>
+<li>„PDF- und Word Dokumente barrierefrei umsetzen&quot;, FernUniversität in Hagen, <a href="http://www.fernuni-hagen.de/barrierefrei/pdf_word.shtml" class="uri">http://www.fernuni-hagen.de/barrierefrei/pdf_word.shtml</a></li>
+<li>„Die Erstellung barrierefreier PDF-Dokumente in Microsoft Office Word und Adobe Reader X Pro&quot;, Universität Duesburg Essen, <a href="https://www.uni-due.de/imperia/md/content/inklusionsportal/2013_05_barrierefreiepdfs_internetvorlage.pdf" class="uri">https://www.uni-due.de/imperia/md/content/inklusionsportal/2013_05_barrierefreiepdfs_internetvorlage.pdf</a></li>
+<li>„Leitfaden zur Erstellung barrierearmer Dokumente&quot;, Universität Kassel, <a href="http://www.uni-kassel.de/themen/fileadmin/datas/themen/Literaturumsetzung/Leitfaden_1315_Homepage_3.pdf" class="uri">http://www.uni-kassel.de/themen/fileadmin/datas/themen/Literaturumsetzung/Leitfaden_1315_Homepage_3.pdf</a></li>
+<li>„Kurzanleitung zur Erstellung barrierefreier Word-Dateien&quot;, Universität Kassel, <a href="http://www.uni-kassel.de/themen/fileadmin/datas/themen/studium_behinderung/Literaturumsetzung/Kurzanleitung_2014.pdf" class="uri">http://www.uni-kassel.de/themen/fileadmin/datas/themen/studium_behinderung/Literaturumsetzung/Kurzanleitung_2014.pdf</a></li>
+<li>„Barrierefreies Publishing – PDF barrierefrei aus InDesign&quot;, Vortragsfolien von Markus Erle, <a href="https://de.slideshare.net/werteslide/140123-idug-stuttgartbarrierefreiespublizierenwertewerkkompakt" class="uri">https://de.slideshare.net/werteslide/140123-idug-stuttgartbarrierefreiespublizierenwertewerkkompakt</a></li>
+</ul>
+<h2 id="erstellung-von-vorlesungs--und-lehrmaterialien">Erstellung von Vorlesungs- und Lehrmaterialien</h2>
+<ul>
+<li>„Handreichung zur Erstellung und Umsetzung barrierefreier Dokumente in der Lehre&quot;, Uni Marburg, <a href="https://www.uni-marburg.de/de/studium/service/sbs/sehgeschaedigte/hochschullehre.pdf" class="uri">https://www.uni-marburg.de/de/studium/service/sbs/sehgeschaedigte/hochschullehre.pdf</a></li>
+<li>„Zeitschriftenreihe: Diversität konkret&quot;, Universität Essen, <a href="https://www.uni-due.de/diversity/prodiversitaet_diversitaetkonkret.shtml" class="uri">https://www.uni-due.de/diversity/prodiversitaet_diversitaetkonkret.shtml</a></li>
+<li>„Barrierefreie Hochschullehre – Leitfaden für Lehrende&quot;, TU Dresden, <a href="https://tu-dresden.de/karriere/weiterbildung/ressourcen/dateien/2017/Broschuere-BF-Leitfaden-barrierefrei.pdf" class="uri">https://tu-dresden.de/karriere/weiterbildung/ressourcen/dateien/2017/Broschuere-BF-Leitfaden-barrierefrei.pdf</a></li>
+<li>„Barrierefreie Lehre – Leitfaden für Lehrende&quot;, Europa Universität Viadrina, <a href="https://www.europa-uni.de/de/struktur/zse/zsb/barrierefreies-studium/_materialien_/Dozentenleitfaden_online_version.pdf" class="uri">https://www.europa-uni.de/de/struktur/zse/zsb/barrierefreies-studium/_materialien_/Dozentenleitfaden_online_version.pdf</a></li>
+<li>„Barrierefreies Studium – Leitfaden für Lehrende der Goethe-Universität&quot;, Goethe-Universität Frankfurt am Main, <a href="http://www.uni-frankfurt.de/44214611/Leitfaden-Barrierefreies-Studium.pdf" class="uri">http://www.uni-frankfurt.de/44214611/Leitfaden-Barrierefreies-Studium.pdf</a></li>
+</ul>
+<h2 id="erstellung-von-multimedialen-produktionen-videoaufzeichnungen-podcasts-u.a.">Erstellung von multimedialen Produktionen (Videoaufzeichnungen, Podcasts, u.a.)</h2>
+<ul>
+<li>„Barrierefreie Gestaltung eines Online-Videos&quot;, DI-JI, <a href="http://www.di-ji.de/index.php?option=com_content&amp;view=article&amp;id=120%3Abarrierefreie-gestaltung-eines-online-videos&amp;catid=75%3Abf-multimedia&amp;Itemid=67&amp;lang=de">http://www.di-ji.de/index.php?option=com_content&amp;view=article&amp;id=120%3Abarrierefreie-gestaltung-eines-online-videos&amp;catid=75%3Abf-multimedia&amp;Itemid=67&amp;lang=de</a></li>
+<li>„Leitfaden für den Einsatz von Gebärdensprach-Filmen&quot;, DI-JI, <a href="http://www.di-ji.de/index.php?option=com_content&amp;view=article&amp;id=121&amp;Itemid=73&amp;lang=de" class="uri">http://www.di-ji.de/index.php?option=com_content&amp;view=article&amp;id=121&amp;Itemid=73&amp;lang=de</a></li>
+<li>„Leitfaden barrierefreie Online-Videos&quot;, BIK, <a href="http://www.bik-fuer-alle.de/leitfaden-barrierefreie-online-videos.html" class="uri">http://www.bik-fuer-alle.de/leitfaden-barrierefreie-online-videos.html</a></li>
+</ul>
+<h2 id="weitere-leitfäden-und-informationen-zur-barrierefreiheit">Weitere Leitfäden und Informationen zur Barrierefreiheit</h2>
+<ul>
+<li>„Ein Leitfaden zur barrierefreien Kommunikation im kulturellen Bereich&quot;, Landesverband der Gehörlosen Baden-Württemberg e.V., <a href="https://www.freiburg.de/pb/site/Freiburg/get/params_E-110567810/1190425/Leitfaden_barrierefreie_Kommunikation_Hoerbehinderung.pdf" class="uri">https://www.freiburg.de/pb/site/Freiburg/get/params_E-110567810/1190425/Leitfaden_barrierefreie_Kommunikation_Hoerbehinderung.pdf</a></li>
+<li>„Barrierefreie Kommunikation bei Veranstaltungen&quot; , Prof. Dr. Gottfried Zimmermann, Stuttgart Media University, <a href="https://gpii.eu/leitfaden/" class="uri">https://gpii.eu/leitfaden/</a></li>
+<li>Planung von barrierefreien Veranstaltungen, Bundesfachstelle Barrierefreiheit, <a href="https://www.bundesfachstelle-barrierefreiheit.de/DE/Praxishilfen/Veranstaltungsplanung/veranstaltungsplanung_node.html" class="uri">https://www.bundesfachstelle-barrierefreiheit.de/DE/Praxishilfen/Veranstaltungsplanung/veranstaltungsplanung_node.html</a></li>
+<li>Fernstudium ohne Barrieren, FernUniversität in Hagen, <a href="https://www.fernuni-hagen.de/diversitaet/download/fernstudium_ohne_barrieren_2018-2022.pdf" class="uri">https://www.fernuni-hagen.de/diversitaet/download/fernstudium_ohne_barrieren_2018-2022.pdf</a></li>
+<li>Bayern Barrierefrei – Informationsportal des Freistaats Bayern, <a href="https://www.barrierefrei.bayern.de/" class="uri">https://www.barrierefrei.bayern.de/</a></li>
+</ul>
+<h2 id="rechtliche-anforderungen">Rechtliche Anforderungen</h2>
+<ul>
+<li>EU
+<ul>
+<li>EU Richtlinie zur Barrierefreiheit, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016L2102">https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016L2102</a> </li>
+<li>EU-Entwurf einer Barrierefreiheitserklärung (englisch), <a href="https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2018-2604172_en" class="uri">https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2018-2604172_en</a></li>
+<li>Europäische Sozialcharta,  <a href="https://rm.coe.int/CoERMPublicCommonSearchServices/DisplayDCTMContent?documentId=090000168007cf92" class="uri">https://rm.coe.int/CoERMPublicCommonSearchServices/DisplayDCTMContent?documentId=090000168007cf92</a> </li>
+<li>(Laufende) EU-Anhörung zu Entwürfen der Mustererklärung Barrierefreiheit und von Testverfahren, <a href="https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2018-2604172_en" class="uri">https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2018-2604172_en</a>    </li>
+</ul></li>
+<li><p>Übereinkommen der Vereinten Nationen über die Rechte von Menschen mit Behinderung <a href="http://www.bmas.de/SharedDocs/Downloads/DE/PDF-Publikationen/a729-un-konvention.pdf" class="uri">http://www.bmas.de/SharedDocs/Downloads/DE/PDF-Publikationen/a729-un-konvention.pdf</a></p></li>
+<li>Bund
+<ul>
+<li>Schiedsstelle BGG, <a href="https://www.behindertenbeauftragter.de/DE/SchlichtungsstelleBGG/SchlichtungsstelleBGG_node.html" class="uri">https://www.behindertenbeauftragter.de/DE/SchlichtungsstelleBGG/SchlichtungsstelleBGG_node.html</a>  </li>
+<li>Gesetzentwurf “Entwurf eines Gesetzes zur Verlängerung befristeter Regelungen im Arbeitsförderungsrecht und zur Umsetzung der Richtlinie (EU) 2016/2102 über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen”: <a href="http://dip21.bundestag.de/dip21/btd/19/020/1902072.pdf" class="uri">http://dip21.bundestag.de/dip21/btd/19/020/1902072.pdf</a>  </li>
+<li>Bericht und Stellungsnahmen: <a href="http://www.bundestag.de/blob/558776/ed216881a756d5cb81a46ef43dec1ac4/materialzusammenstellung_10-sitzung-data.pdf" class="uri">http://www.bundestag.de/blob/558776/ed216881a756d5cb81a46ef43dec1ac4/materialzusammenstellung_10-sitzung-data.pdf</a>  </li>
+</ul></li>
+<li>Bayern:
+<ul>
+<li>BayBGG, <a href="http://www.gesetze-bayern.de/Content/Document/BayBGG" class="uri">http://www.gesetze-bayern.de/Content/Document/BayBGG</a> </li>
+<li>BayBITV, <a href="http://www.gesetze-bayern.de/Content/Document/BayBITV" class="uri">http://www.gesetze-bayern.de/Content/Document/BayBITV</a>  </li>
+</ul></li>
+</ul>
+<h1 id="hinweise-zum-dokument">Hinweise zum Dokument</h1>
+<p>Dieser Leitfaden wurde im Auftrag der bayerischen Hochschulen für Angewandte Wissenschaft (HAW) erstellt.</p>
+<h2 id="autoren">Autoren</h2>
+<ul>
+<li>Johannes Nehlsen, <a href="https://www.rz.uni-wuerzburg.de/dienste/it-recht/">Stabsstelle IT-Recht für die bayerischen staatlichen Hochschulen und Universitäten</a></li>
+<li>Wolfgang Wiese, <a href="https://www.rrze.fau.de">Regionales Rechenzentrum Erlangen (RRZE)</a></li>
+</ul>
+<h2 id="weitere-beiträge-beratung-und-lektorat">Weitere Beiträge, Beratung und Lektorat</h2>
+<ul>
+<li>Barbara Bothe, <a href="https://www.rrze.fau.de">Regionales Rechenzentrum Erlangen (RRZE)</a></li>
+<li>Astrid Semm, <a href="https://www.rrze.fau.de">Regionales Rechenzentrum Erlangen (RRZE)</a></li>
+<li>Kerstin Probiesch, <a href="http://www.barrierefreie-informationskultur.de/">Barrierefreie Informationskultur</a></li>
+</ul>
+<h2 id="lizenz">Lizenz</h2>
+<p>Der Leitfaden wird unter einer <a href="https://creativecommons.org/licenses/?lang=de">Creativ Commons Lizenz</a> bereitgestellt:</p>
+<p><strong>Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen</strong> <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC-SA</a></p>
+<p>Diese Lizenz erlaubt es anderen, Ihr Werk zu verbreiten, zu remixen, zu verbessern und darauf aufzubauen, allerdings nur nicht-kommerziell und solange Sie als Urheber des Originals genannt werden und die auf Ihrem Werk basierenden neuen Werke unter denselben Bedingungen veröffentlicht werden.</p>
+<h2 id="verwaltung-und-bearbeitung-des-leitfadens">Verwaltung und Bearbeitung des Leitfadens</h2>
+<p>Der Leitfaden wird in Teilen über die Plattform GitHub bereitgestellt um es weiteren Projektteilnehmern und Interessierten zu ermöglichen, sich mit eigenen Beiträgen zu beteiligen ohne dabei auf eine definiertes Cloudsystem oder ein Office-Produkt eingeschränkt zu sein.</p>
+<p>GitHub-URL: <a href="https://github.com/RZ-BY/Leitfaden-Barrierefreiheit/" class="uri">https://github.com/RZ-BY/Leitfaden-Barrierefreiheit/</a></p>
+<p>Das GitHub-Projekt ist dabei öffentlich und frei clonbar. Die freie Lizenz erlaubt die nicht kommerzielle Weiternutzung und Weiterentwicklung durch Dritte.</p>
+</body>
+</html>

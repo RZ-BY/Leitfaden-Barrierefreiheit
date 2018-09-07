@@ -18,7 +18,6 @@ Er besteht aus mehreren Teilen, die je nach Personenkreis getrennt voneinander w
 
 - Johannes Nehlsen, [Universität Würzburg](https://www.uni-wuerzburg.de/)
 - Wolfgang Wiese, [Regionales Rechenzentrum Erlangen (RRZE)](https://www.rrze.fau.de)
-- Barbara Bothe, [Regionales Rechenzentrum Erlangen (RRZE)](https://www.rrze.fau.de)
 
 ## Lizenz
 

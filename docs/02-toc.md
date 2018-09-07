@@ -1,5 +1,5 @@
-Anwendungsbereiche
-==================
+## Anwendungsbereiche
+
 
 Dieser Leitfaden gliedert sich nach den Anforderungen unterschiedlicher Zielgruppen und Aufgabengebiete. Je nachdem gelten verschiedene Empfehlungen oder Anforderungen, die sich aus der EU Richtlinie oder der WCAG ergeben.
 
