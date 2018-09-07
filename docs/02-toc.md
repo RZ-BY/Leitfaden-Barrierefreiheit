@@ -1,7 +1,7 @@
-Anwendungsbereiche
-==================
+## Anwendungsbereiche
 
-Dieser Leitfaden wird unterteilt in die Anforderungen unterschiedlicher Zielgruppen und Aufgabengebiete. Je nachdem gelten verschiedene Empfehlungen oder Anforderungen, die sich aus der EU Richtlinie oder der WCAG ergeben.
+
+Dieser Leitfaden gliedert sich nach den Anforderungen unterschiedlicher Zielgruppen und Aufgabengebiete. Je nachdem gelten verschiedene Empfehlungen oder Anforderungen, die sich aus der EU Richtlinie oder der WCAG ergeben.
 
 1.  Bereitstellung und Pflege von Inhalten
     - für: *Redakteure und Autoren von Webinhalten* 

@@ -1,3 +1,4 @@
+ 
 # Test zur Barrierefreiheit
 
 
@@ -12,35 +13,35 @@ Dieses Kapitel soll eine schnelle Hilfe und Übersicht zur Prüfung der Barriere
 Folgende Methoden und Test sind bei dem Besuch einer Seite durchzuführen: 
 
 
-1. Maus weg!
+1. **Maus weg!**
 
     Erreiche ich jede Seite? Jede Ebene der Navigation? Sehe ich das aktive Element deutlich und genauso wie wenn ich mit der Maus drüber fahre?
 
-2. Seite mit dem Handy aufrufen!
+2. **Seite mit dem Handy aufrufen!**
 
-    Jeder Inhalt und jede Aktion muss auch mit dem Handy ausführbar sein. Dabei muss die Webseite nicht die selbe Optik haben wie eine Bildschirmseite auf einem großen Monitor. Ganz im Gegenteil sollte eine Seite auf einem Smartphone auch in der Reihenfolge und Anordnung von Seitenelementen auf die kleine Auflösung optimiert sein. 
+    Jeder Inhalt und jede Aktion muss auch mit dem Handy ausführbar sein. Dabei muss die Webseite nicht die selbe Optik haben wie eine Bildschirmseite auf einem großen Monitor. Ganz im Gegenteil sollte eine Seite auf einem Smartphone auch in der Reihenfolge und Anordnung von Seitenelementen auf die kleine Auflösung optimiert sein. Zudem lässt sich feststellen, ob sämtliche Elemente auch durch Touch-Bedienung erreichbar sind.
     
-3. Vergrößern Sie die Schrift auf 200%
+3. **Vergrößern Sie die Schrift auf 200%**
 
      Ist noch alles nutzbar und erkennbar? KOmmt es zur Überlagerung von Innhalten, so daß diese nicht mehr erreciht oder gelesen werden können?
      
-4.  Enthält die Seite Bilder?
+4.  **Enthält die Seite Bilder?**
 
     Wenn ja: Sind diese Bilder informativ und wenn dies zutrifft, sind die Inhalte auch im Text vorhanden? Wird auf das Bild im Text bezug genommen?
 
-5. Drucken Sie die Seite auf einem Drucker im Schwarz-Weiß-Modus aus.
+5. **Drucken Sie die Seite auf einem Drucker im Schwarz-Weiß-Modus aus.**
 
     Gibt es Inhalte, die nicht les- oder erkennbar sind?
     Und: Sieht die Seite gedruckt genauso aus, wie auf dem Bildschirm? Ist nach dem Ausdruck noch immer ein Menü vorhanden?
  
-6.  Bewegung, Töne, Videos checken!   
+6.  **Bewegung, Töne, Videos checken!**   
     
     Bewegt sich etwas? Gibt es ein "Carousel", ein Bereich in dem Artikel und Bilder von selbst eingeblendet werden. Enthält die Seite sich bewegenden oder wechselnden Content?  Wird beim Aufruf der Seite ein Video unaufgefordert abgespielt?
     Wenn ja: Kann ich es stoppen? Auch ohne Maus?
     
-7. Tabellen prüfen.
+7. **Tabellen prüfen.**
 
-    Wenn eine Tabelle vorhanden ist, dann ist das Browserfenster zu verkleinern oder die Seite mit dem Handy aufzufen. Kann man die Inhalte der Tabelle noch lesen, ohne ein Scrollbalken nach rechts bedienen zu müssen?
+    Wenn eine Tabelle vorhanden ist, dann ist das Browserfenster zu verkleinern oder die Seite mit dem Handy aufzufen. Kann man die Inhalte der Tabelle noch lesen, ohne einen Scrollbalken nach rechts bedienen zu müssen?
     
     
 
@@ -82,15 +83,18 @@ Ein sehr nützliches Hilfsmittel bietet das [WCAG-EM Report Tool](https://www.w3
 
 Hierbei handelt es sich um ein Online-Tool in dem alle 5 Schritte abgebildet werden können. Interaktive Eingabefelder und Auswahllisten unterstützen den Prüfer in diesem Werkzeug bei der Evaluation und erlauben es am Ende des Prozesses eine Vorlage für ein Gutachten zu erstellen. Die Vorlage kann in den Formaten HTML oder JSON exportiert, aber auch für die spätere Weiterbearbeitung gespeichert werden.
 
+## Nachweis gemäß der Europäischen Norm EN 301 549 V1.1.2
 
+Für Webanwendungen wird Konformität mit den Barrierefreiheitsanforderungen vermutet, sofern und soweit nach Annex C der [Europäischen Norm EN 301 549 V1.1.2](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) die Testkriterien erfüllt sind. Über die WCAG 2.0 mit Level AA hinaus, sind dafür auch allgemeine Kriterien zu erfüllen.
+Durch die große Schnittmenge werden in vielen Fällen Ergebnisse aus Tests nach WCAG die Prüfung gut vorbereiten.
 
 ## Zertifikate
 
-Es gibt Anbieter, welche Zertifikate über eine Prüfung der Barrierefreiheit anbieten. Hierzu muss jedoch bemerkt werden, daß eine Prüfung in allen Fällen nur eine Momentaufnahme sein kann. Ein Prüfergebnis, welches die Konformität einer Webseite gemäß der WCAG 2.0 in der Konformitätsstufe AA belegt gilt für den Zeitpunkt des Tests. Da größere Webauftritte steten Änderungen und Aktualisierungen ausgesetzt sind, ist die Gültigkeit einer Prüfung ebenfalls zeitlich begrenzt.
+Es gibt Anbieter, welche Zertifikate über eine Prüfung der Barrierefreiheit anbieten. Hierzu muss jedoch bemerkt werden, daß eine Prüfung in allen Fällen nur eine Momentaufnahme sein kann. Ein Prüfergebnis, welches die Konformität einer Webseite gemäß der WCAG 2.0 in der Konformitätsstufe AA belegt gilt für den Zeitpunkt des Tests. Da größere Webauftritte steten Änderungen und Aktualisierungen ausgesetzt sind, ist die Gültigkeit einer Prüfung ebenfalls zeitlich begrenzt. Diese Einschränkung überliegt auch ein Prüfergebnis gemäß Annex C der europäischen Norm.
 
 Im Falle einer Barriere, die bei dem Besuch eines Betroffenen auftritt und dann tatsächlich vorhanden ist, ist ein vorheriges positives Prüfungsergebnis oder ein Zertifikat ohne Bedeutung: Die EU Richtlinie erfordert in allen Fällen die Behebung der Behebung der Barriere und das Anbieten eines geeigneten Feedback-Mechanismus.
 
-Die EU-Richtlinie verpflichtet nicht zu einer Zertifizierung. Stattdessen fordert sie allein die Konformität zur WCAG. Da die WCAG eigene Testverfahren enthält, sind auch diese zu verwenden. 
+Die EU-Richtlinie verpflichtet nicht zu einer Zertifizierung. Stattdessen fordert sie allein die Konformität der Webanwendungen gemäß der Europäischen Norm EN 301 549 V1.1.2 auf Basis der WCAG. Da die WCAG eigene Testverfahren enthalten, sind auch diese zu verwenden. 
 Eigene Prüfverfahren und Zertifikate von einzelnen Anbietern oder von staatlichen Einrichtungen geförderten Projekten werden von der EU Richtlinie und der WCAG nicht erfasst und sind daher nicht relevant.
 Die Autoren des Leitfaden empfehlen daher auf den Gebrauch von Zertifikaten zu verzichten.
 

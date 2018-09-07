@@ -10,7 +10,7 @@
 * Schreiben Sie Abkürzungen, die nicht Teil der Alltagssprache sind, beim ersten Vorkommen im Text aus oder verwenden Sie den abbr-Tag:<br />
     `<abbr title="zum Beispiel">z.B.</abbr>`
 * Markieren Sie Textpassagen, in denen die Sprache wechselt: 
-	`<p lang="en">This is an englisch paragraph.</p>`
+	`<p lang="en">This is an english paragraph.</p>`
 
 
 ### Bilder und Grafiken
@@ -35,9 +35,6 @@
 * Spalten- oder Zeilenüberschriften bekommen das Element `<th>`.
 * Verwenden Sie das `scope`-Attribut, um anzuzeigen, ob eine Überschrift horizontal oder vertikal wirkt.
 
-### Listen
-
-
 ### Zitate
 * Zitate werden mithilfe des Elements `<blockquote>` gekennzeichnet.
 * Der Urheber steht im `<footer>` im `<cite>`-Element:
@@ -54,5 +51,6 @@
 ### Embeddings
 * Ob der eingebettete Inhalt barrierefrei ist, hängt von dessen Anbieter ab.
 * Kennzeichnen Sie das Embedding als Inhalt aus einer Drittquelle.
+* Beachten Sie beim Einbinden den Datenschutz, insbesondere Zweiklick- oder Proxylösungen.
 * Sofern das Embedding zwingend notwendige Informationen enthält, sollten diese **Informationen zusätzlich in Textform** bereitgestellt werden.
 
