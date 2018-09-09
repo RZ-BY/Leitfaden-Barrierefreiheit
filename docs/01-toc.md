@@ -1,7 +1,8 @@
-## Anwendungsbereiche
+# Inhaltsüberblick 
 
 
-Dieser Leitfaden gliedert sich nach den Anforderungen unterschiedlicher Zielgruppen und Aufgabengebiete. Je nachdem gelten verschiedene Empfehlungen oder Anforderungen, die sich aus der EU Richtlinie oder der WCAG ergeben.
+Der Leitfaden liefert einen Rahmen zur Einführung in das Thema der digitalen Barrierefreiheit und eine allgemeine Handreichung. Eine detaillierte und stets aktualisierte Dokumentation hinsichtlich der technischen, organisatorischen und inhaltlichen Umsetzung kann nicht gegeben werden. Stattdessen werden die jeweiligen Bereiche nach Zielgruppen und Aufgabengebiete aufgegliedert und in diesen die jeweils wichtigsten Handlungsempfehlungen aufgeführt. 
+
 
 1.  Bereitstellung und Pflege von Inhalten
     - für: *Redakteure und Autoren von Webinhalten* 
@@ -14,4 +15,5 @@ Dieser Leitfaden gliedert sich nach den Anforderungen unterschiedlicher Zielgrup
 
 Die einzelnen Kapitel orientieren sich im Aufbau nach den Anforderungen und Tätigkeiten der jeweiligen Zielgruppen. Dabei wird auch von der Reihenfolge abgewichen, die sich durch die WCAG (Sortierung gemäß den Richtlinien „Wahrnehmbar", „Bedienbar", „Verständlich", „Robust") ergibt.
 
+Für Details der Umsetzung, sowie der Hintergründe, die der Vertiefung dienen, werden Links zu relevanten Webseiten und Dokumentationen angegeben.
 Zur Umsetzung können die jeweiligen Kapitel auch getrennt voneinander weitergegeben werden.

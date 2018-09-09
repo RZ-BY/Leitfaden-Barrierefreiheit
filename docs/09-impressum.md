@@ -10,13 +10,6 @@ Dieser Leitfaden wurde im Auftrag der bayerischen Hochschulen für Angewandte Wi
 - Wolfgang Wiese, [Regionales Rechenzentrum Erlangen (RRZE)](https://www.rrze.fau.de)
 
 
-## Weitere Beiträge, Beratung und Lektorat
-
-- Barbara Bothe, [Regionales Rechenzentrum Erlangen (RRZE)](https://www.rrze.fau.de)
-- Astrid Semm, [Regionales Rechenzentrum Erlangen (RRZE)](https://www.rrze.fau.de)
-- Kerstin Probiesch, [Barrierefreie Informationskultur](http://www.barrierefreie-informationskultur.de/)
-
-
 ## Lizenz
 
 Der Leitfaden wird unter einer [Creativ Commons Lizenz](https://creativecommons.org/licenses/?lang=de) bereitgestellt: 
@@ -25,6 +18,13 @@ Der Leitfaden wird unter einer [Creativ Commons Lizenz](https://creativecommons.
 
 Diese Lizenz erlaubt es anderen, das Dokument zu verbreiten, zu remixen, zu verbessern und darauf aufzubauen, allerdings nur nicht-kommerziell und solange die Urheber des Originals genannt werden und die auf diesem Dokument basierenden neuen Werke unter denselben Bedingungen veröffentlicht werden.
 
+## Credits und Dank
+
+Die Autoren danken den folgenden Personen, die bei der Erstellung des Leitfadens durch wichtige Hinweise und Korrekturen, sowie im Lektorat geholfen  haben:
+
+- Barbara Bothe, [Regionales Rechenzentrum Erlangen (RRZE)](https://www.rrze.fau.de)
+- Astrid Semm, [Regionales Rechenzentrum Erlangen (RRZE)](https://www.rrze.fau.de)
+- Kerstin Probiesch, [Barrierefreie Informationskultur](http://www.barrierefreie-informationskultur.de/)
 
 
 ## Verwaltung und Bearbeitung des Leitfadens

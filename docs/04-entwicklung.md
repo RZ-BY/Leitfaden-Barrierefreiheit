@@ -4,8 +4,7 @@ Entwicklung und Design
 
 ## Aufgabenbereich und Zielgruppe
 
-Dieser Anwendungsbereich betrifft die Entwicklung und das Webdesign von Webangeboten, Webauftritten und Apps. Teil der Entwicklung ist auch die Umsetzung und Bereitstellung von Templates und Musterseiten, die von
-Autoren verwendet werden. Auch automatisch erstellte Ausgaben werden durch diese Zielgruppe definiert.
+Dieser Anwendungsbereich betrifft die Entwicklung und das Webdesign von Webangeboten, Webauftritten und Apps. Teil der Entwicklung ist auch die Umsetzung und Bereitstellung von Templates und Musterseiten, die von Autoren verwendet werden. Auch automatisch erstellte Ausgaben werden durch diese Zielgruppe definiert.
 
 Dieses Kapitel wendet sich an folgende Personenkreise:
 
@@ -51,13 +50,15 @@ Strukturierte Daten erlauben es, die Semantik von HTML mit Hilfe standardisierte
 Menschen können anhand von Kontext und Inhalt erkennen, worum es geht. Diese Möglichkeit hat Software (abseits von Machine Learning) jedoch nicht. 
 Die in der [WAI-ARIA 1.1](https://www.w3.org/TR/wai-aria/) durch die W3C definierte Spezifikation kann dieses Problem auch nicht lösen. Die ARIA erlaubt zwar die Auszeichnung von Strukturen, Bedienelementen und Inhaltstypen einer Webseite, sie macht aber keine Aussagen zur inhaltlichen Bedeutung.
 
-![Bild: Schemagrafik zur Erkennung von Inhalten](04-entwicklung/strukturierte-daten-schema-w3c.png)
+![Bild: Schemagrafik zur Erkennung von Inhalten, Quelle: RDFa 1.1 Spezifikation](04-entwicklung/strukturierte-daten-schema-w3c.png)
 
 Das Schema aus der Beschreibung des W3C zur [Spezifikation RDFa 1.1](https://www.w3.org/TR/rdfa-primer/) beschreibt das Problem: Auf der linken Seite ist das zu sehen, was die Browsersoftware sieht: Zwei Überschriften, einen mit `<em>` markierten Text und darunter ein Absatz. Gefolgt von eine Linkliste.
 
 Ein Mensch hingegen interpretiert es als einen Artikel mit einer Hauptüberschrift, einer kleineren Überschrift zur Angabe des Autors, einer Datumsangabe und darauf folgend den eigentlichen Artikel, gefolgt von einer Tagclound und einem Link zu Copyright-Informationen.
 
-Suchmaschinen und spezialisierte Softwareprodukte werten strukturierte Daten auf Webseiten aus und liefern diese dann in geeigneter Weise an Menschen aus. So zum Beispiel:
+Suchmaschinen und spezialisierte Softwareprodukte werten strukturierte Daten auf Webseiten aus und liefern diese dann in geeigneter Weise an Menschen aus. 
+
+So zum Beispiel:
 
 - durch die Anreicherung der Ergebnisliste einer Suche mit Öffnungszeiten, Terminen, lokaler Suche, hervorgehobenen Links;
 - durch Auslesen von aktuellen Terminen aus Webseiten und Weiterverwendung dieser in anderen Anwendungen;
@@ -117,11 +118,10 @@ Mit Anwendung der [Schema.org-Beschreibung zu Terminen](https://schema.org/Event
  </div>
 ```
 
-Dieser HTML-Code kann von einer Software ausgelesen und interpretiert werden. Dabei spielt dann auch die individuelle Schreibweise bei der Datumsangabe keine Rolle mehr, da die standardisierte Form im Attribut
-`content="2018-09-12T09:00"` angegeben wurde.
- 
+Dieser HTML-Code kann von einer Software ausgelesen und interpretiert werden. Dabei spielt dann auch die individuelle Schreibweise bei der Datumsangabe keine Rolle mehr, da die standardisierte Form im Attribut `content="2018-09-12T09:00"` angegeben wurde.
+
 Auf der Seite [schema.org](https://schema.org/) findet sich eine Übersicht der gebräuchlichsten Inhaltstypen mit Beispielen für deren Anwendung. Um zu prüfen, ob die Angaben korrekt waren, kann das [Testtool von Google](https://search.google.com/structured-data/testing-tool?hl=de) aber auch die Browsererweitertung [Semantic Inspector](https://chrome.google.com/webstore/detail/semantic-inspector/jobakbebljifplmcapcooffdbdmfdbjh) (siehe unten) verwendet werde.
- 
+
 
 #### Vertiefung
 - Schema.org: [Übersicht über die Typen strukturierter Daten](https://schema.org/docs/schemas.html)
