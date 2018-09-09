@@ -8,7 +8,7 @@ Für Webseiten
 - The A11Y Project, <https://a11yproject.com/>
 - Inklusion im World Wide Web -- Eine Hilfestellung zur barrierefreien Gestaltung von Internetseiten, Bay. Staatsministerium für Bildung und Kultus, Wissenschaft und Kunst,
   <https://www.uni-wuerzburg.de/fileadmin/32500250/Inklusion_im_World_Wide_Web.pdf>
-- Webinhalte barrierefrei pflegen -- ein Leitfaden für Online-Redakteuere, BIK,
+- Webinhalte barrierefrei pflegen -- ein Leitfaden für Online-Redakteure, BIK,
   <http://www.bik-fuer-alle.de/webinhalte-barrierefrei-pflegen.html>
 - Accessibility Cheatsheet von bitsofcode,, <https://bitsofco.de/the-accessibility-cheatsheet/>
 - Accessibility Cheatsheet von Moritz Giessmann, <https://moritzgiessmann.de/accessibility-cheatsheet/>

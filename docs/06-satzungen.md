@@ -37,7 +37,7 @@ Nur bei umfassenden Neugestaltung kann statt einer Änderungssatzung eine vollst
 
 ### Ordnungen und sonstige Rechtsdokumente
 
-Für Ordnungen wie sonstige Rechtsdokumente gilt anders als für Satzungen keine Einschränkung dahingehend, dass bei kleineren Änderungen keine Neuveröffentlichung zulässig ist. Daher beitet es sich an, diese stets im ganzen neu zu verfassen oder das Vorgängerdokument unmittelbar zu bearbeiten.
+Für Ordnungen und sonstige Rechtsdokumente gilt anders als für Satzungen keine Einschränkung dahingehend, dass bei kleineren Änderungen keine Neuveröffentlichung zulässig ist. Daher bietet es sich an, diese stets im Ganzen neu zu verfassen oder das Vorgängerdokument unmittelbar zu bearbeiten.
 
 ### Empfehlung
 
@@ -56,7 +56,7 @@ Soweit für Dokumente oder dateibasierte Formulare keine alternative barrierefre
 
 ### Bundesgesetze
  Gemeinsame Geschäftsordnung der Bundesministerien, <http://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_21072009_O11313012.htm>
- 
+
 -  § 42 Abs. 6 für barrierefreie Gesetzesentwürfe
 -  § 62 Abs. 2 für barrierefreie Verordnungsentwürfe
 

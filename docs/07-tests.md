@@ -1,4 +1,4 @@
- 
+
 # Test zur Barrierefreiheit
 
 
@@ -33,7 +33,7 @@ Folgende Methoden und Test sind bei dem Besuch einer Seite durchzuführen:
 
     Gibt es Inhalte, die nicht les- oder erkennbar sind?
     Und: Sieht die Seite gedruckt genauso aus, wie auf dem Bildschirm? Ist nach dem Ausdruck noch immer ein Menü vorhanden?
- 
+
 6.  **Bewegung, Töne, Videos checken!**   
     
     Bewegt sich etwas? Gibt es ein "Carousel", ein Bereich in dem Artikel und Bilder von selbst eingeblendet werden. Enthält die Seite sich bewegenden oder wechselnden Content?  Wird beim Aufruf der Seite ein Video unaufgefordert abgespielt?
@@ -42,14 +42,13 @@ Folgende Methoden und Test sind bei dem Besuch einer Seite durchzuführen:
 7. **Tabellen prüfen.**
 
     Wenn eine Tabelle vorhanden ist, dann ist das Browserfenster zu verkleinern oder die Seite mit dem Handy aufzufen. Kann man die Inhalte der Tabelle noch lesen, ohne einen Scrollbalken nach rechts bedienen zu müssen?
-    
-    
+
 
 Sollte eine oder mehrere der obigen Situationen Probleme aufzeigen, ist die Zugänglichkeit der Seite nicht vollständig gegeben. Es ist in diesem Fall davon auszugehen, daß keine Konformität zur WCAG vorliegt.
 
-Das W3C selbst bietet ebenfalls einen Schnelltest an: [Easy Checks - A First Review of Web Accessibility
-](https://www.w3.org/WAI/test-evaluate/preliminary/).
-Dieser ist schon ein wenig aufwendiger als oben aufgeführte Punkte; wenn auch ebenfalls noch keine vollständige Prüfung. 
+Das W3C selbst bietet ebenfalls einen Schnelltest an: [Easy Checks - A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/).Dieser ist schon ein wenig aufwendiger als oben aufgeführte Punkte; wenn auch ebenfalls noch keine vollständige Prüfung. 
+
+Ein weiterer Schnelltest beschreibt Kerstin Probiesch in ihrem Artikel [Schnelltest zur Barrierefreiheit](http://webkrauts.de/artikel/2011/schnelltest-zur-barrierefreiheit) auf Webkrauts.de.  
 
 
 
@@ -59,10 +58,9 @@ Dieser ist schon ein wenig aufwendiger als oben aufgeführte Punkte; wenn auch e
 Das W3C hat eine eigene Seite zur Evaluierung der Barrierefreiheit eingerichtet: Unter [Test &amp; Evaluate](https://www.w3.org/WAI/test-evaluate/) erhält man einen Überblick über verschiedene Textmethoden, Werkzeugen und weiterführenden Informationen. 
 Hierzu gehört auch eine umfangreiche Sammlung an Werkzeugen, die auf der Seite  [Web Accessibility Evaluation Tool List](https://www.w3.org/WAI/ER/tools/) angeboten wird. Die Sammlung ist entsprechend der Anforderungen und des zu testenden Angebots sortier- und filterbar.   
 
-
 Eine vollständige Prüfung über die Einhaltung der WCAG kann mit Hilfe der [Accessibility Conformance Evaluation Methodology (WCAG-EM)](https://www.w3.org/TR/WCAG-EM/) erfolgen. 
-Die WCAG selbst definiert bereits durch die Erfolgskriterien und die Konformitätsbedingungen, wie man einzelne Seiten und Webangebote auf Barrierefreiheit prüft. Was jedoch durch die WCAG nicht geleistet wird, ist eine Wertung der Ergebnisse. So lässt sich ein Webauftritt anhand von einzelnen Punkten aus der WCAG nicht pauschal einordnen. 
-Dies wird durch die Methode geleistet, die durch die WCAG-EM vorgegeben wird. Die WCAG-EM beschreibt das Best-Practice-Vorgehen zur Prüfung von Webangeboten, zur Dfeinition des Testumgangs, der Auswahl von Stichproben und zur Berichterstattung.   
+Die WCAG selbst definiert bereits durch die Erfolgskriterien und die Konformitätsbedingungen, wie man einzelne Seiten auf Barrierefreiheit prüft. Was jedoch durch die WCAG nicht geleistet wird, ist eine Wertung der Ergebnisse. So lässt sich ein Webauftritt anhand von einzelnen Punkten aus der WCAG nicht pauschal einordnen. 
+Dies wird durch die Methode geleistet, die durch die WCAG-EM vorgegeben wird. Die WCAG-EM beschreibt das Best-Practice-Vorgehen zur Prüfung von Webangeboten, zur Definition des Testumgangs, der Auswahl von Stichproben und zur Berichterstattung.   
 
 Die WCAG-EM besteht aus 5 Teilen:
 
@@ -85,16 +83,15 @@ Hierbei handelt es sich um ein Online-Tool in dem alle 5 Schritte abgebildet wer
 
 ## Nachweis gemäß der Europäischen Norm EN 301 549 V1.1.2
 
-Für Webanwendungen wird Konformität mit den Barrierefreiheitsanforderungen vermutet, sofern und soweit nach Annex C der [Europäischen Norm EN 301 549 V1.1.2](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) die Testkriterien erfüllt sind. Über die WCAG 2.0 mit Level AA hinaus, sind dafür auch allgemeine Kriterien zu erfüllen.
-Durch die große Schnittmenge werden in vielen Fällen Ergebnisse aus Tests nach WCAG die Prüfung gut vorbereiten.
+Für Webanwendungen wird Konformität mit den Barrierefreiheitsanforderungen vermutet, sofern und soweit nach Annex C der [Europäischen Norm EN 301 549 V1.1.2](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) die Testkriterien erfüllt sind. Über die WCAG 2.0 mit Level AA hinaus, sind dafür auch allgemeine Kriterien zu erfüllen. Durch die große Schnittmenge werden Tests nach der WCAG-EM die Prüfung nach der EU Norm gut vorbereiten.
 
 ## Zertifikate
 
-Es gibt Anbieter, welche Zertifikate über eine Prüfung der Barrierefreiheit anbieten. Hierzu muss jedoch bemerkt werden, daß eine Prüfung in allen Fällen nur eine Momentaufnahme sein kann. Ein Prüfergebnis, welches die Konformität einer Webseite gemäß der WCAG 2.0 in der Konformitätsstufe AA belegt gilt für den Zeitpunkt des Tests. Da größere Webauftritte steten Änderungen und Aktualisierungen ausgesetzt sind, ist die Gültigkeit einer Prüfung ebenfalls zeitlich begrenzt. Diese Einschränkung überliegt auch ein Prüfergebnis gemäß Annex C der europäischen Norm.
+Es gibt Anbieter, welche Zertifikate über eine Prüfung der Barrierefreiheit anbieten. Hierzu muss jedoch bemerkt werden, daß eine Prüfung in allen Fällen nur eine Momentaufnahme sein kann. Ein Prüfergebnis, welches die Konformität einer Webseite gemäß der WCAG 2.0 in der Konformitätsstufe AA belegt gilt für den Zeitpunkt des Tests. Da größere Webauftritte steten Änderungen und Aktualisierungen unterliegen, ist die Gültigkeit einer Prüfung ebenfalls zeitlich begrenzt. Diese Einschränkung unterliegt auch ein Prüfergebnis gemäß Annex C der europäischen Norm.
 
 Im Falle einer Barriere, die bei dem Besuch eines Betroffenen auftritt und dann tatsächlich vorhanden ist, ist ein vorheriges positives Prüfungsergebnis oder ein Zertifikat ohne Bedeutung: Die EU Richtlinie erfordert in allen Fällen die Behebung der Behebung der Barriere und das Anbieten eines geeigneten Feedback-Mechanismus.
 
-Die EU-Richtlinie verpflichtet nicht zu einer Zertifizierung. Stattdessen fordert sie allein die Konformität der Webanwendungen gemäß der Europäischen Norm EN 301 549 V1.1.2 auf Basis der WCAG. Da die WCAG eigene Testverfahren enthalten, sind auch diese zu verwenden. 
+Die EU-Richtlinie verpflichtet nicht zu einer Zertifizierung. Stattdessen fordert sie allein die Konformität der Webanwendungen gemäß der Europäischen Norm EN 301 549 V1.1.2 auf Basis der WCAG. Da die WCAG mit der WCAG-EM eigene Testverfahren enthalten, sind auch diese zu verwenden. 
 Eigene Prüfverfahren und Zertifikate von einzelnen Anbietern oder von staatlichen Einrichtungen geförderten Projekten werden von der EU Richtlinie und der WCAG nicht erfasst und sind daher nicht relevant.
 Die Autoren des Leitfaden empfehlen daher auf den Gebrauch von Zertifikaten zu verzichten.
 
