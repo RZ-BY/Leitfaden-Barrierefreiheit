@@ -96,8 +96,12 @@ Beim Schreiben von Text für Webseiten gelten generell dieselben Regeln wie auch
 Wenngleich Aspekte der Textverständlichkeit wie Abkürzungen, Lese-Niveau, Verzicht bzw. Erläutern ungewöhnlicher Wörter und Verwenden von Zwischenüberschriften von den WCAG erst auf Stufe AAA erfasst werden, so fördert es stets sowohl die Barrierefreiheit als auch die Usability, wenn Redakteure diese Aspekte nicht aus den Augen verlieren.
 
 Jan Eric Hellbusch schreibt zur [Verständlichkeit](https://www.barrierefreies-webdesign.de/knowhow/verstaendliche-inhalte/):
+
+
 > Textverstehen ist ein aktiver Prozess und eine Interaktion zwischen Text und Leser. Texte sind für unterschiedliche Leser unterschiedlich leicht verstehbar. Dies hat sowohl mit den Interessen und dem Vorwissen des Lesers zu tun, als auch mit dessen individuellen Fähigkeiten.
-> Aufgrund der unterschiedlichen Voraussetzungen können Texte nicht für alle Leser gleichermaßen verständlich gemacht werden. Dennoch können Voraussetzungen geschaffen werden, die zur Textverständlichkeit beitragen und die Zugänglichkeit der Inhalte auf der Verständlichkeitsebene fördern. Hierzu zählen redaktionelle Aspekte wie die Verwendung geläufiger Begriffe oder kurzer Sätze und gestalterische Maßnahmen wie das Vermeiden von Blocksatz und die Berücksichtigung von relativen Schriftgrößen und höheren Zeilenabständen. Auch die Verwendung von Zwischenüberschriften gehört zu den Anforderungen der Verständlichkeit
+> Aufgrund der unterschiedlichen Voraussetzungen können Texte nicht für alle Leser gleichermaßen verständlich gemacht werden. Dennoch können Voraussetzungen geschaffen werden, die zur Textverständlichkeit beitragen und die Zugänglichkeit der Inhalte auf der Verständlichkeitsebene fördern. Hierzu zählen redaktionelle Aspekte wie die Verwendung geläufiger Begriffe oder kurzer Sätze und gestalterische Maßnahmen wie das Vermeiden von Blocksatz und die Berücksichtigung von relativen Schriftgrößen und höheren Zeilenabständen. Auch die Verwendung von Zwischenüberschriften gehört zu den Anforderungen der Verständlichkeit.
+
+
 
 #### Sprache
 
@@ -230,11 +234,11 @@ Unterstützt das CMS des Webauftritts auch Bildunterschriften, sind auch diese a
 1. Auf einer Seite wird der Versuchsaufbau eines physikalischen Experiments erläutert. Hierzu wird ein Bild angegeben.
 
    ```html
-   <img alt="Im Experiment wird der Laserstrahl durch einen Doppelspalt gelenkt. 
-             Die Spalte haben einen Durchmesser von 0,085 mm und einen Abstand 
-             voneinander von 0,6 mm. Dahinter findet sich im Abstand von 2 Metern
-             ein Schirm. Auf diesem kann man bei Einschaltung des Lasern ein
-             Wellenmuster erkennen." 
+   <img alt="Im Experiment wird der Laserstrahl durch einen Doppelspalt 
+             gelenkt. Die Spalte haben einen Durchmesser von 0,085 mm 
+             und einen Abstand voneinander von 0,6 mm. Dahinter findet 
+             sich im Abstand von 2 Metern ein Schirm. Auf diesem kann
+             man bei Einschaltung des Lasern ein Wellenmuster erkennen." 
         title="Versuchsaufbau Doppelspaltexperiment" src="(BILD-URL)">
    ```
 
@@ -247,12 +251,14 @@ Unterstützt das CMS des Webauftritts auch Bildunterschriften, sind auch diese a
     <img alt="" src="(BILD-URL)">
     ```
 
-3.  Bei einem grafischen Link wird hingegen das Linkziel beschrieben und
-    nicht mehr das Bild:
+3. Bei einem grafischen Link wird hingegen das Linkziel beschrieben und
+   nicht mehr das Bild:
 
-    ```html
-    <a href="https://www.fau.de"><img alt="Zum Webauftritt der FAU" src="(LOGO-URL)"></a>
-    ```
+   ```html
+   <a href="https://www.fau.de">
+       <img alt="Zum Webauftritt der FAU" src="(LOGO-URL)">
+   </a>
+   ```
 
 #### Verpflichtende Erfolgskriterien
 
