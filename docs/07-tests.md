@@ -23,7 +23,7 @@ Folgende Methoden und Test sind bei dem Besuch einer Seite durchzuführen:
     
 3. **Vergrößern Sie die Schrift auf 200%**
 
-     Ist noch alles nutzbar und erkennbar? KOmmt es zur Überlagerung von Innhalten, so daß diese nicht mehr erreciht oder gelesen werden können?
+     Ist noch alles nutzbar und erkennbar? Kommt es zur Überlagerung von Innhalten, so daß diese nicht mehr erreciht oder gelesen werden können?
      
 4.  **Enthält die Seite Bilder?**
 
@@ -46,7 +46,7 @@ Folgende Methoden und Test sind bei dem Besuch einer Seite durchzuführen:
 
 Sollte eine oder mehrere der obigen Situationen Probleme aufzeigen, ist die Zugänglichkeit der Seite nicht vollständig gegeben. Es ist in diesem Fall davon auszugehen, daß keine Konformität zur WCAG vorliegt.
 
-Das W3C selbst bietet ebenfalls einen Schnelltest an: [Easy Checks - A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/).Dieser ist schon ein wenig aufwendiger als oben aufgeführte Punkte; wenn auch ebenfalls noch keine vollständige Prüfung. 
+Das W3C selbst bietet ebenfalls einen Schnelltest an: [Easy Checks - A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/). Dieser ist schon ein wenig aufwendiger als oben aufgeführte Punkte; wenn auch ebenfalls noch keine vollständige Prüfung. 
 
 Ein weiterer Schnelltest beschreibt Kerstin Probiesch in ihrem Artikel [Schnelltest zur Barrierefreiheit](http://webkrauts.de/artikel/2011/schnelltest-zur-barrierefreiheit) auf Webkrauts.de.  
 
