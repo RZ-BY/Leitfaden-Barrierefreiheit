@@ -90,8 +90,7 @@ Die Barrierefreiheit war bereits nach nationalem Recht umzusetzen. Werden jedoch
 
 Die Richtlinie gewährt einige Ausnahmen bei bestimmten Arten oder Alter von Inhalten:
 
-* Dateiformate von Büroanwendungen, die vor dem 23. September 2018 veröffentlicht wurden, soweit nur dokumentarisch
-    z.B. Folien zu früheren Veranstaltungen
+* Dateiformate von Büroanwendungen, die vor dem 23. September 2018 veröffentlicht wurden, soweit nur dokumentarisch (z.B. Folien zu früheren Veranstaltungen)
 * aufgezeichnete zeitbasierte Medien, die vor dem 23. September 2020 veröffentlicht wurden
 * live übertragene zeitbasierte Medien
 * Online-Karten und Kartendienste, sofern bei Karten für Navigationszwecke wesentliche Informationen in einer barrierefrei zugänglichen Weise digital bereitgestellt werden
@@ -102,19 +101,38 @@ Die Richtlinie gewährt einige Ausnahmen bei bestimmten Arten oder Alter von Inh
 
 
 
-
-#### Rückausnahmen
-
-Der Bayerische Gesetzgeber hatte bisher schon Inhalte von Extranets und Intranets Bar
+#### Rückausnahmen 
+Die EU-Richtlinie 2016/2012 hat einen kleineren Anwendungsbereich als das BayBGG.
+Während die EU-Richtlinie 2016/2012 Webseiten und Apps regelt, umfasst das BayBGG Internet- und Intranetauftritte und Internetangebote, sowie die von ihnen zur Verfügung gestellten grafischen Programmoberflächen.
+Soweit die EU-Richtline 2016/2012 aber keine Anwendung findet, wie es z.B. für Karten oder digitalisierte Kulturgüter der Fall ist, sind auch diese Ausnahmen barrierefrei anzubieten.
+Die Grenze bleibt das technisch machbare.
 
 #### Verhältnismäßigkeitsausnahme
+Durch den größeren Anwendungsbereich kommt der Verhältnismäßigkeit der Umsetzung der Barrierefreiheit eine große Bedeutung zu. 
+Gleichwohl zeigen die Erwägungsgründe der EU-Richtlinie 2016/2012, dass die Zeit von Ausreden vorbei ist.
+So sollen nicht barrierefreie Inhalte in allen Fällen so barrierearm wie möglich angeboten werden.
+Die Barrierefreiheit ist auch kein Grund veröffentlichungspflichtige Dokumente nicht zu veröffentlichen, da insoweit die Aufgabenerfüllung Vorrang vor der Barrierefreiheit genießt. 
+Unmissverständlich werden jedoch **mangelnde Priorität, Zeit oder Kenntnis als Rechtfertigungsgründe ablehnt**. Ebenso die Nichtentwicklung von Softwaresystemen zur barrierefreien Verwaltung von Inhalten auf Websites und in mobilen Anwendungen.
+Die Angebote sollen auch bestmöglichst zu assistiven Technologien kompatibel sein. Ebenso sollten Programmierschnittstellen angeboten werden.
 
-...
+In der konkreten Ausgestaltung sieht der Bayerische Gesetzgeber eine schrittweise technische Umstellung der Angebote vor. Dies erspart jedoch nicht die Bestandsaufnahme für jedes Angebot (Webauftritte, Intranets und mobile Anwendungen) hinsichtlich der Barrierefreiheit. 
 
+Art. 13 Abs. 1 S. 2 schränkt die Umsetzung auf die technischen, finanziellen, wirtschaftlichen und verwaltungsorganisatorischen Möglichkeiten des jeweiligen Trägers öffentlicher Gewalt ein.
 
+Mit Blick auf Art. 5 der EU-Richtlinie 2016/2012 wird dies noch etwas spezifischer ausgeführt. Insbesondere in Hinblick auf
 
+- Größe, Ressourcen und Art der betreffenden öffentlichen Stelle; 
+- Die Umsetzungskosten im Vergleich zu den mit einer Umsetzung erzielbaren Vorteile;
+- Nutzungshäufigkeit der Webseiten und mobilen Anwendungen durch Menschen mit Behinderungen.
 
+Ziel ist, dass durch die Umsetzung der Barrierefreiheit keine übermäßige organisatorische oder finanzielle Last entstehen. 
+Da die Umsetzung von barrierefreien Webdesign Vorteile wie 
 
+- responsives Design, 
+- Nutzung der Angebote von jedem Endgerät  
+- Optimierung der Inhalte für Suchmaschinen 
+
+mit sich bringt, überwiegen die Investitionen die Kosten.
 
 
 
