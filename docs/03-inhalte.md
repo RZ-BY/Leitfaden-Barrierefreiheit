@@ -102,6 +102,7 @@ Jan Eric Hellbusch schreibt zur [Verständlichkeit](https://www.barrierefreies-w
 > Aufgrund der unterschiedlichen Voraussetzungen können Texte nicht für alle Leser gleichermaßen verständlich gemacht werden. Dennoch können Voraussetzungen geschaffen werden, die zur Textverständlichkeit beitragen und die Zugänglichkeit der Inhalte auf der Verständlichkeitsebene fördern. Hierzu zählen redaktionelle Aspekte wie die Verwendung geläufiger Begriffe oder kurzer Sätze und gestalterische Maßnahmen wie das Vermeiden von Blocksatz und die Berücksichtigung von relativen Schriftgrößen und höheren Zeilenabständen. Auch die Verwendung von Zwischenüberschriften gehört zu den Anforderungen der Verständlichkeit.
 
 
+&nbsp; 
 
 #### Sprache
 
@@ -293,8 +294,7 @@ Rufen Sie die <a href="(URL)"><Online-Broschüre zum Thema ABC</a> auf.
 
 Bei Nutzung eines WYSIWYG-Editors reicht es oft, den entsprechenden Text zu selektieren und dann in einem erscheinenden Fenster die Zieladresse einzugeben oder aus einer Liste vorhandener Seiten auszuwählen.
 
-![Bild: Screenshot des Modals zum Einfügen eines neues neuen Links im
-Visuellen Editor von WordPress](03-inhalte/links-einfuegen.jpg)
+![Bild: Screenshot des Modals zum Einfügen eines neues neuen Links im Visuellen Editor von WordPress](03-inhalte/links-einfuegen.jpg)
 
 #### Weitere Attribute
 

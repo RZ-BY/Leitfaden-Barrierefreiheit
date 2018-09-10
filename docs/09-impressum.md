@@ -23,8 +23,8 @@ Diese Lizenz erlaubt es anderen, das Dokument zu verbreiten, zu remixen, zu verb
 Die Autoren danken den folgenden Personen, die bei der Erstellung des Leitfadens durch wichtige Hinweise und Korrekturen, sowie im Lektorat geholfen  haben:
 
 - Barbara Bothe, [Regionales Rechenzentrum Erlangen (RRZE)](https://www.rrze.fau.de)
-- Astrid Semm, [Regionales Rechenzentrum Erlangen (RRZE)](https://www.rrze.fau.de)
 - Kerstin Probiesch, [Barrierefreie Informationskultur](http://www.barrierefreie-informationskultur.de/)
+- Astrid Semm, [Regionales Rechenzentrum Erlangen (RRZE)](https://www.rrze.fau.de)
 
 
 ## Verwaltung und Bearbeitung des Leitfadens
@@ -33,7 +33,7 @@ Der Leitfaden wird in Teilen über die Plattform GitHub bereitgestellt um es wei
 
 GitHub-URL: <https://github.com/RZ-BY/Leitfaden-Barrierefreiheit/>
 
-Das GitHub-Projekt ist dabei öffentlich und frei clonbar. Die freie Lizenz erlaubt die nicht kommerzielle Weiternutzung und Weiterentwicklung durch Dritte. 
+Das GitHub-Projekt ist dabei öffentlich und frei kopierbar. Die freie Lizenz erlaubt die nicht kommerzielle Weiternutzung und Weiterentwicklung durch Dritte. 
 
 
 
