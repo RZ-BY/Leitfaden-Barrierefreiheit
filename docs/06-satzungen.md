@@ -6,7 +6,7 @@
 
 Dieser Anwendungsbereich betrifft die Erstellung und Pflege von Satzungen, Prüfungsordnungen, Ordnungen und anderen Dokumenten mit regularischen oder dienstrechtlichen Anweisungen.
 
-Diese Art von Dokumenten bedürfen gesonderten Hinweisen und müssen besondere Ansprüche genügen. Daher wird diesem Aufgabenbereich ein eigener Kapitel gewittmet.
+Diese Art von Dokumenten bedürfen gesonderten Hinweisen und müssen besonderen Ansprüchen genügen. Daher wird diesem Aufgabenbereich ein eigenes Kapitel gewidmet.
 
 Dieses Kapitel wendet sich an folgende Personenkreise:
 
@@ -17,8 +17,8 @@ Dieses Kapitel wendet sich an folgende Personenkreise:
 
 ## Grundlagen
 
-Hochschulen gestalten viele ihrer eigenen und staatlichen Aufgaben durch Satzungen oder auch Ordnungen. Anders als der Gesetzgeber, der nur durch Menschenrechte, das Grundgesetz und höherrangiges Recht, müssen bei Satzungen auch das einfache Recht beachtet werden. Form und Inhalt der Satzungen dürfen daher Menschen mit Behinderung nicht beeinträchtigen.
-Zudem sind Satzungen durch ihre Bekanntmachung eine allgemein zugänglichen Quellen zur Information, und müssen daher ungehindert jeder  Person zugänglich sein. Aus diesen Grundsätzen folgt, dass die veröffentlichten Dateiformate der Satzungen barrierefrei gestaltet sein müssen.
+Hochschulen gestalten viele ihrer eigenen und staatlichen Aufgaben durch Satzungen oder auch Ordnungen. Anders als der Gesetzgeber, der nur durch Menschenrechte, das Grundgesetz und höherrangiges Recht betrachtet, müssen bei Satzungen auch das einfache Recht beachtet werden. Form und Inhalt der Satzungen dürfen daher Menschen mit Behinderung nicht beeinträchtigen.
+Zudem sind Satzungen durch ihre Bekanntmachung eine allgemein zugängliche Quellen zur Information und müssen daher ungehindert jeder Person zugänglich sein. Aus diesen Grundsätzen folgt, dass die veröffentlichten Dateiformate der Satzungen barrierefrei gestaltet sein müssen.
 
 
 ## Umsetzung
@@ -33,7 +33,7 @@ Soweit neue Satzungen erstellt werden, kann durch die Nutzung von Formatvorlagen
 
 ### Änderungssatzungen und Änderungen in Prüfungsordnungen
 
-Nur bei umfassenden Neugestaltung kann statt einer Änderungssatzung eine vollständige Neubekanntmachunng erfolgen. Zur Barrierefreiheit der veröffentlichten Änderungssatzung gilt das gleiche wie für neue Satzungen.
+Nur bei umfassender Neugestaltung kann statt einer Änderungssatzung eine vollständige Neubekanntmachunng erfolgen. Zur Barrierefreiheit der veröffentlichten Änderungssatzung gilt das gleiche wie für neue Satzungen.
 
 ### Ordnungen und sonstige Rechtsdokumente
 

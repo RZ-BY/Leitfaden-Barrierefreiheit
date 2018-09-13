@@ -10,7 +10,7 @@ Aus rechtlicher Sicht leitet sich der Begriff der Barrierefreiheit aus dem Gleic
 
 Anders ausgedrückt:
 
-Jeder,
+Jedem werden,
 
 -   unabhängig von der jeweiligen Auffassungsgabe
 -   unabhängig von der jeweiligen Methodik
@@ -18,21 +18,21 @@ Jeder,
 -   unabhängig vom Betriebssystem
 -   unabhängig von der Software
 
-bekommt **beim Zugriff auf dieselbe Seite dieselben Inhalte angezeigt**.
+**beim Zugriff auf dieselbe Seite dieselben Inhalte angezeigt**.
 
-Die Umsetzung dieses Prinzips nutzt nicht allein Menschen mit Behinderungen. Auch neue Medien, neue Geräte und auch Inhaltsaggregatoren (u.a. von Suchmaschinen), profitieren davon.
+Die Umsetzung dieses Prinzips nutzen nicht allein Menschen mit Behinderungen. Auch neue Medien, neue Geräte und Inhaltsaggregatoren (u.a. von Suchmaschinen), profitieren davon.
 
-Besonders deutlich wird dies bei der stark gestiegenen Nutzung von Smartphones und Tablet-Rechnern: Wurden noch vor 10 Jahren Webauftritte nur über Desktop-Rechner abgerufen, so ist es heute längst üblich geworden, auch mit Smartphones Informationen abzurufen. Diese zeigen zwar moderne Webseiten nicht im selben optischen Design wie auf einem großen Monitor, sie zeigen aber dennoch dieselben Inhalte.
+Besonders deutlich wird dies bei der stark gestiegenen Nutzung von Smartphones und Tablet-Rechnern: Wurden noch vor zehn Jahren Webauftritte nur über Desktop-Rechner abgerufen, ist es heute längst üblich geworden, auch mit Smartphones Informationen abzurufen. Diese zeigen moderne Webseiten zwar nicht im selben optischen Design wie auf einem großen Monitor, sie zeigen aber dennoch dieselben Inhalte.
 
-Moderne Webentwicklung und Webdesign erreicht, dass Webseiten unabhängig vom Gerät, dessen Betriebssystem oder der Software abrufbar sind.
+Moderne Webentwicklung und modernes Webdesign erreichen, dass Webseiten unabhängig vom Gerät, dessen Betriebssystem oder der Software abrufbar sind.
 
 Die WCAG: Richtlinien für barrierefreie Inhalte
 ----------------------------------------------
 
-Barrierefreiheit addressiert ein weites Feld an Behinderungen, einschließlich visueller, auditiver, motorischer, sprachlicher, kognitiver, Sprach-, Lern- und neurologischer Behinderungen. 
+Barrierefreiheit adressiert ein weites Feld an Behinderungen, einschließlich visueller, auditiver, motorischer, sprachlicher, kognitiver, Sprach-, Lern- und neurologischer Behinderungen. 
 
-Die Richtlinien für barrierefreie Webinhalte (WCAG: "Web Content Accessibility Guildelines", in [autorisierter deutscher Übersetzung der Version 2.0](https://www.w3.org/Translations/WCAG20-de/) ) definieren, wie man Inhalte für Menschen mit Behinderungen barrierefreier gestalten kann. Gleichwohl können die Richtlinien kein Garant für eine hunderprozentige Barrierefreiheit sein: Obwohl die WCAG viele Aspekte der Barrierefreiheit abdecken, haben sie nicht auf alle Arten, Ausprägungen und Kombinationen von Einschränkungen eine Antwort.
-Die Einhaltung der Richtlinien sorgt jedoch für einen möglichst breiten Zugang für alle Menschen, unabhängig von ihrer individuellen Lebenssituation. Zudem wird so auch eine deutlich verbesserte Benutzerfreundlichkeit geschaffen und es kommt zu einer signifikant bessere Auffindbarkeit von Webseiten und deren Inhalten über gängige Suchmaschinen. 
+Die Richtlinien für barrierefreie Webinhalte (WCAG: "Web Content Accessibility Guildelines", in [autorisierter deutscher Übersetzung der Version 2.0](https://www.w3.org/Translations/WCAG20-de/) ) definieren, wie sich Inhalte für Menschen mit Behinderungen barrierefreier gestalten lassen. Gleichwohl können die Richtlinien kein Garant für eine hunderprozentige Barrierefreiheit sein: Obwohl die WCAG viele Aspekte der Barrierefreiheit abdecken, haben sie nicht auf alle Arten, Ausprägungen und Kombinationen von Einschränkungen eine Antwort.
+Die Einhaltung der Richtlinien sorgt jedoch für einen möglichst breiten Zugang für alle Menschen, unabhängig von ihrer individuellen Lebenssituation. Zudem wird so auch eine deutlich verbesserte Benutzerfreundlichkeit geschaffen und es kommt zu einer signifikant besseren Auffindbarkeit von Webseiten und deren Inhalten über gängige Suchmaschinen. 
 
 Die Richtlinien wurden so konzipiert, dass sie sich weitgehend auf verschiedene Webtechnologien der Gegenwart und Zukunft anwenden lassen. Die WCAG sind öffentlich zugänglich und werden ergänzt durch:
 
@@ -42,12 +42,12 @@ Die Richtlinien wurden so konzipiert, dass sie sich weitgehend auf verschiedene�
 -   die Auflistung von geeigneten Werkzeugen und Verfahren.
 
 Die WCAG sind eine Empfehlung des W3C und wurden in der Web Content Accessibility Guidelines Working Group (früher abgekürzt "WCAG-WG", heute "ACWG") erarbeitet. 
-Die WCAG wurden – wie beim W3C üblich – gemäß dem [W3C-Verfahren](https://www.w3.org/WAI/standards-guidelines/w3c-process/) entwickelt und über mehrere öffentliche Kommentierungsphasen international abgestimmt. Die letzte Version der WCAG – die [WCAG 2.1](https://www.w3.org/TR/WCAG21/) wurden am 5. Juni 2018 als Richtlinie veröffentlicht. 
+Die WCAG wurden – wie beim W3C üblich – gemäß dem [W3C-Verfahren](https://www.w3.org/WAI/standards-guidelines/w3c-process/) entwickelt und über mehrere öffentliche Kommentierungsphasen international abgestimmt. Die letzte Version der WCAG – die [WCAG 2.1](https://www.w3.org/TR/WCAG21/) wurde am 5. Juni 2018 als Richtlinie veröffentlicht. 
 
 Das Ziel des W3C ist es, mit den WCAG einen gemeinsamen, international abgestimmten Standard für die Barrierefreiheit von Webinhalten zur Verfügung zu stellen, der die Bedürfnisse von Einzelpersonen, Unternehmen und Organisationen auf internationaler Ebene erfüllt. 
 Hier zeigt sich auch der Vorteil gegenüber kommerziell getriebenen Empfehlungen und Zertifikaten einzelner Anbieter oder nationalen Insellösungen wie der BITV, die sich zwar an den WCAG in der Version 2.0 orientiert, sie jedoch durch eigene Auslegungen und Einschränkungen abschwächen oder auch andere Prioritäten setzen.
 
-Die EU-Richtlinie 2016/2102 fordert für das Angebot von Webseiten einschließlich von Dateiformaten aus Büroanwendungen (u.a. PDF-Dokumenten) und Intranets hingegen die Einhaltung der WCAG, und zwar auf der Konformitätsstufe AA.
+Die EU-Richtlinie 2016/2102 fordert für das Angebot von Webseiten einschließlich von Dateiformaten aus Büroanwendungen (u.a. PDF-Dokumenten) und Intranets hingegen die Einhaltung der WCAG und zwar auf der Konformitätsstufe AA.
 Daher sollte zukünftig nur noch die Konformität zu den WCAG als Maßstab für die Umsetzung und Prüfung von Inhalten, Webangeboten und Dokumenten verwendet werden und nicht mehr daraus abgeleitete oder interpretierte
 Formen.
 
@@ -56,9 +56,9 @@ Formen.
 
 Die WCAG basieren auf vier grundlegenden Prinzipien, denen mehrere Richtlinien zugeordnet sind. Zur Erfüllung dieser Richtlinien wurden testbare Erfolgskriterien (in der WCAG 2.0: 61, in der WCAG 2.1: 76) definiert, mit denen geprüft werden kann, ob die Richtlinien eingehalten werden.
 
-Aufgrund der vorhandenen ausführlichen und guten Literatur, wird hier darauf verzichtet, weitere Ausführungen zu ergänzen. Wenn in den folgenden Kapiteln auf einzelne Erfolgskriterien Bezug genommen wird, sind diese gesondert gekennzeichnet.
+Aufgrund der vorhandenen ausführlichen und guten Literatur, wird hier darauf verzichtet, weitere Ausführungen zu ergänzen. Wird in den folgenden Kapiteln auf einzelne Erfolgskriterien Bezug genommen wird, sind diese gesondert gekennzeichnet.
 
-Detailreiche Erläuterungen zum Aufbau der WCAG, deren Prinzipien, Kriterien, Konformitätsbedingungen sowie der weitere Bestandteile, können über folgende Seiten und Artikel gelesen werden:
+Detailreiche Erläuterungen zum Aufbau der WCAG, deren Prinzipien, Kriterien, Konformitätsbedingungen sowie der weiteren Bestandteile, können über folgende Seiten und Artikel gelesen werden:
 
 - W3C:
     - WCAG 2.0 (W3C Original), <https://www.w3.org/TR/WCAG20/>
@@ -81,11 +81,10 @@ Das Problem der mangelnden Umsetzung und der Wunsch nach Harmonisierung der Gese
 Am 18.7.2016 wurde auf EU-Ministerratsebene die "Web-Accessibility-Richtlinie" angenommen, die nach der darauf
 folgenden Annahme von Rat und Parlament am 20. Tag nach ihrer Veröffentlichung im Amtsblatt der EU (ABl. L 327, 2. Dezember 2016) - am 22. Dezember 2016 - in Kraft trat.
 
-Mit der Richtlinie soll eine Angleichung der Rechts- und Verwaltungsvorschriften der Mitgliedstaaten zum barrierefreien Zugang zu Webseiten öffentlicher Stellen erfolgen. Dies soll dabei unterstützen, die nationalen Verpflichtungen hinsichtlich eines barrierefreien Webzugangs zu erfüllen und das Bekenntnis der Mitgliedstaaten zum Übereinkommen der Vereinten Nationen über die Rechte von Menschen mit Behinderungen in Bezug auf die Websites öffentlicher Stellen zu bekräftigen. Gegenstand der vorgeschlagenen Richtlinie sind sowohl Webseiten, als auch Dokumente und Apps öffentlicher Stellen, da sie Informationen und Dienste bereitstellen, die für Bürgerinnen und Bürger von grundlegender Bedeutung sind.
+Mit der Richtlinie soll eine Angleichung der Rechts- und Verwaltungsvorschriften der Mitgliedstaaten zum barrierefreien Zugang zu Webseiten öffentlicher Stellen erfolgen. Sie soll dabei unterstützen, die nationalen Verpflichtungen hinsichtlich eines barrierefreien Webzugangs zu erfüllen und das Bekenntnis der Mitgliedstaaten zum Übereinkommen der Vereinten Nationen über die Rechte von Menschen mit Behinderungen in Bezug auf die Websites öffentlicher Stellen zu bekräftigen. Gegenstand der vorgeschlagenen Richtlinie sind sowohl Webseiten, als auch Dokumente und Apps öffentlicher Stellen, da sie Informationen und Dienste bereitstellen, die für Bürgerinnen und Bürger von grundlegender Bedeutung sind.
 
 In technischer Hinsicht gilt als Richtschnur die Erfüllung des Konformitätsstufe AA der [Richtlinien für barrierefreie Webinhalte (Web Content Accessibility Guidelines - WCAG 2.0)](https://www.ag.bka.gv.at/at.gv.bka.wiki-bka/index.php/WCAG20), wie sie in der Europäischen Norm ([Europäischer Standard EN 301 549 -
 Anforderungen an Barrierefreiheit bei der Beschaffung von IKT-Produkten und Dienstleistungen](https://www.ag.bka.gv.at/at.gv.bka.wiki-bka/index.php/Barrierefrei:EN_301_549)) enthalten sind. 
 
-Aufgrund der im Juni 2018 veröffentlichten neuen Version 2.1 der WCAG, ist es möglich, dass die Europäische Norm in Kürze um die zusätzlichen Erfolgskriterien aktualisiert wird. Es ist daher in Erwägung zu ziehen,
-sich bereits jetzt an die WCAG 2.1 zu halten, da diese zu der Version 2.0 abwärtskompatibel gestaltet worden ist. Dieser Leitfaden wird bei den Empfehlungen, die nicht durch die WCAG 2.0 gefordert, aber in der WCAG 2.1 enthalten sind, jeweils einen entsprechenden Hinweis setzen.
+Aufgrund der im Juni 2018 veröffentlichten neuen Version 2.1 der WCAG, ist es möglich, dass die Europäische Norm in Kürze um die zusätzlichen Erfolgskriterien aktualisiert wird. Es ist daher in Erwägung zu ziehen, sich bereits jetzt an die WCAG 2.1 zu halten, da diese zu der Version 2.0 abwärtskompatibel gestaltet worden ist. 
 

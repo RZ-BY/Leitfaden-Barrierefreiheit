@@ -4,14 +4,14 @@ Dieser Leitfaden soll Einrichtungen und Angehörigen der Hochschulen für Angewa
 
 Er besteht aus mehreren Teilen, die je nach Personenkreis getrennt voneinander weitergegeben werden können:
 
-- 1. Vorwort und Überblick
-- 2. Einführung und Hintergründe
-- 3. Bereitstellung und Pflege von Inhalten
-- 4. Entwicklung und Design
-- 5. Organisatorische und rechtliche Anforderungen
-- 6. Satzungen
-- 7. Tests
-- 8. Weitere Leitfäden und relevante Informationsangebote
+1. Vorwort und Überblick
+2. Einführung und Hintergründe
+3. Bereitstellung und Pflege von Inhalten
+4. Entwicklung und Design
+5. Organisatorische und rechtliche Anforderungen
+6. Satzungen
+7. Tests
+8. Weitere Leitfäden und relevante Informationsangebote
 
 
 ## Autoren
