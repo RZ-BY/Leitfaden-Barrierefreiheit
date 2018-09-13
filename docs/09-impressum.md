@@ -20,8 +20,9 @@ Diese Lizenz erlaubt es anderen, das Dokument zu verbreiten, zu remixen, zu verb
 
 ## Credits und Dank
 
-Die Autoren danken den folgenden Personen, die bei der Erstellung des Leitfadens durch wichtige Hinweise und Korrekturen, sowie im Lektorat geholfen  haben:
+Die Autoren danken den folgenden Personen, die bei der Erstellung des Leitfadens durch wichtige Hinweise und Korrekturen sowie im Lektorat geholfen  haben:
 
+- Katja Augustin, [Regionales Rechenzentrum Erlangen (RRZE)](https://www.rrze.fau.de)
 - Barbara Bothe, [Regionales Rechenzentrum Erlangen (RRZE)](https://www.rrze.fau.de)
 - Kerstin Probiesch, [Barrierefreie Informationskultur](http://www.barrierefreie-informationskultur.de/)
 - Astrid Semm, [Regionales Rechenzentrum Erlangen (RRZE)](https://www.rrze.fau.de)

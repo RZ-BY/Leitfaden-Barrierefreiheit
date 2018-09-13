@@ -30,19 +30,16 @@ Grundlagen
 
 Mit Inhalten sind all die Informationen gemeint, die vom Leser wahrgenommen werden müssen. Zur Darstellung und Strukturierung der Inhalte wird auf Webseiten die Strukturierungssprache HTML verwendet. Mit dieser kann die Bedeutung eindeutig definiert werden, wozu auch nur wenige, leicht zu merkendende Elemente notwendig sind: Nämlich die Elemente für Überschriften, Absätze, Bilder, Listenelemente, Zitate und Tabellen. In HTML nutzt man den Begriff der [Semantik](https://blog.kulturbanause.de/2008/01/html-elemente-und-semantik/).
 
-Wichtig hierbei ist, dass die Semantik eingehalten wird:
-Überschriften, die nicht mittels der verfügbaren HTML-Elementen als solche gekennzeichnet sind, sind keine. Der *klassische Fehler* vieler Autoren besteht dann auch darin, dass keine Überschriften gesetzt
-wurden, sondern eine Textzeile schlicht mit Fettdruck und einer größeren Schrift optisch hervorgehoben wurde. Semantisch sind solche Überschriften jedoch keine und werden daher auch nicht als solche interpretiert: Screenreader können diese nicht von normalem Text unterscheiden und auch die Analyse von Suchmaschinen wird hier den Inhalt dieser Zeile nicht als hervorhebenswerte Überschrift einstufen.
-Der Fettdruck und die Schriftgröße werden lediglich als optische Darstellung interpretiert; eine *automatische Erkennung*, dass hier eine Überschrift gemeint sei, passiert nicht. Diese Interpretation findet allein im Auge des Autors statt.
+Wichtig hierbei ist die Semantik einzuhalten: Überschriften, die nicht mittels verfügbarer HTML-Elementen als solche gekennzeichnet sind, sind keine Überschriften. Der *klassische Fehler* vieler Autoren besteht oft darin, dass keine Überschriften gesetzt wurden, sondern eine Textzeile schlicht mit Fettdruck und einer größeren Schrift optisch hervorgehoben wurde. Semantisch sind solche Texte jedoch keine Überschriften und werden daher auch nicht als solche interpretiert: Screenreader können diese nicht von normalem Text unterscheiden und auch die Analyse von Suchmaschinen wird den Inhalt dieser Zeile nicht als hervorhebenswerte Überschrift einstufen.
+Der Fettdruck und die Schriftgröße werden lediglich als optische Darstellung interpretiert; eine *automatische Erkennung* einer Überschrift geschieht nicht. Diese Interpretation findet allein im Auge des Autors statt.
 
 Ein weiterer häufiger Fehler ist es, eine Semantik falsch zu verwenden mit dem Ziel eine optische Darstellung zu erlangen. So zum Beispiel verwenden einige Autoren gern Überschriften, um einen in ihren Augen wichtigen Text hervorzuheben. Ebenso häufig ist der Fehler, eine Überschrift einer bestimmten Ebene nur deswegen zu verwenden, weil sie dem Autor in der jeweiligen Größe besser gefällt als die Überschrift in ihrer korrekten Ebene. Oder es werden Tabellen verwendet, um eine rein optische Ausrichtung des Textes zu erlangen.
 
-Auf Webseiten, aber auch auf Flyern und anderen Print-Produkten, erfolgt sehr häufig eine optische Verschönerung durch sogenannte *Schmuckgrafiken*. Da diese Grafiken jedoch keine inhaltliche Aussage übermitteln, können sie jederzeit auch weggelassen oder ausgetauscht werden. Mit diesem Verständnis kann man solche Grafiken auch von Schemagrafiken, Auswertungen oder anderen Grafiken unterscheiden:
-Schmuckgrafiken können jederzeit ausgetauscht oder weggelassen werden, während inhaltsvermittelnde Grafiken ein nicht wegzulassender Bestandteil der Seite sind.
+Auf Webseiten, aber auch auf Flyern und anderen Print-Produkten, erfolgt häufig eine optische Verschönerung durch sogenannte *Schmuckgrafiken*. Mit diesem Verständnis kann man solche Grafiken von Schemagrafiken, Auswertungen oder anderen Grafiken unterscheiden: Schmuckgrafiken können jederzeit ausgetauscht oder weggelassen werden, während inhaltsvermittelnde Grafiken ein nicht wegzulassender Bestandteil der Seite sind.
 
-Wenn eine optische Hervorhebung von Texten gewünscht ist, dürfen hierzu keine Strukturelemente, die für die inhaltliche Kennzeichnung vorgesehen sind, verwendet werden. Wenn ein Absatz oder einzelne Worte optisch
-hervorgehoben werden sollen, ist es Sache des Webdesigns, eine entsprechende Funktionalität bereitzustellen. Viele Webdesigns enthalten bereits entsprechende Funktionalitäten für optionale Boxen, Spaltensatz,
-Hinweismarken oder Buttons. Sollte eine entsprechende Dokumentation oder ein Styleguide vorhanden sein, sollten diese konsultiert werden.
+Wird eine optische Hervorhebung von Texten gewünscht ist, dürfen hierzu keine Strukturelemente, die für die inhaltliche Kennzeichnung vorgesehen sind, verwendet werden. Sollen ein Absatz oder einzelne Worte optisch
+hervorgehoben werden sollen, ist es Aufgabe des Webdesigns, eine entsprechende Funktionalität bereitzustellen. Viele Webdesigns enthalten bereits entsprechende Funktionalitäten für optionale Boxen, Spaltensatz,
+Hinweismarken oder Buttons. Sind eine entsprechende Dokumentation oder ein Styleguide vorhanden sein, sollten diese konsultiert werden.
 
 Umsetzung
 ---------
@@ -51,11 +48,9 @@ Umsetzung
 
 Inhalte beginnen üblicherweise mit einer Überschrift, gefolgt von einem oder mehren Absätzen. Beim Schreiben von längeren Texten ist eine logische Überschriftenhierachie wichtig: 
 
-Die erste Überschrift im Dokument ist eine Überschrift der Ebene 1. Ist der Text hierarchisch
-gegliedert, folgt ein Absatz mit einer Überschrift der Ebene 2. Besteht dieses Kapitel aus weiteren hierarchisch untergeordneten Kapitel folgen hier die Überschriften der Ebene 3 und so weiter.
+Die erste Überschrift im Dokument ist eine Überschrift der Ebene 1. Ist der Text hierarchisch gegliedert, folgt ein Absatz mit einer Überschrift der Ebene 2. Besteht dieses Kapitel aus weiteren hierarchisch untergeordneten Kapitel folgen hier die Überschriften der Ebene 3 und so weiter.
 
-In HTML wird die Überschrift der ersten Ebene mit `<h1>` deklariert, die zweite Ebene mit `<h2>`, die dritte mit `<h3>` und so weiter bis zur sechsten Ebene. Wird in einem CMS ein WYSIWYG-Editor wie 
-der populäre TinyMCE-Editor angeboten, werden die Überschriften als Absatzvorlagen angeboten. Diese werden nach der Eingabe in dem Editor in die entsprechende HTML-Variante gesetzt.
+In HTML wird die Überschrift der ersten Ebene mit `<h1>` deklariert, die zweite Ebene mit `<h2>`, die dritte mit `<h3>` und so weiter bis zur sechsten Ebene. Hat ein CMS einen WYSIWYG-Editor wie den populären TinyMCE-Editor, werden die Überschriften als Absatzvorlagen angeboten. Diese werden nach der Eingabe in dem Editor in die entsprechende HTML-Variante gesetzt.
 
 ![Bild: Ansicht der Überschriften in einem CMS mit dem TinyMCE
 Editor](03-inhalte/ueberschriften-tinymce.jpg)
@@ -63,10 +58,10 @@ Editor](03-inhalte/ueberschriften-tinymce.jpg)
 Bei einigen CMS und Redaktionssystemen wurde die Überschrift der ersten Ebene aus den Absatzvorlagen entfernt, wie es auch das obige Bild zeigt. Grund ist, dass viele Webseiten in der Ausgabe den Titel der Seite als erste Überschrift ausgeben.
 
 Überschriftenauszeichnungen sind nur in ihrer logischen Struktur zu nutzen und nicht als Hilfsmittel zur optischen Formatierung der Texte. Wie eine Überschrift einer beliebigen Ebene optisch auf einem Browser, in einem
-Office-Dokument oder einem Ausdruck aussieht, ist Sache des Corporate Designs oder der zugrundeliegenden Dokumentenvorlage. Wenn die optische Darstellung nicht passend erscheint, so ist nicht die Überschriftenhierachie zu ändern, sondern das Corporate Design bzw. die Dokumentenvorlage. Als Redakteur oder Autor einer Webseite oder eines Dokumentes sollte man sich jedoch grundsätzlich nicht um die optische Gestaltung der Inhalte kümmern und daher auch nicht versuchen, diese zu beeinflussen. Sollte man Mängel in der vorgegebenen Vorlage entdecken, so sollte man diese an die zuständigen Designer oder Entwickler melden; Dann können die Fehler an zentraler Stelle behoben werden und die Fehlerbehebung wirkt sich positiv auch auf solche Stellen aus, die bisher unentdeckt blieben und nicht gemeldet wurden.
+Office-Dokument oder einem Ausdruck aussieht, ist Sache des Corporate Designs oder der zugrundeliegenden Dokumentenvorlage. Wenn die optische Darstellung nicht passend erscheint, ist nicht die Überschriftenhierachie zu ändern, sondern das Corporate Design bzw. die Dokumentenvorlage. Als Redakteur oder Autor einer Webseite oder eines Dokumentes sollte man sich jedoch grundsätzlich nicht um die optische Gestaltung der Inhalte kümmern und daher auch nicht versuchen, diese zu beeinflussen. Entdeckt man Mängel in der vorgegebenen Vorlage, sollte man diese an die zuständigen Designer oder Entwickler melden; die Fehler können dann an zentraler Stelle behoben werden und die Fehlerbehebung wirkt sich positiv auch auf solche Stellen aus, die bisher unentdeckt blieben und nicht gemeldet wurden.
 
 Logische Überschriftenhierachien sind von hoher Bedeutung bei der barrierefreien Umsetzung von Webseiten und Dokumenten: Die Überschriften sind für Screenreader-Software ein unverzichtbares Mittel, um innerhalb der Seite zu navigieren. Die Software erkennt Überschriften anhand der korrekten HTML-Markierung und bietet dem
-(blinden) Leser der Seite die Möglichkeit an, von Kapitel zu Kapitel zu springen. Sind die Kapitel jedoch nicht mit Überschriften versehen funktioniert dies nicht. Im Falle von Überschriften der falschen Hierachieebene wird diese hingegen einem anderen Kontext zugeordnet. 
+(blinden) Leser der Seite die Möglichkeit an, von Kapitel zu Kapitel zu springen. Sind die Kapitel jedoch nicht mit Überschriften versehen, funktioniert dies nicht. Im Falle von Überschriften der falschen Hierachieebene wird diese hingegen einem anderen Kontext zugeordnet. 
 
 Barrierefreie Webseiten setzen die Überschriftenhierachie nicht nur für den Inhaltsbereich um, sondern gliedern auch alle anderen Bestandteile der Webseite in einer passenden Hierachie. Mit einem Browser-Add-on, wie 
 [HeadingsMap](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi),
@@ -91,9 +86,9 @@ hierachische Gliederung des Inhalts achten.
 
 ### Absätze und andere Textbereiche
 
-Beim Schreiben von Text für Webseiten gelten generell dieselben Regeln wie auch bei jeder anderen Publikation oder wissenschaftlichen Arbeit: Der Text muss für die jeweilige Zielgruppe verständlich sein, klar strukturiert werden und frei von Rechtsschreibfehlern sein. Dabei sollte man jedoch nicht davon ausgehen, dass der Leser der Webseite denselben Kenntnisstand hat wie der Autor. Abkürzungen, interne Begriffe und Codewörter, die im Umfeld des Autors oder in Projekten alltäglich verwendet werden, müssen für andere nicht bekannt sein. Zudem können dieselben Abkürzungen je nach Umfeld und Kontext auch verschiedene Bedeutungen haben. Bei einem längeren Text bietet es sich zudem an, im ersten Absatz eine kurze Zusammenfassung oder eine Einführung zu schreiben. 
+Beim Schreiben von Text für Webseiten gelten generell dieselben Regeln wie auch bei jeder anderen Publikation oder wissenschaftlichen Arbeit: Der Text muss für die jeweilige Zielgruppe klar strukturiert werden, frei von Rechtsschreibfehlern und verständlich sein. Dabei sollte man jedoch nicht davon ausgehen, dass der Leser der Webseite denselben Kenntnisstand hat, wie der Autor. Abkürzungen, interne Begriffe und Codewörter, die im Umfeld des Autors oder in Projekten alltäglich verwendet werden, müssen für andere nicht bekannt sein. Zudem können dieselben Abkürzungen je nach Umfeld und Kontext auch verschiedene Bedeutungen haben. Bei einem längeren Text bietet es sich zudem an, im ersten Absatz eine kurze Zusammenfassung oder eine Einführung zu schreiben. 
 
-Wenngleich Aspekte der Textverständlichkeit wie Abkürzungen, Lese-Niveau, Verzicht bzw. Erläutern ungewöhnlicher Wörter und Verwenden von Zwischenüberschriften von den WCAG erst auf Stufe AAA erfasst werden, so fördert es stets sowohl die Barrierefreiheit als auch die Usability, wenn Redakteure diese Aspekte nicht aus den Augen verlieren.
+Wenngleich Aspekte der Textverständlichkeit wie Abkürzungen, Lese-Niveau, Verzicht bzw. Erläutern ungewöhnlicher Wörter und Verwenden von Zwischenüberschriften von den WCAG erst auf Stufe AAA erfasst werden, fördert es stets sowohl die Barrierefreiheit als auch die Usability, wenn Redakteure diese Aspekte nicht aus den Augen verlieren.
 
 Jan Eric Hellbusch schreibt zur [Verständlichkeit](https://www.barrierefreies-webdesign.de/knowhow/verstaendliche-inhalte/):
 
@@ -107,18 +102,18 @@ Jan Eric Hellbusch schreibt zur [Verständlichkeit](https://www.barrierefreies-w
 #### Sprache
 
 Ein Text wird üblicherweise in nur einer Sprache geschrieben. Auch wenn die Sprache für einen *sehenden Leser* offensichtlich ist, muss die Sprache der Webseite im Quellcode der Seite angegeben sein.
-Diies gilt insbesondere dann, wenn Teile von Texten einer Seite einer andere Sprache nutzen als der Rest der Seite.
+Dies gilt insbesondere dann, wenn Textteile auf einer Seite einer andere Sprache nutzen, als der Rest der Seite.
 
-Für die Definition der gesamten Seite in einer Sprache ist bei modernen Webauftritten das jeweilige CMS zuständig. Je nach Einstellung des Webauftritts wird dabei vorgegeben, welches die Hauptsprache des
-Webauftritts und damit auch der Inhalte ist. Als Autor oder Redakteur kann man diese *globale* Einstellung normalerweise nicht ändern. Unter Umständen bieten manche CMS Installationen die Option an, die Sprache
+Für die Definition der Sprache einer gesamten Seite ist bei modernen Webauftritten das jeweilige CMS zuständig. Je nach Einstellung des Webauftritts wird dabei vorgegeben, welches die Hauptsprache des
+Webauftritts und damit auch der Inhalte ist. Als Autor oder Redakteur kann man diese *globale* Einstellung normalerweise nicht ändern. Unter Umständen bieten manche CMS-Installationen jedoch die Option an, die Sprache
 einer einzelnen Inhaltseite gesondert anzugeben:
 
 ![Bild: Seitensprache ändern](03-inhalte/seitensprache-aendern.png)
 
 Auch wenn die Angabe der Sprache für einen *sehenden Leser* unnötig erscheint, ist sie dennoch von großer Bedeutung:
 
--   Screenreader lesen den Text vor. Damit der Text jedoch in der richtigen Sprache und in der korrekten Aussprache vorgelesen werden kann, muss die Screenreader-Software auch erkennen können, um welche Sprache es sich handelt. Eine automatische Erkennung ist zwar nicht unmöglich, sie ist jedoch nicht zuverlässig. Zumal dann, wenn die Hauptsprache des Webauftritts ebenfalls angegeben wurde und sich von der Sprache des Textabschnitts unterscheidet.
--   Neben Menschen besuchen auch Suchmaschinen und Inhaltsaggregatoren die Webseiten. Auch diese versuchen, den Inhalt zu interpretieren und verwenden zur Einordnung und Erkennung von Keywords und Synonymen die angegebene Sprache. Ist die Sprache nicht oder falsch angegeben, kann der Inhalt falsch zugeordnet werden, was in der Praxis bedeuten kann, dass die Seite in der Ergebnisliste einer Suchmaschine an einer schlechten Position aufgelistet wird.
+-   Screenreader lesen den Text vor. Damit der Text jedoch in der richtigen Sprache und in der korrekten Aussprache vorgelesen werden kann, muss die Screenreader-Software auch erkennen können, um welche Sprache es sich handelt. Eine automatische Erkennung ist zwar nicht unmöglich, sie ist jedoch nicht zuverlässig. Dies macht sich vor allem dann bemerkbar, wenn die Hauptsprache des Webauftritts ebenfalls angegeben wurde und sich von der Sprache des Textabschnitts unterscheidet.
+-   Neben Menschen besuchen auch Suchmaschinen und Inhaltsaggregatoren die Webseiten. Auch diese versuchen den Inhalt zu interpretieren und verwenden zur Einordnung und Erkennung von Keywords und Synonymen die angegebene Sprache. Ist die Sprache nicht oder falsch angegeben, kann der Inhalt falsch zugeordnet werden, was in der Praxis bedeuten kann, dass die Seite in der Ergebnisliste einer Suchmaschine an einer schlechten Position aufgelistet wird.
 
 Gibt das CMS oder dessen Bearbeitungswerkzeuge keine Optionen vor, um die Sprache der Inhaltsbereiche anzugeben, ist diese mittels HTML zu setzen. Hierzu eignet sich das Attribut ```lang=""``` welches in dem HTML-Element angegeben wird, das den Text mit der Sprache umgibt. 
 Handelt es sich nur um einen Absatz, kann man das `<p>` Element nutzen, handelt es sich um ein längeres Zitat, verwendet man das `<blockquote>` Element.
@@ -164,7 +159,7 @@ Sollte sich der Textbereich über mehrere Kapitel und Absätze erstrecken, setzt
 
 #### Abkürzungen
 
-Für Abkürzungen sollten folgende Dinge beachtet werden:
+Für Abkürzungen sollte Folgendes beachtet werden:
 
 - Abkürzungen sollten beim ersten Auftreten im Text ausgeschrieben werden. 
     Dies gilt besonders bei längeren Namen von Einrichtungen oder Titeln. Dabei wird zunächst der Name ausgeschrieben, gefolgt von der Abkürzung in runden  Klammern. 
@@ -186,7 +181,7 @@ Wird die Abkürzung nicht ausgeschrieben, wird das `<abbr>`-Element verwendet um
 <abbr title="zum Beispiel">z.B.</abbr>
 ```
 
-Kommt es dabei zudem zu einem Sprachwechsel, wird das Attribut `lang=""` ergänzt; Als Inhalt des Attributs wird der jeweilige [Code der Sprache](https://www.w3.org/International/questions/qa-html-language-declarations.de) der Abkürzung verwenden:
+Kommt es zudem zu einem Sprachwechsel, wird das Attribut `lang=""` ergänzt; Als Inhalt des Attributs wird der jeweilige [Code der Sprache](https://www.w3.org/International/questions/qa-html-language-declarations.de) der Abkürzung verwendet:
 
 ```html
 <abbr title="World Wide Web" lang="en">WWW<abbr>
@@ -222,12 +217,12 @@ Für die Barrierefreiheit ist es wichtig, dass Bilder und Schemagrafiken entwede
 
 Die Art der Textalternative ist dabei abhängig von der Art des Bildes:
 
--   Handelt es sich um eine Schmuckgrafik, so sollte keine Textalternative angegeben werden. Screenreader sollen diese Bilder ignorieren; Eine Beschreibung ist daher wegzulassen.
+-   Handelt es sich um eine Schmuckgrafik, sollte keine Textalternative angegeben werden. Screenreader sollen diese Bilder ignorieren; Eine Beschreibung ist daher wegzulassen.
 -   Handelt es sich um die Illustration eines im Text beschriebenen Sachverhaltes, ist lediglich eine kurze Textbeschreibung notwendig.
--   Wenn es sich bei dem Bild um ein informatives Bild handelt, welches nicht im Text beschrieben wird, ist eine ausführliche Textalternative für das Bild zu hinterlegen.
+-   Handelt es sich bei dem Bild um ein informatives Bild, welches nicht im Text beschrieben wird, ist eine ausführliche Textalternative für das Bild zu hinterlegen.
 -   Handelt es sich bei dem Bild um ein aktives Element um auf eine andere Webseite zu verlinken oder als grafischer Button eine Aktion auszulösen, ist nicht das Bild inhaltlich zu beschreiben, sondern das Linkziel oder das was passiert, wenn man auf das Bild klickt.
 
-Um eine Textalternative eines Bildes anzugeben, verwendet man im HTML-Element `<img>` das Attribut `alt=""`. Das Attribut `title=""` hingegen wird nur verwendet um das Titel des Bildes anzugeben. 
+Um eine Textalternative eines Bildes anzugeben, verwendet man im HTML-Element `<img>` das Attribut `alt=""`. Das Attribut `title=""` hingegen wird nur verwendet, um den Titel des Bildes anzugeben. 
 Unterstützt das CMS des Webauftritts auch Bildunterschriften, sind auch diese anzugeben, sofern das Bild keine Schmuckgrafik ist.
 
 #### Beispiele:
@@ -289,7 +284,7 @@ In normalen Textbereichen wird ein Link mit den HTML-Element `<a>`
 gesetzt:
 
 ```html
-Rufen Sie die <a href="(URL)"><Online-Broschüre zum Thema ABC</a> auf.
+Rufen Sie die <a href="(URL)">Online-Broschüre zum Thema ABC</a> auf.
 ```
 
 Bei Nutzung eines WYSIWYG-Editors reicht es oft, den entsprechenden Text zu selektieren und dann in einem erscheinenden Fenster die Zieladresse einzugeben oder aus einer Liste vorhandener Seiten auszuwählen.

@@ -19,34 +19,33 @@ Folgende Methoden und Test sind bei dem Besuch einer Seite durchzuführen:
 
 2. **Seite mit dem Handy aufrufen!**
 
-    Jeder Inhalt und jede Aktion muss auch mit dem Handy ausführbar sein. Dabei muss die Webseite nicht die selbe Optik haben wie eine Bildschirmseite auf einem großen Monitor. Ganz im Gegenteil sollte eine Seite auf einem Smartphone auch in der Reihenfolge und Anordnung von Seitenelementen auf die kleine Auflösung optimiert sein. Zudem lässt sich feststellen, ob sämtliche Elemente auch durch Touch-Bedienung erreichbar sind.
+    Jeder Inhalt und jede Aktion muss auch mit dem Handy ausführbar sein. Dabei muss die Webseite nicht die selbe Optik haben wie eine Bildschirmseite auf einem großen Monitor. Eine Seite sollte auf einem Smartphone auch bzgl. Reihenfolge und Anordnung von Seitenelementen auf die kleine Auflösung optimiert sein. Zudem lässt sich feststellen, ob sämtliche Elemente auch durch Touch-Bedienung erreichbar sind.
     
-3. **Vergrößern Sie die Schrift auf 200%**
+3. **Die Schrift auf 200% vergrößern!**
 
-     Ist noch alles nutzbar und erkennbar? Kommt es zur Überlagerung von Innhalten, so daß diese nicht mehr erreciht oder gelesen werden können?
+     Ist noch alles nutzbar und erkennbar? Kommt es zur Überlagerung von Innhalten, so dass diese nicht mehr erreicht oder gelesen werden können?
      
-4.  **Enthält die Seite Bilder?**
+4.  **Enthaltene Bilder prüfen.**
 
-    Wenn ja: Sind diese Bilder informativ und wenn dies zutrifft, sind die Inhalte auch im Text vorhanden? Wird auf das Bild im Text bezug genommen?
+    Enthält eine Seite Bilder? Sind diese Bilder informativ und sind die Inhalte auch im Text vorhanden? Wird auf das Bild im Text bezug genommen?
 
-5. **Drucken Sie die Seite auf einem Drucker im Schwarz-Weiß-Modus aus.**
+5. **Seite auf einem Drucker im Schwarz-Weiß-Modus ausdrucken.**
 
     Gibt es Inhalte, die nicht les- oder erkennbar sind?
     Und: Sieht die Seite gedruckt genauso aus, wie auf dem Bildschirm? Ist nach dem Ausdruck noch immer ein Menü vorhanden?
 
 6.  **Bewegung, Töne, Videos checken!**   
     
-    Bewegt sich etwas? Gibt es ein "Carousel", ein Bereich in dem Artikel und Bilder von selbst eingeblendet werden. Enthält die Seite sich bewegenden oder wechselnden Content?  Wird beim Aufruf der Seite ein Video unaufgefordert abgespielt?
-    Wenn ja: Kann ich es stoppen? Auch ohne Maus?
+    Bewegt sich etwas? Gibt es ein "Carousel", also einen Bereich in dem Artikel und Bilder von selbst eingeblendet werden. Enthält die Seite sich bewegenden oder wechselnden Content?  Wird beim Aufruf der Seite ein Video unaufgefordert abgespielt? Kann ich das Video stoppen - auch ohne Maus?
     
 7. **Tabellen prüfen.**
 
-    Wenn eine Tabelle vorhanden ist, dann ist das Browserfenster zu verkleinern oder die Seite mit dem Handy aufzufen. Kann man die Inhalte der Tabelle noch lesen, ohne einen Scrollbalken nach rechts bedienen zu müssen?
+    Zur Prüfung einer vorhandenen Tabelle ist das Browserfenster zu verkleinern oder die Seite mit einem Handy aufzurufen. Lassen sich die Inhalte der Tabelle noch lesen, ohne einen Scrollbalken nach rechts bedienen zu müssen?
 
 
-Sollte eine oder mehrere der obigen Situationen Probleme aufzeigen, ist die Zugänglichkeit der Seite nicht vollständig gegeben. Es ist in diesem Fall davon auszugehen, daß keine Konformität zur WCAG vorliegt.
+Sollte eine oder mehrere der obigen Situationen Probleme aufzeigen, ist die Zugänglichkeit der Seite nicht vollständig gegeben. Es ist in diesem Fall davon auszugehen, dass keine Konformität zur WCAG vorliegt.
 
-Das W3C selbst bietet ebenfalls einen Schnelltest an: [Easy Checks - A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/). Dieser ist schon ein wenig aufwendiger als oben aufgeführte Punkte; wenn auch ebenfalls noch keine vollständige Prüfung. 
+Das W3C selbst bietet ebenfalls einen Schnelltest an: [Easy Checks - A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/). Dieser ist etwas aufwendiger als oben aufgeführte Punkte und ebenfalls noch keine vollständige Prüfung. 
 
 Ein weiterer Schnelltest beschreibt Kerstin Probiesch in ihrem Artikel [Schnelltest zur Barrierefreiheit](http://webkrauts.de/artikel/2011/schnelltest-zur-barrierefreiheit) auf Webkrauts.de.  
 
@@ -55,7 +54,7 @@ Ein weiterer Schnelltest beschreibt Kerstin Probiesch in ihrem Artikel [Schnellt
 
 ## Prüfung zur Konformität zur WCAG  
 
-Das W3C hat eine eigene Seite zur Evaluierung der Barrierefreiheit eingerichtet: Unter [Test &amp; Evaluate](https://www.w3.org/WAI/test-evaluate/) erhält man einen Überblick über verschiedene Textmethoden, Werkzeugen und weiterführenden Informationen. 
+Das W3C hat eine eigene Seite zur Evaluierung der Barrierefreiheit eingerichtet: Unter [Test &amp; Evaluate](https://www.w3.org/WAI/test-evaluate/) erhält man einen Überblick über verschiedene Testmethoden, Werkzeugen und weiterführende Informationen. 
 Hierzu gehört auch eine umfangreiche Sammlung an Werkzeugen, die auf der Seite  [Web Accessibility Evaluation Tool List](https://www.w3.org/WAI/ER/tools/) angeboten wird. Die Sammlung ist entsprechend der Anforderungen und des zu testenden Angebots sortier- und filterbar.   
 
 Eine vollständige Prüfung über die Einhaltung der WCAG kann mit Hilfe der [Accessibility Conformance Evaluation Methodology (WCAG-EM)](https://www.w3.org/TR/WCAG-EM/) erfolgen. 
@@ -87,13 +86,13 @@ Für Webanwendungen wird Konformität mit den Barrierefreiheitsanforderungen ver
 
 ## Zertifikate
 
-Es gibt Anbieter, welche Zertifikate über eine Prüfung der Barrierefreiheit anbieten. Hierzu muss jedoch bemerkt werden, daß eine Prüfung in allen Fällen nur eine Momentaufnahme sein kann. Ein Prüfergebnis, welches die Konformität einer Webseite gemäß der WCAG 2.0 in der Konformitätsstufe AA belegt gilt für den Zeitpunkt des Tests. Da größere Webauftritte steten Änderungen und Aktualisierungen unterliegen, ist die Gültigkeit einer Prüfung ebenfalls zeitlich begrenzt. Diese Einschränkung unterliegt auch ein Prüfergebnis gemäß Annex C der europäischen Norm.
+Es gibt Anbieter, welche Zertifikate über eine Prüfung der Barrierefreiheit anbieten. Hierzu muss jedoch bemerkt werden, dass eine Prüfung in allen Fällen nur eine Momentaufnahme sein kann. Ein Prüfergebnis, welches die Konformität einer Webseite gemäß der WCAG 2.0 in der Konformitätsstufe AA belegt, gilt für den Zeitpunkt des Tests. Da größere Webauftritte steten Änderungen und Aktualisierungen unterliegen, ist die Gültigkeit einer Prüfung ebenfalls zeitlich begrenzt. Dieser Einschränkung unterliegt auch ein Prüfergebnis gemäß Annex C der europäischen Norm.
 
-Im Falle einer Barriere, die bei dem Besuch eines Betroffenen auftritt und dann tatsächlich vorhanden ist, ist ein vorheriges positives Prüfungsergebnis oder ein Zertifikat ohne Bedeutung: Die EU Richtlinie erfordert in allen Fällen die Behebung der Behebung der Barriere und das Anbieten eines geeigneten Feedback-Mechanismus.
+Im Falle einer Barriere, die beim Besuch eines Betroffenen auftritt und dann tatsächlich vorhanden ist, ist ein vorheriges positives Prüfungsergebnis oder ein Zertifikat ohne Bedeutung: Die EU-Richtlinie erfordert in allen Fällen die Behebung der Barriere und das Anbieten eines geeigneten Feedback-Mechanismus.
 
 Die EU-Richtlinie verpflichtet nicht zu einer Zertifizierung. Stattdessen fordert sie allein die Konformität der Webanwendungen gemäß der Europäischen Norm EN 301 549 V1.1.2 auf Basis der WCAG. Da die WCAG mit der WCAG-EM eigene Testverfahren enthalten, sind auch diese zu verwenden. 
-Eigene Prüfverfahren und Zertifikate von einzelnen Anbietern oder von staatlichen Einrichtungen geförderten Projekten werden von der EU Richtlinie und der WCAG nicht erfasst und sind daher nicht relevant.
-Die Autoren des Leitfaden empfehlen daher auf den Gebrauch von Zertifikaten zu verzichten.
+Eigene Prüfverfahren und Zertifikate von einzelnen Anbietern oder von staatlichen Einrichtungen geförderten Projekten werden von der EU-Richtlinie und der WCAG nicht erfasst und sind daher nicht relevant.
+Die Autoren des Leitfadens empfehlen daher auf den Gebrauch von Zertifikaten zu verzichten.
 
 
 
