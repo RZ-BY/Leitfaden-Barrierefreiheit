@@ -189,17 +189,17 @@ Die Musterdatenschutzerkärung der Stabsstelle IT-Recht der bayerischen staatlic
 
 ## Handlungsempfehlungen
 
-* Abhalten einer Auftaktveranstaltung zur Barrierefreiheit
-* Einsetzen eines Gremiums zur Umsetzung
-    * Festlegen von Verantwortlichkeiten für die Umsetzung der Barrierefreit
+- Abhalten einer Auftaktveranstaltung zur Barrierefreiheit
+- Einsetzen eines Gremiums zur Umsetzung
+    * Festlegen von Verantwortlichkeiten für die Umsetzung der Barrierefreiheit
     * Prüfung, ob eine Inhaltsfreigabe über eine zentrale Stelle koordiniert werden könnte
     * Auswahl der Webseiten, die gemäß Annex C der Europäischen Norm EN 301 549 V1.1.2 geprüft werden
-* Prüfung führender Systeme und aller neuen 
-* Konformität zur Europäischen Norm EN 301 549 V1.1.2 in der Regel als verpflichtendes Kriterium für Beschaffungen
-* Beständige Information und Sensiblisierung für das Thema
-* Barrierefreiheitserklärung und Feedback-Mechanismus auf Webseite und in mobilen Anwendungen veröffentlichen
-* Etablieren von Schulungsangeboten
-* Regelmäßiger hochschulübergreifender fachlicher Austausch der Wissensträger
+- Prüfung führender Systeme und aller neuen 
+- Konformität zur Europäischen Norm EN 301 549 V1.1.2 in der Regel als verpflichtendes Kriterium für Beschaffungen festlegen
+- Beständige Information und Sensiblisierung für das Thema
+- Barrierefreiheitserklärung und Feedback-Mechanismus auf Webseite und in mobilen Anwendungen veröffentlichen
+- Etablieren von Schulungsangeboten
+- Regelmäßiger hochschulübergreifender fachlicher Austausch der Wissensträger
 
 
 Vertiefung
