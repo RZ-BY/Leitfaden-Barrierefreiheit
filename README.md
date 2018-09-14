@@ -16,7 +16,7 @@ Er besteht aus mehreren Teilen, die je nach Personenkreis getrennt voneinander w
 
 ## Autoren
 
-- Johannes Nehlsen, [Universität Würzburg](https://www.uni-wuerzburg.de/)
+- Johannes Nehlsen, [Stabsstelle IT-Recht für die bayerischen staatlichen Hochschulen und Universitäten](https://www.rz.uni-wuerzburg.de/dienste/it-recht/)
 - Wolfgang Wiese, [Regionales Rechenzentrum Erlangen (RRZE)](https://www.rrze.fau.de)
 
 
