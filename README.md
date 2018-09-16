@@ -4,22 +4,34 @@ Dieser Leitfaden soll Einrichtungen und Angehörigen der Hochschulen für Angewa
 
 Er besteht aus mehreren Teilen, die je nach Personenkreis getrennt voneinander weitergegeben werden können:
 
-- 1. Vorwort und Einführung
-- 2. Überblick
-- 3. Bereitstellung und Pflege von Inhalten
-- 4. Entwicklung und Design
-- 5. Organisatorische und rechtliche Anforderungen
-- 6. Satzungen
-- 7. Tests
-- 8. Weitere Leitfäden und relevante Informationsangebote
+1. Vorwort und Überblick
+2. Einführung und Hintergründe
+3. Bereitstellung und Pflege von Inhalten
+4. Entwicklung und Design
+5. Organisatorische und rechtliche Anforderungen
+6. Satzungen
+7. Tests
+8. Weitere Leitfäden und relevante Informationsangebote
 
 
 ## Autoren
 
-- Johannes Nehlsen, [Universität Würzburg](https://www.uni-wuerzburg.de/)
+- Johannes Nehlsen, [Stabsstelle IT-Recht für die bayerischen staatlichen Hochschulen und Universitäten](https://www.rz.uni-wuerzburg.de/dienste/it-recht/)
 - Wolfgang Wiese, [Regionales Rechenzentrum Erlangen (RRZE)](https://www.rrze.fau.de)
-- Barbara Bothe, [Regionales Rechenzentrum Erlangen (RRZE)](https://www.rrze.fau.de)
 
+
+## Downloads
+
+Der Leitfaden wird im [GitHub-Projekt Leitfaden-Barrierefreiheit](https://github.com/RZ-BY/Leitfaden-Barrierefreiheit/) gepflegt. Hier können die Quelldateien und Exportversionen für verschiedene Dateiformate geladen werden:
+
+- Original Markdown-Dateien: [Verzeichnis /docs](https://github.com/RZ-BY/Leitfaden-Barrierefreiheit/tree/master/docs) 
+- Exportformate:
+     - [Word (docx, 1,6 MB)](https://github.com/RZ-BY/Leitfaden-Barrierefreiheit/raw/master/export/leitfaden-barrierefreiheit.docx) 
+     - [PDF (1,7 MB)](https://github.com/RZ-BY/Leitfaden-Barrierefreiheit/raw/master/export/leitfaden-barrierefreiheit.pdf)
+     - [EPub (1,6 MB)](https://github.com/RZ-BY/Leitfaden-Barrierefreiheit/raw/master/export/leitfaden-barrierefreiheit.epub)
+     - [HTML (ZIP-komprimiert mit Bildern, 1,8 MB)](https://github.com/RZ-BY/Leitfaden-Barrierefreiheit/raw/master/export/leitfaden-barrierefreiheit.zip)
+
+         
 ## Lizenz
 
 Der Leitfaden wird unter einer [Creativ Commons Lizenz](https://creativecommons.org/licenses/?lang=de) bereitgestellt: 
@@ -39,7 +51,7 @@ Der Leitfaden wird in Teilen via GitHub bereitgestellt um es weiteren Projekttei
 
 GitHub-URL: <https://github.com/RZ-BY/Leitfaden-Barrierefreiheit/>
 
-Das GitHub-Projekt ist dabei öffentlich und frei clonbar. Die freie Lizenz erlaubt die nicht kommerzielle Weiternutzung und Weiterentwicklung durch Dritte. 
+Das GitHub-Projekt ist dabei öffentlich und frei kopierbar. Die freie Lizenz erlaubt die nicht kommerzielle Weiternutzung und Weiterentwicklung durch Dritte. 
 
 
 ### Dokumenten- und Verzeichnisstruktur

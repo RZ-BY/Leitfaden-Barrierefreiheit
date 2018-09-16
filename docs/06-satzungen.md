@@ -1,3 +1,4 @@
+
 # Satzungen
 
 ## Aufgabenbereich und Zielgruppe
@@ -5,7 +6,7 @@
 
 Dieser Anwendungsbereich betrifft die Erstellung und Pflege von Satzungen, Prüfungsordnungen, Ordnungen und anderen Dokumenten mit regularischen oder dienstrechtlichen Anweisungen.
 
-Diese Art von Dokumenten bedürfen gesonderten Hinweisen und müssen besondere Ansprüche genügen. Daher wird diesem Aufgabenbereich ein eigener Kapitel gewittmet.
+Diese Art von Dokumenten bedürfen gesonderten Hinweisen und müssen besonderen Ansprüchen genügen. Daher wird diesem Aufgabenbereich ein eigenes Kapitel gewidmet.
 
 Dieses Kapitel wendet sich an folgende Personenkreise:
 
@@ -13,16 +14,18 @@ Dieses Kapitel wendet sich an folgende Personenkreise:
 -   Weisungsbefugte Einrichtungen und Abteilungen auf Leitungsebene, die
     Dokumente für den Geschäftsverkehr erstellen
 
+
 ## Grundlagen
 
-Hochschulen gestalten viele ihrer eigenen und staatlichen Aufgaben durch Satzungen oder auch Ordnungen. Anders als der Gesetzgeber, der nur durch Menschenrechte, das Grundgesetz und höherrangiges Recht, müssen bei Satzungen auch das einfache Recht beachtet werden. Form und Inhalt der Satzungen dürfen daher Menschen mit Behinderung nicht beeinträchtigen.
-Zudem sind Satzungen durch ihre Bekanntmachung eine allgemein zugänglichen Quellen zur Information, und müssen daher ungehindert jeder  Person zugänglich sein. Aus diesen Grundsätzen folgt, dass die veröffentlichten Dateiformate der Satzungen barrierefrei gestaltet sein müssen.
+Hochschulen gestalten viele ihrer eigenen und staatlichen Aufgaben durch Satzungen oder auch Ordnungen. Anders als der Gesetzgeber, der nur durch Menschenrechte, das Grundgesetz und höherrangiges Recht betrachtet, müssen bei Satzungen auch das einfache Recht beachtet werden. Form und Inhalt der Satzungen dürfen daher Menschen mit Behinderung nicht beeinträchtigen.
+Zudem sind Satzungen durch ihre Bekanntmachung eine allgemein zugängliche Quellen zur Information und müssen daher ungehindert jeder Person zugänglich sein. Aus diesen Grundsätzen folgt, dass die veröffentlichten Dateiformate der Satzungen barrierefrei gestaltet sein müssen.
+
 
 ## Umsetzung
 
 ### Allgemeines zu Satzungen und Prüfungsordnungen
 
-Zu prüfen wäre, ob eine grundsätzliche Barrierefreiheit schon durch den Einsatz der Software "eNorm" aus dem  Projekt des Bundesministerium der Justiz und für Verbraucherschutz "Elektronische Arbeitshilfen und Verkündung" bei Satzungen genutzt werden kann.
+Zu prüfen wäre, ob eine grundsätzliche Barrierefreiheit schon durch den Einsatz der [elektronischen Arbeitshilfen "eNorm"](https://www.enorm.bund.de/eNorm/) aus dem  Projekt des Bundesministerium der Justiz und für Verbraucherschutz "Elektronische Arbeitshilfen und Verkündung" bei Satzungen genutzt werden kann.
 
 ### Neue Satzungen und Prüfungsordnungen
 
@@ -30,11 +33,11 @@ Soweit neue Satzungen erstellt werden, kann durch die Nutzung von Formatvorlagen
 
 ### Änderungssatzungen und Änderungen in Prüfungsordnungen
 
-Nur bei umfassenden Neugestaltung kann statt einer Änderungssatzung eine vollständige Neubekanntmachunng erfolgen. Zur Barrierefereiheit der veröffentlichten Änderungssatzung gilt das gleiche wie für neue Satzungen.
+Nur bei umfassender Neugestaltung kann statt einer Änderungssatzung eine vollständige Neubekanntmachunng erfolgen. Zur Barrierefreiheit der veröffentlichten Änderungssatzung gilt das gleiche wie für neue Satzungen.
 
 ### Ordnungen und sonstige Rechtsdokumente
 
-Für Ordnungen wie sonstige Rechtsdokumente gilt anders als für Satzungen keine Einschränkung dahingehend, dass bei kleineren Änderungen keine Neuveröffentlichung zulässig ist. Daher beitet es sich an, diese stets im ganzen neu zu verfassen oder das Vorgängerdokument unmittelbar zu bearbeiten.
+Für Ordnungen und sonstige Rechtsdokumente gilt anders als für Satzungen keine Einschränkung dahingehend, dass bei kleineren Änderungen keine Neuveröffentlichung zulässig ist. Daher bietet es sich an, diese stets im Ganzen neu zu verfassen oder das Vorgängerdokument unmittelbar zu bearbeiten.
 
 ### Empfehlung
 
@@ -44,28 +47,31 @@ Soweit für Dokumente oder dateibasierte Formulare keine alternative barrierefre
 
 ## Rechtsquellen
 
-Grundgesetz
--   Art. 3 Abs. 3 S. 2 <https://www.gesetze-im-internet.de/gg/art_3.html>
--   Art. 5 Abs. 1 S. 1 <https://www.gesetze-im-internet.de/gg/art_5.html>
+### Grundgesetz
+-  Art. 3 Abs. 3 S. 2, <https://www.gesetze-im-internet.de/gg/art_3.html>
+-  Art. 5 Abs. 1 S. 1, <https://www.gesetze-im-internet.de/gg/art_5.html>
 
-Völkerrechtliche Vereinbarungen und Verträge
--   Art. 21 Buchstabe a Übereinkommen der Vereinten Nationen über die Rechte von Menschenmit Behinderungen <http://www.bmas.de/SharedDocs/Downloads/DE/PDF-Publikationen/a729-un-konvention.pdf?__blob=publicationFile>
+### Völkerrechtliche Vereinbarungen und Verträge
+-  Art. 21 Buchstabe a Übereinkommen der Vereinten Nationen über die Rechte von Menschen mit Behinderungen, <http://www.bmas.de/SharedDocs/Downloads/DE/PDF-Publikationen/a729-un-konvention.pdf?__blob=publicationFile>
 
-Bundesgesetze
--   Gemeinsame Geschäftsordnung der Bundesministerien <http://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_21072009_O11313012.htm>
-    -   § 42 Abs. 6 für barrierefreie Gesetzesentwürfe
-    -   § 62 Abs. 2 für barrierefreie Verordnungsentwürfe
+### Bundesgesetze
+ Gemeinsame Geschäftsordnung der Bundesministerien, <http://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_21072009_O11313012.htm>
 
-Bayerische Verfassung
--   Art. 118a S. 1 <http://www.gesetze-bayern.de/Content/Document/BayVerf-118a>
+-  § 42 Abs. 6 für barrierefreie Gesetzesentwürfe
+-  § 62 Abs. 2 für barrierefreie Verordnungsentwürfe
 
-Bayerisches Hochschulgesetz
--   Art. 2 Abs. 3 S. 3 und 4 <http://www.gesetze-bayern.de/Content/Document/BayHSchG-2>
--   Art. 13 Abs. 3 S. 2 <http://www.gesetze-bayern.de/Content/Document/BayHSchG-13>
+### Bayerische Verfassung
+-  Art. 118a S. 1 <http://www.gesetze-bayern.de/Content/Document/BayVerf-118a>
 
-Verordnung über die Bekanntmachung von Hochschulsatzungen <http://www.gesetze-bayern.de/Content/Document/BayHSchBekV/true>
+### Bayerisches Hochschulgesetz
+-  Art. 2 Abs. 3 S. 3 und 4, <http://www.gesetze-bayern.de/Content/Document/BayHSchG-2>
+-  Art. 13 Abs. 3 S. 2, <http://www.gesetze-bayern.de/Content/Document/BayHSchG-13>
+-  Verordnung über die Bekanntmachung von Hochschulsatzungen, <http://www.gesetze-bayern.de/Content/Document/BayHSchBekV/true>
+
+
 
 ## Vertiefung
 
 - Handbuch der Rechtsförmigkeit, <http://hdr.bmj.de/vorwort.html>
 - BeckOK HochschulR Bayern/Leiher BayHSchG Art. 13, <https://beck-online.beck.de/>
+
