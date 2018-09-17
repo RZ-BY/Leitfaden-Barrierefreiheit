@@ -16,14 +16,14 @@ Für Webseiten
 Social-Media-Kanäle
 -------------------
 
-- Facebook: [Anbieterinformationen mit Umsetzungsempfehlungen](https://www.facebook.com/help/accessibility)
-- Google+: [Anbieterinformationen](https://support.google.com/plus/answer/6320404)
-- Instagram: Offizelle Informationen nicht bekannt
-- LinkedIn: Anbieter hat guten Ruf hinsichtlich der Barrierefreiheit seines Angebotes, Informationen sind in der [Hilfe](https://www.linkedin.com/help/linkedin) verstreut.
-- Pinterest: [Anbieterinformationen mit Umsetzungsempfehlungen](https://medium.com/@Pinterest_Engineering/seven-best-practices-for-inclusive-product-design-9476c61f1e17)
-- Twitter: [Anbieterinformationen](https://help.twitter.com/en/using-twitter/picture-descriptions)
-- Xing: Derzeit keine Anbieterinformationen verfügbar; vereinzelt [Erfahrungsberichte](http://www.oliveira-online.net/wordpress/index.php/2018/08/17/die-mangelhafte-barrierefreiheit-von-xing/)
-- YouTube: [Anbieterinformationen](https://www.google.com/accessibility/products-features.html) und [Entwicklerinformationen](https://www.google.com/accessibility/for-developers.html)
+- Facebook: Anbieterinformationen mit Umsetzungsempfehlungen, <https://www.facebook.com/help/accessibility>
+- Google+: Anbieterinformationen, <https://support.google.com/plus/answer/6320404>
+- Instagram: Offizelle Informationen nicht bekannt.
+- LinkedIn: Anbieter hat guten Ruf hinsichtlich der Barrierefreiheit seines Angebotes, Informationen sind in der Hilfe <https://www.linkedin.com/help/linkedin> verstreut.
+- Pinterest: Anbieterinformationen mit Umsetzungsempfehlungen, <https://medium.com/@Pinterest_Engineering/seven-best-practices-for-inclusive-product-design-9476c61f1e17>
+- Twitter: Anbieterinformationen <https://help.twitter.com/en/using-twitter/picture-descriptions>
+- Xing: Derzeit keine Anbieterinformationen verfügbar; vereinzelt Erfahrungsberichte unter <http://www.oliveira-online.net/wordpress/index.php/2018/08/17/die-mangelhafte-barrierefreiheit-von-xing/>
+- YouTube: Anbieterinformationen <https://www.google.com/accessibility/products-features.html> und Entwicklerinformationen <https://www.google.com/accessibility/for-developers.html>
 
 
 Erstellung von Dokumenten aus Büroanwendungen (PDF, Office, u.a.)
