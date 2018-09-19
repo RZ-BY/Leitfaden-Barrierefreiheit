@@ -75,7 +75,7 @@ Die Beantwortung der Anfragen muss innerhalb einer angemessenen Frist erfolgen. 
 
 Die Barrierefreiheit war bereits nach nationalem Recht umzusetzen. Werden jedoch die neuen Fristen aus der Richtlinie 2016/2102 EU nicht eingehalten, liegt neben der verletzten gesetzlichen Pflicht ein Verstoß gegen EU-Recht vor. Aus diesem Grund sind die neuen Fristen von besonderer Relevanz.
 
--   Alle neuen **Dateiformate (PDF u.a.)** aus Büroanwendungen müssen **ab dem 23.09.2018** barrierefrei sein. 
+-   Alle neuen **Dateiformate (PDF u.a.)** aus Büroanwendungen müssen **ab dem 23.09.2018** barrierefrei sein. Jedoch greift der Druchsetzungsmechanismus erst zum 23.09.2019.
     Ältere Dateien müssen bis dahin ebenfalls barrierefrei sein, wenn sie für aktive 
     Verwaltungsverfahren benötigt werden. (z.B. Prüfungsordnungen!). 
 
