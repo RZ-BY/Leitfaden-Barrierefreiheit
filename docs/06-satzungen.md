@@ -17,7 +17,7 @@ Dieses Kapitel wendet sich an folgende Personenkreise:
 
 ## Grundlagen
 
-Hochschulen gestalten viele ihrer eigenen und staatlichen Aufgaben durch Satzungen oder auch Ordnungen. Anders als der Gesetzgeber, der nur durch Menschenrechte, das Grundgesetz und höherrangiges Recht betrachtet, müssen bei Satzungen auch das einfache Recht beachtet werden. Form und Inhalt der Satzungen dürfen daher Menschen mit Behinderung nicht beeinträchtigen.
+Hochschulen gestalten viele ihrer eigenen und staatlichen Aufgaben durch Satzungen oder auch Ordnungen. Anders als der Gesetzgeber, der nur durch Menschenrechte, das Grundgesetz und höherrangiges Recht betrachtet, muss bei Satzungen auch das einfache Recht beachtet werden. Form und Inhalt der Satzungen dürfen daher Menschen mit Behinderung nicht beeinträchtigen.
 Zudem sind Satzungen durch ihre Bekanntmachung eine allgemein zugängliche Quellen zur Information und müssen daher ungehindert jeder Person zugänglich sein. Aus diesen Grundsätzen folgt, dass die veröffentlichten Dateiformate der Satzungen barrierefrei gestaltet sein müssen.
 
 

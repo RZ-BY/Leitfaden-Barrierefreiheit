@@ -300,7 +300,7 @@ oder ein Tab geöffnet wird, sollte daher grundsätzlich dem Leser selbst überl
 
 Auf manchen Webseiten sieht man, dass Links zusätzlich mit einem `title=""` -Attribut versehen wurden.
 Dies sollte man ebenfalls nur in besonderen Ausnahmefällen tun. Das Attribut sollte nur dann verwendet werden, wenn der Linktext nicht gleich dem tatsächlichen Titel des aufzurufenden Dokumentes ist.
-Screenreader werden bei einem Link üblicherweise sowohl den Title, sofern vorhanden, als auch den Linktext vorlesen. Sind Linktext und Titel dagegen gleich, werden Menschen mit Screenreader daher denselben Text unnötigerweise zweimal anhören müssen.
+Screenreader werden bei einem Link üblicherweise sowohl den Titel, sofern vorhanden, als auch den Linktext vorlesen. Sind Linktext und Titel dagegen gleich, werden Menschen mit Screenreader daher denselben Text unnötigerweise zweimal anhören müssen.
 
 #### Verpflichtende Erfolgskriterien
 
@@ -313,7 +313,7 @@ Screenreader werden bei einem Link üblicherweise sowohl den Title, sofern vorha
 ### Tabellen
 
 Für die Nutzung von Tabellen gilt eine feste Regel: **Tabellen dürfen nur für tabellarische Daten genutzt werden.** Tabellen sind nicht dazu gedacht, Texte und Bilder auszurichten oder die Seite zu layouten. Es
-gilt auch hier das oben Genannte: Wenn eine besondere optische Darstellung benötigt wird, so ist es Aufgabe des Designs und der Technik, entsprechende Funktionalitäten bereitzustellen. Wird beispielsweise eine Ausrichtung des Inhaltes in zwei oder mehr Spalten gewünscht, wird dies bei modernen Websites oft durch eigene Anweisungen geleistet. So verfügen Websites, die auf dem populären Bootstrap-Framework beruhen, über eine umfangreiche  Klassenbibliothek um Inhaltsbereiche in bis zu 12 Spalten aufzutrennen. Eine Tabelle erweist sich bei der Nutzung als Gestaltungswerkzeug spätestens bei dem Aufruf der Seite mit dem Smartphone als untauglich: So werden dann Inhalte nicht mehr erkennbar und es kommt zu horizonatlen Scrollbalken. Wird hingegen ein vorgegebenes Grid-System verwendet, werden die Spalten serialisiert und in korrekter Reihenfolge übereinander positioniert.
+gilt auch hier das oben Genannte: Wenn eine besondere optische Darstellung benötigt wird, so ist es Aufgabe des Designs und der Technik, entsprechende Funktionalitäten bereitzustellen. Wird beispielsweise eine Ausrichtung des Inhaltes in zwei oder mehr Spalten gewünscht, wird dies bei modernen Websites oft durch eigene Anweisungen geleistet. So verfügen Websites, die auf dem populären Bootstrap-Framework beruhen, über eine umfangreiche  Klassenbibliothek um Inhaltsbereiche in bis zu 12 Spalten aufzutrennen. Eine Tabelle erweist sich bei der Nutzung als Gestaltungswerkzeug spätestens bei dem Aufruf der Seite mit dem Smartphone als untauglich: So werden dann Inhalte nicht mehr erkennbar und es kommt zu horizontalen Scrollbalken. Wird hingegen ein vorgegebenes Grid-System verwendet, werden die Spalten serialisiert und in korrekter Reihenfolge übereinander positioniert.
 
 Bei der Nutzung von Datentabellen ist den jeweiligen Zellen eine Überschrift zuzuordnen. Dies erfolgt mit Hilfe des Elements `<th>`. Die eigentlichen Zellen mit Daten werden dagegen mit dem Element `<td>`
 gekennzeichnet. Die Zeilen werden durch das Element `<tr>`  ausgezeichnet.
@@ -336,7 +336,7 @@ Eine einfache Datentabelle ist in HTML wie folgt aufgebaut:
 
 Je nach Komplexität der Datentabelle ist es sinnvoll, weitere Überschriften und Beziehungen von Zellen zueinander zu definieren. Die [Anleitung des W3C zu Tabellen](https://www.w3.org/WAI/tutorials/tables/) bietet eine ausführliche Erläuterung mit Beispielen zum korrekten Gebrauch und Einsatz.
 
-Gängige WYSWIYG-Editoren, wie der TinyMCE-Edtor, verfügen über Hilfsmittel um Tabellen auch ohne Kenntnisse von HTML zu erstellen.
+Gängige WYSWIYG-Editoren, wie der TinyMCE-Editor, verfügen über Hilfsmittel um Tabellen auch ohne Kenntnisse von HTML zu erstellen.
 
 ![Bild: Screenshot des Table-Wizards in TinyMCE](03-inhalte/tables-tinymce.jpg)
 

@@ -15,7 +15,7 @@ Dieses Kapitel wendet sich an folgende Personenkreise:
 
 ## Grundlagen
 
-Barrierefreiheit ist kein neues Thema. Da die Exekutive durch das Onlinezugangsgesetz und E-Goverment-Gesetze verpflichtet ist, Ihre Leistungen (demnächst) und Informationen auch digital anzubeiten, gewinnt die Barrirefreiheit stark an Bedeutung.
+Barrierefreiheit ist kein neues Thema. Da die Exekutive durch das Onlinezugangsgesetz und E-Goverment-Gesetze verpflichtet ist, ihre Leistungen (demnächst) und Informationen auch digital anzubeiten, gewinnt die Barrierefreiheit stark an Bedeutung.
 Verfassungsrechtlich gut begründbar ist es, einen Leistungsanspruch auf Zugänglichkeit von Informationen für benachteiligte Personen anzunehmen (Vgl. Sachs/Bethge GG Art. 5 Rn. 62-63, beck-online zu Art. 5 Abs. 1 2. Halbsatz GG i.V.m. Art. 3 Abs. 1 GG).
 Die verfassungrechtliche Grenze dieser Leistung ergibt sich nur aus den verfügbaren Mitteln der handelnden Behörde.
 
@@ -34,7 +34,7 @@ Im Anwendungsbereich der Richtlinie wurde die BITV nunmehr durch die Europäisch
 
 ### Bayerisches Gesetz zur Gleichstellung, Integration und Teilhabe von Menschen mit Behinderung
 
-Die einfachgesetzliche Pflicht zur Barrierefreiheit von Webseiten und Programmen folgt in Bayern für staatliche Hochschulen aus Art. 13 BayBGG. Dieser wurde auch bereits an die Richlinie angepasst und umfasst nun explizit auch mobile Anwendungen. Die Details werden wie bisher in einer Verordnung geregelt. Jedoch waren Apps auch bereits zuvor vom BayBGG erfasst.
+Die einfache gesetzliche Pflicht zur Barrierefreiheit von Webseiten und Programmen folgt in Bayern für staatliche Hochschulen aus Art. 13 BayBGG. Dieser wurde auch bereits an die Richlinie angepasst und umfasst nun explizit auch mobile Anwendungen. Die Details werden wie bisher in einer Verordnung geregelt. Jedoch waren Apps auch bereits zuvor vom BayBGG erfasst.
 
 ### Bayerische Barrierefreie Informationstechnik-Verordnung
 
@@ -42,7 +42,7 @@ Die Bayerische Barrierefreie Informationstechnik-Verordnung (BayBITV) setzte in 
 
 Die Umsetzung gemäß § 2 BayBITV (2006) nun § 1 Abs. 1 BayBITV gibt für Webangebote der staatlichen Hochschulen die Empfehlung, die Barrierefreiheit nach der BITV Analge in der Stufe Priorität I umzusetzen. Für zentrale Navigations- und Einstiegsangebote ist die Empfehlung, diese gemäß der BITV Anlage in der Stufe Priorität II umzusetzen.
 
-Für den Anwendungsbreich der Richtlinie 2016/2102 EU sind die Empfehlungen der BITV hinfällig. Maßgeblicher Standard für Webanwendungen der Hochschulen ist nun die WCAG über die Europäischen Norm EN 301 549 V1.1.2.  Festzustellen ist, dass Hochschulen, die sich bereits vorher an die WCAG orientierten, einen Vorsprung in der Umsetzung der Barrierefreiheit erlangten. 
+Für den Anwendungsbereich der Richtlinie 2016/2102 EU sind die Empfehlungen der BITV hinfällig. Maßgeblicher Standard für Webanwendungen der Hochschulen ist nun die WCAG über die Europäischen Norm EN 301 549 V1.1.2.  Festzustellen ist, dass Hochschulen, die sich bereits vorher an die WCAG orientierten, einen Vorsprung in der Umsetzung der Barrierefreiheit erlangten. 
 
 Die Verordnung ist nun an die Richtlinie 2016/2102 EU und den geänderten Art. 13 BayBGG anzupassen oder gänzlich neu zu verfassen.
 
@@ -62,12 +62,12 @@ Die erforderlichen Alternativen können Leistungen von Kontakt- und Informations
 
 #### Bestandsaufnahme und innerorganistorische Gestaltung
 
-Um auch den Gestaltungsspielraum, den die Richtlinie 2016/2102 EU beitet auszuschpöpfen, ist im ersten Schritt eine Bestandsaufanhme der wichtigsten Webseiten, Social-Media-Kanäle und Verwaltungsdokumente durchführen. Erste Schritte erhalten Sie im Kapitel <Test zur Barrierefreiheit>. Optimal beiten Sie für die Mitglieder der Hochschule Veranstaltungen zum Thema Barrierefreiheit an, und setzen ein Germium zur Begleitung der Umsetzungsprojekte ein und verzahnen Barrirefreiheit in die Schulungsprogramme. Gerade für Webseiten wäre zu Prüfen, ob eine höhere Konformität der Inhalte durch einen Freigabeprozess oder zentral organisierte Redaktion erreichbar ist. 
+Um auch den Gestaltungsspielraum, den die Richtlinie 2016/2102 EU bietet auszuschöpfen, ist im ersten Schritt eine Bestandsaufanhme der wichtigsten Webseiten, Social-Media-Kanäle und Verwaltungsdokumente durchführen. Erste Schritte erhalten Sie im Kapitel "Test zur Barrierefreiheit". Optimal bieten Sie für die Mitglieder der Hochschule Veranstaltungen zum Thema Barrierefreiheit an, und setzen ein Germium zur Begleitung der Umsetzungsprojekte ein und verzahnen Barrirefreiheit in die Schulungsprogramme. Gerade für Webseiten wäre zu prüfen, ob eine höhere Konformität der Inhalte durch einen Freigabeprozess oder zentral organisierte Redaktion erreichbar ist. 
 
-#### Feeback-Mechanismus
+#### Feedback-Mechanismus
 
 Über die konkrete Umsetzung des Feedback-Verfahrens äußert sich die Richtlinie 2016/2102 EU kaum.
-Aus dem Entwurf der Mustererklärung für die Erklärung zur Barrierefreiheit wird ersichtlich, dass es eine Meldemöglichkeit geben muss und eine verantwortliche Person zu benennen ist. Aus den Erwägungsgründen wird zudem ersichtlich, dass über den Feeback-Mechanismus nicht barrierefreie Informationen, Dienstleistungen oder Dokumente für Betroffene barrierefrei zugänglich gemacht werden sollen. 
+Aus dem Entwurf der Mustererklärung für die Erklärung zur Barrierefreiheit wird ersichtlich, dass es eine Meldemöglichkeit geben muss und eine verantwortliche Person zu benennen ist. Aus den Erwägungsgründen wird zudem ersichtlich, dass über den Feedback-Mechanismus nicht barrierefreie Informationen, Dienstleistungen oder Dokumente für Betroffene barrierefrei zugänglich gemacht werden sollen. 
 
 Die Beantwortung der Anfragen muss innerhalb einer angemessenen Frist erfolgen. Bei einer nicht zufriedenstellenden Antwort können Betroffene ein Durchsetzungsverfahren einleiten.  
 
@@ -115,7 +115,7 @@ Die Angebote sollen auch bestmöglichst zu assistiven Technologien kompatibel se
 
 In der konkreten Ausgestaltung sieht der Bayerische Gesetzgeber eine schrittweise technische Umstellung der Angebote vor. Dies erspart jedoch nicht die Bestandsaufnahme für jedes Angebot (Webauftritte, Intranets und mobile Anwendungen) hinsichtlich der Barrierefreiheit. 
 
-Art. 13 Abs. 1 S. 2 schränkt die Umsetzung auf die technischen, finanziellen, wirtschaftlichen und verwaltungsorganisatorischen Möglichkeiten des jeweiligen Trägers öffentlicher Gewalt ein. Hier können auch die Ausnahmen der Richtlinie 2016/2102 EU wieder hineingelesen werden, wie sie etwa für Karten oder ditalisierte Kulturgüter vorgesehen sind.
+Art. 13 Abs. 1 S. 2 schränkt die Umsetzung auf die technischen, finanziellen, wirtschaftlichen und verwaltungsorganisatorischen Möglichkeiten des jeweiligen Trägers öffentlicher Gewalt ein. Hier können auch die Ausnahmen der Richtlinie 2016/2102 EU wieder hineingelesen werden, wie sie etwa für Karten oder digitalisierte Kulturgüter vorgesehen sind.
 
 Mit Blick auf Art. 5 der Richtlinie 2016/2012 EU wird dies noch etwas spezifischer ausgeführt. Insbesondere in Hinblick auf
 
@@ -123,7 +123,7 @@ Mit Blick auf Art. 5 der Richtlinie 2016/2012 EU wird dies noch etwas spezifisch
 - Die Umsetzungskosten im Vergleich zu den mit einer Umsetzung erzielbaren Vorteilen;
 - Nutzungshäufigkeit der Webseiten und mobilen Anwendungen durch Menschen mit Behinderungen.
 
-Ziel ist, dass durch die Umsetzung der Barrierefreiheit keine übermäßige organisatorische oder finanzielle Last entstehen. 
+Ziel ist, dass durch die Umsetzung der Barrierefreiheit keine übermäßige organisatorische oder finanzielle Last entsteht. 
 Da die Umsetzung von barrierefreiem Webdesign Vorteile mit sich bringt wie 
 
 - responsives Design, 
@@ -138,7 +138,7 @@ Die Ausgestaltung der neuen Richtlinien wird in einer angepassten BayBITV oder e
 
 ## Vertragliche Anforderungen bei Auftragsarbeiten 
 
-Werden Webseiten nicht hochschulintern, sondern extern entwickelt oder designt, hat die Einrichtung, die einen solchen Auftrag vergibt, neben dem Haushaltsrecht sicherzustellen, dass in der Auftragsdefinition die EInhaltung der EU-Norm zur Barrierefreiheit verbindlich gefordert wird. Dies gilt nicht nur für Programmierarbeiten, sondern auch für gestalterische Leistungen.
+Werden Webseiten nicht hochschulintern, sondern extern entwickelt oder gestaltet, hat die Einrichtung, die einen solchen Auftrag vergibt, neben dem Haushaltsrecht sicherzustellen, dass in der Auftragsdefinition die Einhaltung der EU-Norm zur Barrierefreiheit verbindlich gefordert wird. Dies gilt nicht nur für Programmierarbeiten, sondern auch für gestalterische Leistungen.
 
 ### Die Schritte zum Auftrag (vereinfachte Darstellung)
 
@@ -147,7 +147,7 @@ Werden Webseiten nicht hochschulintern, sondern extern entwickelt oder designt, 
 3.  Einhalten des Vergaberechts
     - a) Dokumentation der Entscheidung und des Verfahrens
     - b) Bis € 1000 (ohne Umsatzsteuer) ist eine Direktvergabe möglich
-    - c) Bis € 50.000 (ohne Umsatzsteuer) ist bei entsprechender Begründung die Vergabe nach Einholung von  drei Angeboten erfolgen. Ab € 25.000 (ohne Umsatzsteuer) ist eine elektronische Vergabe vorgesehen.
+    - c) Bis € 50.000 (ohne Umsatzsteuer) ist bei entsprechender Begründung die Vergabe nach Einholung von  drei Angeboten möglich. Ab € 25.000 (ohne Umsatzsteuer) ist eine elektronische Vergabe vorgesehen.
     - d) Bei größeren Aufträgen sollte stehts eine Abstimmung mit dem Einkauf erfolgen
 
 ### Die Schritte nach dem Auftrag
@@ -157,11 +157,9 @@ Werden Webseiten nicht hochschulintern, sondern extern entwickelt oder designt, 
 4.  Erneute Prüfung auf Barrierefreiheit
 5.  Nach Fristablauf Durchsetzung Ihrer Rechte anstreben
 
-    a)  Verlangen eines Vorschusses in Höhe der Kosten für die Herstellung der Barrierefreiheit
-   
-    b)  Alternativ vom Vertrag auflösen oder teilweise die Vergütung zurückfordern
-    
-    c)  Geltendmachen von Schadensersatzansprüchen
+    - a)  Verlangen eines Vorschusses in Höhe der Kosten für die Herstellung der Barrierefreiheit
+    - b)  Alternativ den Vertrag auflösen oder teilweise die Vergütung zurückfordern
+    - c)  Geltendmachen von Schadensersatzansprüchen
 
 ## Weitere Pflichtangaben auf Webseiten
 
@@ -177,7 +175,7 @@ Häufige Fehler sind die fehlende Angabe der Rechtsform, fehlende gesetzliche Ve
 
 Gerade eigenständige Projektseiten oder Webseiten der Hochschulvereine haben ihr Impressum noch nicht aktualisiert. Häufig werden auch unbedacht nicht passende Textbausteine aus Musterdatenschutzerklärungen eingefügt. 
 
-Die Musterdatenschutzerkärung der Stabsstelle IT-Recht der bayerischen staatlichen Universitäten und Hochschulen versucht diese Fehlerquellen zu minimieren und versucht in seinem Umfang die üblichen Anfoderungen eines Hochschulinternetauftritts gerecht zu werden.
+Die Musterdatenschutzerkärung der Stabsstelle IT-Recht der bayerischen staatlichen Universitäten und Hochschulen versucht diese Fehlerquellen zu minimieren und versucht in seinem Umfang die üblichen Anforderungen eines Hochschulinternetauftritts gerecht zu werden.
 
 ## Handlungsempfehlungen
 
