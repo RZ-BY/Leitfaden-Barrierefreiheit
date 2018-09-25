@@ -23,11 +23,11 @@ Folgende Methoden und Test sind bei dem Besuch einer Seite durchzuführen:
     
 3. **Die Schrift auf 200% vergrößern!**
 
-     Ist noch alles nutzbar und erkennbar? Kommt es zur Überlagerung von Innhalten, so dass diese nicht mehr erreicht oder gelesen werden können?
+     Ist noch alles nutzbar und erkennbar? Kommt es zur Überlagerung von Inhalten, so dass diese nicht mehr erreicht oder gelesen werden können?
      
 4.  **Enthaltene Bilder prüfen.**
 
-    Enthält eine Seite Bilder? Sind diese Bilder informativ und sind die Inhalte auch im Text vorhanden? Wird auf das Bild im Text bezug genommen?
+    Enthält eine Seite Bilder? Sind diese Bilder informativ und sind die Inhalte auch im Text vorhanden? Wird auf das Bild im Text Bezug genommen?
 
 5. **Seite auf einem Drucker im Schwarz-Weiß-Modus ausdrucken.**
 
