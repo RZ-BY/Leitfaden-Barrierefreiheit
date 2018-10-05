@@ -145,31 +145,32 @@ Für die Durchsetzung und Überwachung ist für Träger öffentlicher Gewalt das
 
 ### Bayerische Besonderheiten
 
-#### Deutsche Gebärdensprache und Leichte Sprache
-Für Neuveröffentlichung ab dem 1. Oktober 2018  sind zusätzliche Inhalte gemäß Anlage 2 BITV 2.0 in Deutscher Gebärdensprache und in Leichter Sprache bereitzustellen.
-Dies umfasst
-- Informationen zum Inhalt 
-- Navigationshinweise  
-- Hinweise auf weitere Informationen, die in diesem Auftritt entweder in Deutscher Gebärdensprache oder in Leichter Sprache eingestellt sind.
-
-Es bietet sich an, den Auftritt neben Deutsch und Englisch die Sprachversion Deutscher Gebärdensprache und Leichte Sprache anzubieten. Eine Wirtschaftlichkeit Inhalte in dieser Form anzubieten ist abseits der zentrale Navigations- und Einstellungsangebote sehr genau zu prüfen.
-
 #### Bayerische Fristen
 
-Da der gesetzliche Auftrag in Bayern schon seit 2006 besteht, sind die Umsetzungfristen in Bayern angepasst. Es 
+Da der einfachgesetzliche Auftrag in Bayern schon seit 2006 besteht, sind die Umsetzungfristen in Bayern angepasst. 
 
-|Anwender|Webseitenstand|BayBITV 2006|BayBITV 2016|BayBITV 1.Oktober 2018|
+|Träger|Webseitenstand|BayBITV 2006|BayBITV 2016|BayBITV 1.Oktober 2018|
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-|Staatsverwaltung|bis 31. Dezember 2005|bis 31. Dezember 2013|-|-|
-|Staatsverwaltung|ab 1. Januar 2006|bis 31. Dezember 2012|-|-|
-|Staatsverwaltung|bis 30. September 2018|-|-|ab 1. Oktober 2020|
-|Staatsverwaltung|ab 1. Oktober 2018|-|-|ab 1. Oktober 2019|
+|Staatsverwaltung|bis 31. Dezember 2005|bis 31. Dezember 2013|Pflicht|-|
+|Staatsverwaltung|ab 1. Januar 2006|bis 31. Dezember 2012|Pflicht|-|
+|Staatsverwaltung|bis 30. September 2018|-|Pflicht|ab 1. Oktober 2020|
+|Staatsverwaltung|ab 1. Oktober 2018|-|Pflicht|ab 1. Oktober 2019|
 |Hochschulen|bis 30. September 2018|Empfehlung|Empfehlung|ab 1. Oktober 2020|
 |Hochschulen|ab 1. Oktober 2018|Empfehlung|Empfehlung|ab 1. Oktober 2019|
 |Seiten zur Teilhabe|-|bis 31. Dezember 2010|-|-|
 |Apps|-|Wie Webseiten|Wie Webseiten|ab 1. Juli 2021|
 
 Für Dateiformate aus Büroanwendungen sind die gleichen Fristen maßgeblich. Intranets/Extranets sind wie Webseiten zu behandeln.
+
+#### Deutsche Gebärdensprache und Leichte Sprache
+
+Für Neuveröffentlichung ab dem 1. Oktober 2018  sind nach Fristablauf (siehe zuvor) zusätzliche Inhalte gemäß Anlage 2 BITV 2.0 in Deutscher Gebärdensprache und in Leichter Sprache bereitzustellen.
+Dies umfasst
+- Informationen zum Inhalt 
+- Navigationshinweise  
+- Hinweise auf weitere Informationen, die in diesem Auftritt entweder in Deutscher Gebärdensprache oder in Leichter Sprache eingestellt sind.
+
+Es bietet sich an, den Auftritt neben Deutsch und Englisch die Sprachversion Deutscher Gebärdensprache und Leichte Sprache anzubieten. Eine Wirtschaftlichkeit Inhalte in dieser Form anzubieten ist abseits der zentrale Navigations- und Einstellungsangebote sehr genau zu prüfen.
 
 ## Vertragliche Anforderungen bei Auftragsarbeiten 
 
