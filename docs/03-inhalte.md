@@ -169,7 +169,7 @@ Für Abkürzungen sollte Folgendes beachtet werden:
 
 ##### Beispiele:
 
-Bei der Ausschreibung von *WLAN* sähe der entsprechende HTML-Code daher so aus:
+Bei der Ausschreibung von *DSL* sähe der entsprechende HTML-Code daher so aus:
 
 ```html
    <span lang="en">Digital Subscriber Line</span>
