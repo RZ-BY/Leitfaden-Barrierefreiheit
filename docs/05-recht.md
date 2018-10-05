@@ -13,6 +13,8 @@ Dieses Kapitel wendet sich an folgende Personenkreise:
 -   Verantwortliche von Webauftritten
 -   Verantwortliche Auftragsgeber
 
+Er dient als Ergänzung und Vertiefung des Handlungsleitfadens für IT-Verantwortliche "Barrierefreie Software V1.0". 
+
 ## Grundlagen
 
 Barrierefreiheit ist kein neues Thema. Da die Exekutive durch das Onlinezugangsgesetz und E-Goverment-Gesetze verpflichtet ist, ihre Leistungen (demnächst) und Informationen auch digital anzubeiten, gewinnt die Barrierefreiheit stark an Bedeutung.
@@ -91,11 +93,11 @@ Die Barrierefreiheit war bereits nach nationalem Recht umzusetzen. Werden jedoch
 
 ### Barriefreiheit und ihre Grenzen
 
-Der Leitfaden der Staatsregierung gibt den IT-Entscheidern auf den Seiten 9 und 10 umfassenden Empfehlungen, wann gemäß § 1 Abs. 1 BayBITV eine im Einzelfall durch die Einhaltung der Barrierefreiheitsanforderungen eine unverhältnismäßige Belastung entseht, bzw. eine nach § 1 Abs. 1 S. 2 BayBITV (30. September 2018) Barrierefreiheit aus finanziellen, wirtschaftlichen oder verwaltungsorganisatorischen Gründen unverhältnismäßig ist oder aus technischen Gründen unmöglich ist.
+Der Handlungsleitfaden für IT-Verantwortliche "Barrierefreie Software V1.0" gibt den IT-Entscheidern auf den Seiten 9 und 10 umfassenden Empfehlungen, wann gemäß § 1 Abs. 1 BayBITV eine im Einzelfall durch die Einhaltung der Barrierefreiheitsanforderungen eine unverhältnismäßige Belastung besteht.
 
 #### Vertiefung der Ausnahmen
 
-Ergänzend zu diesem Leitfaden können die nachfolgenden Passagen bei der Entscheidungsfindung unterstützen.
+Ergänzend zum Handlungsleitfaden für IT-Verantwortliche "Barrierefreie Software V1.0" können die nachfolgenden Passagen bei der Entscheidungsfindung unterstützen.
 So gewährend die Richtlinie 2016/2102/EU einige Ausnahmen bei bestimmten Arten oder bei bestimmten Alter von Inhalten:
 
 * Dateiformate von Büroanwendungen, die vor dem 23. September 2018 veröffentlicht wurden, soweit nur dokumentarisch (z.B. Folien zu früheren Veranstaltungen)
@@ -176,7 +178,7 @@ Werden Webseiten nicht hochschulintern, sondern extern entwickelt oder gestaltet
 ### Die Schritte zum Auftrag (vereinfachte Darstellung)
 
 1.  Wirtschaftlichkeitsbetrachtung
-2.  Konformität zur Europäischen Norm EN 301 549 V1.1.2 - Der Leitfaden der bayerischen Staatsregierung enthält auf Seite 16-18 wertvolle Empfehlungen zu Leistungsanforderung für die Beschaffung. Die [Stabsstelle IT-Recht](https://www.rz.uni-wuerzburg.de/dienste/it-recht/) bietet dafür gegen Ende 2018 einen Mustertragvertrag an.
+2.  Konformität zur Europäischen Norm EN 301 549 V1.1.2 - Der Handlungsleitfaden für IT-Verantwortliche "Barrierefreie Software V1.0" enthält auf Seite 16-18 wertvolle Empfehlungen zu Leistungsanforderung für die Beschaffung. Die [Stabsstelle IT-Recht](https://www.rz.uni-wuerzburg.de/dienste/it-recht/) bietet dafür gegen Ende 2018 einen Mustertragvertrag an.
 3.  Einhalten des Vergaberechts
     - a) Dokumentation der Entscheidung und des Verfahrens
     - b) Bis € 1000 (ohne Umsatzsteuer) ist eine Direktvergabe möglich
