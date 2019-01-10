@@ -74,7 +74,7 @@ Zum Zusammenstellen des Gesamtdokumentes wird das Werkzeug [Pandoc](https://pand
 
 Für die Erstellung der PDF Dokumente ist unter Umständen zusätzliche die Installation von pdflatex oder [MiKTeX](https://miktex.org/) notwendig.
 
-Bei der Struktur der Markdown-Dateien in /docs/  wurde darauf geachtet, daß auch Tools wie beispielsweise [DAUX.IO](https://dauxio.github.io/) angewendet wrden können. Diese Werkzeuge ermöglichen es, aus den einzelnen Dateien eine Webseite zu erstellen. 
+Bei der Struktur der Markdown-Dateien in /docs/  wurde darauf geachtet, daß auch Tools wie beispielsweise [DAUX.IO](https://dauxio.github.io/) angewendet werden können. Diese Werkzeuge ermöglichen es, aus den einzelnen Dateien eine Webseite zu erstellen. 
 
 
 ##### Export-Templates
