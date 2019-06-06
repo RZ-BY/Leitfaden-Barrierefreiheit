@@ -30,9 +30,10 @@ Mit einer Anpassung der Europäischen Norm auf die Fassung der WCAG 2.1 ist zu r
 
 ### Verordnung zur Schaffung barrierefreier Informationstechnik (BITV)
 
-Auf Bundesebene galt bisher die "Barrierefreie-Informationstechnik-Verordnung" (BITV). Diese schrieb vor, wie nach dem Behindertengleichstellungsgesetz (BGG) die Träger öffentlicher Gewalt, insbesondere die Bundesbehörden, Barrierefreiheit technisch umsetzen sollten. Viele Landesgesetze und Landesverordnungen verwiesen zur Umsetzung der Landesgesetze auf die BITV. 
+Auf Bundesebene gilt die ["Barrierefreie-Informationstechnik-Verordnung" (BITV)](https://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html). Diese schreibt vor, wie nach dem Behindertengleichstellungsgesetz (BGG) die Träger öffentlicher Gewalt, insbesondere die Bundesbehörden, Barrierefreiheit technisch umsetzen sollen. Viele Landesgesetze und Landesverordnungen verweisen zur Umsetzung der Landesgesetze auf die BITV. 
 
-Im Anwendungsbereich der Richtlinie wurde die BITV nunmehr durch die Europäische Norm verdrängt. Für Gesetz- und Verordnungsgeber besteht daher teilweise noch Anpassungsbedarf.
+Die BITV wurde zum 21. Mai 2019 auf die Version 2.0 aktualisiert um sie entsprechend der EU Richtlinie auf die Europäische Norm anzupassen.
+
 
 ### Bayerisches Gesetz zur Gleichstellung, Integration und Teilhabe von Menschen mit Behinderung
 
