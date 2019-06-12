@@ -66,8 +66,8 @@ Rechtliche Anforderungen
 
 - EU
     - EU Richtlinie zur Barrierefreiheit, <https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016L2102> 
-    - EU-Entwurf einer Barrierefreiheitserklärung (englisch),
-    <https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2018-2604172_en>
+    - Mustererklärung zur Barrierefreiheit gemäß der Richtlinie (EU) 2016/2102 <https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32018D1523&from=DE>
+    - Überwachungsmethodik <https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=uriserv:OJ.L_.2018.256.01.0108.01.DEU&toc=OJ:L:2018:256:TOC>
     - Europäische Sozialcharta,
      <https://rm.coe.int/CoERMPublicCommonSearchServices/DisplayDCTMContent?documentId=090000168007cf92> 
     - (Laufende) EU-Anhörung zu Entwürfen der Mustererklärung Barrierefreiheit und von   Testverfahren,  <https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2018-2604172_en>  
@@ -75,7 +75,7 @@ Rechtliche Anforderungen
     <http://www.bmas.de/SharedDocs/Downloads/DE/PDF-Publikationen/a729-un-konvention.pdf>
 - Bund
     - Schiedsstelle BGG,  <https://www.behindertenbeauftragter.de/DE/SchlichtungsstelleBGG/SchlichtungsstelleBGG_node.html>  
-    - Gesetzentwurf "Entwurf eines Gesetzes zur Verlängerung befristeter Regelungen im Arbeitsförderungsrecht und zur Umsetzung der Richtlinie (EU) 2016/2102 über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen": <http://dip21.bundestag.de/dip21/btd/19/020/1902072.pdf>  
+    - Dokumentation zum "Gesetz zur Verlängerung befristeter Regelungen im Arbeitsförderungsrecht und zur Umsetzung der Richtlinie (EU) 2016/2102 über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen": <http://dipbt.bundestag.de/extrakt/ba/WP19/2333/233374.html> 
     - Bericht und Stellungsnahmen:  <http://www.bundestag.de/blob/558776/ed216881a756d5cb81a46ef43dec1ac4/materialzusammenstellung_10-sitzung-data.pdf>  
     - Bundesfachstelle Barrierefreiheit, https://www.bundesfachstelle-barrierefreiheit.de 
 - Bayern:
