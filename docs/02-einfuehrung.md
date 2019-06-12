@@ -47,22 +47,21 @@ Die WCAG wurden – wie beim W3C üblich – gemäß dem [W3C-Verfahren](https:/
 Das Ziel des W3C ist es, mit den WCAG einen gemeinsamen, international abgestimmten Standard für die Barrierefreiheit von Webinhalten zur Verfügung zu stellen, der die Bedürfnisse von Einzelpersonen, Unternehmen und Organisationen auf internationaler Ebene erfüllt. 
 Hier zeigt sich auch der Vorteil gegenüber kommerziell getriebenen Empfehlungen und Zertifikaten einzelner Anbieter oder nationalen Insellösungen wie der BITV, die sich zwar an den WCAG in der Version 2.0 orientiert, sie jedoch durch eigene Auslegungen und Einschränkungen abschwächen oder auch andere Prioritäten setzen.
 
-Die EU-Richtlinie 2016/2102 fordert für das Angebot von Webseiten einschließlich von Dateiformaten aus Büroanwendungen (u.a. PDF-Dokumenten) und Intranets hingegen die Einhaltung der WCAG und zwar auf der Konformitätsstufe AA.
-Daher sollte zukünftig nur noch die Konformität zu den WCAG als Maßstab für die Umsetzung und Prüfung von Inhalten, Webangeboten und Dokumenten verwendet werden und nicht mehr daraus abgeleitete oder interpretierte
-Formen.
+Die EU-Richtlinie 2016/2102 fordert für das Angebot von Webseiten, einschließlich von Dateiformaten aus Büroanwendungen (u.a. PDF-Dokumenten) und mobiler Anwendungen, die Einhaltung der [Europäischen Norm EN 301 549](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf) (In der Version 2.1.2 aus dem August 2018).  Die Europäische Norm bezieht sich bei der konkreten Beschreibung der Umsetzung auf die WCAG 2.1 in der Konformitätsstufe AA.
+Daher sollte zukünftig nur noch die Konformität zu den WCAG als Maßstab für die Umsetzung und Prüfung von Inhalten, Webangeboten und Dokumenten verwendet werden. 
+
+Auf den WCAG abgeleitete oder interpretierte Formen und Testverfahren (z.B. der "BITVTest") sollten nicht  mehr verwendet werden.
 
 
 ### Aufbau und Inhalt der WCAG
 
-Die WCAG basieren auf vier grundlegenden Prinzipien, denen mehrere Richtlinien zugeordnet sind. Zur Erfüllung dieser Richtlinien wurden testbare Erfolgskriterien (in der WCAG 2.0: 61, in der WCAG 2.1: 76) definiert, mit denen geprüft werden kann, ob die Richtlinien eingehalten werden.
+Die WCAG basieren auf vier grundlegenden Prinzipien, denen mehrere Richtlinien zugeordnet sind. Zur Erfüllung dieser Richtlinien wurden 76 testbare Erfolgskriterien definiert, mit denen geprüft werden kann, ob die Richtlinien eingehalten werden.
 
 Aufgrund der vorhandenen ausführlichen und guten Literatur, wird hier darauf verzichtet, weitere Ausführungen zu ergänzen. Wird in den folgenden Kapiteln auf einzelne Erfolgskriterien Bezug genommen wird, sind diese gesondert gekennzeichnet.
 
 Detailreiche Erläuterungen zum Aufbau der WCAG, deren Prinzipien, Kriterien, Konformitätsbedingungen sowie der weiteren Bestandteile, können über folgende Seiten und Artikel gelesen werden:
 
 - W3C:
-    - WCAG 2.0 (W3C Original), <https://www.w3.org/TR/WCAG20/>
-    - Autorisierte deutsche Übersetzung der WCAG 2.0: <https://www.w3.org/Translations/WCAG20-de/>
     - WCAG 2.1 (W3C Recommendation vom 5. Juni 2018),  <https://www.w3.org/TR/WCAG21/>
     - Web Accessibility Initiative, WAI, <https://www.w3.org/WAI/>
 - Aktion Mensch: WCAG 2.0 im Überblick, <https://www.einfach-fuer-alle.de/artikel/wcag-einfuehrung/>
@@ -78,13 +77,9 @@ Für bayerische staatliche Hochschulen sind die Fristen in der BayBITV nur Empfe
 
 Die entsprechenden Fristen zur Umsetzung der Barrierefreiheit von Internet-Angeboten nach dem bisherigen BayBGG sind seit 2010 abgelaufen. Gleichwohl wurden diese gesetzlichen Vorgaben bis heute bei vielen Webangeboten nicht oder nicht ausreichend erfüllt.
 Das Problem der mangelnden Umsetzung und der Wunsch nach Harmonisierung der Gesetzgebung auf EU-Ebene führte zum Erlass der Richtlinie 2016/2102. Aus diesem Grund wurde eine Richtlinie entworfen, die sich dieses Problems annahm: 
-Am 18.7.2016 wurde auf EU-Ministerratsebene die "Web-Accessibility-Richtlinie" angenommen, die nach der darauf
-folgenden Annahme von Rat und Parlament am 20. Tag nach ihrer Veröffentlichung im Amtsblatt der EU (ABl. L 327, 2. Dezember 2016) - am 22. Dezember 2016 - in Kraft trat.
+Am 18.7.2016 wurde auf EU-Ministerratsebene die "Web-Accessibility-Richtlinie" angenommen, die nach der darauf folgenden Annahme von Rat und Parlament am 20. Tag nach ihrer Veröffentlichung im Amtsblatt der EU (ABl. L 327, 2. Dezember 2016) - am 22. Dezember 2016 - in Kraft trat.
 
 Mit der Richtlinie soll eine Angleichung der Rechts- und Verwaltungsvorschriften der Mitgliedstaaten zum barrierefreien Zugang zu Webseiten öffentlicher Stellen erfolgen. Sie soll dabei unterstützen, die nationalen Verpflichtungen hinsichtlich eines barrierefreien Webzugangs zu erfüllen und das Bekenntnis der Mitgliedstaaten zum Übereinkommen der Vereinten Nationen über die Rechte von Menschen mit Behinderungen in Bezug auf die Websites öffentlicher Stellen zu bekräftigen. Gegenstand der vorgeschlagenen Richtlinie sind sowohl Webseiten, als auch Dokumente und Apps öffentlicher Stellen, da sie Informationen und Dienste bereitstellen, die für Bürgerinnen und Bürger von grundlegender Bedeutung sind.
 
-In technischer Hinsicht gilt als Richtschnur die Erfüllung des Konformitätsstufe AA der [Richtlinien für barrierefreie Webinhalte (Web Content Accessibility Guidelines - WCAG 2.0)](https://www.ag.bka.gv.at/at.gv.bka.wiki-bka/index.php/WCAG20), wie sie in der Europäischen Norm ([Europäischer Standard EN 301 549 -
-Anforderungen an Barrierefreiheit bei der Beschaffung von IKT-Produkten und Dienstleistungen](https://www.ag.bka.gv.at/at.gv.bka.wiki-bka/index.php/Barrierefrei:EN_301_549)) enthalten sind. 
-
-Aufgrund der im Juni 2018 veröffentlichten neuen Version 2.1 der WCAG, ist es möglich, dass die Europäische Norm in Kürze um die zusätzlichen Erfolgskriterien aktualisiert wird. Es ist daher in Erwägung zu ziehen, sich bereits jetzt an die WCAG 2.1 zu halten, da diese zu der Version 2.0 abwärtskompatibel gestaltet worden ist. 
+In technischer Hinsicht gilt als Richtschnur die Erfüllung des Konformitätsstufe AA der [Richtlinien für barrierefreie Webinhalte (Web Content Accessibility Guidelines - WCAG 2.1)](https://www.w3.org/TR/WCAG21/).
 

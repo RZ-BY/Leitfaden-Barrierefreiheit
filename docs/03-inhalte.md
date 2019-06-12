@@ -17,7 +17,7 @@ Dieses Kapitel wendet sich an folgende Personenkreise:
 
 Es wird davon ausgegangen, dass Webangebote in diesen Bereichen über ein
 geeignetes Content-Management-System verwaltet werden, das über
-Eingabeverfahren mit Hilfe von einem WYSIWYG- oder zumindest Text-Editor
+Eingabeverfahren mit Hilfe von einem <abbr lang="en" title="What you see, is what you get">WYSIWYG</abbr>- oder zumindest Text-Editor
 verfügt, in dem einfache HTML-Anweisungen eingegeben werden können.
 
 **Abgrenzung: Die Programmierung von CMS oder die optische und
@@ -97,7 +97,6 @@ Jan Eric Hellbusch schreibt zur [Verständlichkeit](https://www.barrierefreies-w
 > Aufgrund der unterschiedlichen Voraussetzungen können Texte nicht für alle Leser gleichermaßen verständlich gemacht werden. Dennoch können Voraussetzungen geschaffen werden, die zur Textverständlichkeit beitragen und die Zugänglichkeit der Inhalte auf der Verständlichkeitsebene fördern. Hierzu zählen redaktionelle Aspekte wie die Verwendung geläufiger Begriffe oder kurzer Sätze und gestalterische Maßnahmen wie das Vermeiden von Blocksatz und die Berücksichtigung von relativen Schriftgrößen und höheren Zeilenabständen. Auch die Verwendung von Zwischenüberschriften gehört zu den Anforderungen der Verständlichkeit.
 
 
-&nbsp; 
 
 #### Sprache
 
@@ -164,12 +163,12 @@ Für Abkürzungen sollte Folgendes beachtet werden:
 - Abkürzungen sollten beim ersten Auftreten im Text ausgeschrieben werden. 
     Dies gilt besonders bei längeren Namen von Einrichtungen oder Titeln. Dabei wird zunächst der Name ausgeschrieben, gefolgt von der Abkürzung in runden  Klammern. 
     Beispiel: *Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)*.
-- Eine Ausnahme gibt es bei solchen Abkürzungen, die in der kurzen Form bereits Teil der Alltagssprache, in ihrer ausgeschriebenen Form hingegen weitgehend unbekannt sind. So zum Beispiel die Abkürzungen "DSL" oder "WLAN". Die ausgeschriebenen Formen dieser Abkürzungen ("*<span lang="en">Digital Subscriber Line</span>*"     und "*<span lang="en">Wireless Local Area Network</span>*") sind oft nicht gängig, während die Bedeutung der kurzen Form für jeden Leser klar ist.
+- Eine Ausnahme gibt es bei solchen Abkürzungen, die in der kurzen Form bereits Teil der Alltagssprache, in ihrer ausgeschriebenen Form hingegen weitgehend unbekannt sind. So zum Beispiel die Abkürzungen "DSL" oder "WLAN". Die ausgeschriebenen Formen dieser Abkürzungen ("*<span lang="en">Digital Subscriber Line</span>*" und "*<span lang="en">Wireless Local Area Network</span>*") sind oft nicht gängig, während die Bedeutung der kurzen Form für jeden Leser klar ist.
 - Sollte bei der Ausschreibung der Abkürzung ein Sprachwechsel erfolgen, muss diese über geeignete HTML-Anweisungen im Code deklariert werden. Hierzu eignet sich das Attribut  `lang=""` .
 
 ##### Beispiele:
 
-Bei der Ausschreibung von *WLAN* sähe der entsprechende HTML-Code daher so aus:
+Bei der Ausschreibung von *DSL* sähe der entsprechende HTML-Code daher so aus:
 
 ```html
    <span lang="en">Digital Subscriber Line</span>
@@ -240,12 +239,12 @@ Unterstützt das CMS des Webauftritts auch Bildunterschriften, sind auch diese a
 
    Für einen sehenden Menschen wird die Information im Bild gegeben.  Kann man hingegen das Bild nicht sehen, kann man den Versuchsaufbau anhand der Beschreibung im `alt`-Attribut nachvollziehen. Der Titel allein hätte nicht gereicht, um den Versuchsaufbau zu erläutern. 
 
-2.  Bei einem dekorativen Bild wird das Attribut ```alt=""``` leer
-    gelassen:
+2. Bei einem dekorativen Bild wird das Attribut ```alt=""``` leer
+   gelassen:
 
-    ```html
-    <img alt="" src="(BILD-URL)">
-    ```
+   ```html
+   <img alt="" src="(BILD-URL)">
+   ```
 
 3. Bei einem grafischen Link wird hingegen das Linkziel beschrieben und
    nicht mehr das Bild:
@@ -509,16 +508,17 @@ Daher:
 
 #### Verpflichtende Erfolgskriterien
 
-Autoren von Webseiten, die aufgrund von externen, nicht kontrollierbaren Inhalten nicht konform sein können, müssen eine [Erklärung partieller Konformität](https://www.w3.org/Translations/WCAG20-de/#conformance-partial) anbieten. Bei einer Prüfung der Seite gemäß den Richtlinien der WCAG würde dies bedeuten, dass man die Seite nur ohne das Embedding prüft und die eingebundenen Teile als solche deutlich erkennbar macht. Das kann zum Beispiel dadurch geschehen, dass man den Inhalt, wie oben empfohlen, als zusätzlichen Text beschreibt.
+Autoren von Webseiten, die aufgrund von externen, nicht kontrollierbaren Inhalten nicht konform sein können, müssen eine [Erklärung partieller Konformität](https://www.w3.org/TR/WCAG21/#conformance-partial) anbieten. Bei einer Prüfung der Seite gemäß den Richtlinien der WCAG würde dies bedeuten, dass man die Seite nur ohne das Embedding prüft und die eingebundenen Teile als solche deutlich erkennbar macht. Das kann zum Beispiel dadurch geschehen, dass man den Inhalt, wie oben empfohlen, als zusätzlichen Text beschreibt.
 
 Wichtig ist hierbei, dass der Leser der Seite deutlich erkennen kann, dass der Inhalt aus einer Drittquelle kommt.
 
-#### Rechtlicher Hinweis (Stand August 2018)
+#### Rechtlicher Hinweis 
 
-Die EU-Richtlinie schränkt in Artikel 1, Absatz 4d) und 4e) die Umsetzung der WCAG ein. Dieser Teil der Richtlinie -nämlich die Einschränkungen und Ausnahmen im Anwendungsbereich- wurde jedoch bei der Umsetzung der Gesetzgebung von einigen Bundesländern (noch) **nicht übernommen**. Es gilt daher das, was in der WCAG zur Umsetzung der Konformität beschrieben wurde.
+Die EU-Richtlinie schränkt in Artikel 1, Absatz 4d) und 4e) die Umsetzung der WCAG in einigen Anwendungsbereichen ein. Dieser Teil der Richtlinie wurde jedoch bei der Umsetzung der Gesetzgebung von einigen Bundesländern **nicht übernommen**. 
+Somit entfällt die Einschränkung und es gilt daher das, was in der WCAG zur Umsetzung der Konformität definiert wurde.
 
 #### Vertiefung
 
 -   oEmbed Spec: [oEmbed](https://oembed.com/),
--   W3C: [Erklärung partieller Konformität - Inhalte von Dritten](https://www.w3.org/Translations/WCAG20-de/#conformance-partial)
+-   W3C: [Erklärung partieller Konformität - Inhalte von Dritten](https://www.w3.org/TR/WCAG21/#conformance-partial)
 

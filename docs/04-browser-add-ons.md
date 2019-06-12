@@ -26,5 +26,5 @@ Die folgende Liste der Add-ons basiert auf dem aktuellen Chrome-Browser. Ähnlic
 
 
 
-Üblicherweise sind weitere Add-ons vorhanden, wie beispielsweise das uBlock Origin Add-on, welches effektiv Werbung unsichtbar macht bzw. das Laden dieser unterdrückt oder Ghostery, der (in Kombination mit uBlock Origin) ebenfalls ein gutes und datenschutzorientes Add-on zur digitalen Selbstverteidigung gegen Tracking und durch Werbung eingeschleuste Schadsoftware ist.
+Üblicherweise sind weitere Add-ons vorhanden, wie beispielsweise das uBlock Origin Add-on, welches effektiv Werbung unsichtbar macht bzw. das Laden dieser unterdrückt oder uMatrix oder NoScript, die (in Kombination mit uBlock Origin) ebenfalls gute und datenschutzoriente Add-ons zur digitalen Selbstverteidigung gegen Tracking und durch Werbung eingeschleuste Schadsoftware ist.
 

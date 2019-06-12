@@ -49,7 +49,7 @@ Das W3C selbst bietet ebenfalls einen Schnelltest an: [Easy Checks - A First Rev
 
 Ein weiterer Schnelltest beschreibt Kerstin Probiesch in ihrem Artikel [Schnelltest zur Barrierefreiheit](http://webkrauts.de/artikel/2011/schnelltest-zur-barrierefreiheit) auf Webkrauts.de.  
 
-
+Ebenfalls hilfreich für eine schnelle Überprüfung und zur Vermeidung technischer Fehler ist die Anwendung [Accessibility Insights](https://accessibilityinsights.io/). Diese ermöglicht neben der Prüfung von Webseteiten auch die Überprüfung von Software.
 
 
 ## Prüfung zur Konformität zur WCAG  
@@ -80,19 +80,19 @@ Ein sehr nützliches Hilfsmittel bietet das [WCAG-EM Report Tool](https://www.w3
 
 Hierbei handelt es sich um ein Online-Tool in dem alle 5 Schritte abgebildet werden können. Interaktive Eingabefelder und Auswahllisten unterstützen den Prüfer in diesem Werkzeug bei der Evaluation und erlauben es am Ende des Prozesses eine Vorlage für ein Gutachten zu erstellen. Die Vorlage kann in den Formaten HTML oder JSON exportiert, aber auch für die spätere Weiterbearbeitung gespeichert werden.
 
-## Nachweis gemäß der Europäischen Norm EN 301 549 V1.1.2
+## Nachweis gemäß der Europäischen Norm EN 301 549 V2.1.2
 
-Für Webanwendungen wird Konformität mit den Barrierefreiheitsanforderungen vermutet, sofern und soweit nach Annex C der [Europäischen Norm EN 301 549 V1.1.2](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) die Testkriterien erfüllt sind. Über die WCAG 2.0 mit Level AA hinaus, sind dafür auch allgemeine Kriterien zu erfüllen. Durch die große Schnittmenge werden Tests nach der WCAG-EM die Prüfung nach der EU Norm gut vorbereiten.
+Für Webanwendungen wird Konformität mit den Barrierefreiheitsanforderungen vermutet, sofern und soweit nach Annex C der [Europäischen Norm EN 301 549 V2.1.2](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf) die Testkriterien erfüllt sind. Über die WCAG 2.1 mit Level AA hinaus, sind dafür auch allgemeine Kriterien zu erfüllen. Durch die große Schnittmenge werden Tests nach der WCAG-EM die Prüfung nach der EU Norm gut vorbereiten.
 
 ## Zertifikate
 
-Es gibt Anbieter, welche Zertifikate über eine Prüfung der Barrierefreiheit anbieten. Hierzu muss jedoch bemerkt werden, dass eine Prüfung in allen Fällen nur eine Momentaufnahme sein kann. Ein Prüfergebnis, welches die Konformität einer Webseite gemäß der WCAG 2.0 in der Konformitätsstufe AA belegt, gilt für den Zeitpunkt des Tests. Da größere Webauftritte steten Änderungen und Aktualisierungen unterliegen, ist die Gültigkeit einer Prüfung ebenfalls zeitlich begrenzt. Dieser Einschränkung unterliegt auch ein Prüfergebnis gemäß Annex C der europäischen Norm.
+Es gibt Anbieter, welche Zertifikate über eine Prüfung der Barrierefreiheit anbieten. Hierzu muss jedoch bemerkt werden, dass eine Prüfung in allen Fällen nur eine Momentaufnahme sein kann. Ein Prüfergebnis, welches die Konformität einer Webseite gemäß der WCAG 2.1 in der Konformitätsstufe AA belegt, gilt für den Zeitpunkt des Tests. Da größere Webauftritte steten Änderungen und Aktualisierungen unterliegen, ist die Gültigkeit einer Prüfung ebenfalls zeitlich begrenzt. Dieser Einschränkung unterliegt auch ein Prüfergebnis gemäß Annex C der europäischen Norm.
 
 Im Falle einer Barriere, die beim Besuch eines Betroffenen auftritt und dann tatsächlich vorhanden ist, ist ein vorheriges positives Prüfungsergebnis oder ein Zertifikat ohne Bedeutung: Die EU-Richtlinie erfordert in allen Fällen die Behebung der Barriere und das Anbieten eines geeigneten Feedback-Mechanismus.
 
-Die EU-Richtlinie verpflichtet nicht zu einer Zertifizierung. Stattdessen fordert sie allein die Konformität der Webanwendungen gemäß der Europäischen Norm EN 301 549 V1.1.2 auf Basis der WCAG. Da die WCAG mit der WCAG-EM eigene Testverfahren enthalten, sind auch diese zu verwenden. 
+Die EU-Richtlinie verpflichtet nicht zu einer Zertifizierung. Stattdessen fordert sie allein die Konformität der Webanwendungen gemäß der Europäischen Norm EN 301 549 V2.1.2 auf Basis der WCAG. Da die WCAG mit der WCAG-EM eigene Testverfahren enthalten, sind auch diese zu verwenden. 
 Eigene Prüfverfahren und Zertifikate von einzelnen Anbietern oder von staatlichen Einrichtungen geförderten Projekten werden von der EU-Richtlinie und der WCAG nicht erfasst und sind daher nicht relevant.
-Die Autoren des Leitfadens empfehlen daher auf den Gebrauch von Zertifikaten zu verzichten.
+Die Autoren des Leitfadens empfehlen daher auf den Kauf von Zertifikaten zu verzichten.
 
 
 
