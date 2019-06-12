@@ -49,7 +49,7 @@ Das W3C selbst bietet ebenfalls einen Schnelltest an: [Easy Checks - A First Rev
 
 Ein weiterer Schnelltest beschreibt Kerstin Probiesch in ihrem Artikel [Schnelltest zur Barrierefreiheit](http://webkrauts.de/artikel/2011/schnelltest-zur-barrierefreiheit) auf Webkrauts.de.  
 
-
+Ebenfalls hilfreich für eine schnelle Überprüfung und zur Vermeidung technischer Fehler ist die Anwendung [Accessibility Insights](https://accessibilityinsights.io/). Diese ermöglicht neben der Prüfung von Webseteiten auch die Überprüfung von Software.
 
 
 ## Prüfung zur Konformität zur WCAG  
