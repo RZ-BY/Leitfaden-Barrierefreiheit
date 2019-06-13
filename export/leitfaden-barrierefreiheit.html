@@ -87,10 +87,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p class="subtitle">Bessere Benutzerfreundlichkeit, Suchmaschinenoptimierung und Inklusion: Einfach für alle!</p>
 <p class="author">Johannes Nehlsen, Stabsstelle IT-Recht</p>
 <p class="author">Wolfgang Wiese, Regionales Rechenzentrum Erlangen (RRZE)</p>
-<p class="date">17. September 2018</p>
+<p class="date">12. Juni 2019</p>
 </header>
 <h1 id="vorwort">Vorwort</h1>
-<p>Dieser Leitfaden soll Einrichtungen und Angehörigen der Hochschulen für Angewandte Wissenschaft in Bayern eine “Erste Hilfe” bei der Umsetzung der Barrierefreiheit in der IT (Webangebote und Dokumente) geben. Aus rechtlicher Sicht leitet sich der Begriff der Barrierefreiheit aus dem Gleichheitsgrundsatz des Art. 3 GG ab. Dieser garantiert Chancengleichheit und den Ausgleich bestehender Nachteile. Damit soll die Teilnahme aller am öffentlichen Leben umgesetzt werden.</p>
+<p>Dieser Leitfaden soll Einrichtungen und Angehörigen der Hochschulen für Angewandte Wissenschaft in Bayern eine “Erste Hilfe” bei der Umsetzung der Barrierefreiheit in der IT (Webangebote und Dokumente) geben und wurde auch für die bayerischen staatlichen Universitäten mitgeschrieben. Er ergänzt und vertieft den Handlungsleitfaden für IT-Verantwortliche “Barrierefreie Software V1.0” des Bayerischen Staatsministeriums für Finanzen, für Landesentwicklung und Heimat. Aus rechtlicher Sicht leitet sich der Begriff der Barrierefreiheit aus dem Gleichheitsgrundsatz des Art. 3 GG ab. Dieser garantiert Chancengleichheit und den Ausgleich bestehender Nachteile. Damit soll die Teilnahme aller am öffentlichen Leben umgesetzt werden.</p>
+<p>Version 3.1 vom 12. Juni 2019</p>
 <h1 id="inhaltsüberblick">Inhaltsüberblick</h1>
 <p>Der Leitfaden liefert einen Rahmen zur Einführung in das Thema der digitalen Barrierefreiheit und eine allgemeine Handreichung. Eine detaillierte und stets aktualisierte Dokumentation hinsichtlich der technischen, organisatorischen und inhaltlichen Umsetzung kann nicht gegeben werden. Stattdessen werden die jeweiligen Bereiche nach Zielgruppen und Aufgabengebiete aufgegliedert und in diesen die jeweils wichtigsten Handlungsempfehlungen aufgeführt.</p>
 <ol type="1">
@@ -145,16 +146,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul>
 <p>Die WCAG sind eine Empfehlung des W3C und wurden in der Web Content Accessibility Guidelines Working Group (früher abgekürzt “WCAG-WG”, heute “ACWG”) erarbeitet. Die WCAG wurden – wie beim W3C üblich – gemäß dem <a href="https://www.w3.org/WAI/standards-guidelines/w3c-process/">W3C-Verfahren</a> entwickelt und über mehrere öffentliche Kommentierungsphasen international abgestimmt. Die letzte Version der WCAG – die <a href="https://www.w3.org/TR/WCAG21/">WCAG 2.1</a> wurde am 5. Juni 2018 als Richtlinie veröffentlicht.</p>
 <p>Das Ziel des W3C ist es, mit den WCAG einen gemeinsamen, international abgestimmten Standard für die Barrierefreiheit von Webinhalten zur Verfügung zu stellen, der die Bedürfnisse von Einzelpersonen, Unternehmen und Organisationen auf internationaler Ebene erfüllt. Hier zeigt sich auch der Vorteil gegenüber kommerziell getriebenen Empfehlungen und Zertifikaten einzelner Anbieter oder nationalen Insellösungen wie der BITV, die sich zwar an den WCAG in der Version 2.0 orientiert, sie jedoch durch eigene Auslegungen und Einschränkungen abschwächen oder auch andere Prioritäten setzen.</p>
-<p>Die EU-Richtlinie 2016/2102 fordert für das Angebot von Webseiten einschließlich von Dateiformaten aus Büroanwendungen (u.a. PDF-Dokumenten) und Intranets hingegen die Einhaltung der WCAG und zwar auf der Konformitätsstufe AA. Daher sollte zukünftig nur noch die Konformität zu den WCAG als Maßstab für die Umsetzung und Prüfung von Inhalten, Webangeboten und Dokumenten verwendet werden und nicht mehr daraus abgeleitete oder interpretierte Formen.</p>
+<p>Die EU-Richtlinie 2016/2102 fordert für das Angebot von Webseiten, einschließlich von Dateiformaten aus Büroanwendungen (u.a. PDF-Dokumenten) und mobiler Anwendungen, die Einhaltung der <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">Europäischen Norm EN 301 549</a> (In der Version 2.1.2 aus dem August 2018). Die Europäische Norm bezieht sich bei der konkreten Beschreibung der Umsetzung auf die WCAG 2.1 in der Konformitätsstufe AA. Daher sollte zukünftig nur noch die Konformität zu den WCAG als Maßstab für die Umsetzung und Prüfung von Inhalten, Webangeboten und Dokumenten verwendet werden.</p>
+<p>Auf den WCAG abgeleitete oder interpretierte Formen und Testverfahren (z.B. der “BITVTest”) sollten nicht mehr verwendet werden.</p>
 <h3 id="aufbau-und-inhalt-der-wcag">Aufbau und Inhalt der WCAG</h3>
-<p>Die WCAG basieren auf vier grundlegenden Prinzipien, denen mehrere Richtlinien zugeordnet sind. Zur Erfüllung dieser Richtlinien wurden testbare Erfolgskriterien (in der WCAG 2.0: 61, in der WCAG 2.1: 76) definiert, mit denen geprüft werden kann, ob die Richtlinien eingehalten werden.</p>
+<p>Die WCAG basieren auf vier grundlegenden Prinzipien, denen mehrere Richtlinien zugeordnet sind. Zur Erfüllung dieser Richtlinien wurden 76 testbare Erfolgskriterien definiert, mit denen geprüft werden kann, ob die Richtlinien eingehalten werden.</p>
 <p>Aufgrund der vorhandenen ausführlichen und guten Literatur, wird hier darauf verzichtet, weitere Ausführungen zu ergänzen. Wird in den folgenden Kapiteln auf einzelne Erfolgskriterien Bezug genommen wird, sind diese gesondert gekennzeichnet.</p>
 <p>Detailreiche Erläuterungen zum Aufbau der WCAG, deren Prinzipien, Kriterien, Konformitätsbedingungen sowie der weiteren Bestandteile, können über folgende Seiten und Artikel gelesen werden:</p>
 <ul>
 <li>W3C:
 <ul>
-<li>WCAG 2.0 (W3C Original), <a href="https://www.w3.org/TR/WCAG20/" class="uri">https://www.w3.org/TR/WCAG20/</a></li>
-<li>Autorisierte deutsche Übersetzung der WCAG 2.0: <a href="https://www.w3.org/Translations/WCAG20-de/" class="uri">https://www.w3.org/Translations/WCAG20-de/</a></li>
 <li>WCAG 2.1 (W3C Recommendation vom 5. Juni 2018), <a href="https://www.w3.org/TR/WCAG21/" class="uri">https://www.w3.org/TR/WCAG21/</a></li>
 <li>Web Accessibility Initiative, WAI, <a href="https://www.w3.org/WAI/" class="uri">https://www.w3.org/WAI/</a></li>
 </ul></li>
@@ -165,8 +165,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Die Barrierefreiheit von Webangeboten für Einrichtungen des öffentlichen Dienstes ist seit der Verabschiedung des Bayerischen Gesetzes zur Gleichstellung, Integration und Teilhabe von Menschen mit Behinderung (BayBGG, <a href="http://gesetze-bayern.de/Content/Document/BayBGG" class="uri">http://gesetze-bayern.de/Content/Document/BayBGG</a>) im Jahr 2003 verbindlich geregelt. Die dazugehörige Verordnung BayBITV (<a href="http://www.gesetze-bayern.de/Content/Document/BayBITV" class="uri">http://www.gesetze-bayern.de/Content/Document/BayBITV</a>) vom 24. Oktober 2006 regelt hierbei verbindlich die Art der Umsetzung und Fristen und Empfehlungen. Für bayerische staatliche Hochschulen sind die Fristen in der BayBITV nur Empfehlungen; dies gilt auch für die BITV 2.0. Die vermeintliche Großzügigkeit der Verordnung hinsichtlich der Art der Umsetzung ändert jedoch nichts an der gesetzlichen Pflicht zur Barrierefreieit, die seit Jahren besteht und bis heute bei vielen Webangeboten nicht erfüllt ist.</p>
 <p>Die entsprechenden Fristen zur Umsetzung der Barrierefreiheit von Internet-Angeboten nach dem bisherigen BayBGG sind seit 2010 abgelaufen. Gleichwohl wurden diese gesetzlichen Vorgaben bis heute bei vielen Webangeboten nicht oder nicht ausreichend erfüllt. Das Problem der mangelnden Umsetzung und der Wunsch nach Harmonisierung der Gesetzgebung auf EU-Ebene führte zum Erlass der Richtlinie 2016/2102. Aus diesem Grund wurde eine Richtlinie entworfen, die sich dieses Problems annahm: Am 18.7.2016 wurde auf EU-Ministerratsebene die “Web-Accessibility-Richtlinie” angenommen, die nach der darauf folgenden Annahme von Rat und Parlament am 20. Tag nach ihrer Veröffentlichung im Amtsblatt der EU (ABl. L 327, 2. Dezember 2016) - am 22. Dezember 2016 - in Kraft trat.</p>
 <p>Mit der Richtlinie soll eine Angleichung der Rechts- und Verwaltungsvorschriften der Mitgliedstaaten zum barrierefreien Zugang zu Webseiten öffentlicher Stellen erfolgen. Sie soll dabei unterstützen, die nationalen Verpflichtungen hinsichtlich eines barrierefreien Webzugangs zu erfüllen und das Bekenntnis der Mitgliedstaaten zum Übereinkommen der Vereinten Nationen über die Rechte von Menschen mit Behinderungen in Bezug auf die Websites öffentlicher Stellen zu bekräftigen. Gegenstand der vorgeschlagenen Richtlinie sind sowohl Webseiten, als auch Dokumente und Apps öffentlicher Stellen, da sie Informationen und Dienste bereitstellen, die für Bürgerinnen und Bürger von grundlegender Bedeutung sind.</p>
-<p>In technischer Hinsicht gilt als Richtschnur die Erfüllung des Konformitätsstufe AA der <a href="https://www.ag.bka.gv.at/at.gv.bka.wiki-bka/index.php/WCAG20">Richtlinien für barrierefreie Webinhalte (Web Content Accessibility Guidelines - WCAG 2.0)</a>, wie sie in der Europäischen Norm (<a href="https://www.ag.bka.gv.at/at.gv.bka.wiki-bka/index.php/Barrierefrei:EN_301_549">Europäischer Standard EN 301 549 - Anforderungen an Barrierefreiheit bei der Beschaffung von IKT-Produkten und Dienstleistungen</a>) enthalten sind. </p>
-<p>Aufgrund der im Juni 2018 veröffentlichten neuen Version 2.1 der WCAG, ist es möglich, dass die Europäische Norm in Kürze um die zusätzlichen Erfolgskriterien aktualisiert wird. Es ist daher in Erwägung zu ziehen, sich bereits jetzt an die WCAG 2.1 zu halten, da diese zu der Version 2.0 abwärtskompatibel gestaltet worden ist.</p>
+<p>In technischer Hinsicht gilt als Richtschnur die Erfüllung des Konformitätsstufe AA der <a href="https://www.w3.org/TR/WCAG21/">Richtlinien für barrierefreie Webinhalte (Web Content Accessibility Guidelines - WCAG 2.1)</a>.</p>
 <h1 id="bereitstellung-und-pflege-von-inhalten">Bereitstellung und Pflege von Inhalten</h1>
 <h2 id="aufgabenbereich-und-zielgruppe">Aufgabenbereich und Zielgruppe</h2>
 <p>Dieser Anwendungsbereich betrifft die Erstellung und Pflege von Inhalten auf Webauftritten von Hochschulen, deren Einrichtungen, Lehrstühlen, Projekten und anderen Informationsseiten.</p>
@@ -177,7 +176,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>Fotoredakteure</li>
 <li>sonstige Bearbeiter von Inhalten</li>
 </ul>
-<p>Es wird davon ausgegangen, dass Webangebote in diesen Bereichen über ein geeignetes Content-Management-System verwaltet werden, das über Eingabeverfahren mit Hilfe von einem WYSIWYG- oder zumindest Text-Editor verfügt, in dem einfache HTML-Anweisungen eingegeben werden können.</p>
+<p>Es wird davon ausgegangen, dass Webangebote in diesen Bereichen über ein geeignetes Content-Management-System verwaltet werden, das über Eingabeverfahren mit Hilfe von einem <abbr lang="en" title="What you see, is what you get">WYSIWYG</abbr>- oder zumindest Text-Editor verfügt, in dem einfache HTML-Anweisungen eingegeben werden können.</p>
 <p><strong>Abgrenzung: Die Programmierung von CMS oder die optische und technische Gestaltung der Ausgaben über HTML, CSS und JavaScript ist nicht Teil dieses Kapitels.</strong></p>
 <h2 id="grundlagen">Grundlagen</h2>
 <p>Mit Inhalten sind all die Informationen gemeint, die vom Leser wahrgenommen werden müssen. Zur Darstellung und Strukturierung der Inhalte wird auf Webseiten die Strukturierungssprache HTML verwendet. Mit dieser kann die Bedeutung eindeutig definiert werden, wozu auch nur wenige, leicht zu merkendende Elemente notwendig sind: Nämlich die Elemente für Überschriften, Absätze, Bilder, Listenelemente, Zitate und Tabellen. In HTML nutzt man den Begriff der <a href="https://blog.kulturbanause.de/2008/01/html-elemente-und-semantik/">Semantik</a>.</p>
@@ -217,7 +216,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <blockquote>
 <p>Textverstehen ist ein aktiver Prozess und eine Interaktion zwischen Text und Leser. Texte sind für unterschiedliche Leser unterschiedlich leicht verstehbar. Dies hat sowohl mit den Interessen und dem Vorwissen des Lesers zu tun, als auch mit dessen individuellen Fähigkeiten. Aufgrund der unterschiedlichen Voraussetzungen können Texte nicht für alle Leser gleichermaßen verständlich gemacht werden. Dennoch können Voraussetzungen geschaffen werden, die zur Textverständlichkeit beitragen und die Zugänglichkeit der Inhalte auf der Verständlichkeitsebene fördern. Hierzu zählen redaktionelle Aspekte wie die Verwendung geläufiger Begriffe oder kurzer Sätze und gestalterische Maßnahmen wie das Vermeiden von Blocksatz und die Berücksichtigung von relativen Schriftgrößen und höheren Zeilenabständen. Auch die Verwendung von Zwischenüberschriften gehört zu den Anforderungen der Verständlichkeit.</p>
 </blockquote>
-<p> </p>
 <h4 id="sprache">Sprache</h4>
 <p>Ein Text wird üblicherweise in nur einer Sprache geschrieben. Auch wenn die Sprache für einen <em>sehenden Leser</em> offensichtlich ist, muss die Sprache der Webseite im Quellcode der Seite angegeben sein. Dies gilt insbesondere dann, wenn Textteile auf einer Seite einer andere Sprache nutzen, als der Rest der Seite.</p>
 <p>Für die Definition der Sprache einer gesamten Seite ist bei modernen Webauftritten das jeweilige CMS zuständig. Je nach Einstellung des Webauftritts wird dabei vorgegeben, welches die Hauptsprache des Webauftritts und damit auch der Inhalte ist. Als Autor oder Redakteur kann man diese <em>globale</em> Einstellung normalerweise nicht ändern. Unter Umständen bieten manche CMS-Installationen jedoch die Option an, die Sprache einer einzelnen Inhaltseite gesondert anzugeben:</p>
@@ -268,7 +266,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>Sollte bei der Ausschreibung der Abkürzung ein Sprachwechsel erfolgen, muss diese über geeignete HTML-Anweisungen im Code deklariert werden. Hierzu eignet sich das Attribut <code>lang=&quot;&quot;</code> .</li>
 </ul>
 <h5 id="beispiele">Beispiele:</h5>
-<p>Bei der Ausschreibung von <em>WLAN</em> sähe der entsprechende HTML-Code daher so aus:</p>
+<p>Bei der Ausschreibung von <em>DSL</em> sähe der entsprechende HTML-Code daher so aus:</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode html"><code class="sourceCode html"><a class="sourceLine" id="cb3-1" data-line-number="1">   <span class="kw">&lt;span</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span><span class="kw">&gt;</span>Digital Subscriber Line<span class="kw">&lt;/span&gt;</span></a></code></pre></div>
 <p>Wird die Abkürzung nicht ausgeschrieben, wird das <code>&lt;abbr&gt;</code>-Element verwendet um sie als solche zu deklarieren:</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode html"><code class="sourceCode html"><a class="sourceLine" id="cb4-1" data-line-number="1"><span class="kw">&lt;abbr</span><span class="ot"> title=</span><span class="st">&quot;zum Beispiel&quot;</span><span class="kw">&gt;</span>z.B.<span class="kw">&lt;/abbr&gt;</span></a></code></pre></div>
@@ -491,14 +489,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><p><strong>An geeigneter Stelle vor oder nach dem Embedding wird auf die Quelle hingewiesen.</strong> Hierbei sollte bestenfalls das Quellportal (z.B. der YouTube-Kanal ) und der Titel sichtbar sein. Eine gesonderte Verlinkung sollte ebenfalls vorgenommen werden, so dass man hierfür nicht auf das Embedding selbst angewiesen ist.</p></li>
 </ul>
 <h4 id="verpflichtende-erfolgskriterien-7">Verpflichtende Erfolgskriterien</h4>
-<p>Autoren von Webseiten, die aufgrund von externen, nicht kontrollierbaren Inhalten nicht konform sein können, müssen eine <a href="https://www.w3.org/Translations/WCAG20-de/#conformance-partial">Erklärung partieller Konformität</a> anbieten. Bei einer Prüfung der Seite gemäß den Richtlinien der WCAG würde dies bedeuten, dass man die Seite nur ohne das Embedding prüft und die eingebundenen Teile als solche deutlich erkennbar macht. Das kann zum Beispiel dadurch geschehen, dass man den Inhalt, wie oben empfohlen, als zusätzlichen Text beschreibt.</p>
+<p>Autoren von Webseiten, die aufgrund von externen, nicht kontrollierbaren Inhalten nicht konform sein können, müssen eine <a href="https://www.w3.org/TR/WCAG21/#conformance-partial">Erklärung partieller Konformität</a> anbieten. Bei einer Prüfung der Seite gemäß den Richtlinien der WCAG würde dies bedeuten, dass man die Seite nur ohne das Embedding prüft und die eingebundenen Teile als solche deutlich erkennbar macht. Das kann zum Beispiel dadurch geschehen, dass man den Inhalt, wie oben empfohlen, als zusätzlichen Text beschreibt.</p>
 <p>Wichtig ist hierbei, dass der Leser der Seite deutlich erkennen kann, dass der Inhalt aus einer Drittquelle kommt.</p>
-<h4 id="rechtlicher-hinweis-stand-august-2018">Rechtlicher Hinweis (Stand August 2018)</h4>
-<p>Die EU-Richtlinie schränkt in Artikel 1, Absatz 4d) und 4e) die Umsetzung der WCAG ein. Dieser Teil der Richtlinie -nämlich die Einschränkungen und Ausnahmen im Anwendungsbereich- wurde jedoch bei der Umsetzung der Gesetzgebung von einigen Bundesländern (noch) <strong>nicht übernommen</strong>. Es gilt daher das, was in der WCAG zur Umsetzung der Konformität beschrieben wurde.</p>
+<h4 id="rechtlicher-hinweis">Rechtlicher Hinweis</h4>
+<p>Die EU-Richtlinie schränkt in Artikel 1, Absatz 4d) und 4e) die Umsetzung der WCAG in einigen Anwendungsbereichen ein. Dieser Teil der Richtlinie wurde jedoch bei der Umsetzung der Gesetzgebung von einigen Bundesländern <strong>nicht übernommen</strong>. Somit entfällt die Einschränkung und es gilt daher das, was in der WCAG zur Umsetzung der Konformität definiert wurde.</p>
 <h4 id="vertiefung-5">Vertiefung</h4>
 <ul>
 <li>oEmbed Spec: <a href="https://oembed.com/">oEmbed</a>,</li>
-<li>W3C: <a href="https://www.w3.org/Translations/WCAG20-de/#conformance-partial">Erklärung partieller Konformität - Inhalte von Dritten</a></li>
+<li>W3C: <a href="https://www.w3.org/TR/WCAG21/#conformance-partial">Erklärung partieller Konformität - Inhalte von Dritten</a></li>
 </ul>
 <h2 id="spickzettel">Spickzettel</h2>
 <h3 id="überschriften">Überschriften</h3>
@@ -600,12 +598,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <figure>
 <img src="04-entwicklung/strukturierte-daten-fau-oeffnungszeiten.png" alt="Bild: Anzeige der Öffnungszeiten von Teilen der Universität bei der Ausgabe einer Suche mit Google" /><figcaption>Bild: Anzeige der Öffnungszeiten von Teilen der Universität bei der Ausgabe einer Suche mit Google</figcaption>
 </figure>
-<p>Bildnachweis: © Google LLC, Suchmaschine , Suche: Universität Erlangen https://www.google.com/search?q=universit%C3%A4t+erlangen</p>
 <p>Und bei der Suche nach der LMU wird für diese im Infopanel eine Liste der kommenden Veranstaltungen angeboten.</p>
 <figure>
 <img src="04-entwicklung/strukturierte-daten-lmu-infopanel.png" alt="Bild: Anzeige der kommenden Veranstaltungen der LMU" /><figcaption>Bild: Anzeige der kommenden Veranstaltungen der LMU</figcaption>
 </figure>
-<p>Bildnachweis: © Google LLC, Suchmaschine, Suche: LMU München https://www.google.com/search?q=lmu+m%C3%BCnchen</p>
 <p>Der Nebeneffekt dieser Anzeigen ist, dass der Benutzer der Suchmaschine ohne Umweg über die Startseite der jeweilige Webseite gleich zu dem jeweiligen Angebot springen kann.</p>
 <p>In HTML geschieht die Auszeichnung dieser Inhalte durch die Attribute <code>itemscope</code> und <code>itemprop</code>.</p>
 <h5 id="beispiel-termin-mit-strukturierten-daten">Beispiel Termin mit strukturierten Daten</h5>
@@ -710,7 +706,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </tr>
 </tbody>
 </table>
-<p>Üblicherweise sind weitere Add-ons vorhanden, wie beispielsweise das uBlock Origin Add-on, welches effektiv Werbung unsichtbar macht bzw. das Laden dieser unterdrückt oder Ghostery, der (in Kombination mit uBlock Origin) ebenfalls ein gutes und datenschutzorientes Add-on zur digitalen Selbstverteidigung gegen Tracking und durch Werbung eingeschleuste Schadsoftware ist.</p>
+<p>Üblicherweise sind weitere Add-ons vorhanden, wie beispielsweise das uBlock Origin Add-on, welches effektiv Werbung unsichtbar macht bzw. das Laden dieser unterdrückt oder uMatrix oder NoScript, die (in Kombination mit uBlock Origin) ebenfalls gute und datenschutzoriente Add-ons zur digitalen Selbstverteidigung gegen Tracking und durch Werbung eingeschleuste Schadsoftware ist.</p>
 <h1 id="organisatorische-und-rechtliche-anforderungen">Organisatorische und rechtliche Anforderungen</h1>
 <h2 id="aufgabenbereich-und-zielgruppe-2">Aufgabenbereich und Zielgruppe</h2>
 <p>Dieser Anwendungsbereich betrifft die rechtlichen und regularischen Aspekte bei dem Betrieb eines Webangebotes.</p>
@@ -721,44 +717,46 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>Verantwortliche von Webauftritten</li>
 <li>Verantwortliche Auftragsgeber</li>
 </ul>
+<p>Er dient als Ergänzung und Vertiefung des Handlungsleitfadens für IT-Verantwortliche “Barrierefreie Software V1.0”.</p>
 <h2 id="grundlagen-2">Grundlagen</h2>
 <p>Barrierefreiheit ist kein neues Thema. Da die Exekutive durch das Onlinezugangsgesetz und E-Goverment-Gesetze verpflichtet ist, ihre Leistungen (demnächst) und Informationen auch digital anzubeiten, gewinnt die Barrierefreiheit stark an Bedeutung. Verfassungsrechtlich gut begründbar ist es, einen Leistungsanspruch auf Zugänglichkeit von Informationen für benachteiligte Personen anzunehmen (Vgl. Sachs/Bethge GG Art. 5 Rn. 62-63, beck-online zu Art. 5 Abs. 1 2. Halbsatz GG i.V.m. Art. 3 Abs. 1 GG). Die verfassungrechtliche Grenze dieser Leistung ergibt sich nur aus den verfügbaren Mitteln der handelnden Behörde.</p>
-<h3 id="richtlinie-20162016-eu-über-den-barrierefreien-zugang-zu-den-websites-und-mobilen-anwendungen-öffentlicher-stellen">Richtlinie 2016/2016 EU über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen</h3>
-<p>Mit der Richtlinie 2016/2102 EU der Europäischen Union vom 26. Oktober 2016 über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen ist nun die <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf">Europäischen Norm EN 301 549 V1.1.2</a> verbindlich geworden. Für den Bereich Web (Dokumente und Software) – enthält diese Norm alle Level A und Level AA - Erfolgskriterien der WCAG 2.0 als Mindestanforderung. Für Nicht-Webdokumente orientiert sich die Norm an den Richtlinien der WCAG2ICT Task Force.</p>
+<h3 id="richtlinie-20162016eu-über-den-barrierefreien-zugang-zu-den-websites-und-mobilen-anwendungen-öffentlicher-stellen">Richtlinie 2016/2016/EU über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen</h3>
+<p>Mit der Richtlinie 2016/2102/EU der Europäischen Union vom 26. Oktober 2016 über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen ist nun die <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf">europäischen Norm EN 301 549 V1.1.2</a> verbindlich geworden. Für den Bereich Web (Dokumente und Software) – enthält diese Norm alle Level A und Level AA - Erfolgskriterien der WCAG 2.0 als Mindestanforderung. Für Nicht-Webdokumente orientiert sich die Norm an den Richtlinien der WCAG2ICT Task Force.</p>
 <p>Vereinfacht kann gesagt werden, dass der Maßstab für Barrierefreiheit im Web die WCAG Standard in der seiner aktuellen Fassung ist. Aktuell liegen die WCAG in der Fassung 2.1 vor. Wird man den Erfolgskriterien von WCAG 2.1 gerecht, erfüllt man auch WCAG 2.0. Mit einer Anpassung der Europäischen Norm auf die Fassung der WCAG 2.1 ist zu rechnen.</p>
 <h3 id="verordnung-zur-schaffung-barrierefreier-informationstechnik-bitv">Verordnung zur Schaffung barrierefreier Informationstechnik (BITV)</h3>
-<p>Auf Bundesebene galt bisher die “Barrierefreie-Informationstechnik-Verordnung” (BITV). Diese schrieb vor, wie nach dem Behindertengleichstellungsgesetz (BGG) die Träger öffentlicher Gewalt, insbesondere die Bundesbehörden, Barrierefreiheit technisch umsetzen sollten. Viele Landesgesetze und Landesverordnungen verwiesen zur Umsetzung der Landesgesetze auf die BITV.</p>
-<p>Im Anwendungsbereich der Richtlinie wurde die BITV nunmehr durch die Europäische Norm verdrängt. Für Gesetz- und Verordnungsgeber besteht daher teilweise noch Anpassungsbedarf.</p>
+<p>Auf Bundesebene gilt die <a href="https://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html">“Barrierefreie-Informationstechnik-Verordnung” (BITV)</a>. Diese schreibt vor, wie nach dem Behindertengleichstellungsgesetz (BGG) die Träger öffentlicher Gewalt, insbesondere die Bundesbehörden, Barrierefreiheit technisch umsetzen sollen. Viele Landesgesetze und Landesverordnungen verweisen zur Umsetzung der Landesgesetze auf die BITV.</p>
+<p>Die BITV wurde zum 21. Mai 2019 auf die Version 2.0 aktualisiert um sie entsprechend der EU Richtlinie auf die Europäische Norm anzupassen.</p>
 <h3 id="bayerisches-gesetz-zur-gleichstellung-integration-und-teilhabe-von-menschen-mit-behinderung">Bayerisches Gesetz zur Gleichstellung, Integration und Teilhabe von Menschen mit Behinderung</h3>
 <p>Die einfache gesetzliche Pflicht zur Barrierefreiheit von Webseiten und Programmen folgt in Bayern für staatliche Hochschulen aus Art. 13 BayBGG. Dieser wurde auch bereits an die Richlinie angepasst und umfasst nun explizit auch mobile Anwendungen. Die Details werden wie bisher in einer Verordnung geregelt. Jedoch waren Apps auch bereits zuvor vom BayBGG erfasst.</p>
 <h3 id="bayerische-barrierefreie-informationstechnik-verordnung">Bayerische Barrierefreie Informationstechnik-Verordnung</h3>
 <p>Die Bayerische Barrierefreie Informationstechnik-Verordnung (BayBITV) setzte in der Fassung von 2006 voraus, dass die Zugangspfade barrierefrei auszugestalten waren. Für bestehende (vor 31.12.2006) waren je nach Zielgruppe Übergangsfristen bis zum 31.12.2010 bzw. 31.12.2013 vorgesehen.</p>
-<p>Die Umsetzung gemäß § 2 BayBITV (2006) nun § 1 Abs. 1 BayBITV gibt für Webangebote der staatlichen Hochschulen die Empfehlung, die Barrierefreiheit nach der BITV Analge in der Stufe Priorität I umzusetzen. Für zentrale Navigations- und Einstiegsangebote ist die Empfehlung, diese gemäß der BITV Anlage in der Stufe Priorität II umzusetzen.</p>
-<p>Für den Anwendungsbereich der Richtlinie 2016/2102 EU sind die Empfehlungen der BITV hinfällig. Maßgeblicher Standard für Webanwendungen der Hochschulen ist nun die WCAG über die Europäischen Norm EN 301 549 V1.1.2. Festzustellen ist, dass Hochschulen, die sich bereits vorher an die WCAG orientierten, einen Vorsprung in der Umsetzung der Barrierefreiheit erlangten.</p>
-<p>Die Verordnung ist nun an die Richtlinie 2016/2102 EU und den geänderten Art. 13 BayBGG anzupassen oder gänzlich neu zu verfassen.</p>
+<p>Die Umsetzung gemäß § 2 BayBITV (2006) und § 1 Abs. 1 BayBITV (Stand bis zum 30. September 2018) gibt für Webangebote der staatlichen Hochschulen die Empfehlung, die Barrierefreiheit nach der BITV Anlage in der Stufe Priorität I umzusetzen. Für zentrale Navigations- und Einstiegsangebote ist die Empfehlung, diese gemäß der BITV Anlage in der Stufe Priorität II umzusetzen.</p>
+<p>Für den Anwendungsbereich der Richtlinie 2016/2102/EU sind die Empfehlungen der BITV hinfällig. Maßgeblicher Standard für Webanwendungen der Hochschulen ist nun die WCAG über die Europäischen Norm EN 301 549 V1.1.2. Festzustellen ist, dass Hochschulen, die sich bereits vorher an die WCAG orientierten, einen Vorsprung in der Umsetzung der Barrierefreiheit erlangten.</p>
+<p>Die Verordnung wurde mit Wirkung zum 1. Oktober 2018 an die Richtlinie 2016/2102/EU angepasst. Für die technischen Anforderungen wird trotz der europäischen Norm auf die Anlage 1 der Barrierefreie Informationstechnik-Verordnung verwiesen. Ob es weiter ein Nebeneinanderer des deutschen Standards und der europäischen Norm gegeben wird, bleibt abzuwarten. Gemäß finden die neuen Pflichten aus der BayBTIV mit den Änderungen zum 1. Oktober 2018 gemäß § 5a BayBITV mit unterschiedlichen Fristen erst ab dem <strong>1. Oktober 2019</strong> Anwendung. Bis zu diesem Zeitpunkt besteht für die Hochschulen keine rechtliche Verfplichtung nach der BITV Anlage die Barrierefreiheit herzustellen. Auch im Hinblick auf die Überarbeitung der BITV sollte die Umsetzung an Hochschulen nach der Europäischen Norm EN 301 549 V1.1.2 erfolgen und dabei die WCAG 2.1 miteinbeziehen.</p>
 <h2 id="umsetzung-2">Umsetzung</h2>
-<p>Die Umsetzung erfordert zum einen die Beachtung formaler Aspekte (Barrierefreiheitserklärung, Feedback-Mechanismus und Umsetzungenfristen) zum anderen inhaltliche Aspekte (Barrierefreiheit der Inhalte durch technische und organisatorische Maßnahmen). Ergänzend wird die Umsetzung durch Berichtspflichten an die EU-Kommission und leichtere Durchsetzungsmöglichkeiten für betroffene Menschen mit Behinderungen angetrieben.</p>
-<h3 id="barrierefreiheitserklärung-gemäß-der-richtlinie-20162102-eu">Barrierefreiheitserklärung gemäß der Richtlinie 2016/2102 EU</h3>
+<p>Die Umsetzung erfordert zum einen die Beachtung formaler Aspekte (Barrierefreiheitserklärung, Feedback-Mechanismus und Umsetzungenfristen) zum anderen inhaltliche Aspekte (Barrierefreiheit der Inhalte durch technische und organisatorische Maßnahmen). Hinzu kommen die Besonderheiten aus der Umsetzung in Bayern. Ergänzend wird die Umsetzung durch Berichtspflichten an die EU-Kommission und leichtere Durchsetzungsmöglichkeiten für betroffene Menschen mit Behinderungen angetrieben.</p>
+<h3 id="barrierefreiheitserklärung-gemäß-der-richtlinie-20162102eu">Barrierefreiheitserklärung gemäß der Richtlinie 2016/2102/EU</h3>
 <p>Die Richtline führt eine Barrierefreiheitserklärung für Webseiten und mobile Anwendungen verpflichtend ein. Der Inhalt der Erklärung wird durch Art. 7 vorgegeben, dessen Inhalt die Kommission in einer Mustererklärung festlegt.</p>
-<p>Ein <a href="https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2018-2604172_en">Entwurf einer Mustererklärung für die Erklärung zur Barrierefreiheit</a> ist bereits verfügbar. Die finale Version ist gegen Ende 2018 zu erwarten.</p>
-<p>Als wesentlicher Bestandteil der Erklärung wird die Konformität mit den Barrierefreiheitsanforderungen vermutet, sofern und soweit nach Annex C der Europäischen Norm EN 301 549 V1.1.2 die Testkriterien erfüllt sind. Sofern dies jedoch nicht der Fall ist, ist in der Erklärung darzulegen, welche Kriterien, aus welchen Gründen nicht erfüllt werden konnten. Soweit einzelne Seiten die Konformität zur WCAG nicht erfüllen, ist anzugeben, welche sichere barrierefreie zugängliche Alternative besteht.</p>
+<p>Ein <a href="https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2018-2604172_en">Entwurf einer Mustererklärung für die Erklärung zur Barrierefreiheit</a> ist bereits verfügbar. Die finale Version ist Mitte 2019 zu erwarten.</p>
+<p>Als wesentlicher Bestandteil der Erklärung wird die Konformität mit den Barrierefreiheitsanforderungen vermutet, sofern und soweit nach Annex C der Europäischen Norm EN 301 549 V2.1.2 die Testkriterien erfüllt sind. Sofern dies jedoch nicht der Fall ist, ist in der Erklärung darzulegen, welche Kriterien, aus welchen Gründen nicht erfüllt werden konnten. Soweit einzelne Seiten die Konformität zur WCAG nicht erfüllen, ist anzugeben, welche sichere barrierefreie zugängliche Alternative besteht.</p>
 <p>Die erforderlichen Alternativen können Leistungen von Kontakt- und Informationsstellen für Studierende mit Behinderung und chronischer Erkrankung oder die Schwerbehindertenvertretung für die Beschäftigten sein.</p>
 <h4 id="bestandsaufnahme-und-innerorganistorische-gestaltung">Bestandsaufnahme und innerorganistorische Gestaltung</h4>
-<p>Um auch den Gestaltungsspielraum, den die Richtlinie 2016/2102 EU bietet auszuschöpfen, ist im ersten Schritt eine Bestandsaufanhme der wichtigsten Webseiten, Social-Media-Kanäle und Verwaltungsdokumente durchführen. Erste Schritte erhalten Sie im Kapitel “Test zur Barrierefreiheit”. Optimal bieten Sie für die Mitglieder der Hochschule Veranstaltungen zum Thema Barrierefreiheit an, und setzen ein Germium zur Begleitung der Umsetzungsprojekte ein und verzahnen Barrirefreiheit in die Schulungsprogramme. Gerade für Webseiten wäre zu prüfen, ob eine höhere Konformität der Inhalte durch einen Freigabeprozess oder zentral organisierte Redaktion erreichbar ist.</p>
+<p>Um auch den Gestaltungsspielraum, den die Richtlinie 2016/2102/EU bietet auszuschöpfen, ist im ersten Schritt eine Bestandsaufanhme der wichtigsten Webseiten, Social-Media-Kanäle und Verwaltungsdokumente durchführen. Erste Schritte erhalten Sie im Kapitel “Test zur Barrierefreiheit”. Optimal bieten Sie für die Mitglieder der Hochschule Veranstaltungen zum Thema Barrierefreiheit an, und setzen ein Germium zur Begleitung der Umsetzungsprojekte ein und verzahnen Barrirefreiheit in die Schulungsprogramme. Gerade für Webseiten wäre zu prüfen, ob eine höhere Konformität der Inhalte durch einen Freigabeprozess oder zentral organisierte Redaktion erreichbar ist.</p>
 <h4 id="feedback-mechanismus">Feedback-Mechanismus</h4>
-<p>Über die konkrete Umsetzung des Feedback-Verfahrens äußert sich die Richtlinie 2016/2102 EU kaum. Aus dem Entwurf der Mustererklärung für die Erklärung zur Barrierefreiheit wird ersichtlich, dass es eine Meldemöglichkeit geben muss und eine verantwortliche Person zu benennen ist. Aus den Erwägungsgründen wird zudem ersichtlich, dass über den Feedback-Mechanismus nicht barrierefreie Informationen, Dienstleistungen oder Dokumente für Betroffene barrierefrei zugänglich gemacht werden sollen.</p>
-<p>Die Beantwortung der Anfragen muss innerhalb einer angemessenen Frist erfolgen. Bei einer nicht zufriedenstellenden Antwort können Betroffene ein Durchsetzungsverfahren einleiten.</p>
-<h3 id="fristen">Fristen </h3>
-<p>Die Barrierefreiheit war bereits nach nationalem Recht umzusetzen. Werden jedoch die neuen Fristen aus der Richtlinie 2016/2102 EU nicht eingehalten, liegt neben der verletzten gesetzlichen Pflicht ein Verstoß gegen EU-Recht vor. Aus diesem Grund sind die neuen Fristen von besonderer Relevanz.</p>
+<p>Über die konkrete Umsetzung des Feedback-Verfahrens äußert sich die Richtlinie 2016/2102/EU kaum. Aus dem Entwurf der Mustererklärung für die Erklärung zur Barrierefreiheit wird ersichtlich, dass es eine Meldemöglichkeit geben muss und eine verantwortliche Person zu benennen ist. Aus den Erwägungsgründen wird zudem ersichtlich, dass über den Feedback-Mechanismus nicht barrierefreie Informationen, Dienstleistungen oder Dokumente für Betroffene barrierefrei zugänglich gemacht werden sollen. Die Umsetzung in Bayern gemäß § 2 BayBITV verlangt keine Öffentlichkeit für die Beschwerden, ähnlich einer Kommentarfunktion oder einem Diskussionsforum. Eine einfache (barrierefreie) Kontaktmöglichkeit zur Mitteilung von Inhalten, die nicht barrierefrei sind, ist ausreichend.</p>
+<p>Die Beantwortung der Anfragen muss innerhalb von sechs Wochen gemäß § 3 Abs. 2 S. 1 BayBITV erfolgen. Bei einer nicht zufriedenstellenden Antwort können Betroffene ein Durchsetzungsverfahren beim Landesamt für Digitalisierung, Breitband und Vermessung einleiten.</p>
+<h3 id="eu-fristen">EU-Fristen </h3>
+<p>Die Barrierefreiheit war bereits nach nationalem Recht umzusetzen. Werden jedoch die neuen Fristen aus der Richtlinie 2016/2102/EU nicht eingehalten, liegt neben der verletzten gesetzlichen Pflicht ein Verstoß gegen EU-Recht vor. Aus diesem Grund sind die neuen Fristen von besonderer Relevanz.</p>
 <ul>
-<li><p>Alle neuen <strong>Dateiformate (PDF u.a.)</strong> aus Büroanwendungen müssen <strong>ab dem 23.09.2018</strong> barrierefrei sein. Ältere Dateien müssen bis dahin ebenfalls barrierefrei sein, wenn sie für aktive Verwaltungsverfahren benötigt werden. (z.B. Prüfungsordnungen!). </p></li>
+<li><p>Alle neuen <strong>Dateiformate (PDF u.a.)</strong> aus Büroanwendungen müssen <strong>ab dem 23.09.2018</strong> barrierefrei sein. Ältere Dateien müssen bis dahin ebenfalls barrierefrei sein, wenn sie für aktive Verwaltungsverfahren benötigt werden. (z.B. Prüfungsordnungen!).  Es wird jedoch gleiche Umsetzungszeitraum dem Medium (wie nachfolgend) entsprechend zugebilligt werden müssen.</p></li>
 <li><p><strong>Webseiten</strong>, die ab dem 23.09.2018 veröffentlicht wurden, müssen <strong>bis zum 23.09.2019</strong> auf Stufe AA konform zu WCAG 2.0 sein; ältere Webseiten erst zum 23.09.2020. </p></li>
 <li><p><strong>“Intranets/Extranets”</strong> müssen <strong>bis zum 23.09.2019</strong> barrierefrei sein.  Ausnahmen gelten für Inhalte die vor dem 23. September 2019 erstellt wurden. </p></li>
 <li><p><strong>Mobile Anwendungen</strong> müssen <strong>bis zum 23.06.2021</strong> barrierefrei sein. </p></li>
 </ul>
 <h3 id="barriefreiheit-und-ihre-grenzen">Barriefreiheit und ihre Grenzen</h3>
-<h4 id="ausnahmen">Ausnahmen</h4>
-<p>Die Richtlinie 2016/2102 EU gewährt einige Ausnahmen bei bestimmten Arten oder bei bestimmten Alter von Inhalten:</p>
+<p>Der Handlungsleitfaden für IT-Verantwortliche “Barrierefreie Software V1.0” gibt den IT-Entscheidern auf den Seiten 9 und 10 umfassenden Empfehlungen, wann gemäß § 1 Abs. 1 BayBITV eine im Einzelfall durch die Einhaltung der Barrierefreiheitsanforderungen eine unverhältnismäßige Belastung besteht.</p>
+<h4 id="vertiefung-der-ausnahmen">Vertiefung der Ausnahmen</h4>
+<p>Ergänzend zum Handlungsleitfaden für IT-Verantwortliche “Barrierefreie Software V1.0” können die nachfolgenden Passagen bei der Entscheidungsfindung unterstützen. So gewährend die Richtlinie 2016/2102/EU einige Ausnahmen bei bestimmten Arten oder bei bestimmten Alter von Inhalten:</p>
 <ul>
 <li>Dateiformate von Büroanwendungen, die vor dem 23. September 2018 veröffentlicht wurden, soweit nur dokumentarisch (z.B. Folien zu früheren Veranstaltungen)</li>
 <li>aufgezeichnete zeitbasierte Medien, die vor dem 23. September 2020 veröffentlicht wurden</li>
@@ -769,11 +767,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>Inhalte von Extranets und Intranets, die vor dem 23. September 2019 veröffentlicht wurden</li>
 </ul>
 <h4 id="rückausnahmen">Rückausnahmen</h4>
-<p>Die Richtlinie 2016/2012 EU hat einen kleineren Anwendungsbereich als das BayBGG. Während die Richtlinie 2016/2102 EU Webseiten und Apps regelt, umfasst das BayBGG Internet- und Intranetauftritte und Internetangebote sowie die von ihnen zur Verfügung gestellten grafischen Programmoberflächen. Soweit die EU-Richtline 2016/2012 aber keine Anwendung findet, wie es z.B. für Karten oder digitalisierte Kulturgüter der Fall ist, sind auch diese Ausnahmen barrierefrei anzubieten. Die Grenze bleibt das technisch Machbare.</p>
+<p>Die Richtlinie 2016/2012 EU hat einen kleineren Anwendungsbereich als das BayBGG. Während die Richtlinie 2016/2102/EU Webseiten und Apps regelt, umfasst das BayBGG Internet- und Intranetauftritte und Internetangebote sowie die von ihnen zur Verfügung gestellten grafischen Programmoberflächen. Soweit die EU-Richtline 2016/2012 aber keine Anwendung findet, wie es z.B. für Karten oder digitalisierte Kulturgüter der Fall ist, sind auch diese Ausnahmen barrierefrei anzubieten. Die Grenze bleibt das technisch Machbare.</p>
 <h4 id="verhältnismäßigkeitsausnahme">Verhältnismäßigkeitsausnahme</h4>
 <p>Durch den größeren Anwendungsbereich kommt der Verhältnismäßigkeit der Umsetzung der Barrierefreiheit eine große Bedeutung zu. Gleichwohl zeigen die Erwägungsgründe der Richtlinie 2016/2012 EU, dass die Zeit von Ausreden vorbei ist. So sollen nicht barrierefreie Inhalte in allen Fällen so barrierearm wie möglich angeboten werden. Die Barrierefreiheit ist auch kein Grund veröffentlichungspflichtige Dokumente nicht zu veröffentlichen, da insoweit die Aufgabenerfüllung Vorrang vor der Barrierefreiheit genießt. Unmissverständlich werden jedoch <strong>mangelnde Priorität, Zeit oder Kenntnis als Rechtfertigungsgründe abgelehnt</strong>. Ebenso die Nichtentwicklung von Softwaresystemen zur barrierefreien Verwaltung von Inhalten auf Websites und in mobilen Anwendungen. Die Angebote sollen auch bestmöglichst zu assistiven Technologien kompatibel sein. Ebenso sollten Programmierschnittstellen angeboten werden.</p>
 <p>In der konkreten Ausgestaltung sieht der Bayerische Gesetzgeber eine schrittweise technische Umstellung der Angebote vor. Dies erspart jedoch nicht die Bestandsaufnahme für jedes Angebot (Webauftritte, Intranets und mobile Anwendungen) hinsichtlich der Barrierefreiheit.</p>
-<p>Art. 13 Abs. 1 S. 2 schränkt die Umsetzung auf die technischen, finanziellen, wirtschaftlichen und verwaltungsorganisatorischen Möglichkeiten des jeweiligen Trägers öffentlicher Gewalt ein. Hier können auch die Ausnahmen der Richtlinie 2016/2102 EU wieder hineingelesen werden, wie sie etwa für Karten oder digitalisierte Kulturgüter vorgesehen sind.</p>
+<p>Art. 13 Abs. 1 S. 2 schränkt die Umsetzung auf die technischen, finanziellen, wirtschaftlichen und verwaltungsorganisatorischen Möglichkeiten des jeweiligen Trägers öffentlicher Gewalt ein. Hier können auch die Ausnahmen der Richtlinie 2016/2102/EU wieder hineingelesen werden, wie sie etwa für Karten oder digitalisierte Kulturgüter vorgesehen sind.</p>
 <p>Mit Blick auf Art. 5 der Richtlinie 2016/2012 EU wird dies noch etwas spezifischer ausgeführt. Insbesondere in Hinblick auf</p>
 <ul>
 <li>Größe, Ressourcen und Art der betreffenden öffentlichen Stelle;</li>
@@ -789,13 +787,116 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul>
 <p>überwiegen die Investitionen die Kosten.</p>
 <h3 id="durchsetzungsmöglichkeiten-für-betroffene">Durchsetzungsmöglichkeiten für Betroffene</h3>
-<p>Die Ausgestaltung der neuen Richtlinien wird in einer angepassten BayBITV oder einer neuen Verordnung erfolgen.</p>
+<p>Für Öffentliche Stellen unter Verantwortung des Bundes ist die <a href="https://www.bundesfachstelle-barrierefreiheit.de/">Bundesfachstelle Barrierefreiheit</a> eingerichtet worden. Sie übernimmt die Aufgaben:</p>
+<ul>
+<li>Zentralen Anlaufstelle für das Schlichtungsverfahren</li>
+<li>Erstberatung</li>
+<li>Aufnahme der Überwachungsfunktion (ab 2020)</li>
+<li>Koordination der Meldungen der Bundesländer</li>
+<li>Reporting an die EU Kommission</li>
+</ul>
+<h3 id="bayerische-besonderheiten">Bayerische Besonderheiten</h3>
+<h4 id="behandlung-von-schlichtungsverfahren-überwachungs--und-kontrollfunktion">Behandlung von Schlichtungsverfahren, Überwachungs- und Kontrollfunktion</h4>
+<p>Für die Durchsetzung und Überwachung ist für Träger öffentlicher Gewalt in Bayern ist das Landesamt für Digitalisierung, Breitband und Vermessung gemäß § 3 BayBITV zuständig.</p>
+<p>Das Landesamt überwacht und kontrolliert die Umsetzung und wird Beschwerden von Nutzern nachgehen.</p>
+<ul>
+<li><p>Es nimmt Beschwerden über Feedback-Mechanismus an und behandelt diese.</p></li>
+<li><p>Es prüft die Webauftritte der Öffentlichen Stellen bzw. fordert hierzu Berichte ein.</p></li>
+<li><p>Und meldet den Status für den Freistaat Bayern ab Juni 2021 an den Bund.</p></li>
+</ul>
+<h4 id="bayerische-fristen">Bayerische Fristen</h4>
+<p>Da der einfachgesetzliche Auftrag in Bayern schon seit 2006 besteht, sind die Umsetzungfristen in Bayern angepasst.</p>
+<p>Aktuell gelten nach der im Oktober 2018 erneuerten BayBITV 2.0 folgende Fristen für Öffentliche Stellen:</p>
+<ul>
+<li>Inhalte, die bis zum 30. September 2018 erstellt wurden: bis 30. September 2020</li>
+<li>Alle danach erstellten Inhalte: bis 30. September 2019</li>
+<li>Mobile Anwendungen: bis 1. Juli 2021</li>
+</ul>
+<p>Es handelt sich dabei um <strong>Umsetzungsfristen</strong>. Die alten Pflichten (BayBITV1.0) gelten bis zum Zeitpunkt der neuen Umsetzung fort - und waren bereits abgelaufen. Daher beginnt die Umsetzung jetzt und hätte schon beginnen müssen.</p>
+<p>Eine Frist zur Bereitstellung einer Barrierefreiheitserklärung wurde in der BayBITV nicht definiert. Daher gilt für diese die Frist der EU Richtlinie: ab dem 21. September 2019 müssen Webangebote der öffentlichen Stellen eine Barrierefreiheitserklärung aufweisen mit Angabe des Standes der Umsetzung der Barrierefreiheit, der Bereitstellung eines feedback-Mechanismus und der Verlinkung der aufsichtsführenden Stelle (das Landeamt für Digitalisierung).</p>
+<h4 id="entwicklung-und-ablauf-der-umsetzungsfristen-in-bayern-seit-2005">Entwicklung und Ablauf der Umsetzungsfristen in Bayern seit 2005</h4>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Träger</th>
+<th>Erstellungsdatum des Webangebotes</th>
+<th>BayBITV 1.0<br/>(2006)</th>
+<th>BayBITV 2.0<br />(2018)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Staatsverwaltung</td>
+<td>31. Dezember 2005 oder älter</td>
+<td>bis 31. Dezember 2013</td>
+<td>bereits abgelaufen</td>
+</tr>
+<tr class="even">
+<td>Staatsverwaltung</td>
+<td>1. Januar 2006 oder danach</td>
+<td>bis 31. Dezember 2012</td>
+<td>bereits abgelaufen</td>
+</tr>
+<tr class="odd">
+<td>Staatsverwaltung</td>
+<td>30. September 2018 oder älter</td>
+<td>-</td>
+<td>ab 1. Oktober 2020</td>
+</tr>
+<tr class="even">
+<td>Staatsverwaltung</td>
+<td>1. Oktober 2018 oder danach</td>
+<td>-</td>
+<td>ab 1. Oktober 2019</td>
+</tr>
+<tr class="odd">
+<td>Hochschulen</td>
+<td>30. September 2018 oder älter</td>
+<td>Keine Frist, aber Empfehlung</td>
+<td>ab 1. Oktober 2020</td>
+</tr>
+<tr class="even">
+<td>Hochschulen</td>
+<td>1. Oktober 2018 oder danach</td>
+<td>Keine Frist, aber Empfehlung</td>
+<td>ab 1. Oktober 2019</td>
+</tr>
+<tr class="odd">
+<td>Seiten zur Teilhabe</td>
+<td>egal</td>
+<td>bis 31. Dezember 2010</td>
+<td>bereits abgelaufen</td>
+</tr>
+<tr class="even">
+<td>Apps</td>
+<td>-</td>
+<td>Wie Webseiten</td>
+<td>ab 1. Juli 2021</td>
+</tr>
+</tbody>
+</table>
+<p>Für Dateiformate aus Büroanwendungen sind die gleichen Fristen maßgeblich. Intranets/Extranets sind wie Webseiten zu behandeln.</p>
+<h4 id="deutsche-gebärdensprache-und-leichte-sprache">Deutsche Gebärdensprache und Leichte Sprache</h4>
+<p>Für Neuveröffentlichung ab dem 1. Oktober 2018 sind nach Fristablauf (siehe zuvor) zusätzliche Inhalte gemäß Anlage 2 BITV 2.0 in Deutscher Gebärdensprache und in Leichter Sprache bereitzustellen. Dies umfasst</p>
+<ul>
+<li>Informationen zum Inhalt</li>
+<li>Navigationshinweise<br />
+</li>
+<li>Hinweise auf weitere Informationen, die in diesem Auftritt entweder in Deutscher Gebärdensprache oder in Leichter Sprache eingestellt sind.</li>
+</ul>
+<p>Es bietet sich an, den Auftritt neben Deutsch und Englisch die Sprachversion Deutscher Gebärdensprache und Leichte Sprache anzubieten. Eine Wirtschaftlichkeit Inhalte in dieser Form anzubieten ist abseits der zentrale Navigations- und Einstellungsangebote sehr genau zu prüfen.</p>
 <h2 id="vertragliche-anforderungen-bei-auftragsarbeiten">Vertragliche Anforderungen bei Auftragsarbeiten</h2>
 <p>Werden Webseiten nicht hochschulintern, sondern extern entwickelt oder gestaltet, hat die Einrichtung, die einen solchen Auftrag vergibt, neben dem Haushaltsrecht sicherzustellen, dass in der Auftragsdefinition die Einhaltung der EU-Norm zur Barrierefreiheit verbindlich gefordert wird. Dies gilt nicht nur für Programmierarbeiten, sondern auch für gestalterische Leistungen.</p>
 <h3 id="die-schritte-zum-auftrag-vereinfachte-darstellung">Die Schritte zum Auftrag (vereinfachte Darstellung)</h3>
 <ol type="1">
 <li>Wirtschaftlichkeitsbetrachtung</li>
-<li>Konformität zur Europäischen Norm EN 301 549 V1.1.2 - Die <a href="https://www.rz.uni-wuerzburg.de/dienste/it-recht/">Stabsstelle IT-Recht</a> bietet dafür gegen Ende 2018 einen Mustertragvertrag an.</li>
+<li>Konformität zur Europäischen Norm EN 301 549 V2.1.2 - Der Handlungsleitfaden für IT-Verantwortliche “Barrierefreie Software V1.0” enthält auf Seite 16-18 wertvolle Empfehlungen zu Leistungsanforderung für die Beschaffung. Die <a href="https://www.rz.uni-wuerzburg.de/dienste/it-recht/">Stabsstelle IT-Recht</a> bietet dafür gegen Ende 2018 einen Mustertragvertrag an.</li>
 <li>Einhalten des Vergaberechts
 <ul>
 <li><ol type="a">
@@ -846,10 +947,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li>Festlegen von Verantwortlichkeiten für die Umsetzung der Barrierefreiheit</li>
 <li>Prüfung, ob eine Inhaltsfreigabe über eine zentrale Stelle koordiniert werden könnte</li>
-<li>Auswahl der Webseiten, die gemäß Annex C der Europäischen Norm EN 301 549 V1.1.2 geprüft werden</li>
+<li>Auswahl der Webseiten, die gemäß Annex C der Europäischen Norm EN 301 549 V2.1.2 geprüft werden</li>
 </ul></li>
 <li>Prüfung führender Systeme und aller neuen</li>
-<li>Konformität zur Europäischen Norm EN 301 549 V1.1.2 in der Regel als verpflichtendes Kriterium für Beschaffungen festlegen</li>
+<li>Konformität zur Europäischen Norm EN 301 549 V2.1.2 in der Regel als verpflichtendes Kriterium für Beschaffungen festlegen</li>
 <li>Beständige Information und Sensiblisierung für das Thema</li>
 <li>Barrierefreiheitserklärung und Feedback-Mechanismus auf Webseite und in mobilen Anwendungen veröffentlichen</li>
 <li>Etablieren von Schulungsangeboten</li>
@@ -937,6 +1038,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Sollte eine oder mehrere der obigen Situationen Probleme aufzeigen, ist die Zugänglichkeit der Seite nicht vollständig gegeben. Es ist in diesem Fall davon auszugehen, dass keine Konformität zur WCAG vorliegt.</p>
 <p>Das W3C selbst bietet ebenfalls einen Schnelltest an: <a href="https://www.w3.org/WAI/test-evaluate/preliminary/">Easy Checks - A First Review of Web Accessibility</a>. Dieser ist etwas aufwendiger als oben aufgeführte Punkte und ebenfalls noch keine vollständige Prüfung.</p>
 <p>Ein weiterer Schnelltest beschreibt Kerstin Probiesch in ihrem Artikel <a href="http://webkrauts.de/artikel/2011/schnelltest-zur-barrierefreiheit">Schnelltest zur Barrierefreiheit</a> auf Webkrauts.de.</p>
+<p>Ebenfalls hilfreich für eine schnelle Überprüfung und zur Vermeidung technischer Fehler ist die Anwendung <a href="https://accessibilityinsights.io/">Accessibility Insights</a>. Diese ermöglicht neben der Prüfung von Webseteiten auch die Überprüfung von Software.</p>
 <h2 id="prüfung-zur-konformität-zur-wcag">Prüfung zur Konformität zur WCAG</h2>
 <p>Das W3C hat eine eigene Seite zur Evaluierung der Barrierefreiheit eingerichtet: Unter <a href="https://www.w3.org/WAI/test-evaluate/">Test &amp; Evaluate</a> erhält man einen Überblick über verschiedene Testmethoden, Werkzeugen und weiterführende Informationen. Hierzu gehört auch eine umfangreiche Sammlung an Werkzeugen, die auf der Seite <a href="https://www.w3.org/WAI/ER/tools/">Web Accessibility Evaluation Tool List</a> angeboten wird. Die Sammlung ist entsprechend der Anforderungen und des zu testenden Angebots sortier- und filterbar.</p>
 <p>Eine vollständige Prüfung über die Einhaltung der WCAG kann mit Hilfe der <a href="https://www.w3.org/TR/WCAG-EM/">Accessibility Conformance Evaluation Methodology (WCAG-EM)</a> erfolgen. Die WCAG selbst definiert bereits durch die Erfolgskriterien und die Konformitätsbedingungen, wie man einzelne Seiten auf Barrierefreiheit prüft. Was jedoch durch die WCAG nicht geleistet wird, ist eine Wertung der Ergebnisse. So lässt sich ein Webauftritt anhand von einzelnen Punkten aus der WCAG nicht pauschal einordnen. Dies wird durch die Methode geleistet, die durch die WCAG-EM vorgegeben wird. Die WCAG-EM beschreibt das Best-Practice-Vorgehen zur Prüfung von Webangeboten, zur Definition des Testumgangs, der Auswahl von Stichproben und zur Berichterstattung.</p>
@@ -957,12 +1059,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <img src="07-tests/wcag-em-tool.png" alt="Bild: Screenshot WCAG-EM Report Tool" /><figcaption>Bild: Screenshot WCAG-EM Report Tool</figcaption>
 </figure>
 <p>Hierbei handelt es sich um ein Online-Tool in dem alle 5 Schritte abgebildet werden können. Interaktive Eingabefelder und Auswahllisten unterstützen den Prüfer in diesem Werkzeug bei der Evaluation und erlauben es am Ende des Prozesses eine Vorlage für ein Gutachten zu erstellen. Die Vorlage kann in den Formaten HTML oder JSON exportiert, aber auch für die spätere Weiterbearbeitung gespeichert werden.</p>
-<h2 id="nachweis-gemäß-der-europäischen-norm-en-301-549-v1.1.2">Nachweis gemäß der Europäischen Norm EN 301 549 V1.1.2</h2>
-<p>Für Webanwendungen wird Konformität mit den Barrierefreiheitsanforderungen vermutet, sofern und soweit nach Annex C der <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf">Europäischen Norm EN 301 549 V1.1.2</a> die Testkriterien erfüllt sind. Über die WCAG 2.0 mit Level AA hinaus, sind dafür auch allgemeine Kriterien zu erfüllen. Durch die große Schnittmenge werden Tests nach der WCAG-EM die Prüfung nach der EU Norm gut vorbereiten.</p>
+<h2 id="nachweis-gemäß-der-europäischen-norm-en-301-549-v2.1.2">Nachweis gemäß der Europäischen Norm EN 301 549 V2.1.2</h2>
+<p>Für Webanwendungen wird Konformität mit den Barrierefreiheitsanforderungen vermutet, sofern und soweit nach Annex C der <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">Europäischen Norm EN 301 549 V2.1.2</a> die Testkriterien erfüllt sind. Über die WCAG 2.1 mit Level AA hinaus, sind dafür auch allgemeine Kriterien zu erfüllen. Durch die große Schnittmenge werden Tests nach der WCAG-EM die Prüfung nach der EU Norm gut vorbereiten.</p>
 <h2 id="zertifikate">Zertifikate</h2>
-<p>Es gibt Anbieter, welche Zertifikate über eine Prüfung der Barrierefreiheit anbieten. Hierzu muss jedoch bemerkt werden, dass eine Prüfung in allen Fällen nur eine Momentaufnahme sein kann. Ein Prüfergebnis, welches die Konformität einer Webseite gemäß der WCAG 2.0 in der Konformitätsstufe AA belegt, gilt für den Zeitpunkt des Tests. Da größere Webauftritte steten Änderungen und Aktualisierungen unterliegen, ist die Gültigkeit einer Prüfung ebenfalls zeitlich begrenzt. Dieser Einschränkung unterliegt auch ein Prüfergebnis gemäß Annex C der europäischen Norm.</p>
+<p>Es gibt Anbieter, welche Zertifikate über eine Prüfung der Barrierefreiheit anbieten. Hierzu muss jedoch bemerkt werden, dass eine Prüfung in allen Fällen nur eine Momentaufnahme sein kann. Ein Prüfergebnis, welches die Konformität einer Webseite gemäß der WCAG 2.1 in der Konformitätsstufe AA belegt, gilt für den Zeitpunkt des Tests. Da größere Webauftritte steten Änderungen und Aktualisierungen unterliegen, ist die Gültigkeit einer Prüfung ebenfalls zeitlich begrenzt. Dieser Einschränkung unterliegt auch ein Prüfergebnis gemäß Annex C der europäischen Norm.</p>
 <p>Im Falle einer Barriere, die beim Besuch eines Betroffenen auftritt und dann tatsächlich vorhanden ist, ist ein vorheriges positives Prüfungsergebnis oder ein Zertifikat ohne Bedeutung: Die EU-Richtlinie erfordert in allen Fällen die Behebung der Barriere und das Anbieten eines geeigneten Feedback-Mechanismus.</p>
-<p>Die EU-Richtlinie verpflichtet nicht zu einer Zertifizierung. Stattdessen fordert sie allein die Konformität der Webanwendungen gemäß der Europäischen Norm EN 301 549 V1.1.2 auf Basis der WCAG. Da die WCAG mit der WCAG-EM eigene Testverfahren enthalten, sind auch diese zu verwenden. Eigene Prüfverfahren und Zertifikate von einzelnen Anbietern oder von staatlichen Einrichtungen geförderten Projekten werden von der EU-Richtlinie und der WCAG nicht erfasst und sind daher nicht relevant. Die Autoren des Leitfadens empfehlen daher auf den Gebrauch von Zertifikaten zu verzichten.</p>
+<p>Die EU-Richtlinie verpflichtet nicht zu einer Zertifizierung. Stattdessen fordert sie allein die Konformität der Webanwendungen gemäß der Europäischen Norm EN 301 549 V2.1.2 auf Basis der WCAG. Da die WCAG mit der WCAG-EM eigene Testverfahren enthalten, sind auch diese zu verwenden. Eigene Prüfverfahren und Zertifikate von einzelnen Anbietern oder von staatlichen Einrichtungen geförderten Projekten werden von der EU-Richtlinie und der WCAG nicht erfasst und sind daher nicht relevant. Die Autoren des Leitfadens empfehlen daher auf den Kauf von Zertifikaten zu verzichten.</p>
 <h1 id="weitere-leitfäden-und-relevante-informationsangebote">Weitere Leitfäden und relevante Informationsangebote</h1>
 <h2 id="für-webseiten">Für Webseiten</h2>
 <ul>
@@ -1018,16 +1120,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>EU
 <ul>
 <li>EU Richtlinie zur Barrierefreiheit, <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016L2102">https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016L2102</a> </li>
-<li>EU-Entwurf einer Barrierefreiheitserklärung (englisch), <a href="https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2018-2604172_en" class="uri">https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2018-2604172_en</a></li>
+<li>Mustererklärung zur Barrierefreiheit gemäß der Richtlinie (EU) 2016/2102 <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32018D1523&amp;from=DE" class="uri">https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32018D1523&amp;from=DE</a></li>
+<li>Überwachungsmethodik <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=uriserv:OJ.L_.2018.256.01.0108.01.DEU&amp;toc=OJ:L:2018:256:TOC" class="uri">https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=uriserv:OJ.L_.2018.256.01.0108.01.DEU&amp;toc=OJ:L:2018:256:TOC</a></li>
 <li>Europäische Sozialcharta,  <a href="https://rm.coe.int/CoERMPublicCommonSearchServices/DisplayDCTMContent?documentId=090000168007cf92" class="uri">https://rm.coe.int/CoERMPublicCommonSearchServices/DisplayDCTMContent?documentId=090000168007cf92</a> </li>
 <li>(Laufende) EU-Anhörung zu Entwürfen der Mustererklärung Barrierefreiheit und von Testverfahren,  <a href="https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2018-2604172_en" class="uri">https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2018-2604172_en</a>  </li>
 </ul></li>
-<li><p>Übereinkommen der Vereinten Nationen über die Rechte von Menschen mit Behinderung, <a href="http://www.bmas.de/SharedDocs/Downloads/DE/PDF-Publikationen/a729-un-konvention.pdf" class="uri">http://www.bmas.de/SharedDocs/Downloads/DE/PDF-Publikationen/a729-un-konvention.pdf</a></p></li>
+<li>Übereinkommen der Vereinten Nationen über die Rechte von Menschen mit Behinderung, <a href="http://www.bmas.de/SharedDocs/Downloads/DE/PDF-Publikationen/a729-un-konvention.pdf" class="uri">http://www.bmas.de/SharedDocs/Downloads/DE/PDF-Publikationen/a729-un-konvention.pdf</a></li>
 <li>Bund
 <ul>
 <li>Schiedsstelle BGG,  <a href="https://www.behindertenbeauftragter.de/DE/SchlichtungsstelleBGG/SchlichtungsstelleBGG_node.html" class="uri">https://www.behindertenbeauftragter.de/DE/SchlichtungsstelleBGG/SchlichtungsstelleBGG_node.html</a>  </li>
-<li>Gesetzentwurf “Entwurf eines Gesetzes zur Verlängerung befristeter Regelungen im Arbeitsförderungsrecht und zur Umsetzung der Richtlinie (EU) 2016/2102 über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen”: <a href="http://dip21.bundestag.de/dip21/btd/19/020/1902072.pdf" class="uri">http://dip21.bundestag.de/dip21/btd/19/020/1902072.pdf</a>  </li>
+<li>Dokumentation zum “Gesetz zur Verlängerung befristeter Regelungen im Arbeitsförderungsrecht und zur Umsetzung der Richtlinie (EU) 2016/2102 über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen”: <a href="http://dipbt.bundestag.de/extrakt/ba/WP19/2333/233374.html" class="uri">http://dipbt.bundestag.de/extrakt/ba/WP19/2333/233374.html</a></li>
 <li>Bericht und Stellungsnahmen:  <a href="http://www.bundestag.de/blob/558776/ed216881a756d5cb81a46ef43dec1ac4/materialzusammenstellung_10-sitzung-data.pdf" class="uri">http://www.bundestag.de/blob/558776/ed216881a756d5cb81a46ef43dec1ac4/materialzusammenstellung_10-sitzung-data.pdf</a>  </li>
+<li>Bundesfachstelle Barrierefreiheit, https://www.bundesfachstelle-barrierefreiheit.de</li>
 </ul></li>
 <li>Bayern:
 <ul>

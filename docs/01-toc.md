@@ -1,4 +1,4 @@
-Version 3.0  vom 15. Mai 2019
+Version 3.1  vom 12. Juni 2019
 
 
 # Inhaltsüberblick 
