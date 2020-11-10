@@ -47,7 +47,10 @@ Die Umsetzung gemäß § 2 BayBITV (2006) und § 1 Abs. 1 BayBITV (Stand bis zum
 
 Für den Anwendungsbereich der Richtlinie 2016/2102/EU sind die Empfehlungen der BITV hinfällig. Maßgeblicher Standard für Webanwendungen der Hochschulen ist nun die WCAG über die Europäischen Norm EN 301 549 V1.1.2.  Festzustellen ist, dass Hochschulen, die sich bereits vorher an die WCAG orientierten, einen Vorsprung in der Umsetzung der Barrierefreiheit erlangten. 
 
-Die Verordnung wurde mit Wirkung zum 1. Oktober 2018 an die Richtlinie 2016/2102/EU angepasst. Für die technischen Anforderungen wird trotz der europäischen Norm auf die Anlage 1 der Barrierefreie Informationstechnik-Verordnung verwiesen. Ob es weiter ein Nebeneinanderer des deutschen Standards und der europäischen Norm gegeben wird, bleibt abzuwarten. Gemäß finden die neuen Pflichten aus der BayBTIV mit den Änderungen zum 1. Oktober 2018 gemäß § 5a BayBITV mit unterschiedlichen Fristen erst ab dem **1. Oktober 2019** Anwendung. Bis zu diesem Zeitpunkt besteht für die Hochschulen keine rechtliche Verfplichtung nach der BITV Anlage die Barrierefreiheit herzustellen. Auch im Hinblick auf die Überarbeitung der BITV sollte die Umsetzung an Hochschulen nach der Europäischen Norm EN 301 549 V1.1.2 erfolgen und dabei die WCAG 2.1 miteinbeziehen.
+Die Verordnung wurde mit Wirkung zum 1. Oktober 2018 an die Richtlinie 2016/2102/EU angepasst: Am 8. November 2016 wurde die **Bayerische Verordnung über die elektronische Verwaltung und die barrierefreie Informationstechnik (Bayerische E-Government-Verordnung – BayEGovV)** erlassen, welche die bisherige BayBITV ersetzt.
+
+Für die technischen Anforderungen wird trotz der europäischen Norm auf die Anlage 1 der Barrierefreie Informationstechnik-Verordnung verwiesen. Ob es weiter ein Nebeneinanderer des deutschen Standards und der europäischen Norm gegeben wird, bleibt abzuwarten. Gemäß fanden die neuen Pflichten aus der BayBTIV mit den Änderungen zum 1. Oktober 2018 gemäß § 5a BayBITV mit unterschiedlichen Fristen erst ab dem 1. Oktober 2019 Anwendung. Bis zu diesem Zeitpunkt bestand für die Hochschulen keine rechtliche Verpflichtung nach der BITV Anlage die Barrierefreiheit herzustellen. 
+Im Hinblick auf die Überarbeitung der BITV sollte die Umsetzung an Hochschulen nach der Europäischen Norm EN 301 549 V1.1.2 erfolgen und dabei die WCAG 2.1 miteinbeziehen.
 
 ## Umsetzung
 
@@ -189,10 +192,10 @@ Eine Frist zur Bereitstellung einer Barrierefreiheitserklärung wurde in der Bay
 | ------------- | ------------- | ------------- | ------------- |
 |Staatsverwaltung|31. Dezember 2005 oder älter|bis 31. Dezember 2013|bereits abgelaufen|
 |Staatsverwaltung|1. Januar 2006 oder danach|bis 31. Dezember 2012|bereits abgelaufen|
-|Staatsverwaltung|30. September 2018 oder älter|-|ab 1. Oktober 2020|
-|Staatsverwaltung|1. Oktober 2018 oder danach|-|ab 1. Oktober 2019|
-|Hochschulen|30. September 2018 oder älter|Keine Frist, aber Empfehlung|ab 1. Oktober 2020|
-|Hochschulen|1. Oktober 2018 oder danach|Keine Frist, aber Empfehlung|ab 1. Oktober 2019|
+|Staatsverwaltung|30. September 2018 oder älter|-|bereits abgelaufen (1. Oktober 2020)|
+|Staatsverwaltung|1. Oktober 2018 oder danach|-|bereits abgelaufen (1. Oktober 2019)|
+|Hochschulen|30. September 2018 oder älter|Keine Frist, aber Empfehlung|bereits abgelaufen (1. Oktober 2020)|
+|Hochschulen|1. Oktober 2018 oder danach|Keine Frist, aber Empfehlung|bereits abgelaufen (1. Oktober 2019)|
 |Seiten zur Teilhabe|egal|bis 31. Dezember 2010|bereits  abgelaufen|
 |Apps|-|Wie Webseiten|ab 1. Juli 2021|
 
