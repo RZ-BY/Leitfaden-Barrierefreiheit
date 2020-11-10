@@ -188,7 +188,7 @@ Eine Frist zur Bereitstellung einer Barrierefreiheitserklärung wurde in der Bay
 
 #### Entwicklung und Ablauf der Umsetzungsfristen in Bayern seit 2005 
 
-|Träger| Erstellungsdatum des Webangebotes |BayBITV 1.0<br/>(2006)|BayBITV 2.0<br />(2018)                  |
+|Träger| Erstellungsdatum des Webangebotes |BayBITV 1.0<br/>(2006)|BayEGovV<br />(2016)                  |
 | ------------- | ------------- | ------------- | ------------- |
 |Staatsverwaltung|31. Dezember 2005 oder älter|bis 31. Dezember 2013|bereits abgelaufen|
 |Staatsverwaltung|1. Januar 2006 oder danach|bis 31. Dezember 2012|bereits abgelaufen|
