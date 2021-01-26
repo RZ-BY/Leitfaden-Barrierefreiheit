@@ -17,16 +17,16 @@ Er dient als Ergänzung und Vertiefung des Handlungsleitfadens für IT-Verantwor
 
 ## Grundlagen
 
-Barrierefreiheit ist kein neues Thema. Da die Exekutive durch das Onlinezugangsgesetz und E-Goverment-Gesetze verpflichtet ist, ihre Leistungen (demnächst) und Informationen auch digital anzubeiten, gewinnt die Barrierefreiheit stark an Bedeutung.
+Barrierefreiheit ist kein neues Thema. Da die Exekutive durch das Onlinezugangsgesetz und E-Goverment-Gesetze verpflichtet ist, ihre Leistungen und Informationen auch digital anzubeiten, gewinnt die Barrierefreiheit stark an Bedeutung.
 Verfassungsrechtlich gut begründbar ist es, einen Leistungsanspruch auf Zugänglichkeit von Informationen für benachteiligte Personen anzunehmen (Vgl. Sachs/Bethge GG Art. 5 Rn. 62-63, beck-online zu Art. 5 Abs. 1 2. Halbsatz GG i.V.m. Art. 3 Abs. 1 GG).
 Die verfassungrechtliche Grenze dieser Leistung ergibt sich nur aus den verfügbaren Mitteln der handelnden Behörde.
 
 ### Richtlinie 2016/2016/EU über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen
 
-Mit der Richtlinie 2016/2102/EU der Europäischen Union vom 26. Oktober 2016 über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen ist nun die [europäischen Norm EN 301 549 V1.1.2](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) verbindlich geworden. Für den Bereich Web (Dokumente und Software) – enthält diese Norm alle Level A und Level AA - Erfolgskriterien der WCAG 2.0 als Mindestanforderung. Für Nicht-Webdokumente orientiert sich die Norm an den Richtlinien der WCAG2ICT Task Force.
+Mit der Richtlinie 2016/2102/EU der Europäischen Union vom 26. Oktober 2016 über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen ist zunächst die [europäischen Norm EN 301 549 V1.1.2](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) verbindlich geworden; sie wurde im August 2018 durch die [EN 301 549 V2.1.2](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf) aktualisiert. Für den Bereich Web (Dokumente und Software) – enthält diese Norm alle Level A und Level AA - Erfolgskriterien der WCAG 2.1 als Mindestanforderung. Für Nicht-Webdokumente orientiert sich die Norm an den Richtlinien der WCAG2ICT Task Force.
 
-Vereinfacht kann gesagt werden, dass der Maßstab für Barrierefreiheit im Web die WCAG Standard in der seiner aktuellen Fassung ist.  Aktuell liegen die WCAG in der Fassung 2.1 vor. Wird man den Erfolgskriterien von WCAG 2.1 gerecht, erfüllt man auch WCAG 2.0. 
-Mit einer Anpassung der Europäischen Norm auf die Fassung der WCAG 2.1 ist zu rechnen.
+Vereinfacht kann gesagt werden, dass der Maßstab für Barrierefreiheit im Web die WCAG Standard in der seiner aktuellen Fassung ist.  Aktuell liegen die WCAG in der Fassung 2.1 vor. 
+Eine neue Fassung der WCAG 3.0 befindet sich derzeit im Abstimmungsprozess.
 
 ### Verordnung zur Schaffung barrierefreier Informationstechnik (BITV)
 
@@ -45,12 +45,12 @@ Die Bayerische Barrierefreie Informationstechnik-Verordnung (BayBITV) setzte in 
 
 Die Umsetzung gemäß § 2 BayBITV (2006) und § 1 Abs. 1 BayBITV (Stand bis zum 30. September 2018) gibt für Webangebote der staatlichen Hochschulen die Empfehlung, die Barrierefreiheit nach der BITV Anlage in der Stufe Priorität I umzusetzen. Für zentrale Navigations- und Einstiegsangebote ist die Empfehlung, diese gemäß der BITV Anlage in der Stufe Priorität II umzusetzen.
 
-Für den Anwendungsbereich der Richtlinie 2016/2102/EU sind die Empfehlungen der BITV hinfällig. Maßgeblicher Standard für Webanwendungen der Hochschulen ist nun die WCAG über die Europäischen Norm EN 301 549 V1.1.2.  Festzustellen ist, dass Hochschulen, die sich bereits vorher an die WCAG orientierten, einen Vorsprung in der Umsetzung der Barrierefreiheit erlangten. 
+Für den Anwendungsbereich der Richtlinie 2016/2102/EU sind die Empfehlungen der BITV hinfällig. Maßgeblicher Standard für Webanwendungen der Hochschulen ist nun die WCAG über die Europäischen Norm EN 301 549 V2.1.2.  Festzustellen ist, dass Hochschulen, die sich bereits vorher an die WCAG orientierten, einen Vorsprung in der Umsetzung der Barrierefreiheit erlangten. 
 
 Die Verordnung wurde mit Wirkung zum 1. Oktober 2018 an die Richtlinie 2016/2102/EU angepasst: Am 8. November 2016 wurde die **Bayerische Verordnung über die elektronische Verwaltung und die barrierefreie Informationstechnik (Bayerische E-Government-Verordnung – BayEGovV)** erlassen, welche die bisherige BayBITV ersetzt.
 
 Für die technischen Anforderungen wird trotz der europäischen Norm auf die Anlage 1 der Barrierefreie Informationstechnik-Verordnung verwiesen. Ob es weiter ein Nebeneinanderer des deutschen Standards und der europäischen Norm gegeben wird, bleibt abzuwarten. Gemäß fanden die neuen Pflichten aus der BayBTIV mit den Änderungen zum 1. Oktober 2018 gemäß § 5a BayBITV mit unterschiedlichen Fristen erst ab dem 1. Oktober 2019 Anwendung. Bis zu diesem Zeitpunkt bestand für die Hochschulen keine rechtliche Verpflichtung nach der BITV Anlage die Barrierefreiheit herzustellen. 
-Im Hinblick auf die Überarbeitung der BITV sollte die Umsetzung an Hochschulen nach der Europäischen Norm EN 301 549 V1.1.2 erfolgen und dabei die WCAG 2.1 miteinbeziehen.
+Im Hinblick auf die Überarbeitung der BITV sollte die Umsetzung an Hochschulen nach der Europäischen Norm EN 301 549 V2.1.2 erfolgen und dabei die WCAG 2.1 miteinbeziehen.
 
 ## Umsetzung
 
@@ -60,11 +60,22 @@ Die Umsetzung erfordert zum einen die Beachtung formaler Aspekte (Barrierefreihe
 
 Die Richtline führt eine Barrierefreiheitserklärung für Webseiten und mobile Anwendungen verpflichtend ein. Der Inhalt der Erklärung wird durch Art. 7 vorgegeben, dessen Inhalt die Kommission in einer Mustererklärung festlegt.
 
-Ein [Entwurf einer Mustererklärung für die Erklärung zur Barrierefreiheit](https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2018-2604172_en) ist bereits verfügbar. Die finale Version ist Mitte 2019 zu erwarten.
+Eine [Mustererklärung für die Erklärung zur Barrierefreiheit](https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/1753-Commission-implementing-decision-on-establishing-a-model-accessibility-statement-under-the-WAD) wurde im Oktober 2018 durch die EU Kommission verabschiedet.
+Sie sieht demnach folgende Bestandteile vor:
 
-Als wesentlicher Bestandteil der Erklärung wird die Konformität mit den Barrierefreiheitsanforderungen vermutet, sofern und soweit nach Annex C der Europäischen Norm EN 301 549 V2.1.2 die Testkriterien erfüllt sind. Sofern dies jedoch nicht der Fall ist, ist in der Erklärung darzulegen, welche Kriterien, aus welchen Gründen nicht erfüllt werden konnten. Soweit einzelne Seiten die Konformität zur WCAG nicht erfüllen, ist anzugeben, welche sichere barrierefreie zugängliche Alternative besteht. 
+1. Verpflichtende Angaben
 
-Die erforderlichen Alternativen können Leistungen von Kontakt- und Informationsstellen für Studierende mit Behinderung und chronischer Erkrankung oder die Schwerbehindertenvertretung für die Beschäftigten sein.
+- Eine Konformitätserklärung; inwieweit ist die Website oder die mobile Anwendung vollständig, partiell oder nicht konform zur EN 301 549. 
+- Eine Auflistung des nicht zugänglichen Inhaltes.
+- Eine Angabe über die Methodik der Prüfung.
+- Die Bereitstellung eines "Feedback Mechanismus". Hierbei soll dem Besucher des Webangebots eine Hilfestellung gegeben werden, wohin dieser sich wenden kann um nicht zugängliche Inhalte zu melden und zu erlangen.
+- Die Angabe der jeweils zuständigen Aufsichtsbehörde an der sich ein Bescher des Webangebots wenden kann, wen ihm keine Hilfe geboten werden konnte.
+
+2. Optionale Angaben
+
+Unter den optionalen Angaben finden sich Informationen wie die einer generellen Stellungsnahme zur Einhaltung der Barrierefreiheit, dem Datum, Angaben zum letzten Update des Angebots, ein Link oder der Download des vollständigen Testberichts, sowie weitere Kontaktangaben und Hilfsangebote.
+
+Das Bayerische Staatsministerium für Digitales veröffentlichte für die Einrichtungend des Freistaats eine [Mustererklärung zur Barrierefreiheit](https://www.stmd.bayern.de/service/handlungsleitfaden-digitale-barrierefreiheit/mustererklaerung-zur-barrierefreiheit/).
 
 #### Bestandsaufnahme und innerorganistorische Gestaltung
 
@@ -73,24 +84,25 @@ Um auch den Gestaltungsspielraum, den die Richtlinie 2016/2102/EU bietet auszusc
 #### Feedback-Mechanismus
 
 Über die konkrete Umsetzung des Feedback-Verfahrens äußert sich die Richtlinie 2016/2102/EU kaum.
-Aus dem Entwurf der Mustererklärung für die Erklärung zur Barrierefreiheit wird ersichtlich, dass es eine Meldemöglichkeit geben muss und eine verantwortliche Person zu benennen ist. Aus den Erwägungsgründen wird zudem ersichtlich, dass über den Feedback-Mechanismus nicht barrierefreie Informationen, Dienstleistungen oder Dokumente für Betroffene barrierefrei zugänglich gemacht werden sollen.
+Aus der Mustererklärung für die Erklärung zur Barrierefreiheit wird ersichtlich, dass es eine Meldemöglichkeit geben muss und eine verantwortliche Person zu benennen ist. Aus den Erwägungsgründen wird zudem ersichtlich, dass über den Feedback-Mechanismus nicht barrierefreie Informationen, Dienstleistungen oder Dokumente für Betroffene barrierefrei zugänglich gemacht werden sollen.
 Die Umsetzung in Bayern gemäß § 2 BayBITV verlangt keine Öffentlichkeit für die Beschwerden, ähnlich einer Kommentarfunktion oder einem Diskussionsforum. Eine einfache (barrierefreie) Kontaktmöglichkeit zur Mitteilung von Inhalten, die nicht barrierefrei sind, ist ausreichend.
 
 Die Beantwortung der Anfragen muss innerhalb von sechs Wochen gemäß § 3 Abs. 2 S. 1 BayBITV erfolgen. Bei einer nicht zufriedenstellenden Antwort können Betroffene ein Durchsetzungsverfahren  beim Landesamt für Digitalisierung, Breitband und Vermessung einleiten.
+
 
 ### EU-Fristen 
 
 Die Barrierefreiheit war bereits nach nationalem Recht umzusetzen. Werden jedoch die neuen Fristen aus der Richtlinie 2016/2102/EU nicht eingehalten, liegt neben der verletzten gesetzlichen Pflicht ein Verstoß gegen EU-Recht vor. Aus diesem Grund sind die neuen Fristen von besonderer Relevanz.
 
--   Alle neuen **Dateiformate (PDF u.a.)** aus Büroanwendungen müssen **ab dem 23.09.2018** barrierefrei sein. 
-    Ältere Dateien müssen bis dahin ebenfalls barrierefrei sein, wenn sie für aktive 
+-   Alle neuen **Dateiformate (PDF u.a.)** aus Büroanwendungen mussten **ab dem 23.09.2018** barrierefrei sein. 
+    Ältere Dateien mussten bis dahin ebenfalls barrierefrei sein, wenn sie für aktive 
     Verwaltungsverfahren benötigt werden. (z.B. Prüfungsordnungen!). 
     Es wird jedoch gleiche Umsetzungszeitraum dem Medium (wie nachfolgend) entsprechend zugebilligt werden müssen.
 
--   **Webseiten**, die ab dem 23.09.2018 veröffentlicht wurden, müssen **bis zum 23.09.2019** auf 
-    Stufe AA konform zu WCAG 2.0 sein; ältere Webseiten erst zum 23.09.2020. 
+-   **Webseiten**, die nach dem 23.09.2018 veröffentlicht wurden, mussten **bis zum 23.09.2019** auf 
+    Stufe AA konform zu WCAG 2.1 sein; ältere Webseiten erst zum 23.09.2020. 
 
--   **"Intranets/Extranets"** müssen **bis zum 23.09.2019** barrierefrei sein. 
+-   **"Intranets/Extranets"** mussten **bis zum 23.09.2019** barrierefrei sein. 
     Ausnahmen gelten für Inhalte die vor dem 23. September 2019 erstellt wurden. 
 
 -   **Mobile Anwendungen** müssen **bis zum 23.06.2021** barrierefrei sein. 
